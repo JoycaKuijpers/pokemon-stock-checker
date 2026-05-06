@@ -2,12 +2,11 @@ name: Pokémon Stock Check
 
 on:
   schedule:
-    # Elke 15 minuten checken (GitHub Actions minimum = 5 min, maar 15 is vriendelijker)
     - cron: "*/15 * * * *"
-  workflow_dispatch: # Handmatig starten via GitHub UI
+  workflow_dispatch:
 
 permissions:
-  contents: write # Nodig om state.json terug te committen
+  contents: write
 
 jobs:
   check-stock:
@@ -26,19 +25,19 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install -r checker/requirements.txt
+        run: pip install requests==2.32.3 beautifulsoup4==4.12.3 lxml==5.2.2
 
       - name: Run stock checker
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python checker/check_stock.py
+        run: python check_stock.py
 
       - name: Commit state changes
         run: |
           git config user.name "pokemon-stock-bot"
           git config user.email "bot@github-actions"
-          git add checker/state.json
+          git add state.json
           if git diff --cached --quiet; then
             echo "Geen state wijzigingen."
           else
