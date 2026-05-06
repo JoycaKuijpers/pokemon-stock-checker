@@ -2,11 +2,459 @@
   "stores": [
     {
       "id": "example-bol-pikachu",
-      "name": "Bol.com – Pikachu Ex Box",
+      "name": "Bol.com â Pikachu Ex Box",
       "url": "https://www.bol.com/nl/nl/p/pikachu-ex-box/",
       "selector": null,
       "added_at": "2026-05-06T00:00:00Z",
       "active": false
+    },
+    {
+      "id": "losse-pok-mon-kaarten-16e59b",
+      "name": "Losse Pokémon Kaarten",
+      "url": "https://pokemagic.nl/product-categorie/losse-pokemon-kaarten/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.639Z",
+      "active": true
+    },
+    {
+      "id": "scarlet-violet-series-285993",
+      "name": "Scarlet & Violet Series",
+      "url": "https://pokemagic.nl/product-categorie/losse-pokemon-kaarten/scarlet-violet-series/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.639Z",
+      "active": true
+    },
+    {
+      "id": "sword-shield-series-182dcc",
+      "name": "Sword & Shield Series",
+      "url": "https://pokemagic.nl/product-categorie/losse-pokemon-kaarten/sword-shield-series/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "sun-moon-series-240e34",
+      "name": "Sun & Moon Series",
+      "url": "https://pokemagic.nl/product-categorie/losse-pokemon-kaarten/sun-moon-series/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "zeldzame-pok-mon-kaarten-91243c",
+      "name": "Zeldzame Pokémon kaarten",
+      "url": "https://pokemagic.nl/product-categorie/zeldzame-pokemon-kaarten/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "v-vmax-vstar-d9081b",
+      "name": "V / VMAX / VSTAR",
+      "url": "https://pokemagic.nl/product-categorie/zeldzame-pokemon-kaarten/v/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "ex-mega-ex-b804ea",
+      "name": "EX / MEGA EX",
+      "url": "https://pokemagic.nl/product-categorie/zeldzame-pokemon-kaarten/ex/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "gx-b804e3",
+      "name": "GX",
+      "url": "https://pokemagic.nl/product-categorie/zeldzame-pokemon-kaarten/gx/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "break-766473",
+      "name": "BREAK",
+      "url": "https://pokemagic.nl/product-categorie/zeldzame-pokemon-kaarten/break/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "lv-x-ca13fe",
+      "name": "LV. X",
+      "url": "https://pokemagic.nl/product-categorie/zeldzame-pokemon-kaarten/lv-x/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "full-art-trainers-9fea48",
+      "name": "Full Art Trainers",
+      "url": "https://pokemagic.nl/product-categorie/zeldzame-pokemon-kaarten/full-art-trainers/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "secret-rare-trainers-c21602",
+      "name": "Secret Rare Trainers",
+      "url": "https://pokemagic.nl/product-categorie/zeldzame-pokemon-kaarten/secret-rare-trainers/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "promo-8e4d05",
+      "name": "Promo",
+      "url": "https://pokemagic.nl/product-categorie/zeldzame-pokemon-kaarten/promo/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "shining-4b970e",
+      "name": "Shining",
+      "url": "https://pokemagic.nl/product-categorie/zeldzame-pokemon-kaarten/shining/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "gold-star-1d0add",
+      "name": "Gold star",
+      "url": "https://pokemagic.nl/product-categorie/zeldzame-pokemon-kaarten/gold-star/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "jumbo-843926",
+      "name": "Jumbo",
+      "url": "https://pokemagic.nl/product-categorie/zeldzame-pokemon-kaarten/jumbo/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "japanse-illustrations-bfead8",
+      "name": "Japanse illustrations",
+      "url": "https://pokemagic.nl/product-categorie/zeldzame-pokemon-kaarten/japanse-kaarten/japanse-illustrations/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "japanse-ex-a914ef",
+      "name": "Japanse EX",
+      "url": "https://pokemagic.nl/product-categorie/zeldzame-pokemon-kaarten/japanse-kaarten/japanse-ex/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "japanse-v-vmax-vstar-123f1f",
+      "name": "Japanse V / VMAX / VSTAR",
+      "url": "https://pokemagic.nl/product-categorie/zeldzame-pokemon-kaarten/japanse-kaarten/japanse-v-vmax-vstar/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "japanse-gx-a914e8",
+      "name": "Japanse GX",
+      "url": "https://pokemagic.nl/product-categorie/zeldzame-pokemon-kaarten/japanse-kaarten/japanse-gx/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "japanse-shiny-dbc1ce",
+      "name": "Japanse Shiny",
+      "url": "https://pokemagic.nl/product-categorie/zeldzame-pokemon-kaarten/japanse-kaarten/japanse-shiny/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "sealed-pok-mon-d99f70",
+      "name": "Sealed Pokémon",
+      "url": "https://pokemagic.nl/product-categorie/sealed-producten/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "boosterboxen-3d2787",
+      "name": "Boosterboxen",
+      "url": "https://pokemagic.nl/product-categorie/sealed-producten/boosterbox/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "boosters-b9bca3",
+      "name": "Boosters",
+      "url": "https://pokemagic.nl/product-categorie/sealed-producten/boosters/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-boxen-1e49b9",
+      "name": "Elite Trainer Boxen",
+      "url": "https://pokemagic.nl/product-categorie/sealed-producten/elite-trainer-box/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "boxen-fba05b",
+      "name": "Boxen",
+      "url": "https://pokemagic.nl/product-categorie/sealed-producten/boxen/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "blisters-12ec58",
+      "name": "Blisters",
+      "url": "https://pokemagic.nl/product-categorie/sealed-producten/blisters/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "tins-14139d",
+      "name": "Tins",
+      "url": "https://pokemagic.nl/product-categorie/sealed-producten/tins/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "disney-lorcana-5b0950",
+      "name": "Disney Lorcana",
+      "url": "https://pokemagic.nl/product-categorie/disney-lorcana-tcg/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "boosterbox-193916",
+      "name": "Boosterbox",
+      "url": "https://pokemagic.nl/product-categorie/disney-lorcana-tcg/disney-lorcana-boosterbox/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "decks-16b18e",
+      "name": "Decks",
+      "url": "https://pokemagic.nl/product-categorie/disney-lorcana-tcg/disney-lorcana-decks/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "losse-kaarten-20f2dc",
+      "name": "Losse Kaarten",
+      "url": "https://pokemagic.nl/product-categorie/disney-lorcana-tcg/losse-disney-lorcana-kaarten/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "one-piece-2e0a5c",
+      "name": "One Piece",
+      "url": "https://pokemagic.nl/product-categorie/one-piece-tcg/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "losse-kaarten-21d962",
+      "name": "Losse Kaarten",
+      "url": "https://pokemagic.nl/product-categorie/one-piece-tcg/losse-one-piece-kaarten/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "decks-1048bd",
+      "name": "Decks",
+      "url": "https://pokemagic.nl/product-categorie/one-piece-tcg/one-piece-decks/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "one-piece-boosterbox-64db22",
+      "name": "One Piece Boosterbox",
+      "url": "https://pokemagic.nl/product-categorie/one-piece-tcg/one-piece-boosterbox/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "dragon-ball-super-b05b57",
+      "name": "Dragon Ball Super",
+      "url": "https://pokemagic.nl/product-categorie/dragon-ball-super/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "boosterbox-116bea",
+      "name": "Boosterbox",
+      "url": "https://pokemagic.nl/product-categorie/dragon-ball-super/dragon-ball-boosterbox/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "boosters-127730",
+      "name": "Boosters",
+      "url": "https://pokemagic.nl/product-categorie/dragon-ball-super/dragon-ball-boosters/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "decks-14eaed",
+      "name": "Decks",
+      "url": "https://pokemagic.nl/product-categorie/dragon-ball-super/dragon-ball-decks/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "weiss-schwarz-83f894",
+      "name": "Weiss Schwarz",
+      "url": "https://pokemagic.nl/product-categorie/weiss-schwarz/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "accesoires-merchandise-2dc87c",
+      "name": "Accesoires & Merchandise",
+      "url": "https://pokemagic.nl/product-categorie/accesoires/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "re-ment-260b23",
+      "name": "Re-Ment",
+      "url": "https://pokemagic.nl/product-categorie/pokemon-merchandise/pokemon-figuren/re-ment/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "takara-tomy-moncolle-302b71",
+      "name": "Takara Tomy MonColle",
+      "url": "https://pokemagic.nl/product-categorie/pokemon-merchandise/pokemon-figuren/takara-tomy-moncolle/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "albums-11a2c9",
+      "name": "Albums",
+      "url": "https://pokemagic.nl/product-categorie/accesoires/albums/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "sleeves-828465",
+      "name": "Sleeves",
+      "url": "https://pokemagic.nl/product-categorie/accesoires/sleeves/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "custom-pok-mon-cases-179af0",
+      "name": "Custom Pokémon Cases",
+      "url": "https://pokemagic.nl/product-categorie/accesoires/custom-cases/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "acryl-cases-b8233c",
+      "name": "Acryl Cases",
+      "url": "https://pokemagic.nl/product-categorie/accesoires/acryl-cases/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "pok-mon-elite-trainer-box-disp-b2b5fa",
+      "name": "Pokémon Elite Trainer Box Display Case – Aegis Acrylics",
+      "url": "https://pokemagic.nl/product/elite-trainer-box-display-case-aegis-acrylics/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "twilight-masquerade-elite-trai-19972b",
+      "name": "Twilight Masquerade Elite Trainer Box",
+      "url": "https://pokemagic.nl/product/twilight-masquerade-elite-trainer-box/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "paradox-rift-elite-trainer-box-5dbce9",
+      "name": "Paradox Rift Elite Trainer Box",
+      "url": "https://pokemagic.nl/product/paradox-rift-elite-trainer-box/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "darkness-ablaze-elite-trainer--14240e",
+      "name": "Darkness Ablaze Elite Trainer Box",
+      "url": "https://pokemagic.nl/product/darkness-ablaze-elite-trainer-box/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "crown-zennith-elite-trainer-bo-5b77ad",
+      "name": "Crown Zennith Elite Trainer Box",
+      "url": "https://pokemagic.nl/product/crown-zennith-elite-trainer-box/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.640Z",
+      "active": true
+    },
+    {
+      "id": "astral-radiance-elite-trainer--a02d1d",
+      "name": "Astral Radiance Elite Trainer Box",
+      "url": "https://pokemagic.nl/product/astral-radiance-elite-trainer-box/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.641Z",
+      "active": true
+    },
+    {
+      "id": "lost-origin-elite-trainer-box-288675",
+      "name": "Lost Origin Elite Trainer Box",
+      "url": "https://pokemagic.nl/product/lost-origin-elite-trainer-box/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.641Z",
+      "active": true
+    },
+    {
+      "id": "silver-tempest-elite-trainer-b-9e83d1",
+      "name": "Silver Tempest Elite Trainer Box",
+      "url": "https://pokemagic.nl/product/silver-tempest-elite-trainer-box/",
+      "selector": null,
+      "added_at": "2026-05-06T09:11:27.641Z",
+      "active": true
     }
   ]
 }
