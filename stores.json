@@ -1,0 +1,12 @@
+{
+  "stores": [
+    {
+      "id": "example-bol-pikachu",
+      "name": "Bol.com – Pikachu Ex Box",
+      "url": "https://www.bol.com/nl/nl/p/pikachu-ex-box/",
+      "selector": null,
+      "added_at": "2026-05-06T00:00:00Z",
+      "active": false
+    }
+  ]
+}
