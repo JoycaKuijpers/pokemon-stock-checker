@@ -1,0 +1,49 @@
+name: Pokémon Stock Check
+
+on:
+  schedule:
+    # Elke 15 minuten checken (GitHub Actions minimum = 5 min, maar 15 is vriendelijker)
+    - cron: "*/15 * * * *"
+  workflow_dispatch: # Handmatig starten via GitHub UI
+
+permissions:
+  contents: write # Nodig om state.json terug te committen
+
+jobs:
+  check-stock:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: checker/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r checker/requirements.txt
+
+      - name: Run stock checker
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python checker/check_stock.py
+
+      - name: Commit state changes
+        run: |
+          git config user.name "pokemon-stock-bot"
+          git config user.email "bot@github-actions"
+          git add checker/state.json
+          if git diff --cached --quiet; then
+            echo "Geen state wijzigingen."
+          else
+            git commit -m "chore: update stock state [skip ci]"
+            git push
+          fi
