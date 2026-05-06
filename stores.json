@@ -2,7 +2,7 @@
   "stores": [
     {
       "id": "example-bol-pikachu",
-      "name": "Bol.com â Pikachu Ex Box",
+      "name": "Bol.com Ã¢ÂÂ Pikachu Ex Box",
       "url": "https://www.bol.com/nl/nl/p/pikachu-ex-box/",
       "selector": null,
       "added_at": "2026-05-06T00:00:00Z",
@@ -62,6 +62,14 @@
       "url": "https://pokemagic.nl/product/silver-tempest-elite-trainer-box/",
       "selector": null,
       "added_at": "2026-05-06T09:11:27.641Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-paldean-fates-elite-tr-18a95f",
+      "name": "Pokemon - Paldean Fates - Elite Trainer Box",
+      "url": "https://pokeflip.com/products/pokemon-paldean-fates-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-06T09:13:28.229Z",
       "active": true
     }
   ]
