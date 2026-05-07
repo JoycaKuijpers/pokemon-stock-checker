@@ -8839,6 +8839,238 @@
       "selector": null,
       "added_at": "2026-05-07T15:37:47.490Z",
       "active": true
+    },
+    {
+      "id": "pokemon-tcg-scarlet-violet-whi-165eb8",
+      "name": "Pokemon TCG Scarlet & Violet White Flare Elite Trainer Box",
+      "url": "https://tcgwinkel.nl/products/pokemon-tcg-scarlet-violet-white-flare-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:37:52.999Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-scarlet-violet-bla-37aef9",
+      "name": "Pokemon TCG Scarlet & Violet Black Bolt Elite Trainer Box",
+      "url": "https://tcgwinkel.nl/products/pokemon-tcg-scarlet-violet-black-bolt-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:37:52.999Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-scarlet-violet-des-35d7ea",
+      "name": "Pokemon TCG Scarlet & Violet Destined Rivals Elite Trainer Box",
+      "url": "https://tcgwinkel.nl/products/pokemon-tcg-scarlet-violet-destined-rivals-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:37:52.999Z",
+      "active": true
+    },
+    {
+      "id": "premium-acrylic-case-pokemon-e-9f65ed",
+      "name": "Premium Acrylic Case Pokemon Elite Trainer Box",
+      "url": "https://tcgwinkel.nl/products/premium-acrylic-case-pokemon-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:37:52.999Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-scarlet-violet-jou-136283",
+      "name": "Pokemon TCG Scarlet & Violet Journey Together Elite Trainer Box",
+      "url": "https://tcgwinkel.nl/products/pokemon-tcg-scarlet-violet-journey-together-elite-trainer-box-etb",
+      "selector": null,
+      "added_at": "2026-05-07T15:37:52.999Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-scarlet-violet-pri-2cadac",
+      "name": "Pokemon TCG Scarlet & Violet Prismatic Evolutions Elite Trainer Box",
+      "url": "https://tcgwinkel.nl/products/pokemon-tcg-scarlet-violet-prismatic-evolutions-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:37:52.999Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-scarlet-violet-sur-35e731",
+      "name": "Pokemon TCG Scarlet & Violet Surging Sparks Elite Trainer Box",
+      "url": "https://tcgwinkel.nl/products/pokemon-tcg-scarlet-violet-surging-sparks-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:37:52.999Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-scarlet-violet-ste-276ef1",
+      "name": "Pokemon TCG Scarlet & Violet Stellar Crown Elite Trainer Box",
+      "url": "https://tcgwinkel.nl/products/pokemon-tcg-scarlet-violet-stellar-crown-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:37:52.999Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-scarlet-violet-shr-218d3c",
+      "name": "Pokemon TCG Scarlet & Violet Shrouded Fable Elite Trainer Box",
+      "url": "https://tcgwinkel.nl/products/pokemon-tcg-scarlet-violet-shrouded-fable-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:37:52.999Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-scarlet-violet-twi-2df0f3",
+      "name": "Pokemon TCG Scarlet & Violet Twilight Masquerade Elite Trainer Box",
+      "url": "https://tcgwinkel.nl/products/pokemon-tcg-scarlet-violet-twilight-masquerade-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:37:52.999Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-scarlet-violet-tem-284bb7",
+      "name": "Pokemon TCG Scarlet & Violet Temporal Forces Elite Trainer Box",
+      "url": "https://tcgwinkel.nl/products/pokemon-tcg-scarlet-violet-temporal-forces-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:37:52.999Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-scarlet-violet-pal-11fd73",
+      "name": "Pokemon TCG Scarlet & Violet Paldean Fates Elite Trainer Box",
+      "url": "https://tcgwinkel.nl/products/pokemon-tcg-scarlet-violet-paldean-fates-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:37:52.999Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-scarlet-violet-par-504b2a",
+      "name": "Pokemon TCG Scarlet & Violet Paradox Rift Elite Trainer Box",
+      "url": "https://tcgwinkel.nl/products/pokemon-tcg-scarlet-violet-paradox-rift-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:37:52.999Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-scarlet-violet-151-1c3bdc",
+      "name": "Pokemon TCG Scarlet & Violet 151 Elite Trainer Box",
+      "url": "https://tcgwinkel.nl/products/pokemon-tcg-scarlet-violet-151-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:37:52.999Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-scarlet-violet-obs-1a358e",
+      "name": "Pokemon TCG Scarlet & Violet Obsidian Flames Elite Trainer Box",
+      "url": "https://tcgwinkel.nl/products/pokemon-tcg-scarlet-violet-obsidian-flames-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:37:52.999Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-scarlet-violet-pal-6027c1",
+      "name": "Pokemon TCG Scarlet & Violet Paldea Evolved Elite Trainer Box",
+      "url": "https://tcgwinkel.nl/products/pokemon-tcg-scarlet-violet-paldea-evolved-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:37:52.999Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-scarlet-violet-eli-214808",
+      "name": "Pokemon TCG Scarlet & Violet Elite Trainer Box",
+      "url": "https://tcgwinkel.nl/products/pokemon-tcg-scarlet-violet-elite-trainer-box-etb",
+      "selector": null,
+      "added_at": "2026-05-07T15:37:52.999Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-crown-zenith-elite-7a54a2",
+      "name": "Pokemon TCG Crown Zenith Elite Trainer Box (ETB)",
+      "url": "https://tcgwinkel.nl/products/pokemon-tcg-crown-zenith-elite-trainer-box-etb",
+      "selector": null,
+      "added_at": "2026-05-07T15:37:52.999Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-silver-tempest-eli-263eaa",
+      "name": "Pokemon TCG Silver Tempest Elite Trainer Box (ETB)",
+      "url": "https://tcgwinkel.nl/products/pokemon-tcg-silver-tempest-elite-trainer-box-etb",
+      "selector": null,
+      "added_at": "2026-05-07T15:37:52.999Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-lost-origin-elite--324e44",
+      "name": "Pokemon TCG Lost Origin Elite Trainer Box (ETB)",
+      "url": "https://tcgwinkel.nl/products/pokemon-tcg-lost-origin-elite-trainer-box-etb",
+      "selector": null,
+      "added_at": "2026-05-07T15:37:52.999Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-shining-fates-elit-4f3d4e",
+      "name": "Pokemon TCG Shining Fates Elite Trainer Box (ETB)",
+      "url": "https://tcgwinkel.nl/products/pokemon-tcg-shining-fates-elite-trainer-box-etb",
+      "selector": null,
+      "added_at": "2026-05-07T15:37:52.999Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-darkness-ablaze-el-1eab5b",
+      "name": "Pokemon TCG Darkness Ablaze Elite Trainer Box (ETB)",
+      "url": "https://tcgwinkel.nl/products/pokemon-tcg-darkness-ablaze-elite-trainer-box-etb",
+      "selector": null,
+      "added_at": "2026-05-07T15:37:52.999Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-pokemon-go-elite-t-1b6b33",
+      "name": "Pokemon TCG Pokemon GO Elite Trainer Box (ETB)",
+      "url": "https://tcgwinkel.nl/products/pokemon-tcg-pokemon-go-elite-trainer-box-etb",
+      "selector": null,
+      "added_at": "2026-05-07T15:37:52.999Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-astral-radiance-el-4757b8",
+      "name": "Pokemon TCG Astral Radiance Elite Trainer Box (ETB)",
+      "url": "https://tcgwinkel.nl/products/pokemon-tcg-astral-radiance-elite-trainer-box-etb",
+      "selector": null,
+      "added_at": "2026-05-07T15:37:52.999Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-brilliant-stars-el-25af76",
+      "name": "Pokemon TCG Brilliant Stars Elite Trainer Box (ETB)",
+      "url": "https://tcgwinkel.nl/products/pokemon-tcg-brilliant-stars-elite-trainer-box-etb",
+      "selector": null,
+      "added_at": "2026-05-07T15:37:52.999Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-fusion-strike-elit-85c385",
+      "name": "Pokemon TCG Fusion Strike Elite Trainer Box (ETB)",
+      "url": "https://tcgwinkel.nl/products/pokemon-tcg-fusion-strike-elite-trainer-box-etb",
+      "selector": null,
+      "added_at": "2026-05-07T15:37:52.999Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-chilling-reign-eli-1c08dd",
+      "name": "Pokemon TCG Chilling Reign Elite Trainer Box (ETB)",
+      "url": "https://tcgwinkel.nl/products/pokemon-tcg-chilling-reign-elite-trainer-box-etb",
+      "selector": null,
+      "added_at": "2026-05-07T15:37:52.999Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-evolving-skies-eli-1b835f",
+      "name": "Pokemon TCG Evolving Skies Elite Trainer Box (ETB)",
+      "url": "https://tcgwinkel.nl/products/pokemon-tcg-evolving-skies-elite-trainer-box-etb",
+      "selector": null,
+      "added_at": "2026-05-07T15:37:52.999Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-celebrations-elite-1b0cc8",
+      "name": "Pokemon TCG Celebrations Elite Trainer Box (ETB)",
+      "url": "https://tcgwinkel.nl/products/pokemon-tcg-celebrations-elite-trainer-box-etb",
+      "selector": null,
+      "added_at": "2026-05-07T15:37:52.999Z",
+      "active": true
     }
   ]
 }
