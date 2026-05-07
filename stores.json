@@ -11151,6 +11151,78 @@
       "selector": null,
       "added_at": "2026-05-07T15:46:45.984Z",
       "active": true
+    },
+    {
+      "id": "pokemon-tcg-collector-chest-ir-19135a",
+      "name": "Pokemon TCG - Collector Chest Iron Thorns & Iron Valiant",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-collector-chest-iron-thorns-iron-valiant",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:54.237Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-2023-fall-collecto-13e30f",
+      "name": "Pokemon TCG - 2023 (fall) Collector Chest",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-2023-fall-collector-chest",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:54.237Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-2024-spring-paldea-56412d",
+      "name": "Pokemon TCG - 2024 (Spring) Paldea Adventure Collector Chest",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-2024-spring-paldea-adventure-collector-chest",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:54.237Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-stellar-pikachu-co-3d03c5",
+      "name": "Pokemon TCG - Stellar Pikachu Collector Chest",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-stellar-pikachu-collector-chest",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:54.237Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-november-fall-coll-1ff2ed",
+      "name": "Pokemon TCG - November (Fall) Collector Chest Charizard",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-november-fall-collector-chest",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:54.237Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-2020-fall-collecto-2e3dd9",
+      "name": "Pokemon TCG - 2020 (Fall) Collector Chest",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-2020-fall-collector-chest",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:54.237Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-sword-shield-25th--29feb1",
+      "name": "Pokemon TCG - Sword & Shield 25th Celebrations Collector Chest",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-sword-shield-25th-celebrations-collector-chest",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:54.237Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-collector-chest-de-839370",
+      "name": "Pokemon TCG - Collector Chest Detective Pikachu",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-collector-chest-detective-pikachu",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:54.237Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-2021-spring-collec-ecf693",
+      "name": "Pokemon TCG - 2021 (Spring) Collector Chest",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-2021-spring-collector-chest",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:54.237Z",
+      "active": true
     }
   ]
 }
