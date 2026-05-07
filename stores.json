@@ -15359,6 +15359,54 @@
       "selector": null,
       "added_at": "2026-05-07T15:54:03.109Z",
       "active": true
+    },
+    {
+      "id": "uitverkocht-c9f914",
+      "name": "UITVERKOCHT",
+      "url": "https://tcgshop.nl/products/pokemon-tcg-black-bolt-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:54:59.905Z",
+      "active": true
+    },
+    {
+      "id": "uitverkocht-287187",
+      "name": "UITVERKOCHT",
+      "url": "https://tcgshop.nl/products/pokemon-tcg-shrouded-fable-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:54:59.905Z",
+      "active": true
+    },
+    {
+      "id": "uitverkocht-2d6794",
+      "name": "UITVERKOCHT",
+      "url": "https://tcgshop.nl/products/pokemon-tcg-stellar-crown-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:54:59.905Z",
+      "active": true
+    },
+    {
+      "id": "uitverkocht-2032c4",
+      "name": "UITVERKOCHT",
+      "url": "https://tcgshop.nl/products/pokemon-tcg-destined-rivals-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:54:59.905Z",
+      "active": true
+    },
+    {
+      "id": "uitverkocht-8438c5",
+      "name": "UITVERKOCHT",
+      "url": "https://tcgshop.nl/products/pokemon-tcg-white-flare-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:54:59.905Z",
+      "active": true
+    },
+    {
+      "id": "uitverkocht-253445",
+      "name": "UITVERKOCHT",
+      "url": "https://tcgshop.nl/products/pokemon-tcg-perfect-order-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:54:59.905Z",
+      "active": true
     }
   ]
 }
