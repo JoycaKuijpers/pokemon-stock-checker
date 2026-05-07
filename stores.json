@@ -3575,6 +3575,94 @@
       "selector": null,
       "added_at": "2026-05-07T14:47:05.729Z",
       "active": true
+    },
+    {
+      "id": "pokemon-tcg-prismatic-evolutio-28095a",
+      "name": "Pokemon TCG: Prismatic Evolutions - Booster Bundle",
+      "url": "https://www.debroergrot.nl/products/pokemon-tcg-prismatic-evolutions-booster-bundle",
+      "selector": null,
+      "added_at": "2026-05-07T14:47:41.504Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-scarlet-violet-par-2863f2",
+      "name": "Pokemon TCG: Scarlet & Violet Paradox Rift Booster Box",
+      "url": "https://www.debroergrot.nl/products/pokemon-tcg-scarlet-violet-paradox-rift-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T14:47:41.505Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-temporal-forces-bo-293ba5",
+      "name": "Pokemon TCG: Temporal Forces Booster Box",
+      "url": "https://www.debroergrot.nl/products/pokemon-tcg-temporal-forces-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T14:47:41.505Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-destined-rivals-bo-395d6e",
+      "name": "Pokemon TCG: Destined Rivals Booster Bundle",
+      "url": "https://www.debroergrot.nl/products/pokemon-tcg-destined-rivals-booster-bundle-1",
+      "selector": null,
+      "added_at": "2026-05-07T14:47:41.505Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-surging-sparks-boo-1789fd",
+      "name": "Pokemon TCG: Surging Sparks Booster Bundle",
+      "url": "https://www.debroergrot.nl/products/pokemon-tcg-surging-sparks-booster-bundle",
+      "selector": null,
+      "added_at": "2026-05-07T14:47:41.505Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-journey-together-b-176cd8",
+      "name": "Pokemon TCG: Journey Together Booster Box",
+      "url": "https://www.debroergrot.nl/products/pre-order-pokemon-tcg-journey-together-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T14:47:41.505Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-battle-partners-bo-13451e",
+      "name": "Pokemon TCG: Battle Partners Booster Box *Japans*",
+      "url": "https://www.debroergrot.nl/products/pokemon-tcg-battle-partners-booster-box-japans",
+      "selector": null,
+      "added_at": "2026-05-07T14:47:41.505Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-perfect-order-boos-25d5ad",
+      "name": "Pokemon TCG: Perfect Order Booster Pack",
+      "url": "https://www.debroergrot.nl/products/pokemon-tcg-perfect-order-booster-pack",
+      "selector": null,
+      "added_at": "2026-05-07T14:47:41.505Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-mega-brave-booster-24dc14",
+      "name": "Pokemon TCG: Mega Brave Booster Box *Japans*",
+      "url": "https://www.debroergrot.nl/products/pokemon-tcg-mega-brave-booster-box-japans",
+      "selector": null,
+      "added_at": "2026-05-07T14:47:41.505Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-stellar-crown-halv-4b1304",
+      "name": "Pokemon TCG: Stellar Crown Halve Booster Box (18 packs)",
+      "url": "https://www.debroergrot.nl/products/pokemon-tcg-stellar-crown-halve-booster-box-18-packs",
+      "selector": null,
+      "added_at": "2026-05-07T14:47:41.505Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-perfect-order-boos-236cb5",
+      "name": "Pokemon TCG: Perfect Order Booster Box",
+      "url": "https://www.debroergrot.nl/products/pokemon-tcg-perfect-order-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T14:47:41.505Z",
+      "active": true
     }
   ]
 }
