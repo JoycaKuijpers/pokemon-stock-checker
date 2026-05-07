@@ -10079,6 +10079,62 @@
       "selector": null,
       "added_at": "2026-05-07T15:38:56.942Z",
       "active": true
+    },
+    {
+      "id": "perfect-order-elite-trainer-bo-2ba57c",
+      "name": "Perfect Order Elite Trainer Box",
+      "url": "https://www.tcgal.nl/product/22576534/perfect-order-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:39:27.175Z",
+      "active": true
+    },
+    {
+      "id": "journey-together-elite-trainer-26ebdb",
+      "name": "Journey Together Elite Trainer Box",
+      "url": "https://www.tcgal.nl/product/18890579/journey-together-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:39:27.177Z",
+      "active": true
+    },
+    {
+      "id": "white-flare-elite-trainer-box-4275e1",
+      "name": "White Flare Elite Trainer Box",
+      "url": "https://www.tcgal.nl/product/22678242/white-flare-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:39:27.177Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-black-bolt-elite-train-1724b5",
+      "name": "Pokemon Black Bolt Elite Trainer Box",
+      "url": "https://www.tcgal.nl/product/20638305/pokemon-black-bolt-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:39:27.177Z",
+      "active": true
+    },
+    {
+      "id": "celebrations-elite-trainer-box-115a83",
+      "name": "Celebrations Elite Trainer Box",
+      "url": "https://www.tcgal.nl/product/20377562/celebrations-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:39:27.177Z",
+      "active": true
+    },
+    {
+      "id": "evolving-skies-elite-trainer-b-291de8",
+      "name": "Evolving Skies Elite Trainer Box (SEGV)",
+      "url": "https://www.tcgal.nl/product/15587412/evolving-skies-elite-trainer-box-segv",
+      "selector": null,
+      "added_at": "2026-05-07T15:39:27.177Z",
+      "active": true
+    },
+    {
+      "id": "evolving-skies-elite-trainer-b-235821",
+      "name": "Evolving Skies Elite Trainer Box (LUJF)",
+      "url": "https://www.tcgal.nl/product/22757474/evolving-skies-elite-trainer-box-lujf",
+      "selector": null,
+      "added_at": "2026-05-07T15:39:27.177Z",
+      "active": true
     }
   ]
 }
