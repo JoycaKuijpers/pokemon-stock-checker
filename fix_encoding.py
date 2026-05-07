@@ -14,13 +14,10 @@ STORES_FILE = next(
     Path("stores.json"),
 )
 
-BROKEN = re.compile(r"[ÃÂÀÁÂÃÄÅÆ]{2,}")  # twee of meer rommelchars achter elkaar
-
-
 def name_from_url(url: str) -> str:
-    path = urlparse(url).path          # /products/pokemon-elite-trainer-box-silver-tempest
-    slug = path.rstrip("/").split("/")[-1]  # pokemon-elite-trainer-box-silver-tempest
-    return slug.replace("-", " ").title()   # Pokemon Elite Trainer Box Silver Tempest
+    path = urlparse(url).path
+    slug = path.rstrip("/").split("/")[-1]
+    return slug.replace("-", " ").title()
 
 
 data = json.loads(STORES_FILE.read_text(encoding="utf-8"))
@@ -28,7 +25,7 @@ fixed = 0
 
 for store in data.get("stores", []):
     name = store["name"]
-    if BROKEN.search(name):
+    if len(name) > 150:  # kapotte naam door encoding — normale naam is nooit zo lang
         store["name"] = name_from_url(store["url"])
         fixed += 1
 
