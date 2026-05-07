@@ -8783,6 +8783,14 @@
       "selector": null,
       "added_at": "2026-05-07T15:31:30.974Z",
       "active": true
+    },
+    {
+      "id": "inloggen-2d5bde",
+      "name": "Inloggen",
+      "url": "https://www.eastwoodtcg.com/website/index.php?Show=WebShopUserLogin",
+      "selector": null,
+      "added_at": "2026-05-07T15:31:43.303Z",
+      "active": true
     }
   ]
 }
