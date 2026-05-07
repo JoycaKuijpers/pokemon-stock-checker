@@ -1,14 +1,6 @@
 {
   "stores": [
     {
-      "id": "example-bol-pikachu",
-      "name": "Bol.com ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ Pikachu Ex Box",
-      "url": "https://www.bol.com/nl/nl/p/pikachu-ex-box/",
-      "selector": null,
-      "added_at": "2026-05-06T00:00:00Z",
-      "active": false
-    },
-    {
       "id": "twilight-masquerade-elite-trai-19972b",
       "name": "Twilight Masquerade Elite Trainer Box",
       "url": "https://pokemagic.nl/product/twilight-masquerade-elite-trainer-box/",
@@ -768,21 +760,5 @@
       "added_at": "2026-05-07T13:21:59.789Z",
       "active": true
     },
-    {
-      "id": "elite-trainer-2b8a4f",
-      "name": "Elite Trainer",
-      "url": "https://www.pkmkaarten.nl/product-categorie/trading-card-game-tcg/elite-trainer/",
-      "selector": null,
-      "added_at": "2026-05-07T13:22:28.004Z",
-      "active": true
-    },
-    {
-      "id": "gx-v-boxen-20ae4f",
-      "name": "GX / V Boxen",
-      "url": "https://www.pkmkaarten.nl/product-categorie/trading-card-game-tcg/ex-gx-boxen/",
-      "selector": null,
-      "added_at": "2026-05-07T13:22:28.005Z",
-      "active": true
-    }
   ]
 }
