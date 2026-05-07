@@ -7223,6 +7223,734 @@
       "selector": null,
       "added_at": "2026-05-07T15:28:03.333Z",
       "active": true
+    },
+    {
+      "id": "pokemon-marnie-premium-tournam-5e2bd4",
+      "name": "Pokemon Marnie Premium Tournament Collection Box",
+      "url": "https://rarecards.nl/products/pokemon-marnie-premium-tournament-collection-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-mega-latias-ex-box-379979",
+      "name": "Pokemon Mega Latias ex Box",
+      "url": "https://rarecards.nl/products/pokemon-mega-latias-ex-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-special-collection-box-653c70",
+      "name": "Pokemon: Special Collection Box - Leafeon VSTAR (EU Versie)",
+      "url": "https://rarecards.nl/products/pokemon-special-collection-box-leafeon-vstar-eu-versie",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-premium-collection-box-5256fa",
+      "name": "Pokemon: Premium Collection Box - Vaporeon VMAX (schade)",
+      "url": "https://rarecards.nl/products/pokemon-premium-collection-box-vaporeon-vmax-schade",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-jp-eevee-heroes-vmax-s-31deba",
+      "name": "Pokemon (JP) Eevee Heroes VMAX Special Set",
+      "url": "https://rarecards.nl/products/pokemon-jp-eevee-heroes-vmax-special-set",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-hidden-fates-poke-ball-598482",
+      "name": "Pokemon Hidden Fates: Poke Ball Collection - Shiny Metagross GX (scheur in seal)",
+      "url": "https://rarecards.nl/products/pokemon-hidden-fates-poke-ball-collection-shiny-metagross-gx",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-mew-v-box-mewtwo-promo-19235a",
+      "name": "Pokemon Mew V Box (Mewtwo Promo Version)",
+      "url": "https://rarecards.nl/products/pokemon-mew-v-box-mewtwo-promo-version",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-crown-zenith-collectio-38c00e",
+      "name": "Pokemon Crown Zenith Collection: Morpeko V-UNION Premium Treasures",
+      "url": "https://rarecards.nl/products/pokemon-crown-zenith-collection-morpeko-v-union-premium-treasures",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-day-2026-collection-2f82d8",
+      "name": "Pokemon Day 2026 Collection",
+      "url": "https://rarecards.nl/products/pokemon-day-2026-collection",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-detective-pikachu-char-41f899",
+      "name": "Pokemon Detective Pikachu: Charizard GX case file (scheur in seal)",
+      "url": "https://rarecards.nl/products/pokemon-detective-pikachu-charizard-gx-case-file-scheur-in-seal",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-rumble-game-box-4669fb",
+      "name": "Pokemon Rumble: Game Box",
+      "url": "https://rarecards.nl/products/pokemon-rumble-game-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-detective-pikachu-mewt-49d03a",
+      "name": "Pokemon Detective Pikachu: Mewtwo GX Case File",
+      "url": "https://rarecards.nl/products/pokemon-detective-pikachu-mewtwo-gx-case-file",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-first-partner-illustra-57cb1a",
+      "name": "Pokemon First Partner Illustration Collection Series 1",
+      "url": "https://rarecards.nl/products/pokemon-first-partner-illustration-collection-series-1",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-prismatic-evolutions-s-1f81d9",
+      "name": "Pokemon Prismatic Evolutions: Super Premium Collection",
+      "url": "https://rarecards.nl/products/pokemon-prismatic-evolutions-super-premium-collection",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-ascended-heroes-first--47db10",
+      "name": "Pokemon Ascended Heroes: First Partners Deluxe Pin Collection",
+      "url": "https://rarecards.nl/products/pokemon-ascended-heroes-first-partners-deluxe-pin-collection",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-mega-kangaskhan-ex-box-5f4c0b",
+      "name": "Pokemon Mega Kangaskhan ex Box (Schade)",
+      "url": "https://rarecards.nl/products/pokemon-mega-kangaskhan-ex-box-schade",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-team-rocket-s-moltres--1f048b",
+      "name": "Pokemon Team Rocket's Moltres ex: Ultra Premium Collection Box (SCHEUR IN SEAL)",
+      "url": "https://rarecards.nl/products/pokemon-team-rockets-moltres-ex-ultra-premium-collection-box-scheur-in-seal",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-team-rocket-s-moltres--257734",
+      "name": "Pokemon Team Rocket's Moltres ex: Ultra Premium Collection Box",
+      "url": "https://rarecards.nl/products/pokemon-team-rockets-moltres-ex-ultra-premium-collection-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-white-flare-binder-col-25801c",
+      "name": "Pokemon White Flare: Binder Collection (SCHADE)",
+      "url": "https://rarecards.nl/products/pokemon-white-flare-binder-collection-schade",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-pokemon-go-special-col-496fb1",
+      "name": "Pokemon Pokemon GO: Special Collection - Team Instinct",
+      "url": "https://rarecards.nl/products/pokemon-pokemon-go-special-collection-team-instinct",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-pokemon-go-special-col-49c06b",
+      "name": "Pokemon Pokemon GO: Special Collection - Team Valor",
+      "url": "https://rarecards.nl/products/pokemon-pokemon-go-special-collection-team-valor",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-pokemon-go-special-col-429356",
+      "name": "Pokemon Pokemon GO: Special Collection - Team Mystic",
+      "url": "https://rarecards.nl/products/pokemon-pokemon-go-special-collection-team-mystic",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-black-bolt-white-flare-3cb067",
+      "name": "Pokemon Black Bolt & White Flare: Illustration Collection - Victini",
+      "url": "https://rarecards.nl/products/pokemon-black-bolt-white-flare-illustration-collection-victini",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-lugia-ex-special-colle-7631a6",
+      "name": "Pokemon Lugia ex Special Collection",
+      "url": "https://rarecards.nl/products/pokemon-lugia-ex-special-collection",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-ascended-heroes-premiu-2f021d",
+      "name": "Pokemon Ascended Heroes: Premium Poster Collection - Mega Gardevoir ex",
+      "url": "https://rarecards.nl/products/pokemon-ascended-heroes-premium-poster-collection-mega-gardevoir-ex",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-ascended-heroes-premiu-4bd4de",
+      "name": "Pokemon Ascended Heroes: Premium Poster Collection - Mega Lucario ex",
+      "url": "https://rarecards.nl/products/pokemon-ascended-heroes-premium-poster-collection-mega-lucario-ex",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-iono-s-bellibolt-ex-pr-3fc179",
+      "name": "Pokemon: Iono's Bellibolt ex Premium Collection",
+      "url": "https://rarecards.nl/products/pokemon-ionos-bellibolt-ex-premium-collection",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-galarian-rapidash-v-bo-3236c9",
+      "name": "Pokemon Galarian Rapidash V Box",
+      "url": "https://rarecards.nl/products/pokemon-galarian-rapidash-v-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-mega-kangaskhan-ex-box-51ede1",
+      "name": "Pokemon Mega Kangaskhan ex Box",
+      "url": "https://rarecards.nl/products/pokemon-mega-kangashkan-ex-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-mega-charizard-x-ex-ul-55e31e",
+      "name": "Pokemon Mega Charizard X ex: Ultra Premium Collection Box",
+      "url": "https://rarecards.nl/products/pokemon-mega-charizard-x-ex-ultra-premium-collection-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-celebrations-collectio-1af148",
+      "name": "Pokemon Celebrations: Collection Box - Dragapult Prime",
+      "url": "https://rarecards.nl/products/pokemon-celebrations-collection-box-dragapult-prime",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-celebrations-deluxe-pi-27b67f",
+      "name": "Pokemon Celebrations: Deluxe Pin Collection",
+      "url": "https://rarecards.nl/products/pokemon-celebrations-deluxe-pin-collection",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-151-poster-collection-63fe3b",
+      "name": "Pokemon 151: Poster Collection",
+      "url": "https://rarecards.nl/products/pokemon-151-poster-collection",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-151-collection-box-ala-684607",
+      "name": "Pokemon 151: Collection Box - Alakazam ex",
+      "url": "https://rarecards.nl/products/pokemon-151-collection-box-alakazam-ex",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-celebrations-collectio-334c12",
+      "name": "Pokemon Celebrations: Collection Box - Lance's Charizard V",
+      "url": "https://rarecards.nl/products/pokemon-celebrations-collection-box-lances-charizard-v",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-celebrations-collectio-2420bd",
+      "name": "Pokemon Celebrations: Collection Box - Dark Sylveon V",
+      "url": "https://rarecards.nl/products/pokemon-celebrations-collection-box-dark-sylveon-v",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-dragonite-v-box-43ad64",
+      "name": "Pokemon Dragonite V Box",
+      "url": "https://rarecards.nl/products/pokemon-dragonite-v-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-charizard-ultra-premiu-50a9c9",
+      "name": "Pokemon Charizard Ultra-Premium Collection Box",
+      "url": "https://rarecards.nl/products/pokemon-charizard-ultra-premium-collection-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-celebrations-ultra-pre-4243f6",
+      "name": "Pokemon Celebrations: Ultra-Premium Collection Box",
+      "url": "https://rarecards.nl/products/pokemon-celebrations-ultra-premium-collection-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-151-ultra-premium-coll-3fb6a6",
+      "name": "Pokemon 151: Ultra-Premium Collection Box",
+      "url": "https://rarecards.nl/products/pokemon-151-ultra-premium-collection-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-holiday-calendar-2025-418483",
+      "name": "Pokemon Holiday Calendar 2025",
+      "url": "https://rarecards.nl/products/pokemon-holiday-calendar-2025",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-crown-zenith-premium-c-44bcc3",
+      "name": "Pokemon Crown Zenith: Premium Collection Sea & Sky",
+      "url": "https://rarecards.nl/products/pokemon-crown-zenith-premium-collection-sea-sky",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-premium-collection-box-5177d3",
+      "name": "Pokemon: Premium Collection Box - Charizard ex",
+      "url": "https://rarecards.nl/products/pokemon-premium-collection-box-charizard-ex",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-special-collection-box-4d7919",
+      "name": "Pokemon: Special Collection Box - Glaceon VSTAR (EU Versie)",
+      "url": "https://rarecards.nl/products/pokemon-special-collection-box-glaceon-vstar-eu-versie",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-special-collection-box-510c58",
+      "name": "Pokemon: Special Collection Box - Greninja V Union",
+      "url": "https://rarecards.nl/products/pokemon-special-collection-box-greninja-v-union",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-shining-fates-collecti-43a734",
+      "name": "Pokemon Shining Fates: Collection Box - Pikachu V",
+      "url": "https://rarecards.nl/products/pokemon-shining-fates-collection-box-pikachu-v",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-arceus-v-figure-collec-3efc2f",
+      "name": "Pokemon Arceus V Figure Collection Box",
+      "url": "https://rarecards.nl/products/pokemon-arceus-v-figure-collection-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-premium-collection-box-40e0c5",
+      "name": "Pokemon: Premium Collection Box - Vaporeon VMAX",
+      "url": "https://rarecards.nl/products/pokemon-premium-collection-box-vaporeon-vmax",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-paldean-fates-premium--36168a",
+      "name": "Pokemon Paldean Fates: Premium Collection Box - Quaquaval ex",
+      "url": "https://rarecards.nl/products/pokemon-paldean-fates-premium-collection-box-quaquaval-ex",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-paldean-fates-premium--1b30d8",
+      "name": "Pokemon Paldean Fates: Premium Collection Box - Skeledirge ex",
+      "url": "https://rarecards.nl/products/pokemon-paldean-fates-premium-collection-box-skeledirge-ex",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-prismatic-evolutions-b-1f6305",
+      "name": "Pokemon Prismatic Evolutions: Binder Collection",
+      "url": "https://rarecards.nl/products/pokemon-prismatic-evolutions-binder-collection",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-shining-fates-bunnelby-237c15",
+      "name": "Pokemon Shining Fates: Bunnelby Mad Party Collection",
+      "url": "https://rarecards.nl/products/pokemon-shining-fates-bunnelby-mad-party-collection",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-pokemon-go-premium-col-310478",
+      "name": "Pokemon Pokemon GO: Premium Collection - Radiant Eevee",
+      "url": "https://rarecards.nl/products/pokemon-pokemon-go-premium-collection-radiant-eevee",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-shining-fates-dedenne--47f73c",
+      "name": "Pokemon Shining Fates: Dedenne Mad Party Collection",
+      "url": "https://rarecards.nl/products/pokemon-shining-fates-dedenne-mad-party-collection",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-shining-fates-galarian-2a0311",
+      "name": "Pokemon Shining Fates: Galarian Mr. Rime Mad Party Collection",
+      "url": "https://rarecards.nl/products/pokemon-shining-fates-galarian-mr-rime-mad-party-collection",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-shining-fates-polteage-2fa6d3",
+      "name": "Pokemon Shining Fates: Polteageist Mad Party Collection",
+      "url": "https://rarecards.nl/products/pokemon-shining-fates-polteageist-mad-party-collection",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-single-strike-urshifu--3edde8",
+      "name": "Pokemon Single Strike: Urshifu V Box",
+      "url": "https://rarecards.nl/products/pokemon-single-strike-urshifu-v-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-rapid-strike-urshifu-v-f0edb1",
+      "name": "Pokemon Rapid Strike: Urshifu V Box",
+      "url": "https://rarecards.nl/products/pokemon-rapid-strike-urshifu-v-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-prismatic-evolutions-a-68e35a",
+      "name": "Pokemon Prismatic Evolutions: Accessory Pouch Special Collection",
+      "url": "https://rarecards.nl/products/pokemon-prismatic-evolutions-accessory-pouch-special-collection",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-detective-pikachu-pika-3cfb17",
+      "name": "Pokemon Detective Pikachu: Pikachu Case File",
+      "url": "https://rarecards.nl/products/pokemon-detective-pikachu-pikachu-case-file",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-detective-pikachu-char-27efe3",
+      "name": "Pokemon Detective Pikachu: Charizard GX case file",
+      "url": "https://rarecards.nl/products/pokemon-detective-pikachu-charizard-gx-case-file",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-vivid-voltage-alakazam-4afbdf",
+      "name": "Pokemon Vivid Voltage: Alakazam V Box",
+      "url": "https://rarecards.nl/products/pokemon-vivid-voltage-alakazam-v-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-champion-s-path-ballon-49bfd4",
+      "name": "Pokemon Champion's Path: Ballonlea Gym Pin Collection",
+      "url": "https://rarecards.nl/products/pokemon-champions-path-ballonlea-gym-pin-collection",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-rebel-clash-copperajah-3296ad",
+      "name": "Pokemon Rebel Clash: Copperajah V Box",
+      "url": "https://rarecards.nl/products/pokemon-rebel-clash-copperajah-v-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-vivid-voltage-orbeetle-3524cd",
+      "name": "Pokemon Vivid Voltage: Orbeetle V Box",
+      "url": "https://rarecards.nl/products/pokemon-vivid-voltage-orbeetle-v-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-celebrations-premium-f-401aa2",
+      "name": "Pokemon Celebrations: Premium Figure Collection Box - Pikachu VMAX",
+      "url": "https://rarecards.nl/products/pokemon-celebrations-premium-figure-collection-box-pikachu-vmax",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-cynthia-s-garchomp-ex--4f4d9e",
+      "name": "Pokemon Cynthia's Garchomp ex: Premium Collection Box",
+      "url": "https://rarecards.nl/products/pokemon-cynthias-garchomp-ex-premium-collection-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-team-rocket-s-mewtwo-e-325cef",
+      "name": "Pokemon Team Rocket's Mewtwo: EX Box",
+      "url": "https://rarecards.nl/products/pokemon-team-rockets-mewtwo-ex-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-hops-zacian-ex-box-42983b",
+      "name": "Pokemon Hops Zacian ex Box",
+      "url": "https://rarecards.nl/products/pokemon-hops-zacian-ex-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-shining-fates-premium--1ef036",
+      "name": "Pokemon Shining Fates: Premium Collection Box - Crobat VMAX",
+      "url": "https://rarecards.nl/products/pokemon-shining-fates-premium-collection-box-crobat-vmax",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-shining-fates-premium--18869c",
+      "name": "Pokemon Shining Fates: Premium Collection Box - Dragapult VMAX",
+      "url": "https://rarecards.nl/products/pokemon-shining-fates-premium-collection-box-dragapult-vmax",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-champion-s-path-premiu-3f177a",
+      "name": "Pokemon Champion's Path: Premium Collection Box - Marnie",
+      "url": "https://rarecards.nl/products/pokemon-champions-path-premium-collection-box-marnie",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-special-collection-box-3bf2f5",
+      "name": "Pokemon: Special Collection Box - Mewtwo V Union",
+      "url": "https://rarecards.nl/products/pokemon-special-collection-box-mewtwo-v-union",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-celebrations-special-c-687aab",
+      "name": "Pokemon Celebrations: Special Collection Box - Pikachu V Union",
+      "url": "https://rarecards.nl/products/pokemon-celebrations-special-collection-box-pikachu-v-union",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-special-collection-box-4f20e3",
+      "name": "Pokemon: Special Collection Box - Meowth VMAX",
+      "url": "https://rarecards.nl/products/pokemon-special-collection-box-meowth-vmax",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-premium-collection-box-47fd2e",
+      "name": "Pokemon: Premium Collection Box - Flareon VMAX",
+      "url": "https://rarecards.nl/products/pokemon-premium-collection-box-flareon-vmax",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-premium-collection-box-4faad8",
+      "name": "Pokemon: Premium Collection Box - Jolteon VMAX",
+      "url": "https://rarecards.nl/products/pokemon-premium-collection-box-jolteon-vmax",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-super-premium-collecti-239cc0",
+      "name": "Pokemon: Super Premium Collection Box - Charizard ex",
+      "url": "https://rarecards.nl/products/pokemon-super-premium-collection-box-charizard-ex",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-black-bolt-white-flare-467eb6",
+      "name": "Pokemon Black Bolt & White Flare: Unova Poster Collection",
+      "url": "https://rarecards.nl/products/pokemon-black-bolt-white-flare-unova-poster-collection",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-white-flare-binder-col-2e8356",
+      "name": "Pokemon White Flare: Binder Collection",
+      "url": "https://rarecards.nl/products/pokemon-white-flare-binder-collection",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-black-bolt-binder-coll-440832",
+      "name": "Pokemon Black Bolt: Binder Collection",
+      "url": "https://rarecards.nl/products/pokemon-black-bolt-binder-collection",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-crown-zenith-collectio-3b566e",
+      "name": "Pokemon Crown Zenith Collection: Morpeko V-UNION Premium Playmat",
+      "url": "https://rarecards.nl/products/pokemon-crown-zenith-collection-morpeko-v-union-premium-playmat",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-crown-zenith-collectio-2cb574",
+      "name": "Pokemon Crown Zenith Collection: Regieleki V",
+      "url": "https://rarecards.nl/products/pokemon-crown-zenith-collection-regieleki-v",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-mimikyu-ex-box-4a55ae",
+      "name": "Pokemon - Mimikyu EX Box",
+      "url": "https://rarecards.nl/products/pokemon-mimikyu-ex-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-prismatic-evolutions-s-21d62d",
+      "name": "Pokemon Prismatic Evolutions: Surprise Box",
+      "url": "https://rarecards.nl/products/pokemon-prismatic-evolutions-surprise-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-holiday-calendar-2023-418483",
+      "name": "Pokemon Holiday Calendar 2023",
+      "url": "https://rarecards.nl/products/pokemon-holiday-calendar-2023",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-premium-collection-oge-3a9973",
+      "name": "Pokemon Premium Collection - Ogerpon EX",
+      "url": "https://rarecards.nl/products/pokemon-premium-collection-ogerpon-ex",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-prismatic-evolutions-p-39c125",
+      "name": "Pokemon Prismatic Evolutions: Poster Collection",
+      "url": "https://rarecards.nl/products/pokemon-tcg-scarlet-violet-prismatic-evolutions-poster-collection",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-combined-powers-premiu-5a3a5a",
+      "name": "Pokemon Combined Powers Premium Collection",
+      "url": "https://rarecards.nl/products/pokemon-tcg-combined-powers-premium-collection",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-shrouded-fable-illustr-39d9fd",
+      "name": "Pokemon Shrouded Fable: Illustration Collection - Kingambit",
+      "url": "https://rarecards.nl/products/pokemon-shrouded-fable-illustration-collection-kingambit",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-premium-collection-arm-5c984c",
+      "name": "Pokemon Premium Collection - Armarouge EX",
+      "url": "https://rarecards.nl/products/pokemon-tcg-armarouge-ex-premium-collection",
+      "selector": null,
+      "added_at": "2026-05-07T15:28:10.401Z",
+      "active": true
     }
   ]
 }
