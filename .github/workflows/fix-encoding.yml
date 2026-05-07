@@ -1,0 +1,15 @@
+  fix-encoding:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python fix_encoding.py
+      - run: |
+          git config user.name "pokemon-stock-bot"
+          git config user.email "bot@github-actions"
+          git add stores.json
+          git diff --cached --quiet || git commit -m "fix: clean encoding in stores.json" && git push
