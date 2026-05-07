@@ -5775,6 +5775,46 @@
       "selector": null,
       "added_at": "2026-05-07T15:21:29.904Z",
       "active": true
+    },
+    {
+      "id": "pokemon-darkness-ablaze-elite--2f1e5e",
+      "name": "Pokemon Darkness Ablaze - Elite Trainer Box",
+      "url": "https://www.collectableworld.nl/product/13953417/pokemon-darkness-ablaze-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:25:11.341Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-lost-origin-elite-trai-25a1ba",
+      "name": "Pokemon Lost Origin – Elite Trainer Box",
+      "url": "https://www.collectableworld.nl/product/13953406/pokemon-lost-origin-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:25:11.342Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-scarlet-en-violet-elit-1c2803",
+      "name": "Pokemon Scarlet en Violet - Elite Trainer Box",
+      "url": "https://www.collectableworld.nl/product/13953433/pokemon-scarlet-en-violet-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:25:11.342Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-scarlet-en-violet-elit-122bba",
+      "name": "Pokemon Scarlet en Violet - Elite Trainer Box",
+      "url": "https://www.collectableworld.nl/product/13953439/pokemon-scarlet-en-violet-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:25:11.342Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-scarlet-violet-151-eli-421b4a",
+      "name": "Pokemon Scarlet & Violet 151 - Elite Trainer Box",
+      "url": "https://www.collectableworld.nl/product/13953391/pokemon-scarlet-violet-151-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:25:11.342Z",
+      "active": true
     }
   ]
 }
