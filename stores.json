@@ -3663,6 +3663,30 @@
       "selector": null,
       "added_at": "2026-05-07T14:47:41.505Z",
       "active": true
+    },
+    {
+      "id": "pokemon-tcg-perfect-order-elit-13c549",
+      "name": "Pokemon TCG: Perfect Order Elite Trainer Box",
+      "url": "https://www.debroergrot.nl/products/pokemon-tcg-perfect-order-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T14:47:45.913Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-prismatic-evolutio-2792e1",
+      "name": "Pokemon TCG: Prismatic Evolutions - Elite Trainer Box",
+      "url": "https://www.debroergrot.nl/products/pokemon-tcg-prismatic-evolutions-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T14:47:45.913Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-surging-sparks-eli-194bd2",
+      "name": "Pokemon TCG: Surging Sparks Elite Trainer Box",
+      "url": "https://www.debroergrot.nl/products/pre-order-pokemon-tcg-surging-sparks-booster-box-kopie",
+      "selector": null,
+      "added_at": "2026-05-07T14:47:45.913Z",
+      "active": true
     }
   ]
 }
