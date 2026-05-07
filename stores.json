@@ -3687,6 +3687,94 @@
       "selector": null,
       "added_at": "2026-05-07T14:47:45.913Z",
       "active": true
+    },
+    {
+      "id": "pokemon-tcg-prismatic-evolutio-31798d",
+      "name": "Pokemon TCG: Prismatic Evolutions - Surprise Box Collection",
+      "url": "https://www.debroergrot.nl/products/pokemon-tcg-prismatic-evolutions-surprise-box-collection",
+      "selector": null,
+      "added_at": "2026-05-07T14:47:50.627Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-black-bolt-white-f-328c45",
+      "name": "Pokemon TCG: Black Bolt & White Flare Poster Collection",
+      "url": "https://www.debroergrot.nl/products/pre-order-pokemon-tcg-black-bolt-white-flare-poster-collection",
+      "selector": null,
+      "added_at": "2026-05-07T14:47:50.627Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-charizard-ex-super-1ac14e",
+      "name": "Pokemon TCG: Charizard ex Super-Premium Collection",
+      "url": "https://www.debroergrot.nl/products/pre-order-pokemon-tcg-charizard-ex-super-premium-collection",
+      "selector": null,
+      "added_at": "2026-05-07T14:47:50.627Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-pokemon-day-2026-c-20cca0",
+      "name": "Pokemon TCG: Pokemon Day 2026 Collection",
+      "url": "https://www.debroergrot.nl/products/pokemon-tcg-pokemon-day-2026-collection",
+      "selector": null,
+      "added_at": "2026-05-07T14:47:50.627Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-ultra-premium-coll-11409f",
+      "name": "Pokemon TCG: Ultra Premium Collection Box – Mega Charizard X",
+      "url": "https://www.debroergrot.nl/products/pokemon-tcg-ultra-premium-collection-box-mega-charizard-x",
+      "selector": null,
+      "added_at": "2026-05-07T14:47:50.627Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-cynthia-s-garchomp-21fe7d",
+      "name": "Pokemon TCG: Cynthia's Garchomp Ex Premium Collection",
+      "url": "https://www.debroergrot.nl/products/pokemon-tcg-cynthias-garchomp-ex-premium-collection",
+      "selector": null,
+      "added_at": "2026-05-07T14:47:50.628Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-white-flare-binder-3186b5",
+      "name": "Pokemon TCG: White Flare Binder Collection",
+      "url": "https://www.debroergrot.nl/products/pre-order-pokemon-tcg-white-flare-binder-collection",
+      "selector": null,
+      "added_at": "2026-05-07T14:47:50.628Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-surging-sparks-eli-502b48",
+      "name": "Pokemon TCG: Surging Sparks Elite Trainer Box & Booster Bundle Costco 2-Pack (USA)",
+      "url": "https://www.debroergrot.nl/products/pokemon-tcg-surging-sparks-elite-trainer-box-booster-bundle-costco-2-pack-usa",
+      "selector": null,
+      "added_at": "2026-05-07T14:47:50.628Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-iono-s-bellibolt-e-10a1bc",
+      "name": "Pokemon TCG: Iono’s Bellibolt ex Premium Collection",
+      "url": "https://www.debroergrot.nl/products/pokemon-tcg-iono-s-bellibolt-ex-premium-collection",
+      "selector": null,
+      "added_at": "2026-05-07T14:47:50.628Z",
+      "active": true
+    },
+    {
+      "id": "salamence-ex-reshiram-ex-premi-128fc8",
+      "name": "Salamence ex & Reshiram ex Premium Collection",
+      "url": "https://www.debroergrot.nl/products/salamence-ex-reshiram-ex-premium-collection",
+      "selector": null,
+      "added_at": "2026-05-07T14:47:50.628Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-prismatic-evolutio-273783",
+      "name": "Pokemon TCG: Prismatic Evolutions Premium Figure Collection",
+      "url": "https://www.debroergrot.nl/products/pokemon-tcg-prismatic-evolutions-premium-figure-collection",
+      "selector": null,
+      "added_at": "2026-05-07T14:47:50.628Z",
+      "active": true
     }
   ]
 }
