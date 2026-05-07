@@ -16,8 +16,11 @@ import requests
 from bs4 import BeautifulSoup
 
 SCRIPT_DIR = Path(__file__).parent
-STORES_FILE = SCRIPT_DIR / "stores.json"
-STATE_FILE = SCRIPT_DIR / "state.json"
+STORES_FILE = next(
+    (p for p in [SCRIPT_DIR / "stores.json", SCRIPT_DIR.parent / "stores.json"] if p.exists()),
+    SCRIPT_DIR / "stores.json",
+)
+STATE_FILE = STORES_FILE.parent / "state.json"
 
 TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
@@ -69,9 +72,9 @@ def save_json(path: Path, data: dict) -> None:
     path.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
 
 
-def fetch_page(url: str, timeout: int = 15) -> Optional[str]:
+def fetch_page(url: str) -> Optional[str]:
     try:
-        resp = requests.get(url, headers=HEADERS, timeout=timeout, allow_redirects=True)
+        resp = requests.get(url, headers=HEADERS, timeout=(5, 10), allow_redirects=True)
         resp.raise_for_status()
         return resp.text
     except requests.RequestException as e:
@@ -141,27 +144,53 @@ def text_heuristic(soup: BeautifulSoup) -> Optional[bool]:
     return None
 
 
-def is_in_stock(html: str, selector: Optional[str]) -> Optional[bool]:
+def check_shopify_api(url: str) -> Optional[bool]:
+    """For Shopify product pages, use the .json API for reliable availability."""
+    # Match /products/{handle} URLs
+    match = re.search(r"(https?://[^/]+/products/[^/?#]+)", url)
+    if not match:
+        return None
+    api_url = match.group(1) + ".json"
+    try:
+        resp = requests.get(api_url, headers=HEADERS, timeout=(5, 10))
+        if not resp.ok:
+            return None
+        data = resp.json().get("product", {})
+        variants = data.get("variants", [])
+        if not variants:
+            return None
+        return any(v.get("available", False) for v in variants)
+    except requests.RequestException:
+        return None
+
+
+def is_in_stock(url: str, html: str, selector: Optional[str]) -> Optional[bool]:
     """Return True=in stock, False=out of stock, None=unknown."""
+
+    # 1. Shopify API (most reliable for Shopify stores)
+    result = check_shopify_api(url)
+    if result is not None:
+        return result
+
     soup = BeautifulSoup(html, "lxml")
 
-    # 1. Structured data (most reliable)
+    # 2. Structured data
     result = check_jsonld_availability(soup)
     if result is not None:
         return result
 
-    # 2. Meta tags
+    # 3. Meta tags
     result = check_meta_availability(soup)
     if result is not None:
         return result
 
-    # 3. Custom selector from store config
+    # 4. Custom selector from store config
     if selector:
         result = check_selector(soup, selector)
         if result is not None:
             return result
 
-    # 4. Text heuristic
+    # 5. Text heuristic
     return text_heuristic(soup)
 
 
@@ -218,7 +247,7 @@ def main() -> int:
         if html is None:
             continue
 
-        status = is_in_stock(html, selector)
+        status = is_in_stock(url, html, selector)
 
         if status is None:
             print("  [?] Status onbekend")
@@ -241,7 +270,7 @@ def main() -> int:
             if prev_status is not False:
                 state_changed = True
 
-        time.sleep(2)
+        time.sleep(1)
 
     if state_changed:
         save_json(STATE_FILE, state)
