@@ -1,3 +1,12 @@
+ name: Fix Encoding
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
   fix-encoding:
     runs-on: ubuntu-latest
     steps:
@@ -12,4 +21,4 @@
           git config user.name "pokemon-stock-bot"
           git config user.email "bot@github-actions"
           git add stores.json
-          git diff --cached --quiet || git commit -m "fix: clean encoding in stores.json" && git push
+          git diff --cached --quiet || (git commit -m "fix: clean encoding in stores.json" && git push)
