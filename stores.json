@@ -10799,6 +10799,358 @@
       "selector": null,
       "added_at": "2026-05-07T15:46:36.677Z",
       "active": true
+    },
+    {
+      "id": "pokemon-tcg-sun-moon-base-elit-18ffae",
+      "name": "Pokemon TCG - Sun & Moon Base Elite Trainer Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-sun-moon-base-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:45.983Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-rebel-clash-elite--87f6af",
+      "name": "Pokemon TCG - Rebel Clash Elite Trainer Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-rebel-clash-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:45.984Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-guardians-rising-e-918afe",
+      "name": "Pokemon TCG - Guardians Rising Elite Trainer Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-guardians-rising-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:45.984Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-xy-evolutions-elit-ee08f1",
+      "name": "Pokemon TCG - XY Evolutions Elite Trainer Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-xy-evolutions-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:45.984Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-generations-elite--fae576",
+      "name": "Pokemon TCG - Generations Elite Trainer Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-generations-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:45.984Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-paldean-fates-poke-252347",
+      "name": "Pokemon TCG - Paldean Fates Pokemon Center Elite Trainer Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-paldean-fates-pokemon-center-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:45.984Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-paldea-evolved-eli-208ac6",
+      "name": "Pokemon TCG - Paldea Evolved Elite Trainer Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-scarlet-violet-paldea-evolved-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:45.984Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-hidden-fates-elite-3d1c3e",
+      "name": "Pokemon TCG - Hidden Fates Elite Trainer Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-hidden-fates-etb",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:45.984Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-fusion-strike-elit-f40d02",
+      "name": "Pokemon TCG - Fusion Strike Elite Trainer Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-fusion-strike-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:45.984Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-champion-s-path-el-1a4604",
+      "name": "Pokemon TCG - Champion's Path Elite Trainer Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-champions-path-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:45.984Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-chilling-reign-eli-2e0c67",
+      "name": "Pokemon TCG - Chilling Reign Elite Trainer Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-chilling-reign-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:45.984Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-perfect-order-elit-197db5",
+      "name": "Pokemon TCG - Perfect Order Elite Trainer Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-perfect-order-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:45.984Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-prismatic-evolutio-b5d619",
+      "name": "Pokemon TCG - Prismatic Evolutions Elite Trainer Box met scheur in de seal",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-prismatic-evolutions-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:45.984Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-vivid-voltage-elit-5a6634",
+      "name": "Pokemon TCG - Vivid Voltage Elite Trainer Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-vivid-voltage-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:45.984Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-black-bolt-white-f-1b70ac",
+      "name": "Pokemon TCG - Black Bolt & White Flare Elite Trainer Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-black-bolt-white-flare-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:45.984Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-lost-origin-elite--198e94",
+      "name": "Pokemon TCG - Lost Origin Elite Trainer Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-lost-origin-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:45.984Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-sword-shield-25th--57de60",
+      "name": "Pokemon TCG - Sword & Shield 25th Celebrations Elite Trainer Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-sword-shield-25th-celebrations-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:45.984Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-ascended-heroes-el-e59038",
+      "name": "Pokemon TCG - Ascended Heroes Elite Trainer Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-ascended-heroes-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:45.984Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-shining-fates-elit-c4ea40",
+      "name": "Pokemon TCG - Shining Fates Elite Trainer Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-shining-fates-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:45.984Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-scarlet-violet-bas-16519c",
+      "name": "Pokemon TCG - Scarlet & Violet Base Elite Trainer Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-scarlet-violet-elite-trainer-box-koraidon",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:45.984Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-journey-together-e-183118",
+      "name": "Pokemon TCG - Journey Together Elite Trainer Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-journey-together-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:45.984Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-obsidian-flames-el-1a7249",
+      "name": "Pokemon TCG - Obsidian Flames Elite Trainer Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-obsidian-flames-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:45.984Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-destined-rivals-el-3748e9",
+      "name": "Pokemon TCG - Destined Rivals Elite Trainer Box",
+      "url": "https://www.tcgreus.nl/products/destined-rivals-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:45.984Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-shrouded-fable-eli-10011c",
+      "name": "Pokemon TCG - Shrouded Fable Elite Trainer Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-shrouded-fable-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:45.984Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-phantasmal-flames--a3d558",
+      "name": "Pokemon TCG - Phantasmal Flames Elite Trainer Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-phantasmal-flames-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:45.984Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-astral-radiance-el-157eb2",
+      "name": "Pokemon TCG - Astral Radiance Elite Trainer Box met scheur in de seal",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-astral-radiance-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:45.984Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-burning-shadows-el-4489d8",
+      "name": "Pokemon TCG - Burning Shadows Elite Trainer Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-burning-shadows-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:45.984Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-brilliant-stars-el-5046d5",
+      "name": "Pokemon TCG - Brilliant Stars Elite Trainer Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-brilliant-stars-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:45.984Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-paldean-fates-elit-cc42f7",
+      "name": "Pokemon TCG - Paldean Fates Elite Trainer Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-scarlet-violet-paldean-fates-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:45.984Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-mega-evolution-eli-1ca660",
+      "name": "Pokemon TCG - Mega Evolution Elite Trainer Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-mega-evolution-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:45.984Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-scarlet-violet-151-1364f7",
+      "name": "Pokemon TCG - Scarlet & Violet 151 Elite Trainer Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-scarlet-violet-151-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:45.984Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-silver-tempest-eli-1ca765",
+      "name": "Pokemon TCG - Silver Tempest Elite Trainer Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-silver-tempest-etb",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:45.984Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-crown-zenith-elite-dcc339",
+      "name": "Pokemon TCG - Crown Zenith Elite Trainer Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-crown-zenith-etb",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:45.984Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-sword-shield-elite-e66f28",
+      "name": "Pokemon TCG - Sword & Shield Elite Trainer Box PLUS",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-sword-shield-zacian-elite-trainer-box-plus",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:45.984Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-battle-styles-elit-ea8027",
+      "name": "Pokemon TCG - Battle Styles Elite Trainer Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-battle-styles-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:45.984Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-paradox-rift-elite-37d782",
+      "name": "Pokemon TCG - Paradox Rift Elite Trainer Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-paradox-rift-elite-trainer-box-roaring-moon",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:45.984Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-temporal-forces-el-18a01f",
+      "name": "Pokemon TCG - Temporal Forces Elite Trainer Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-temporal-forces-elite-trainer-box-walking-wake",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:45.984Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-sword-shield-base--19770e",
+      "name": "Pokemon TCG - Sword & Shield Base Elite Trainer Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-sword-shield-base-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:45.984Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-stellar-crown-elit-14a669",
+      "name": "Pokemon TCG - Stellar Crown Elite Trainer Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-stellar-crown-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:45.984Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-darkness-ablaze-el-5f343d",
+      "name": "Pokemon TCG - Darkness Ablaze Elite Trainer Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-darkness-ablaze-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:45.984Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-evolving-skies-eli-11d8a0",
+      "name": "Pokemon TCG - Evolving Skies Elite Trainer Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-evolving-skies-etb",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:45.984Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-pokemon-go-elite-t-33a3b3",
+      "name": "Pokemon TCG - Pokemon GO Elite Trainer Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-pokemon-go-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:45.984Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-twilight-masquerad-3498d8",
+      "name": "Pokemon TCG - Twilight Masquerade Elite Trainer Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-twilight-masquerade-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:45.984Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-chaos-rising-elite-2946d2",
+      "name": "Pokemon TCG - Chaos Rising Elite Trainer Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-chaos-rising-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:45.984Z",
+      "active": true
     }
   ]
 }
