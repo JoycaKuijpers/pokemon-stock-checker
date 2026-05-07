@@ -762,7 +762,7 @@
     },
     {
       "id": "pok-mon-elite-trainer-box-asce-c15836",
-      "name": "Pokémon Elite Trainer Box Ascended Heroes",
+      "name": "PokÃ©mon Elite Trainer Box Ascended Heroes",
       "url": "https://pokefamily.nl/products/pokemon-elite-trainr-box-ascended-heroes",
       "selector": null,
       "added_at": "2026-05-07T13:48:02.004Z",
@@ -770,7 +770,7 @@
     },
     {
       "id": "pok-mon-elite-trainer-box-phan-2b8ae9",
-      "name": "Pokémon Elite Trainer Box Phantasmal Flames",
+      "name": "PokÃ©mon Elite Trainer Box Phantasmal Flames",
       "url": "https://pokefamily.nl/products/pokemon-elite-trainer-box-phantasmal-flames",
       "selector": null,
       "added_at": "2026-05-07T13:48:02.005Z",
@@ -778,7 +778,7 @@
     },
     {
       "id": "pok-mon-elite-trainer-box-jour-316c6b",
-      "name": "Pokémon Elite Trainer Box Journey Together",
+      "name": "PokÃ©mon Elite Trainer Box Journey Together",
       "url": "https://pokefamily.nl/products/pokemon-journey-together-elite-trainer-box",
       "selector": null,
       "added_at": "2026-05-07T13:48:02.005Z",
@@ -786,7 +786,7 @@
     },
     {
       "id": "pok-mon-elite-trainer-box-pris-1ef0f7",
-      "name": "Pokémon Elite Trainer Box Prismatic Evolutions",
+      "name": "PokÃ©mon Elite Trainer Box Prismatic Evolutions",
       "url": "https://pokefamily.nl/products/pokemon-elite-trainer-box-prismatic-evolutions",
       "selector": null,
       "added_at": "2026-05-07T13:48:02.005Z",
@@ -818,7 +818,7 @@
     },
     {
       "id": "pok-mon-elite-trainer-box-silv-1bea94",
-      "name": "Pokémon Elite Trainer Box Silver Tempest",
+      "name": "PokÃ©mon Elite Trainer Box Silver Tempest",
       "url": "https://pokefamily.nl/products/pokemon-elite-trainer-box-silver-tempest",
       "selector": null,
       "added_at": "2026-05-07T13:48:02.005Z",
@@ -826,7 +826,7 @@
     },
     {
       "id": "pok-mon-elite-trainer-box-dark-228b16",
-      "name": "Pokémon Elite Trainer Box - Darkness Ablaze",
+      "name": "PokÃ©mon Elite Trainer Box - Darkness Ablaze",
       "url": "https://pokefamily.nl/products/pokemon-elite-trainer-box-darkness-ablaze",
       "selector": null,
       "added_at": "2026-05-07T13:48:02.005Z",
@@ -842,7 +842,7 @@
     },
     {
       "id": "pok-mon-elite-trainer-box-bril-a103ad",
-      "name": "Pokémon Elite Trainer Box Brilliant Stars",
+      "name": "PokÃ©mon Elite Trainer Box Brilliant Stars",
       "url": "https://pokefamily.nl/products/pokemon-elite-trainer-box-brilliant-stars",
       "selector": null,
       "added_at": "2026-05-07T13:48:02.005Z",
@@ -850,7 +850,7 @@
     },
     {
       "id": "pok-mon-elite-trainer-box-drag-1e596d",
-      "name": "Pokémon Elite Trainer Box Dragon Majesty",
+      "name": "PokÃ©mon Elite Trainer Box Dragon Majesty",
       "url": "https://pokefamily.nl/products/pokemon-elite-trainer-box-dragon-majesty",
       "selector": null,
       "added_at": "2026-05-07T13:48:02.005Z",
@@ -858,10 +858,154 @@
     },
     {
       "id": "pok-mon-elite-trainer-box-dest-17d81b",
-      "name": "Pokémon Elite Trainer Box Destined Rivals",
+      "name": "PokÃ©mon Elite Trainer Box Destined Rivals",
       "url": "https://pokefamily.nl/products/pokemon-elite-trainer-box-destined-rivals",
       "selector": null,
       "added_at": "2026-05-07T13:48:02.005Z",
+      "active": true
+    },
+    {
+      "id": "pok-mon-v-box-pikachu-e0b6bc",
+      "name": "Pokémon V Box - Pikachu",
+      "url": "https://pokefamily.nl/products/pokemon-pikachu-v-box",
+      "selector": null,
+      "added_at": "2026-05-07T13:48:07.412Z",
+      "active": true
+    },
+    {
+      "id": "pok-mon-ex-box-iono-s-bellibol-9606dd",
+      "name": "Pokémon Ex Box - Iono's Bellibolt Ex Premium Collection",
+      "url": "https://pokefamily.nl/products/pokemon-ionos-bellibolt-ex-premium-collection",
+      "selector": null,
+      "added_at": "2026-05-07T13:48:07.412Z",
+      "active": true
+    },
+    {
+      "id": "pok-mon-v-union-box-morpeko-71272c",
+      "name": "Pokémon V-union Box - Morpeko",
+      "url": "https://pokefamily.nl/products/pokemon-crown-zenith-morpeko-v-unionbox",
+      "selector": null,
+      "added_at": "2026-05-07T13:48:07.412Z",
+      "active": true
+    },
+    {
+      "id": "pok-mon-v-box-regieleki-v-3643b8",
+      "name": "Pokémon V Box - Regieleki V",
+      "url": "https://pokefamily.nl/products/pokemon-v-box-regieleki-v",
+      "selector": null,
+      "added_at": "2026-05-07T13:48:07.412Z",
+      "active": true
+    },
+    {
+      "id": "pok-mon-ex-box-figure-collecti-3720d4",
+      "name": "Pokémon Ex Box Figure Collection - Mega Lucario",
+      "url": "https://pokefamily.nl/products/pokemon-ex-box-figure-collection-mega-lucario",
+      "selector": null,
+      "added_at": "2026-05-07T13:48:07.412Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-ex-box-mega-latias-509758",
+      "name": "Pokemon Ex Box - Mega Latias",
+      "url": "https://pokefamily.nl/products/pokemon-mega-latias-ex-box",
+      "selector": null,
+      "added_at": "2026-05-07T13:48:07.412Z",
+      "active": true
+    },
+    {
+      "id": "pok-mon-ex-box-mega-kangaskhan-8d9a03",
+      "name": "Pokémon Ex Box - Mega Kangaskhan",
+      "url": "https://pokefamily.nl/products/pokemon-ex-box-mega-kangaskhan",
+      "selector": null,
+      "added_at": "2026-05-07T13:48:07.412Z",
+      "active": true
+    },
+    {
+      "id": "pok-mon-ex-box-mega-venusaur-7d3cd7",
+      "name": "Pokémon Ex Box - Mega Venusaur",
+      "url": "https://pokefamily.nl/products/pokemon-mega-venusaur-ex-box",
+      "selector": null,
+      "added_at": "2026-05-07T13:48:07.412Z",
+      "active": true
+    },
+    {
+      "id": "pok-mon-v-box-hoopa-3d684b",
+      "name": "Pokémon V Box - Hoopa",
+      "url": "https://pokefamily.nl/products/pokemon-hoopa-v-box",
+      "selector": null,
+      "added_at": "2026-05-07T13:48:07.412Z",
+      "active": true
+    },
+    {
+      "id": "pok-mon-ex-box-premium-collect-10d706",
+      "name": "Pokémon Ex Box Premium Collection - Cyntia's Garchomp",
+      "url": "https://pokefamily.nl/products/pokemon-cyntias-garchomp-ex-premium-collection",
+      "selector": null,
+      "added_at": "2026-05-07T13:48:07.412Z",
+      "active": true
+    },
+    {
+      "id": "pok-mon-ex-box-mabosstiff-c9cba1",
+      "name": "Pokémon Ex Box - Mabosstiff",
+      "url": "https://pokefamily.nl/products/pokemon-mabosstiff-ex-box-1",
+      "selector": null,
+      "added_at": "2026-05-07T13:48:07.412Z",
+      "active": true
+    },
+    {
+      "id": "pok-mon-premium-collection-arm-d9e73e",
+      "name": "Pokémon Premium Collection - Armarouge EX",
+      "url": "https://pokefamily.nl/products/pokemon-armarouge-ex-premium-collection",
+      "selector": null,
+      "added_at": "2026-05-07T13:48:07.412Z",
+      "active": true
+    },
+    {
+      "id": "pok-mon-ex-box-ogerpon-2bd9ca",
+      "name": "Pokémon EX Box - Ogerpon",
+      "url": "https://pokefamily.nl/products/pokemon-ex-box-ogerpon",
+      "selector": null,
+      "added_at": "2026-05-07T13:48:07.412Z",
+      "active": true
+    },
+    {
+      "id": "pok-mon-v-box-infernape-178ca7",
+      "name": "Pokémon V Box - Infernape",
+      "url": "https://pokefamily.nl/products/pokemon-infernape-box",
+      "selector": null,
+      "added_at": "2026-05-07T13:48:07.412Z",
+      "active": true
+    },
+    {
+      "id": "pok-mon-ex-box-iron-valiant-ro-aebc84",
+      "name": "Pokémon EX Box - Iron Valiant/Roaring Moon",
+      "url": "https://pokefamily.nl/products/pokemon-iron-valiant-ex-box",
+      "selector": null,
+      "added_at": "2026-05-07T13:48:07.412Z",
+      "active": true
+    },
+    {
+      "id": "pok-mon-ex-box-houndstone-8919db",
+      "name": "Pokémon EX Box - Houndstone",
+      "url": "https://pokefamily.nl/products/pokemon-houndstone-ex-box",
+      "selector": null,
+      "added_at": "2026-05-07T13:48:07.412Z",
+      "active": true
+    },
+    {
+      "id": "pok-mon-vmax-crown-zenith-pika-3f5020",
+      "name": "Pokémon VMAX - Crown Zenith Pikachu",
+      "url": "https://pokefamily.nl/products/pokemon-crown-zenith-pikachu-vmax",
+      "selector": null,
+      "added_at": "2026-05-07T13:48:07.412Z",
+      "active": true
+    },
+    {
+      "id": "pok-mon-vstar-box-kleavor-vsta-2a547a",
+      "name": "Pokémon Vstar Box - Kleavor Vstar Premium Collection",
+      "url": "https://pokefamily.nl/products/pokemon-vstar-box-kleavor-vstar-premium-collection",
+      "selector": null,
+      "added_at": "2026-05-07T13:48:07.412Z",
       "active": true
     }
   ]
