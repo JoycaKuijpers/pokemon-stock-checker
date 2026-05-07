@@ -2,7 +2,7 @@
   "stores": [
     {
       "id": "example-bol-pikachu",
-      "name": "Bol.com ÃÂ¢ÃÂÃÂ Pikachu Ex Box",
+      "name": "Bol.com ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ Pikachu Ex Box",
       "url": "https://www.bol.com/nl/nl/p/pikachu-ex-box/",
       "selector": null,
       "added_at": "2026-05-06T00:00:00Z",
@@ -262,6 +262,510 @@
       "url": "https://pokeflip.com/products/pokemon-scarlet-violet-elite-trainer-box-miraidon",
       "selector": null,
       "added_at": "2026-05-07T13:21:43.895Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-crown-zenith-premium-f-264d46",
+      "name": "Pokemon - Crown Zenith - Premium Figure Collection - Shiny Zacian",
+      "url": "https://pokeflip.com/products/pokemon-crown-zenith-premium-figure-collection-shiny-zacian",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.787Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-sword-shield-charizard-32ff98",
+      "name": "Pokemon - Sword & Shield - Charizard Ultra Premium Collection",
+      "url": "https://pokeflip.com/products/pokemon-sword-shield-charizard-ultra-premium-collection",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.788Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-crown-zenith-premium-f-25a8a0",
+      "name": "Pokemon - Crown Zenith - Premium Figure Collection - Shiny Zamazenta",
+      "url": "https://pokeflip.com/products/pokemon-crown-zenith-premium-figure-collection-shiny-zamazenta",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.788Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-go-premium-collection--28eeb9",
+      "name": "Pokemon GO - Premium Collection - Radiant Eevee",
+      "url": "https://pokeflip.com/products/pokemon-go-premium-collection-radiant-eevee",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.788Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-crown-zenith-regieleki-b3feab",
+      "name": "Pokemon - Crown Zenith - Regieleki V Box",
+      "url": "https://pokeflip.com/products/pokemon-crown-zenith-regieleki-v-box",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.788Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-crown-zenith-regidrago-125a19",
+      "name": "Pokemon - Crown Zenith - Regidrago V Box",
+      "url": "https://pokeflip.com/products/pokemon-crown-zenith-regidrago-v-box",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.788Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-crown-zenith-morpeko-v-19c841",
+      "name": "Pokemon - Crown Zenith - Morpeko V Union Box",
+      "url": "https://pokeflip.com/products/pokemon-crown-zenith-morpeko-v-union-box",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.788Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-silver-tempest-build-b-32a1da",
+      "name": "Pokemon - Silver Tempest - Build & Battle Stadium",
+      "url": "https://pokeflip.com/products/pokemon-silver-tempest-build-battle-stadium",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.788Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-go-special-collection--ef0052",
+      "name": "Pokemon GO - Special Collection - Team Mystic",
+      "url": "https://pokeflip.com/products/pokemon-go-special-collection-team-mystic",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.788Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-go-special-collection--1159f2",
+      "name": "Pokemon GO - Special Collection - Team Instinct",
+      "url": "https://pokeflip.com/products/pokemon-go-special-collection-team-instinct",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.788Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-go-special-collection--12a4a8",
+      "name": "Pokemon GO - Special Collection - Team Valor",
+      "url": "https://pokeflip.com/products/pokemon-go-special-collection-team-valor",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.788Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-go-collection-box-alol-371e97",
+      "name": "Pokemon GO - Collection Box - Alolan Exeggutor V",
+      "url": "https://pokeflip.com/products/pokemon-go-collection-box-alolan-exeggutor-v",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.788Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-lost-origin-build-batt-196407",
+      "name": "Pokemon - Lost Origin - Build & Battle Stadium",
+      "url": "https://pokeflip.com/products/pokemon-lost-origin-build-battle-stadium",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.788Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-astral-radiance-build--cf323a",
+      "name": "Pokemon - Astral Radiance - Build & Battle Stadium",
+      "url": "https://pokeflip.com/products/pokemon-astral-radiance-build-battle-stadium",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.788Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-crown-zenith-pikachu-v-111703",
+      "name": "Pokemon - Crown Zenith - Pikachu VMAX Special Collection",
+      "url": "https://pokeflip.com/products/pokemon-crown-zenith-pikachu-vmax-special-collection",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.788Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-paldean-fates-premium--46db30",
+      "name": "Pokemon - Paldean Fates - Premium Collection - Skeledirge",
+      "url": "https://pokeflip.com/products/pokemon-paldean-fates-premium-collection-skeledirge",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.788Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-celebrations-25th-anni-183166",
+      "name": "Pokemon - Celebrations - 25th Anniversary - Sylveon V Box",
+      "url": "https://pokeflip.com/products/pokemon-celebrations-25th-anniversary-sylveon-v-box",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.788Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-paldean-fates-premium--3a407d",
+      "name": "Pokemon - Paldean Fates - Premium Collection - Meowscarada",
+      "url": "https://pokeflip.com/products/pokemon-paldean-fates-premium-collection-meowscarada",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.788Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-paldean-fates-premium--510468",
+      "name": "Pokemon - Paldean Fates - Premium Collection - Quaquaval",
+      "url": "https://pokeflip.com/products/pokemon-paldean-fates-premium-collection-quaquaval",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.788Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-celebrations-25th-anni-27f50e",
+      "name": "Pokemon - Celebrations - 25th Anniversary - Charizard V Box",
+      "url": "https://pokeflip.com/products/pokemon-celebrations-25th-anniversary-charizard-v-box",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.788Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-scarlet-violet-build-b-1d4f93",
+      "name": "Pokemon - Scarlet & Violet - Build & Battle Stadium",
+      "url": "https://pokeflip.com/products/pokemon-scarlet-violet-build-battle-stadium",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.789Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-premium-collection-kle-b828c5",
+      "name": "Pokemon - Premium Collection - Kleavor VSTAR",
+      "url": "https://pokeflip.com/products/pokemon-premium-collection-kleavor-vstar",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.789Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-premium-collection-luc-16315b",
+      "name": "Pokemon - Premium Collection - Lucario VSTAR",
+      "url": "https://pokeflip.com/products/pokemon-premium-collection-lucario-vstar",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.789Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-paldea-evolved-build-b-3fc655",
+      "name": "Pokemon - Paldea Evolved - Build & Battle Stadium",
+      "url": "https://pokeflip.com/products/pokemon-paldea-evolved-build-battle-stadium",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.789Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-celebrations-25th-anni-1abce1",
+      "name": "Pokemon - Celebrations - 25th Anniversary - Pikachu V Union Box",
+      "url": "https://pokeflip.com/products/pokemon-celebrations-25th-anniversary-pikachu-v-union-box",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.789Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-celebrations-25th-anni-1c5136",
+      "name": "Pokemon - Celebrations - 25th Anniversary - Deluxe Pin",
+      "url": "https://pokeflip.com/products/pokemon-celebrations-25th-anniversary-deluxe-pin",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.789Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-virizion-v-box-11146f",
+      "name": "Pokemon - Virizion V Box",
+      "url": "https://pokeflip.com/products/pokemon-virizion-v-box",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.789Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-go-premier-deck-holder-2c0244",
+      "name": "Pokemon GO - Premier Deck Holder Collection - Dragonite",
+      "url": "https://pokeflip.com/products/pokemon-go-premier-deck-holder-collection-dragonite",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.789Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-hisuian-zoroark-vstar--289726",
+      "name": "Pokemon - Hisuian Zoroark VSTAR - Premium Collection",
+      "url": "https://pokeflip.com/products/pokemon-hisuian-zoroark-vstar-premium-collection",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.789Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-hisuian-electrode-v-bo-3b2302",
+      "name": "Pokemon - Hisuian Electrode V Box",
+      "url": "https://pokeflip.com/products/pokemon-hisuian-electrode-v-box",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.789Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-palkia-vstar-premium-c-2373ba",
+      "name": "Pokemon - Palkia VSTAR - Premium Collection",
+      "url": "https://pokeflip.com/products/pokemon-palkia-vstar-premium-collection",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.789Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-zeraora-vmax-vstar-bat-2c6ed5",
+      "name": "Pokemon - Zeraora VMAX & VSTAR - Battle Box",
+      "url": "https://pokeflip.com/products/pokemon-zeraora-vmax-vstar-battle-box",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.789Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-deoxys-vstar-vmax-batt-1e5d8c",
+      "name": "Pokemon - Deoxys VSTAR & VMAX - Battle Box",
+      "url": "https://pokeflip.com/products/pokemon-deoxys-vstar-vmax-battle-box",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.789Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-go-pin-collection-squi-22f7dd",
+      "name": "Pokemon GO - Pin Collection - Squirtle",
+      "url": "https://pokeflip.com/products/pokemon-go-pin-collection-squirtle",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.789Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-go-pin-collection-bulb-161c38",
+      "name": "Pokemon GO - Pin Collection - Bulbasaur",
+      "url": "https://pokeflip.com/products/pokemon-go-pin-collection-bulbasaur",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.789Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-champion-s-path-cirche-598021",
+      "name": "Pokemon - Champion's Path - Circhester Gym Special Pin",
+      "url": "https://pokeflip.com/products/pokemon-sword-shield-champions-path-circhester-gym-special-pin-collection",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.789Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-champion-s-path-stow-o-2c28cd",
+      "name": "Pokemon - Champion's Path - Stow On Side Gym Special Pin",
+      "url": "https://pokeflip.com/products/pokemon-sword-shield-champions-path-stow-on-side-gym-special-pin-collection",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.789Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-champion-s-path-hulbur-43c524",
+      "name": "Pokemon - Champion's Path - Hulbury Gym Pin",
+      "url": "https://pokeflip.com/products/pokemon-sword-shield-champions-path-hulbury-gym-pin-collection",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.789Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-champion-s-path-turffi-11c87e",
+      "name": "Pokemon - Champion's Path - Turffield Gym Pin",
+      "url": "https://pokeflip.com/products/pokemon-sword-shield-champions-path-turfield-gym-pin-collection",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.789Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-champion-s-path-motost-41b1c1",
+      "name": "Pokemon - Champion's Path - Motostoke Gym Pin",
+      "url": "https://pokeflip.com/products/pokemon-sword-shield-champions-path-motostoke-gym-pin-collection",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.789Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-mimikyu-pin-collection-149cac",
+      "name": "Pokemon - Mimikyu Pin Collection",
+      "url": "https://pokeflip.com/products/pokemon-mimikyu-pin-collection",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.789Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-pikachu-v-box-2d7e1a",
+      "name": "Pokemon - Pikachu V Box",
+      "url": "https://pokeflip.com/products/pokemon-pikachu-v-box",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.789Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-dragonite-v-box-c0205e",
+      "name": "Pokemon - Dragonite V Box",
+      "url": "https://pokeflip.com/products/pokemon-dragonite-v-box",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.789Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-hidden-fates-ultra-pre-ccc720",
+      "name": "Pokemon - Hidden Fates - Ultra Premium Collection",
+      "url": "https://pokeflip.com/products/pokemon-sun-moon-hidden-fates-ultra-premium-collection",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.789Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tapu-koko-pin-collecti-2bf5df",
+      "name": "Pokemon - Tapu Koko Pin Collection",
+      "url": "https://pokeflip.com/products/pokemon-tapu-koko-pin-collection",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.789Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-hoopa-v-box-ac1407",
+      "name": "Pokemon - Hoopa V Box",
+      "url": "https://pokeflip.com/products/pokemon-hoopa-v-box",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.789Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-brilliant-stars-build--1bba86",
+      "name": "Pokemon - Brilliant Stars - Build & Battle Stadium",
+      "url": "https://pokeflip.com/products/pokemon-brilliant-stars-build-battle-stadium",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.789Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-battle-styles-urshifu--246ec5",
+      "name": "Pokemon - Battle Styles - Urshifu V Box - Single Strike",
+      "url": "https://pokeflip.com/products/pokemon-battle-styles-urshifu-v-box-single-strike",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.789Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-battle-styles-urshifu--3d4885",
+      "name": "Pokemon - Battle Styles - Urshifu V Box - Rapid Strike",
+      "url": "https://pokeflip.com/products/pokemon-battle-styles-urshifu-v-box-rapid-strike",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.789Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-celebrations-25th-anni-591684",
+      "name": "Pokemon - Celebrations - 25th Anniversary - Premium Figure Collection",
+      "url": "https://pokeflip.com/products/pokemon-celebrations-25th-anniversary-premium-figure-collection",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.789Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-celebrations-25th-anni-16072e",
+      "name": "Pokemon - Celebrations - 25th Anniversary - Prime Collection",
+      "url": "https://pokeflip.com/products/pokemon-celebrations-25th-anniversary-prime-collection",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.789Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-shining-fates-mad-part-2eb93a",
+      "name": "Pokemon - Shining Fates - Mad Party Bunnelby Pin",
+      "url": "https://pokeflip.com/products/pokemon-shining-fates-mad-party-bunnelby-pin",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.789Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-shining-fates-mad-part-2066de",
+      "name": "Pokemon - Shining Fates - Mad Party Polteageist Pin",
+      "url": "https://pokeflip.com/products/pokemon-shining-fates-mad-party-polteageist-pin",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.789Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-shining-fates-mad-part-2ce8b0",
+      "name": "Pokemon - Shining Fates - Mad Party Dedenne Pin",
+      "url": "https://pokeflip.com/products/pokemon-shining-fates-mad-party-dedenne-pin",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.789Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-shining-fates-mad-part-27149f",
+      "name": "Pokemon - Shining Fates - Mad Party Galarian Mr. Rime Pin",
+      "url": "https://pokeflip.com/products/pokemon-shining-fates-mad-party-galarian-mr-rime-pin",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.789Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-flareon-vmax-premium-c-3aa77e",
+      "name": "Pokemon - Flareon VMAX Premium Collection",
+      "url": "https://pokeflip.com/products/pokemon-flareon-vmax-premium-collection",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.789Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-jolteon-vmax-premium-c-2acbde",
+      "name": "Pokemon - Jolteon VMAX Premium Collection",
+      "url": "https://pokeflip.com/products/pokemon-jolteon-vmax-premium-collection",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.789Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-vaporeon-vmax-premium--15412f",
+      "name": "Pokemon - Vaporeon VMAX Premium Collection",
+      "url": "https://pokeflip.com/products/pokemon-vaporeon-vmax-premium-collection",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.789Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-shining-fates-premium--31e1d6",
+      "name": "Pokemon - Shining Fates - Premium VMAX Shiny Dragapult",
+      "url": "https://pokeflip.com/products/pokemon-shining-fates-premium-dragapult",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.789Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-shining-fates-premium--229ccf",
+      "name": "Pokemon - Shining Fates - Premium VMAX Shiny Crobat",
+      "url": "https://pokeflip.com/products/pokemon-shining-fates-premium-vmax-shiny-crobat",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.789Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-celebrations-25th-anni-2ef064",
+      "name": "Pokemon - Celebrations - 25th Anniversary - Dragapult Prime Collection",
+      "url": "https://pokeflip.com/products/pokemon-celebrations-25th-anniversary-dragapult-prime-collection",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.789Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-shining-fates-pikachu--2e3a77",
+      "name": "Pokemon - Shining Fates - Pikachu V Box",
+      "url": "https://pokeflip.com/products/pokemon-shining-fates-pikachu-v-box",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.789Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-celebrations-25th-anni-106171",
+      "name": "Pokemon - Celebrations - 25th Anniversary - Ultra Premium Collection",
+      "url": "https://pokeflip.com/products/pokemon-celebrations-25th-anniversary-ultra-premium-collection",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:59.789Z",
       "active": true
     }
   ]
