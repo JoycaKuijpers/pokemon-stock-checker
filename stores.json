@@ -9991,6 +9991,94 @@
       "selector": null,
       "added_at": "2026-05-07T15:38:04.857Z",
       "active": true
+    },
+    {
+      "id": "pokemon-151-booster-bundle-119b05",
+      "name": "Pokemon 151 Booster Bundle",
+      "url": "https://www.tcgal.nl/product/15598007/pokemon-151-booster-bundle",
+      "selector": null,
+      "added_at": "2026-05-07T15:38:56.939Z",
+      "active": true
+    },
+    {
+      "id": "shrouded-fable-booster-bundle-188d1b",
+      "name": "Shrouded Fable Booster Bundle",
+      "url": "https://www.tcgal.nl/product/18120911/shrouded-fable-booster-bundle",
+      "selector": null,
+      "added_at": "2026-05-07T15:38:56.942Z",
+      "active": true
+    },
+    {
+      "id": "mega-evolution-booster-box-36--2bed1c",
+      "name": "Mega Evolution Booster Box (36 Boosters)",
+      "url": "https://www.tcgal.nl/product/22678355/mega-evolution-booster-box-36-boosters",
+      "selector": null,
+      "added_at": "2026-05-07T15:38:56.942Z",
+      "active": true
+    },
+    {
+      "id": "perfect-order-booster-box-36-b-1a1879",
+      "name": "Perfect Order Booster Box (36 booster packs)",
+      "url": "https://www.tcgal.nl/product/22577115/perfect-order-booster-box-36-booster-packs",
+      "selector": null,
+      "added_at": "2026-05-07T15:38:56.942Z",
+      "active": true
+    },
+    {
+      "id": "trick-or-trade-booster-bundle--2f4f05",
+      "name": "Trick or Trade Booster Bundle (2025)",
+      "url": "https://www.tcgal.nl/product/21997858/trick-or-trade-booster-bundle-2025",
+      "selector": null,
+      "added_at": "2026-05-07T15:38:56.942Z",
+      "active": true
+    },
+    {
+      "id": "japanse-violet-ex-booster-box-e77cdd",
+      "name": "Japanse Violet EX booster box",
+      "url": "https://www.tcgal.nl/product/20254182/japanse-violet-ex-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:38:56.942Z",
+      "active": true
+    },
+    {
+      "id": "japanse-night-wanderer-booster-fd4a6b",
+      "name": "Japanse Night Wanderer Booster Box SV6A",
+      "url": "https://www.tcgal.nl/product/19684192/japanse-night-wanderer-booster-box-sv6a",
+      "selector": null,
+      "added_at": "2026-05-07T15:38:56.942Z",
+      "active": true
+    },
+    {
+      "id": "japanse-cyber-judge-booster-bo-1289eb",
+      "name": "Japanse Cyber Judge Booster Box",
+      "url": "https://www.tcgal.nl/product/17704469/japanse-cyber-judge-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:38:56.942Z",
+      "active": true
+    },
+    {
+      "id": "japanse-ancient-roar-booster-b-13e3ed",
+      "name": "Japanse Ancient Roar Booster Box",
+      "url": "https://www.tcgal.nl/product/19161063/japanse-ancient-roar-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:38:56.942Z",
+      "active": true
+    },
+    {
+      "id": "japanse-battle-partners-booste-1345c3",
+      "name": "Japanse Battle Partners Booster Box",
+      "url": "https://www.tcgal.nl/product/21541869/japanse-battle-partners-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:38:56.942Z",
+      "active": true
+    },
+    {
+      "id": "japanse-terastal-festival-ex-b-160f63",
+      "name": "Japanse Terastal Festival EX Booster Box",
+      "url": "https://www.tcgal.nl/product/19684203/japanse-terastal-festival-ex-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:38:56.942Z",
+      "active": true
     }
   ]
 }
