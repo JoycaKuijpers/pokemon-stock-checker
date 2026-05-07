@@ -8807,6 +8807,38 @@
       "selector": null,
       "added_at": "2026-05-07T15:34:48.373Z",
       "active": true
+    },
+    {
+      "id": "pokemon-tcg-terapagos-ex-ultra-1759d9",
+      "name": "Pokemon TCG Terapagos EX Ultra Premium Collection",
+      "url": "https://tcgwinkel.nl/products/pokemon-tcg-terapagos-ex-ultra-premium-collection",
+      "selector": null,
+      "added_at": "2026-05-07T15:37:47.488Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-scarlet-violet-151-c34bca",
+      "name": "Pokemon TCG Scarlet & Violet 151 Ultra Premium Collection",
+      "url": "https://tcgwinkel.nl/products/pokemon-tcg-scarlet-violet-151-ultra-premium-collection",
+      "selector": null,
+      "added_at": "2026-05-07T15:37:47.490Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-sword-shield-ultra-379918",
+      "name": "Pokemon TCG Sword & Shield Ultra Premium Collection — Charizard",
+      "url": "https://tcgwinkel.nl/products/pokemon-tcg-sword-shield-ultra-premium-collection-charizard",
+      "selector": null,
+      "added_at": "2026-05-07T15:37:47.490Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-celebrations-ultra-d595a9",
+      "name": "Pokemon TCG Celebrations Ultra Premium Collection",
+      "url": "https://tcgwinkel.nl/products/pokemon-tcg-celebrations-ultra-premium-collection",
+      "selector": null,
+      "added_at": "2026-05-07T15:37:47.490Z",
+      "active": true
     }
   ]
 }
