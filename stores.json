@@ -11431,6 +11431,38 @@
       "selector": null,
       "added_at": "2026-05-07T15:47:15.931Z",
       "active": true
+    },
+    {
+      "id": "pokemon-tcg-paldean-fates-tech-1013b1",
+      "name": "Pokemon TCG - Paldean Fates Tech Sticker Collection",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-paldean-fates-tech-sticker-collection-fidough",
+      "selector": null,
+      "added_at": "2026-05-07T15:47:21.033Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-black-bolt-white-f-16e0aa",
+      "name": "Pokemon TCG - Black Bolt & White Flare Tech Sticker Collection",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-black-bolt-white-flare-tech-sticker-collection",
+      "selector": null,
+      "added_at": "2026-05-07T15:47:21.034Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-ascended-heroes-te-246d0a",
+      "name": "Pokemon TCG - Ascended Heroes Tech Sticker Collection",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-ascended-heroes-tech-sticker-collection",
+      "selector": null,
+      "added_at": "2026-05-07T15:47:21.034Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-prismatic-evolutio-124d14",
+      "name": "Pokemon TCG - Prismatic Evolutions Tech Sticker Collection",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-prismatic-evolutions-tech-sticker-collection",
+      "selector": null,
+      "added_at": "2026-05-07T15:47:21.034Z",
+      "active": true
     }
   ]
 }
