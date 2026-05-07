@@ -12063,6 +12063,686 @@
       "selector": null,
       "added_at": "2026-05-07T15:50:15.678Z",
       "active": true
+    },
+    {
+      "id": "booster-box-1f32ca",
+      "name": "Booster Box",
+      "url": "https://www.tcg-cards.nl/product/782/fusion-strike-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.379Z",
+      "active": true
+    },
+    {
+      "id": "booster-box-256fba",
+      "name": "Booster Box",
+      "url": "https://www.tcg-cards.nl/product/783/evolving-skies-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.379Z",
+      "active": true
+    },
+    {
+      "id": "booster-box-18-booster--370b92",
+      "name": "Booster Box (18 Booster)",
+      "url": "https://www.tcg-cards.nl/product/802/stellar-crown-booster-box-18-booster",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.379Z",
+      "active": true
+    },
+    {
+      "id": "gem-pack-booster-box-ch--2cafad",
+      "name": "Gem Pack Booster Box (CH)",
+      "url": "https://www.tcg-cards.nl/product/715/gem-pack-booster-box-ch",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.379Z",
+      "active": true
+    },
+    {
+      "id": "gem-pack-booster-box-vol-2-ch--26198f",
+      "name": "Gem Pack Booster Box Vol. 2 (CH)",
+      "url": "https://www.tcg-cards.nl/product/752/gem-pack-booster-box-vol-2-ch",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.379Z",
+      "active": true
+    },
+    {
+      "id": "gem-pack-booster-box-vol-3-ch--55740e",
+      "name": "Gem Pack Booster Box Vol. 3 (CH)",
+      "url": "https://www.tcg-cards.nl/product/842/gem-pack-booster-box-vol-3-ch",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.379Z",
+      "active": true
+    },
+    {
+      "id": "gem-pack-booster-box-vol-4-ch--93d5d6",
+      "name": "Gem Pack Booster Box Vol. 4 (CH)",
+      "url": "https://www.tcg-cards.nl/product/843/gem-pack-booster-box-vol-4-ch",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.379Z",
+      "active": true
+    },
+    {
+      "id": "collect-151-gathering-slim-boo-136fdf",
+      "name": "Collect 151 Gathering Slim Booster Box (CH)",
+      "url": "https://www.tcg-cards.nl/product/844/collect-151-gathering-slim-booster-box-ch",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.379Z",
+      "active": true
+    },
+    {
+      "id": "booster-box-1bebb7",
+      "name": "Booster Box",
+      "url": "https://www.tcg-cards.nl/product/780/astral-radiance-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.379Z",
+      "active": true
+    },
+    {
+      "id": "booster-box-45b611",
+      "name": "Booster Box",
+      "url": "https://www.tcg-cards.nl/product/781/brilliant-stars-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.379Z",
+      "active": true
+    },
+    {
+      "id": "booster-box-ea6b77",
+      "name": "Booster Box",
+      "url": "https://www.tcg-cards.nl/product/784/chilling-reigns-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.379Z",
+      "active": true
+    },
+    {
+      "id": "booster-box-204da8",
+      "name": "Booster Box",
+      "url": "https://www.tcg-cards.nl/product/825/perfect-order-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.379Z",
+      "active": true
+    },
+    {
+      "id": "booster-box-287353",
+      "name": "Booster Box",
+      "url": "https://www.tcg-cards.nl/product/786/battle-styles-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.379Z",
+      "active": true
+    },
+    {
+      "id": "booster-box-23c63f",
+      "name": "Booster Box",
+      "url": "https://www.tcg-cards.nl/product/836/chaos-rising-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.379Z",
+      "active": true
+    },
+    {
+      "id": "booster-box-case-6--177437",
+      "name": "Booster Box Case (6)",
+      "url": "https://www.tcg-cards.nl/product/718/destined-rivals-booster-box-case-6",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "booster-box-23d1e2",
+      "name": "Booster Box",
+      "url": "https://www.tcg-cards.nl/product/727/destined-rivals-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "booster-box-15026e",
+      "name": "Booster Box",
+      "url": "https://www.tcg-cards.nl/product/681/journey-together-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "booster-box-966b43",
+      "name": "Booster Box",
+      "url": "https://www.tcg-cards.nl/product/628/surging-sparks-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "booster-box-1cbaf7",
+      "name": "Booster Box",
+      "url": "https://www.tcg-cards.nl/product/319/scarlet-violet-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "booster-box-230277",
+      "name": "Booster Box",
+      "url": "https://www.tcg-cards.nl/product/90/fusion-strike-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "booster-box-d65d83",
+      "name": "Booster Box",
+      "url": "https://www.tcg-cards.nl/product/28/evolving-skies-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "booster-box-case-583a5b",
+      "name": "Booster Box Case",
+      "url": "https://www.tcg-cards.nl/product/391/scarlet-violet-booster-box-case",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "booster-box-a2ee22",
+      "name": "Booster Box",
+      "url": "https://www.tcg-cards.nl/product/757/mega-evolution-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "booster-box-7c72aa",
+      "name": "Booster Box",
+      "url": "https://www.tcg-cards.nl/product/619/stellar-crown-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "booster-box-181f0d",
+      "name": "Booster Box",
+      "url": "https://www.tcg-cards.nl/product/539/temporal-forces-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "booster-box-15f269",
+      "name": "Booster Box",
+      "url": "https://www.tcg-cards.nl/product/366/paldea-evolved-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "booster-box-3108e3",
+      "name": "Booster Box",
+      "url": "https://www.tcg-cards.nl/product/459/paradox-rift-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "booster-box-566bb4",
+      "name": "Booster Box",
+      "url": "https://www.tcg-cards.nl/product/399/obsidian-flame-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "chilling-reign-kiosk-booster-b-4852da",
+      "name": "Chilling Reign: Kiosk Booster Box",
+      "url": "https://www.tcg-cards.nl/product/557/chilling-reign-kiosk-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "booster-box-1404d0",
+      "name": "Booster Box",
+      "url": "https://www.tcg-cards.nl/product/785/obsidian-flame-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "booster-box-c6f929",
+      "name": "Booster Box",
+      "url": "https://www.tcg-cards.nl/product/569/twilight-masquerade-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-151-booster-box-kr--59b405",
+      "name": "Pokemon 151 - Booster Box (KR)",
+      "url": "https://www.tcg-cards.nl/product/474/pokemon-151-booster-box-kr",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "stellar-miracle-booster-box-jp-6b2846",
+      "name": "Stellar Miracle - Booster Box (JP)",
+      "url": "https://www.tcg-cards.nl/product/627/stellar-miracle-booster-box-jp",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "eevee-heroes-booster-box-kr--3ba1e3",
+      "name": "Eevee Heroes - Booster Box (KR)",
+      "url": "https://www.tcg-cards.nl/product/476/eevee-heroes-booster-box-kr",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "collect-151-journey-slim-boost-1f1ff4",
+      "name": "Collect 151 Journey Slim Booster Box (CH)",
+      "url": "https://www.tcg-cards.nl/product/716/collect-151-journey-slim-booster-box-ch",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "blue-sky-stream-booster-box-kr-328a14",
+      "name": "Blue Sky Stream - Booster Box (KR)",
+      "url": "https://www.tcg-cards.nl/product/473/blue-sky-stream-booster-box-kr",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "booster-box-case-6--198a1b",
+      "name": "Booster Box Case (6)",
+      "url": "https://www.tcg-cards.nl/product/620/stellar-crown-booster-box-case-6",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "booster-box-611ca9",
+      "name": "Booster Box",
+      "url": "https://www.tcg-cards.nl/product/167/astral-radiance-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "booster-box-3c370e",
+      "name": "Booster Box",
+      "url": "https://www.tcg-cards.nl/product/768/phantasmal-flames-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "fusion-strike-kiosk-booster-bo-c9a6a1",
+      "name": "Fusion Strike: Kiosk Booster Box",
+      "url": "https://www.tcg-cards.nl/product/558/fusion-strike-kiosk-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "terastal-festival-ex-booster-b-4d9268",
+      "name": "Terastal Festival ex Booster Box (JP)",
+      "url": "https://www.tcg-cards.nl/product/642/prismatic-evolutions-terastal-festival-ex-booster-box-jp",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "booster-box-14b471",
+      "name": "Booster Box",
+      "url": "https://www.tcg-cards.nl/product/124/brilliant-stars-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "team-up-booster-box-155e99",
+      "name": "Team Up: Booster Box",
+      "url": "https://www.tcg-cards.nl/product/759/team-up-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "booster-box-24ec0c",
+      "name": "Booster Box",
+      "url": "https://www.tcg-cards.nl/product/246/silver-tempest-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "booster-box-dea0b5",
+      "name": "Booster Box",
+      "url": "https://www.tcg-cards.nl/product/777/silver-tempest-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "scarlet-violet-booster-box-cas-2f7a16",
+      "name": "Scarlet & Violet: Booster Box Case (6)",
+      "url": "https://www.tcg-cards.nl/product/552/scarlet-violet-booster-box-case-6",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "shiny-treasures-booster-box-jp-1ce2f6",
+      "name": "Shiny Treasures - Booster Box (JP)",
+      "url": "https://www.tcg-cards.nl/product/517/shiny-treasures-booster-box-jp",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "booster-box-case-6--31bdc8",
+      "name": "Booster Box Case (6)",
+      "url": "https://www.tcg-cards.nl/product/471/paradox-rift-booster-box-case-6",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "booster-box-1e117d",
+      "name": "Booster Box",
+      "url": "https://www.tcg-cards.nl/product/779/lost-origin-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "black-bolt-deluxe-booster-box-38c89d",
+      "name": "Black Bolt: Deluxe Booster Box",
+      "url": "https://www.tcg-cards.nl/product/750/black-bolt-deluxe-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "booster-box-222791",
+      "name": "Booster Box",
+      "url": "https://www.tcg-cards.nl/product/214/lost-origin-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "battle-partners-jp--1732c5",
+      "name": "Battle Partners (JP)",
+      "url": "https://www.tcg-cards.nl/product/709/battle-partners-jp",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "snow-hazard-booster-box-jp--93e95a",
+      "name": "Snow Hazard - Booster Box (JP)",
+      "url": "https://www.tcg-cards.nl/product/515/snow-hazard-booster-box-jp",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "vstar-universe-booster-box-kr--139eb6",
+      "name": "VStar Universe - Booster Box (KR)",
+      "url": "https://www.tcg-cards.nl/product/475/vstar-universe-booster-box-kr",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "super-electric-breaker-booster-25e2f5",
+      "name": "Super Electric Breaker - Booster Box (JP)",
+      "url": "https://www.tcg-cards.nl/product/674/super-electric-breaker-booster-box-jp",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "151-booster-box-no-shrink-jp--1028f1",
+      "name": "151 - Booster Box (No Shrink) (JP)",
+      "url": "https://www.tcg-cards.nl/product/676/151-booster-box-no-shrink-jp",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "paradise-dragona-booster-box-j-77a4f7",
+      "name": "Paradise Dragona - Booster Box (JP)",
+      "url": "https://www.tcg-cards.nl/product/673/paradise-dragona-booster-box-jp",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "darkness-ablaze-kiosk-booster--1b70e5",
+      "name": "Darkness Ablaze: Kiosk Booster Box (18 boosters)",
+      "url": "https://www.tcg-cards.nl/product/514/darkness-ablaze-kiosk-booster-box-18-boosters",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "mask-of-change-booster-box-jp--c34611",
+      "name": "Mask of Change - Booster Box (JP)",
+      "url": "https://www.tcg-cards.nl/product/672/mask-of-change-booster-box-jp",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "raging-surf-booster-box-jp--5f8d55",
+      "name": "Raging Surf - Booster Box (JP)",
+      "url": "https://www.tcg-cards.nl/product/482/raging-surf-booster-box-jp",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "vstar-universe-booster-box-jp--22842f",
+      "name": "VStar Universe - Booster Box (JP)",
+      "url": "https://www.tcg-cards.nl/product/507/vstar-universe-booster-box-jp",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "booster-box-case-6--18dcf7",
+      "name": "Booster Box Case (6)",
+      "url": "https://www.tcg-cards.nl/product/638/surging-sparks-booster-box-case-6",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "crimson-haze-booster-box-jp--35dfdc",
+      "name": "Crimson Haze - Booster Box (JP)",
+      "url": "https://www.tcg-cards.nl/product/670/crimson-haze-booster-box-jp",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "ruler-of-the-black-flame-boost-6df925",
+      "name": "Ruler of the Black Flame - Booster Box (JP)",
+      "url": "https://www.tcg-cards.nl/product/516/ruler-of-the-black-flame-booster-box-jp",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "ancient-roar-booster-box-jp--15222b",
+      "name": "Ancient Roar - Booster Box (JP)",
+      "url": "https://www.tcg-cards.nl/product/667/ancient-roar-booster-box-jp",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "night-wanderer-booster-box-jp--11bd4e",
+      "name": "Night Wanderer - Booster Box (JP)",
+      "url": "https://www.tcg-cards.nl/product/671/night-wanderer-booster-box-jp",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "scarlet-ex-booster-box-jp--30ae3e",
+      "name": "Scarlet ex - Booster Box (JP)",
+      "url": "https://www.tcg-cards.nl/product/662/scarlet-ex-booster-box-jp",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "cyber-judge-booster-box-jp--cdd546",
+      "name": "Cyber Judge - Booster Box (JP)",
+      "url": "https://www.tcg-cards.nl/product/668/cyber-judge-booster-box-jp",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "triple-beat-booster-box-jp--131143",
+      "name": "Triple Beat - Booster Box (JP)",
+      "url": "https://www.tcg-cards.nl/product/665/triple-beat-booster-box-jp",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "booster-box-128c05",
+      "name": "Booster Box",
+      "url": "https://www.tcg-cards.nl/product/15/chilling-reigns-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "mega-lucario-ex-figure-collect-161d07",
+      "name": "Mega Lucario EX Figure Collection",
+      "url": "https://www.tcg-cards.nl/product/787/mega-lucario-ex-figure-collection",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "booster-box-a6dae9",
+      "name": "Booster Box",
+      "url": "https://www.tcg-cards.nl/product/106/battle-styles-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "booster-box-case-6--9eb8bb",
+      "name": "Booster Box Case (6)",
+      "url": "https://www.tcg-cards.nl/product/540/temporal-forces-booster-box-case-6",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "obsidian-flame-booster-box-cas-34c934",
+      "name": "Obsidian Flame: Booster Box Case (6)",
+      "url": "https://www.tcg-cards.nl/product/412/obsidian-flame-booster-box-case-6",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "25th-anniversary-collection-bo-8c1d68",
+      "name": "25th Anniversary Collection Booster Box S8A (Japans)",
+      "url": "https://www.tcg-cards.nl/product/132/celebrations-25th-anniversary-collection-booster-box-s8a-japans",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "booster-box-case-6--1a5ada",
+      "name": "Booster Box Case (6)",
+      "url": "https://www.tcg-cards.nl/product/690/journey-together-booster-box-case-6",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "booster-box-2cf959",
+      "name": "Booster Box",
+      "url": "https://www.tcg-cards.nl/product/242/vivid-voltage-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "booster-box-2cbef9",
+      "name": "Booster Box",
+      "url": "https://www.tcg-cards.nl/product/778/vivid-voltage-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "booster-box-case-6--1fe761",
+      "name": "Booster Box Case (6)",
+      "url": "https://www.tcg-cards.nl/product/570/twilight-masquerade-booster-box-case-6",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "white-flare-deluxe-booster-box-f233d4",
+      "name": "White Flare: Deluxe Booster Box",
+      "url": "https://www.tcg-cards.nl/product/751/white-flare-deluxe-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "151-booster-box-jp--22c5c4",
+      "name": "151 - Booster Box (JP)",
+      "url": "https://www.tcg-cards.nl/product/675/151-booster-box-jp",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "clay-burst-booster-box-jp--60538f",
+      "name": "Clay Burst - Booster Box (JP)",
+      "url": "https://www.tcg-cards.nl/product/664/clay-burst-booster-box-jp",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "wild-force-booster-box-jp--30746f",
+      "name": "Wild Force - Booster Box (JP)",
+      "url": "https://www.tcg-cards.nl/product/669/wild-force-booster-box-jp",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "future-flash-booster-box-jp--1abaa9",
+      "name": "Future Flash - Booster Box (JP)",
+      "url": "https://www.tcg-cards.nl/product/666/future-flash-booster-box-jp",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
+    },
+    {
+      "id": "violet-ex-booster-box-jp--22b60d",
+      "name": "Violet ex - Booster Box (JP)",
+      "url": "https://www.tcg-cards.nl/product/663/violet-ex-booster-box-jp",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:15.380Z",
+      "active": true
     }
   ]
 }
