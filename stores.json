@@ -759,6 +759,110 @@
       "selector": null,
       "added_at": "2026-05-07T13:21:59.789Z",
       "active": true
+    },
+    {
+      "id": "pok-mon-elite-trainer-box-asce-c15836",
+      "name": "Pokémon Elite Trainer Box Ascended Heroes",
+      "url": "https://pokefamily.nl/products/pokemon-elite-trainr-box-ascended-heroes",
+      "selector": null,
+      "added_at": "2026-05-07T13:48:02.004Z",
+      "active": true
+    },
+    {
+      "id": "pok-mon-elite-trainer-box-phan-2b8ae9",
+      "name": "Pokémon Elite Trainer Box Phantasmal Flames",
+      "url": "https://pokefamily.nl/products/pokemon-elite-trainer-box-phantasmal-flames",
+      "selector": null,
+      "added_at": "2026-05-07T13:48:02.005Z",
+      "active": true
+    },
+    {
+      "id": "pok-mon-elite-trainer-box-jour-316c6b",
+      "name": "Pokémon Elite Trainer Box Journey Together",
+      "url": "https://pokefamily.nl/products/pokemon-journey-together-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T13:48:02.005Z",
+      "active": true
+    },
+    {
+      "id": "pok-mon-elite-trainer-box-pris-1ef0f7",
+      "name": "Pokémon Elite Trainer Box Prismatic Evolutions",
+      "url": "https://pokefamily.nl/products/pokemon-elite-trainer-box-prismatic-evolutions",
+      "selector": null,
+      "added_at": "2026-05-07T13:48:02.005Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-elite-trainer-box-shro-25d851",
+      "name": "Pokemon Elite Trainer Box - Shrouded Fable",
+      "url": "https://pokefamily.nl/products/pokemon-elite-trainer-box-shrouded-fable",
+      "selector": null,
+      "added_at": "2026-05-07T13:48:02.005Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-elite-trainer-box-poke-10448e",
+      "name": "Pokemon Elite Trainer Box - Pokemon GO",
+      "url": "https://pokefamily.nl/products/pokemon-elite-trainer-box-pokemon-go",
+      "selector": null,
+      "added_at": "2026-05-07T13:48:02.005Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-elite-trainer-box-chil-1ea452",
+      "name": "Pokemon Elite Trainer Box - Chilling Reign",
+      "url": "https://pokefamily.nl/products/pokemon-elite-trainer-box-chilling-reign",
+      "selector": null,
+      "added_at": "2026-05-07T13:48:02.005Z",
+      "active": true
+    },
+    {
+      "id": "pok-mon-elite-trainer-box-silv-1bea94",
+      "name": "Pokémon Elite Trainer Box Silver Tempest",
+      "url": "https://pokefamily.nl/products/pokemon-elite-trainer-box-silver-tempest",
+      "selector": null,
+      "added_at": "2026-05-07T13:48:02.005Z",
+      "active": true
+    },
+    {
+      "id": "pok-mon-elite-trainer-box-dark-228b16",
+      "name": "Pokémon Elite Trainer Box - Darkness Ablaze",
+      "url": "https://pokefamily.nl/products/pokemon-elite-trainer-box-darkness-ablaze",
+      "selector": null,
+      "added_at": "2026-05-07T13:48:02.005Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-elite-trainer-box-astr-cac429",
+      "name": "Pokemon Elite Trainer Box - Astral Radiance",
+      "url": "https://pokefamily.nl/products/elite-trainer-box-astral-radiance",
+      "selector": null,
+      "added_at": "2026-05-07T13:48:02.005Z",
+      "active": true
+    },
+    {
+      "id": "pok-mon-elite-trainer-box-bril-a103ad",
+      "name": "Pokémon Elite Trainer Box Brilliant Stars",
+      "url": "https://pokefamily.nl/products/pokemon-elite-trainer-box-brilliant-stars",
+      "selector": null,
+      "added_at": "2026-05-07T13:48:02.005Z",
+      "active": true
+    },
+    {
+      "id": "pok-mon-elite-trainer-box-drag-1e596d",
+      "name": "Pokémon Elite Trainer Box Dragon Majesty",
+      "url": "https://pokefamily.nl/products/pokemon-elite-trainer-box-dragon-majesty",
+      "selector": null,
+      "added_at": "2026-05-07T13:48:02.005Z",
+      "active": true
+    },
+    {
+      "id": "pok-mon-elite-trainer-box-dest-17d81b",
+      "name": "Pokémon Elite Trainer Box Destined Rivals",
+      "url": "https://pokefamily.nl/products/pokemon-elite-trainer-box-destined-rivals",
+      "selector": null,
+      "added_at": "2026-05-07T13:48:02.005Z",
+      "active": true
     }
   ]
 }
