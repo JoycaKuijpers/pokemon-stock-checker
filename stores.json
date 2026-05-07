@@ -14511,6 +14511,54 @@
       "selector": null,
       "added_at": "2026-05-07T15:51:30.349Z",
       "active": true
+    },
+    {
+      "id": "booster-1e1a66",
+      "name": "Booster",
+      "url": "https://www.tcg-cards.nl/product/835/chaos-rising-booster",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:58.417Z",
+      "active": true
+    },
+    {
+      "id": "3-pack-blister-charmeleon-24b41e",
+      "name": "3-Pack Blister - Charmeleon",
+      "url": "https://www.tcg-cards.nl/product/838/chaos-rising-3-pack-blister-charmeleon",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:58.417Z",
+      "active": true
+    },
+    {
+      "id": "booster-198861",
+      "name": "Booster",
+      "url": "https://www.tcg-cards.nl/product/824/perfect-order-booster",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:58.417Z",
+      "active": true
+    },
+    {
+      "id": "3-pack-blister-chikorita-181d4d",
+      "name": "3-Pack Blister - Chikorita",
+      "url": "https://www.tcg-cards.nl/product/827/perfect-order-3-pack-blister-chikorita",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:58.417Z",
+      "active": true
+    },
+    {
+      "id": "eevee-figure-blind-box-83c62f",
+      "name": "Eevee Figure Blind Box",
+      "url": "https://www.tcg-cards.nl/product/816/eevee-figure-blind-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:58.417Z",
+      "active": true
+    },
+    {
+      "id": "eevee-figure-blind-box-case-2fbc83",
+      "name": "Eevee Figure Blind Box Case",
+      "url": "https://www.tcg-cards.nl/product/817/eevee-figure-blind-box-case",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:58.417Z",
+      "active": true
     }
   ]
 }
