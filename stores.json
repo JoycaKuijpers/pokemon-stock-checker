@@ -12743,6 +12743,526 @@
       "selector": null,
       "added_at": "2026-05-07T15:51:15.380Z",
       "active": true
+    },
+    {
+      "id": "elite-trainer-box-4c3407",
+      "name": "Elite Trainer Box",
+      "url": "https://www.tcg-cards.nl/product/629/surging-sparks-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.499Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-box-1c69fa",
+      "name": "Elite Trainer Box",
+      "url": "https://www.tcg-cards.nl/product/708/prismatic-evolutions-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-box-71a169",
+      "name": "Elite Trainer Box",
+      "url": "https://www.tcg-cards.nl/product/837/chaos-rising-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-box-1289e7",
+      "name": "Elite Trainer Box",
+      "url": "https://www.tcg-cards.nl/product/726/destined-rivals-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-box-8e8633",
+      "name": "Elite Trainer Box",
+      "url": "https://www.tcg-cards.nl/product/483/paldean-fates-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-box-a4e3f3",
+      "name": "Elite Trainer Box",
+      "url": "https://www.tcg-cards.nl/product/593/shrouded-fable-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "phantasmal-flames-elite-traine-26d55e",
+      "name": "Phantasmal Flames Elite Trainer Box",
+      "url": "https://www.tcg-cards.nl/product/815/phantasmal-flames-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "mega-evolution-elite-trainer-b-e8e564",
+      "name": "Mega Evolution Elite Trainer Box - Lucario",
+      "url": "https://www.tcg-cards.nl/product/812/mega-evolution-elite-trainer-box-lucario",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "mega-evolution-elite-trainer-b-dcf9d8",
+      "name": "Mega Evolution Elite Trainer Box - Gardevoir",
+      "url": "https://www.tcg-cards.nl/product/813/mega-evolution-elite-trainer-box-gardevoir",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "surging-sparks-elite-trainer-b-b38c77",
+      "name": "Surging Sparks Elite Trainer Box",
+      "url": "https://www.tcg-cards.nl/product/811/surging-sparks-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-box-15c7f5",
+      "name": "Elite Trainer Box",
+      "url": "https://www.tcg-cards.nl/product/682/journey-together-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-box-20b9d5",
+      "name": "Elite Trainer Box",
+      "url": "https://www.tcg-cards.nl/product/125/brilliant-stars-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-box-507074",
+      "name": "Elite Trainer Box",
+      "url": "https://www.tcg-cards.nl/product/91/fusion-strike-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-box-segv--301d49",
+      "name": "Elite Trainer Box [SEGV]",
+      "url": "https://www.tcg-cards.nl/product/26/evolving-skies-elite-trainer-box-segv",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "ice-rider-calyrex-elite-traine-1a3902",
+      "name": "Ice Rider Calyrex Elite Trainer Box",
+      "url": "https://www.tcg-cards.nl/product/19/chilling-reigns-ice-rider-calyrex-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "shadow-rider-calyrex-elite-tra-71d4e8",
+      "name": "Shadow Rider Calyrex Elite Trainer Box",
+      "url": "https://www.tcg-cards.nl/product/16/chilling-reigns-shadow-rider-calyrex-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-box-lujf--51616d",
+      "name": "Elite Trainer Box [LUJF]",
+      "url": "https://www.tcg-cards.nl/product/43/evolving-skies-elite-trainer-box-lujf",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-go-elite-trainer-box-295ba0",
+      "name": "Pokemon GO: Elite Trainer Box",
+      "url": "https://www.tcg-cards.nl/product/194/pokemon-go-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "gigantamax-rapid-strike-urshif-ca34e6",
+      "name": "Gigantamax Rapid Strike Urshifu Elite Trainer Box",
+      "url": "https://www.tcg-cards.nl/product/11/battle-styles-gigantamax-rapid-strike-urshifu-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "brilliant-stars-pokemon-center-a9c6c4",
+      "name": "Brilliant Stars: Pokemon Center ETB",
+      "url": "https://www.tcg-cards.nl/product/518/brilliant-stars-pokemon-center-etb",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "gigantamax-single-strike-urshi-2280eb",
+      "name": "Gigantamax Single Strike Urshifu Elite Trainer Box",
+      "url": "https://www.tcg-cards.nl/product/12/battle-styles-gigantamax-single-strike-urshifu-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-box-f6cfae",
+      "name": "Elite Trainer Box",
+      "url": "https://www.tcg-cards.nl/product/170/astral-radiance-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-box-3898a8",
+      "name": "Elite Trainer Box",
+      "url": "https://www.tcg-cards.nl/product/217/lost-origin-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-box-1953b4",
+      "name": "Elite Trainer Box",
+      "url": "https://www.tcg-cards.nl/product/276/crown-zenith-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-box-157812",
+      "name": "Elite Trainer Box",
+      "url": "https://www.tcg-cards.nl/product/77/shining-fates-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-box-miraidon-ad71a9",
+      "name": "Elite Trainer Box - Miraidon",
+      "url": "https://www.tcg-cards.nl/product/329/scarlet-violet-elite-trainer-box-miraidon",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-box-2bed53",
+      "name": "Elite Trainer Box",
+      "url": "https://www.tcg-cards.nl/product/44/celebrations-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-box-dfddd1",
+      "name": "Elite Trainer Box",
+      "url": "https://www.tcg-cards.nl/product/414/scarlet-violet-151-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-box-koraidon-9338b5",
+      "name": "Elite Trainer Box - Koraidon",
+      "url": "https://www.tcg-cards.nl/product/328/scarlet-violet-elite-trainer-box-koraidon",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-box-e07dd2",
+      "name": "Elite Trainer Box",
+      "url": "https://www.tcg-cards.nl/product/249/silver-tempest-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-center-elite-trainer-b-4693f5",
+      "name": "Pokemon Center: Elite Trainer Box",
+      "url": "https://www.tcg-cards.nl/product/401/obsidian-flame-pokemon-center-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-box-iron-valiant-1f6edf",
+      "name": "Elite Trainer Box - Iron Valiant",
+      "url": "https://www.tcg-cards.nl/product/460/paradox-rift-elite-trainer-box-iron-valiant",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-box-roaring-moon-1c5890",
+      "name": "Elite Trainer Box - Roaring Moon",
+      "url": "https://www.tcg-cards.nl/product/461/paradox-rift-elite-trainer-box-roaring-moon",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-box-case-ea2f80",
+      "name": "Elite Trainer Box Case",
+      "url": "https://www.tcg-cards.nl/product/199/pokemon-go-elite-trainer-box-case",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-box-terapagos-7d82e9",
+      "name": "Elite Trainer Box - Terapagos",
+      "url": "https://www.tcg-cards.nl/product/621/stellar-crown-elite-trainer-box-terapagos",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-box-27f7f2",
+      "name": "Elite Trainer Box",
+      "url": "https://www.tcg-cards.nl/product/799/ascended-heroes-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-box-1dedf9",
+      "name": "Elite Trainer Box",
+      "url": "https://www.tcg-cards.nl/product/826/perfect-order-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "lucario-elite-trainer-box-9f0e32",
+      "name": "Lucario - Elite Trainer Box",
+      "url": "https://www.tcg-cards.nl/product/753/mega-evolution-lucario-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-box-iron-leaves-8af185",
+      "name": "Elite Trainer Box - Iron Leaves",
+      "url": "https://www.tcg-cards.nl/product/541/temporal-forces-elite-trainer-box-iron-leaves",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "gardevoir-elite-trainer-box-7da21a",
+      "name": "Gardevoir - Elite Trainer Box",
+      "url": "https://www.tcg-cards.nl/product/754/mega-evolution-gardevoir-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-box-ogerpon-1b1e86",
+      "name": "Elite Trainer Box - Ogerpon",
+      "url": "https://www.tcg-cards.nl/product/571/twilight-masquerade-elite-trainer-box-ogerpon",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-box-21d902",
+      "name": "Elite Trainer Box",
+      "url": "https://www.tcg-cards.nl/product/400/obsidian-flame-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "black-bolt-elite-trainer-box-1aefca",
+      "name": "Black Bolt: Elite Trainer Box",
+      "url": "https://www.tcg-cards.nl/product/739/black-bolt-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-center-elite-trainer-b-1e851c",
+      "name": "Pokemon Center Elite Trainer Box",
+      "url": "https://www.tcg-cards.nl/product/413/scarlet-violet-151-pokemon-center-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-box-case-2f80f4",
+      "name": "Elite Trainer Box Case",
+      "url": "https://www.tcg-cards.nl/product/279/crown-zenith-elite-trainer-box-case",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "darkness-ablaze-elite-trainer--17bbb2",
+      "name": "Darkness Ablaze: Elite Trainer Box",
+      "url": "https://www.tcg-cards.nl/product/530/darkness-ablaze-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-box-6c4b35",
+      "name": "Elite Trainer Box",
+      "url": "https://www.tcg-cards.nl/product/358/vivid-voltage-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-box-case-77e28d",
+      "name": "Elite Trainer Box Case",
+      "url": "https://www.tcg-cards.nl/product/200/brilliant-stars-elite-trainer-box-case",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-center-elite-trainer-b-4ec6f6",
+      "name": "Pokemon Center Elite Trainer Box - Iron Valiant",
+      "url": "https://www.tcg-cards.nl/product/464/paradox-rift-pokemon-center-elite-trainer-box-iron-valiant",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-box-33d670",
+      "name": "Elite Trainer Box",
+      "url": "https://www.tcg-cards.nl/product/369/paldea-evolved-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-box-case-10--ef0380",
+      "name": "Elite Trainer Box Case (10)",
+      "url": "https://www.tcg-cards.nl/product/470/paradox-rift-elite-trainer-box-case-10",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-box-walking-wake-18894f",
+      "name": "Elite Trainer Box - Walking Wake",
+      "url": "https://www.tcg-cards.nl/product/542/temporal-forces-elite-trainer-box-walking-wake",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-box-case-10--374ad5",
+      "name": "Elite Trainer Box Case (10)",
+      "url": "https://www.tcg-cards.nl/product/431/scarlet-violet-151-elite-trainer-box-case-10",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-box-93efbd",
+      "name": "Elite Trainer Box",
+      "url": "https://www.tcg-cards.nl/product/643/prismatic-evolutions-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-box-case-10--42dca5",
+      "name": "Elite Trainer Box Case (10)",
+      "url": "https://www.tcg-cards.nl/product/486/paldean-fates-elite-trainer-box-case-10",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-box-case-10--218933",
+      "name": "Elite Trainer Box Case (10)",
+      "url": "https://www.tcg-cards.nl/product/573/twilight-masquerade-elite-trainer-box-case-10",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-box-case-73792a",
+      "name": "Elite Trainer Box Case",
+      "url": "https://www.tcg-cards.nl/product/198/astral-radiance-elite-trainer-box-case",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-box-case-10--1a8c81",
+      "name": "Elite Trainer Box Case (10)",
+      "url": "https://www.tcg-cards.nl/product/606/shrouded-fable-elite-trainer-box-case-10",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-center-elite-trainer-b-183429",
+      "name": "Pokemon Center Elite Trainer Box - Roaring Moon",
+      "url": "https://www.tcg-cards.nl/product/463/paradox-rift-pokemon-center-elite-trainer-box-roaring-moon",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-box-1266eb",
+      "name": "Elite Trainer Box",
+      "url": "https://www.tcg-cards.nl/product/769/phantasmal-flames-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-box-case-10--97d413",
+      "name": "Elite Trainer Box Case (10)",
+      "url": "https://www.tcg-cards.nl/product/623/stellar-crown-elite-trainer-box-case-10",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-box-case-10--2868f9",
+      "name": "Elite Trainer Box Case (10)",
+      "url": "https://www.tcg-cards.nl/product/411/obsidian-flame-elite-trainer-box-case-10",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-box-case-10--3d641a",
+      "name": "Elite Trainer Box Case (10)",
+      "url": "https://www.tcg-cards.nl/product/543/temporal-forces-elite-trainer-box-case-10",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "white-flare-elite-trainer-box-5df92c",
+      "name": "White Flare: Elite Trainer Box",
+      "url": "https://www.tcg-cards.nl/product/740/white-flare-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-box-case-9959fa",
+      "name": "Elite Trainer Box Case",
+      "url": "https://www.tcg-cards.nl/product/375/paldea-evolved-elite-trainer-box-case",
+      "selector": null,
+      "added_at": "2026-05-07T15:51:20.500Z",
+      "active": true
     }
   ]
 }
