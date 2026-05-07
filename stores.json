@@ -11903,6 +11903,126 @@
       "selector": null,
       "added_at": "2026-05-07T15:49:26.985Z",
       "active": true
+    },
+    {
+      "id": "pokemon-tcg-mega-zygarde-ex-pr-89e609",
+      "name": "Pokemon TCG Mega Zygarde ex Premium Collection",
+      "url": "https://www.qualitycardstcg.nl/product/22915319/pokemon-tcg-mega-zygarde-ex-premium-collection",
+      "selector": null,
+      "added_at": "2026-05-07T15:49:40.375Z",
+      "active": true
+    },
+    {
+      "id": "mega-venusaur-ex-premium-colle-136591",
+      "name": "Mega Venusaur ex Premium Collection 8 packs",
+      "url": "https://www.qualitycardstcg.nl/product/20889153/mega-venusaur-ex-premium-collection-8-packs",
+      "selector": null,
+      "added_at": "2026-05-07T15:49:40.376Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-hoenn-collection-b-205e7e",
+      "name": "Pokemon TCG Hoenn Collection Box 2014 – Primal Groudon",
+      "url": "https://www.qualitycardstcg.nl/product/22781248/pokemon-tcg-hoenn-collection-box-2014-primal-groudon",
+      "selector": null,
+      "added_at": "2026-05-07T15:49:40.376Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-paldean-fates-prem-a2201f",
+      "name": "Pokemon TCG Paldean Fates Premium Collection – Great Tusk ex & Iron Treads ex",
+      "url": "https://www.qualitycardstcg.nl/product/22791574/pokemon-tcg-paldean-fates-premium-collection-great-tusk-ex-iron-treads-ex",
+      "selector": null,
+      "added_at": "2026-05-07T15:49:40.376Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-30th-anniversary-celeb-2bf3e2",
+      "name": "Pokemon 30th Anniversary Celebration – First Partner Box (CHN) Chinese",
+      "url": "https://www.qualitycardstcg.nl/product/22712736/pokemon-30th-anniversary-celebration-first-partner-box-chn-chinese",
+      "selector": null,
+      "added_at": "2026-05-07T15:49:40.376Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-partners-gathering-pre-86ea86",
+      "name": "Pokemon “Partners Gathering” Premium Gift Box – Sinnoh Region Collector Set (Chinese Exclusive)",
+      "url": "https://www.qualitycardstcg.nl/product/22499387/pokemon-partners-gathering-premium-gift-box-sinnoh-region-collector-set-chinese-exclusive",
+      "selector": null,
+      "added_at": "2026-05-07T15:49:40.376Z",
+      "active": true
+    },
+    {
+      "id": "chinese-lunar-new-year-gift-bo-263034",
+      "name": "Chinese Lunar New Year Gift Box 2026 Pokemon simplified China exclusive",
+      "url": "https://www.qualitycardstcg.nl/product/21718049/chinese-lunar-new-year-gift-box-2026-pokemon-simplified-china-exclusive",
+      "selector": null,
+      "added_at": "2026-05-07T15:49:40.376Z",
+      "active": true
+    },
+    {
+      "id": "hiroshima-s-pikachu-pokemon-ce-46a97c",
+      "name": "Hiroshima’s Pikachu Pokemon Center Exclusive Box",
+      "url": "https://www.qualitycardstcg.nl/product/20633372/hiroshima-s-pikachu-pokemon-center-exclusive-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:49:40.376Z",
+      "active": true
+    },
+    {
+      "id": "tohoku-s-pikachu-pokemon-cente-671148",
+      "name": "Tohoku’s Pikachu Pokemon Center Exclusive Box",
+      "url": "https://www.qualitycardstcg.nl/product/20633413/tohoku-s-pikachu-pokemon-center-exclusive-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:49:40.376Z",
+      "active": true
+    },
+    {
+      "id": "fukuoka-pikachu-pokemon-center-eb35a0",
+      "name": "Fukuoka Pikachu Pokemon Center Exclusive Box",
+      "url": "https://www.qualitycardstcg.nl/product/20633391/fukuoka-pikachu-pokemon-center-exclusive-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:49:40.376Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-mid-autumn-festival-gi-d483b4",
+      "name": "Pokemon Mid-Autumn Festival Gift Box” Simplified Chinese 2025 box",
+      "url": "https://www.qualitycardstcg.nl/product/20327045/pokemon-mid-autumn-festival-gift-box-simplified-chinese-2025-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:49:40.376Z",
+      "active": true
+    },
+    {
+      "id": "return-of-the-dragon-gift-box--20aca8",
+      "name": "Return of the Dragon Gift Box Rayquaza Box XL (CSFM2)",
+      "url": "https://www.qualitycardstcg.nl/product/19303394/return-of-the-dragon-gift-box-rayquaza-box-xl-csfm2",
+      "selector": null,
+      "added_at": "2026-05-07T15:49:40.376Z",
+      "active": true
+    },
+    {
+      "id": "gift-box-charizard-simplified--fb15fc",
+      "name": "Gift Box Charizard simplified chinese Card Display Set",
+      "url": "https://www.qualitycardstcg.nl/product/19422706/gift-box-charizard-simplified-chinese-card-display-set",
+      "selector": null,
+      "added_at": "2026-05-07T15:49:40.376Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-chinese-expansion--11bb5a",
+      "name": "Pokemon TCG: Chinese Expansion - Eevee Random Keychain Blind Box (Vol. 1)",
+      "url": "https://www.qualitycardstcg.nl/product/18762019/pokemon-tcg-chinese-expansion-eevee-random-keychain-blind-box-vol-1",
+      "selector": null,
+      "added_at": "2026-05-07T15:49:40.376Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-card-display-gift-box--61aa6f",
+      "name": "Pokemon Card Display Gift Box Gengar - Mystery Card Display Set Gift Box 3.0",
+      "url": "https://www.qualitycardstcg.nl/product/18372774/pokemon-card-display-gift-box-gengar-mystery-card-display-set-gift-box-3-0",
+      "selector": null,
+      "added_at": "2026-05-07T15:49:40.376Z",
+      "active": true
     }
   ]
 }
