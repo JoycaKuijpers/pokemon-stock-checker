@@ -10287,6 +10287,518 @@
       "selector": null,
       "added_at": "2026-05-07T15:40:29.559Z",
       "active": true
+    },
+    {
+      "id": "pokemon-tcg-red-blue-collectio-171d52",
+      "name": "Pokemon TCG - Red & Blue Collections Collection Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-red-blue-collections-collection-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.675Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-mythical-collectio-3402f6",
+      "name": "Pokemon TCG - Mythical Collection Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-mythical-collection-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.676Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-super-premium-coll-b2853e",
+      "name": "Pokemon TCG - Super Premium Collection Charizard EX Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-super-premium-collection-charizard-ex-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.676Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-black-bolt-white-f-1a38fb",
+      "name": "Pokemon TCG - Black Bolt & White Flare Binder Collection Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-black-bolt-white-flare-binder-collection-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.676Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-paldean-fates-prem-22ab6e",
+      "name": "Pokemon TCG - Paldean Fates Premium Collection Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-paldean-fates-premium-collection-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.676Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-marnie-premium-tou-1937da",
+      "name": "Pokemon TCG - Marnie Premium Tournament Collection Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-marnie-premium-tournament-collection-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.676Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-pokemon-go-premium-ae20c0",
+      "name": "Pokemon TCG - Pokemon GO Premium Collection Radiant Eevee",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-pokemon-go-premium-collection-radiant-eevee",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.676Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-scarlet-violet-151-2c0313",
+      "name": "Pokemon TCG - Scarlet & Violet 151 Blooming Waters",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-scarlet-violet-151-blooming-waters",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.676Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-mega-zygarde-ex-bo-1d298e",
+      "name": "Pokemon TCG - Mega Zygarde EX Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-mega-zygarde-ex-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.676Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-ascended-heroes-ex-3770be",
+      "name": "Pokemon TCG - Ascended Heroes EX Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-ascended-heroes-ex-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.676Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-hop-s-zacian-ex-bo-548744",
+      "name": "Pokemon TCG - Hop's Zacian EX Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-hops-zacian-ex-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.676Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-champion-s-path-ha-37a45d",
+      "name": "Pokemon TCG - Champion's Path Hatterene V Collection Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-champions-path-hatterene-v-collection-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.676Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-pokemon-go-pin-box-2d3bec",
+      "name": "Pokemon TCG - Pokemon Go Pin Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-pokemon-go-sword-shield-pin-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.676Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-mega-kangaskhan-ex-37ec22",
+      "name": "Pokemon TCG - Mega Kangaskhan EX Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-mega-kangaskhan-ex-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.676Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-combined-powers-pr-20b4b8",
+      "name": "Pokemon TCG - Combined Powers Premium Collection Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-combined-powers-premium-collection-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.676Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-pokemon-grand-adve-410780",
+      "name": "Pokemon TCG - Pokemon Grand Adventure Collection Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-pokemon-grand-adventure-collection-box-usa",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.676Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-mega-latias-ex-box-1a49b2",
+      "name": "Pokemon TCG - Mega Latias EX Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-mega-latias-ex-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.676Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-pokemon-day-2026-c-371cf1",
+      "name": "Pokemon TCG - Pokemon Day 2026 Collection Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-pokemon-day-2026-collection-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.676Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-first-partner-illu-8a7a5e",
+      "name": "Pokemon TCG - First Partner Illustration Collection Box ( Box licht beschadigd )",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-first-partner-illustration-collection-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.676Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-mega-lucario-figur-2e616d",
+      "name": "Pokemon TCG - Mega Lucario Figure Collection Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-masks-of-ogerpon-ex-premium-collection-box-1",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.676Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-shining-fates-prem-318d98",
+      "name": "Pokemon TCG - Shining Fates Premium Collection VMAX Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-shining-fates-premium-collection-shiny-dragapult-vmax-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.676Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-black-bolt-white-f-b5a791",
+      "name": "Pokemon TCG - Black Bolt & White Flare Poster Collection",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-black-bolt-white-flare-poster-collection",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.676Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-tag-team-gx-premiu-1fb2c5",
+      "name": "Pokemon TCG - Tag Team GX Premium Collection Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-pikachu-tag-team-premium-collection-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.677Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-prismatic-evolutio-253afb",
+      "name": "Pokemon TCG - Prismatic Evolutions Binder Collection Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-prismatic-evolutions-binder-collection-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.677Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-mega-venusaur-ex-p-deb2a8",
+      "name": "Pokemon TCG - Mega Venusaur EX Premium Collection Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-mega-venusaur-ex-premium-collection-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.677Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-premium-collection-ab5336",
+      "name": "Pokemon TCG - Premium Collection Charizard EX Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-premium-charizard-ex-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.677Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-lucario-vstar-prem-10089e",
+      "name": "Pokemon TCG - Lucario Vstar Premium Collection Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-lucario-vstar-premium-collection-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.677Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-ascended-heroes-de-15a4c6",
+      "name": "Pokemon TCG - Ascended Heroes Deluxe Pin Collection",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-ascended-heroes-premium-poster-collection-kopie",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.677Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-ascended-heroes-pr-3898aa",
+      "name": "Pokemon TCG - Ascended Heroes Premium Poster Collection",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-mega-evolution-premium-poster-collection",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.677Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-masks-of-ogerpon-e-2bc0b3",
+      "name": "Pokemon TCG - Masks of Ogerpon EX Premium Collection Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-masks-of-ogerpon-ex-premium-collection-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.677Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-sword-shield-25th--5c83d6",
+      "name": "Pokemon TCG - Sword & Shield 25th Celebrations Collection Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-sword-shield-25th-celebrations-collection-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.677Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-celebrations-speci-1e14a5",
+      "name": "Pokemon TCG - Celebrations Special Collection V Memories",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-25th-celebrations-special-collection-v-memories",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.677Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-team-rocket-s-mewt-e0a79c",
+      "name": "Pokemon TCG - Team Rocket's Mewtwo EX Collection Box met beschadiging aan de doos.",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-team-rockets-mewtwo-ex-collection-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.677Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-prismatic-evolutio-d2d60b",
+      "name": "Pokemon TCG - Prismatic Evolutions Surprise Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-prismatic-evolutions-evolutions-surprise-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.677Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-snorlax-ex-blissey-f6f74c",
+      "name": "Pokemon TCG - Snorlax EX & Blissey EX Special Collection Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-snorlax-ex-blissey-ex-special-collection-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.677Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-prismatic-evolutio-dd3cdd",
+      "name": "Pokemon TCG - Prismatic Evolutions Premium Figure Collection Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-prismatic-evolutions-premium-figure-collection-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.677Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-scarlet-violet-151-15f239",
+      "name": "Pokemon TCG - Scarlet & Violet 151 Costco Mini Tin Bundle",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-scarlet-violet-151-costco-mini-tin-bundle",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.677Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-crown-zenith-unown-305577",
+      "name": "Pokemon TCG - Crown Zenith Unown V & Lugia V Special Collection",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-crown-zenith-unown-v-lugia-v-special-collection",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.677Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-mabosstiff-ex-coll-b9f82b",
+      "name": "Pokemon TCG - Mabosstiff EX Collection Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-mabosstiff-ex-collection-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.677Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-cynthia-s-garchomp-1c98e6",
+      "name": "Pokemon TCG - Cynthia's Garchomp EX Premium Collection Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-cynthias-garchomp-ex-premium-collection-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.677Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-pokemon-go-special-1dbe80",
+      "name": "Pokemon TCG - Pokemon GO Special Team Collection Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-pok-mon-go-special-team-collection-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.677Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-evolving-powers-pr-dbb94e",
+      "name": "Pokemon TCG - Evolving Powers Premium Collection Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-evolving-powers-premium-collection-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.677Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-decidueye-ex-box-15d5be",
+      "name": "Pokemon TCG - Decidueye EX Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-decidueye-ex-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.677Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-charizard-ex-speci-4dd607",
+      "name": "Pokemon TCG - Charizard EX Special Collection Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-charizard-ex-special-collection-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.677Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-prismatic-evolutio-b472e4",
+      "name": "Pokemon TCG - Prismatic Evolutions Poster Collection",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-prismatic-evolutions-poster-collection",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.677Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-iono-s-bellibolt-e-20e903",
+      "name": "Pokemon TCG - Iono's Bellibolt EX Premium Collection Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-ionos-bellibolt-ex-premium-collection-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.677Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-armarouge-ex-premi-1e074b",
+      "name": "Pokemon TCG - Armarouge EX Premium Collection Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-armarouge-ex-premium-collection-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.677Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-palafin-ex-collect-4746f1",
+      "name": "Pokemon TCG - Palafin EX Collection Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-palafin-ex-collection-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.677Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-scarlet-violet-ex--496607",
+      "name": "Pokemon TCG - Scarlet & Violet EX Box Cyclizar",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-scarlet-violet-ex-box-cyclizar",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.677Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-pikachu-eevee-poke-266069",
+      "name": "Pokemon TCG - Pikachu & Eevee Pokeball Collection",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-pikachu-eevee-pokeball-collection",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.677Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-ogerpon-ex-premium-255c2c",
+      "name": "Pokemon TCG - Ogerpon EX Premium Collection Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-ogerpon-ex-premium-collection-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.677Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-greninja-gx-specia-a3df47",
+      "name": "Pokemon TCG - Greninja GX Special Collection Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-greninja-gx-special-collection-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.677Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-black-bolt-white-f-234a50",
+      "name": "Pokemon TCG - Black Bolt & White Flare Illustration Collection Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-black-bolt-white-flare-illustration-collection-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.677Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-annihilape-ex-box-e6c584",
+      "name": "Pokemon TCG - Annihilape EX Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-annihilape-ex-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.677Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-darkrai-vstar-prem-39176e",
+      "name": "Pokemon TCG - Darkrai Vstar Premium Collection Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-darkrai-vstar-premium-collection-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.677Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-houndstone-ex-box-84b479",
+      "name": "Pokemon TCG - Houndstone EX Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-houndstone-ex-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.677Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-mimikyu-ex-box-1f9b8a",
+      "name": "Pokemon TCG - Mimikyu EX Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-mimikyu-ex-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.677Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-glaceon-vstar-spec-183d2b",
+      "name": "Pokemon TCG - Glaceon Vstar Special Collection Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-glaceon-vstar-special-collection-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.677Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-dragonite-v-box-2037c9",
+      "name": "Pokemon TCG - Dragonite V Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-dragonite-v-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.677Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-bloodmoon-ursaluna-98ef46",
+      "name": "Pokemon TCG - Bloodmoon Ursaluna EX Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-bloodmoon-ursaluna-ex-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.677Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-sword-shield-25th--73e826",
+      "name": "Pokemon TCG - Sword & Shield 25th Celebrations Pikachu VMAX box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-sword-shield-25th-celebrations-pikachu-vmax-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.677Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-v-union-special-co-3131c9",
+      "name": "Pokemon TCG - V Union Special Collection Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-v-union-special-collection-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.677Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-leafeon-vstar-spec-372a8c",
+      "name": "Pokemon TCG - Leafeon Vstar Special Collection Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-leafeon-vstar-special-collection-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.677Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-shadow-rider-calyr-1074cd",
+      "name": "Pokemon TCG - Shadow Rider Calyrex V Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-shadow-rider-calyrex-v-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:46:36.677Z",
+      "active": true
     }
   ]
 }
