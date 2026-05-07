@@ -3895,6 +3895,406 @@
       "selector": null,
       "added_at": "2026-05-07T14:51:34.988Z",
       "active": true
+    },
+    {
+      "id": "pokemon-scarlet-violet-journey-15586b",
+      "name": "Pokemon Scarlet & Violet Journey Together Booster Bundles",
+      "url": "https://davidptcg.nl/products/pokemon-scarlet-violet-journey-together-booster-bundles",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.491Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-stellar-crown-booster--d529df",
+      "name": "Pokemon Stellar Crown Booster Box JP",
+      "url": "https://davidptcg.nl/products/pokemon-stellar-crown-booster-box-jp",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.492Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-mask-of-change-sv6-boo-2c6bb4",
+      "name": "Pokemon Mask of change sv6 booster Box JP",
+      "url": "https://davidptcg.nl/products/mask-of-change-sv6-booster-box-jp",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.492Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-scarlet-violet-journey-184e32",
+      "name": "Pokemon Scarlet & Violet Journey Together Booster Box",
+      "url": "https://davidptcg.nl/products/pokemon-scarlet-violet-journey-together-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.492Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-scarlet-violet-paradox-23033c",
+      "name": "Pokemon Scarlet & Violet Paradox Rift Booster Box",
+      "url": "https://davidptcg.nl/products/pokemon-paradox-rift-booster-box-pre-order",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.492Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-scarlet-violet-booster-22d5a3",
+      "name": "Pokemon Scarlet & Violet Booster Box",
+      "url": "https://davidptcg.nl/products/scarlet-violet-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.492Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-twilight-masquerade-bo-32fa23",
+      "name": "Pokemon Twilight Masquerade Booster Box",
+      "url": "https://davidptcg.nl/products/twilight-masquerade-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.492Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-scarlet-violet-stellar-138fba",
+      "name": "Pokemon Scarlet & Violet Stellar Crown Booster Box",
+      "url": "https://davidptcg.nl/products/pokemon-scarlet-violet-stellar-crown-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.492Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-scarlet-violet-surging-35c7ef",
+      "name": "Pokemon Scarlet & Violet Surging Sparks Booster Box",
+      "url": "https://davidptcg.nl/products/pokemon-scarlet-violet-surging-sparks-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.492Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-scarlet-violet-destine-441e57",
+      "name": "Pokemon Scarlet & Violet Destined Rivals Booster Box",
+      "url": "https://davidptcg.nl/products/pokemon-scarlet-violet-destined-rivals-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.492Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-scarlet-violet-prismat-113468",
+      "name": "Pokemon Scarlet & Violet Prismatic Evolutions Booster Bundle",
+      "url": "https://davidptcg.nl/products/pokemon-scarlet-violet-prismatic-evolutions-booster-bundle-1",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.492Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-scarlet-violet-destine-1360a5",
+      "name": "Pokemon Scarlet & Violet Destined Rivals Booster Box MAX 1PP KAPOTTE SEAL",
+      "url": "https://davidptcg.nl/products/pokemon-scarlet-violet-destined-rivals-booster-box-max-1pp-copy",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.492Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-sv11w-white-flare-japa-11ee93",
+      "name": "Pokemon sv11W White Flare Japanse Boosterbox",
+      "url": "https://davidptcg.nl/products/pokemon-sv11w-white-flare-japanse-boosterbox",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.492Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-sv11b-black-bolt-japan-331455",
+      "name": "Pokemon sv11B Black Bolt Japanse Boosterbox",
+      "url": "https://davidptcg.nl/products/pokemon-sv11b-black-bolt-japanse-boosterbox",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.492Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-scarlet-violet-black-b-732fcd",
+      "name": "Pokemon Scarlet & Violet Black Bolt Booster Bundle",
+      "url": "https://davidptcg.nl/products/pokemon-scarlet-violet-black-bolt-booster-bundle",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.492Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-scarlet-violet-white-f-431d09",
+      "name": "Pokemon Scarlet & Violet White Flare Booster Bundle",
+      "url": "https://davidptcg.nl/products/pokemon-scarlet-violet-white-flare-booster-bundle",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.492Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-scarlet-violet-151-boo-a6c9c6",
+      "name": "Pokemon Scarlet & Violet 151 Booster Bundle Display *SMALL DAMAGE*",
+      "url": "https://davidptcg.nl/products/pokemon-scarlet-violet-151-booster-bundle-display",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.492Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-scarlet-violet-prismat-127b7d",
+      "name": "Pokemon Scarlet & Violet Prismatic Evolutions Booster Bundle Display",
+      "url": "https://davidptcg.nl/products/pokemon-scarlet-violet-prismatic-evolutions-booster-bundle-display",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.492Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-shiny-treasure-ex-boos-51c7b2",
+      "name": "Pokemon Shiny Treasure EX Booster Box SV4A",
+      "url": "https://davidptcg.nl/products/pokemon-shiny-treasure-ex-booster-box-sv4a",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.492Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-scarlet-violet-destine-ca92ce",
+      "name": "Pokemon Scarlet & Violet Destined Rivals Booster Box Case",
+      "url": "https://davidptcg.nl/products/pokemon-scarlet-violet-destined-rivals-booster-box-case",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.492Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-mega-evolution-booster-e94b59",
+      "name": "Pokemon Mega Evolution Booster Box",
+      "url": "https://davidptcg.nl/products/untitled-oct19_11-29",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.492Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-mega-evolution-booster-547619",
+      "name": "Pokemon Mega Evolution Booster Box SCHEUR IN SEAL",
+      "url": "https://davidptcg.nl/products/pokemon-mega-evolution-booster-box-scheur-in-seal",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.492Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-scarlet-violet-destine-4cff36",
+      "name": "Pokemon Scarlet & Violet Destined Rivals Booster Box 18 boosters",
+      "url": "https://davidptcg.nl/products/pokemon-scarlet-violet-destined-rivals-booster-box-18-boosters",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.492Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-scarlet-violet-surging-37ed44",
+      "name": "Pokemon Scarlet & Violet Surging Sparks Booster Box 18 boosters",
+      "url": "https://davidptcg.nl/products/pokemon-scarlet-violet-surging-sparks-booster-box-18-boosters",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.492Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-scarlet-violet-stellar-15fcaa",
+      "name": "Pokemon Scarlet & Violet Stellar Crown Booster Box 18 boosters",
+      "url": "https://davidptcg.nl/products/pokemon-scarlet-violet-stellar-crown-booster-box-18-boosters",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.492Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-phantasmal-flames-boos-390c81",
+      "name": "Pokemon Phantasmal Flames Booster Box",
+      "url": "https://davidptcg.nl/products/pokemon-phantasmal-flames-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.492Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-journey-together-enhan-f8fc86",
+      "name": "Pokemon Journey Together Enhanced Booster Box",
+      "url": "https://davidptcg.nl/products/pokemon-journey-together-enhanced-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.492Z",
+      "active": true
+    },
+    {
+      "id": "phantasmal-flames-booster-box--226d6b",
+      "name": "Phantasmal Flames Booster Box Case",
+      "url": "https://davidptcg.nl/products/phantasmal-flames-booster-box-case",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.492Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-scarlet-violet-surging-3de3a7",
+      "name": "Pokemon Scarlet & Violet Surging Sparks Booster Box Case",
+      "url": "https://davidptcg.nl/products/pokemon-scarlet-violet-surging-sparks-booster-box-case-pre-order",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.492Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-phantasmal-flames-boos-296a0e",
+      "name": "Pokemon Phantasmal Flames Booster Bundle",
+      "url": "https://davidptcg.nl/products/pokemon-phantasmal-flames-booster-bundle",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.492Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-scarlet-violet-destine-f999b1",
+      "name": "Pokemon Scarlet & Violet Destined Rivals Booster Bundle",
+      "url": "https://davidptcg.nl/products/pokemon-scarlet-violet-destined-rivals-booster-bundle",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.492Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-scarlet-violet-151-boo-a08ee7",
+      "name": "Pokemon Scarlet & Violet 151 Booster Bundles",
+      "url": "https://davidptcg.nl/products/151-booster-bundle",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.492Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-inferno-x-booster-box-fdbfad",
+      "name": "Pokemon Inferno X Booster Box",
+      "url": "https://davidptcg.nl/products/pokemon-inferno-x-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.492Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-mega-dream-booster-box-144db6",
+      "name": "Pokemon Mega Dream Booster Box",
+      "url": "https://davidptcg.nl/products/pokemon-mega-dream-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.492Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-scarlet-violet-paldean-245c73",
+      "name": "Pokemon Scarlet & Violet Paldean Fates Booster Bundle Display",
+      "url": "https://davidptcg.nl/products/pokemon-scarlet-violet-paldean-fates-booster-bundle-display",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.492Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-scarlet-violet-journey-db4913",
+      "name": "Pokemon Scarlet & Violet Journey Together Booster Box Case",
+      "url": "https://davidptcg.nl/products/pokemon-scarlet-violet-journey-together-booster-box-case-1",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.492Z",
+      "active": true
+    },
+    {
+      "id": "riftbound-league-of-legends-bo-49eaf3",
+      "name": "Riftbound League of Legends Boosterbox Case",
+      "url": "https://davidptcg.nl/products/riftbound-league-of-legends-boosterbox-case",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.492Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-scarlet-violet-paldean-34d0e9",
+      "name": "Pokemon Scarlet & Violet Paldean Fates Booster Bundle",
+      "url": "https://davidptcg.nl/products/pokemon-scarlet-violet-paldean-fates-booster-bundle",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.492Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-ascended-heroes-booste-32eee7",
+      "name": "Pokemon Ascended Heroes Booster Bundles Pre-Order",
+      "url": "https://davidptcg.nl/products/pokemon-ascended-heroes-booster-bundles-pre-order",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.492Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-mega-evolution-perfect-1ab7e8",
+      "name": "Pokemon Mega Evolution Perfect Order Booster Box",
+      "url": "https://davidptcg.nl/products/pokemon-perfect-order-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.492Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-twilight-masquerade-6--34aa07",
+      "name": "Pokemon Twilight Masquerade 6 Booster Box Case",
+      "url": "https://davidptcg.nl/products/pokemon-twilight-masquerade-6-booster-box-case",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.492Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-scarlet-violet-white-f-44d067",
+      "name": "Pokemon Scarlet & Violet White Flare Booster Bundle Display",
+      "url": "https://davidptcg.nl/products/pokemon-scarlet-violet-white-flare-booster-bundle-display",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.493Z",
+      "active": true
+    },
+    {
+      "id": "one-piece-heroines-edition-boo-2182e8",
+      "name": "One piece Heroines Edition Booster Box EB03",
+      "url": "https://davidptcg.nl/products/one-piece-heroines-edition-booster-box-eb03",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.493Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-mega-evolution-perfect-9c17e8",
+      "name": "Pokemon Mega Evolution Perfect Order Booster Box Case",
+      "url": "https://davidptcg.nl/products/pokemon-mega-evolution-perfect-order-booster-box-case",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.493Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-mega-evolution-perfect-100be9",
+      "name": "Pokemon Mega Evolution Perfect Order Booster Bundle PRE-ORDER",
+      "url": "https://davidptcg.nl/products/pokemon-mega-evolution-perfect-order-booster-bundle",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.493Z",
+      "active": true
+    },
+    {
+      "id": "riftbound-spiritforged-league--af8528",
+      "name": "Riftbound Spiritforged League of Legends Boosterbox Case",
+      "url": "https://davidptcg.nl/products/riftbound-spiritforged-league-of-legends-boosterbox-case",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.493Z",
+      "active": true
+    },
+    {
+      "id": "surging-sparks-pokemon-center--218b41",
+      "name": "Surging Sparks Pokemon Center Booster Bundle",
+      "url": "https://davidptcg.nl/products/surging-sparks-pokemon-center-booster-bundle",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.493Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-paldea-evolved-booster-2480f5",
+      "name": "Pokemon Paldea evolved Booster Box Case",
+      "url": "https://davidptcg.nl/products/paldea-evolved-case",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.493Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-vstar-universe-booster-29aad6",
+      "name": "Pokemon VSTAR Universe Booster Box",
+      "url": "https://davidptcg.nl/products/pokemon-vstar-universe-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.493Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-scarlet-violet-surging-42ad26",
+      "name": "Pokemon Scarlet & Violet Surging Sparks Booster Box DAMAGED",
+      "url": "https://davidptcg.nl/products/pokemon-scarlet-violet-surging-sparks-booster-box-damaged",
+      "selector": null,
+      "added_at": "2026-05-07T15:09:35.493Z",
+      "active": true
     }
   ]
 }
