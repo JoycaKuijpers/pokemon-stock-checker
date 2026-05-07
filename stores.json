@@ -5823,6 +5823,30 @@
       "selector": null,
       "added_at": "2026-05-07T15:25:15.289Z",
       "active": true
+    },
+    {
+      "id": "pokemon-scarlet-violet-obsidia-189ead",
+      "name": "Pokemon Scarlet & Violet Obsidian Flames - Booster Box",
+      "url": "https://www.collectableworld.nl/product/13953505/pokemon-scarlet-violet-obsidian-flames-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:25:19.457Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-stellar-crown-booster--13c56c",
+      "name": "Pokemon - Stellar Crown Booster box",
+      "url": "https://www.collectableworld.nl/product/15913292/pokemon-stellar-crown-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:25:19.457Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-twilight-masquerade-bo-1e0dc0",
+      "name": "Pokemon Twilight Masquerade Booster Box",
+      "url": "https://www.collectableworld.nl/product/15913256/pokemon-twilight-masquerade-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:25:19.457Z",
+      "active": true
     }
   ]
 }
