@@ -2,7 +2,7 @@
   "stores": [
     {
       "id": "example-bol-pikachu",
-      "name": "Bol.com Ã¢ÂÂ Pikachu Ex Box",
+      "name": "Bol.com ÃÂ¢ÃÂÃÂ Pikachu Ex Box",
       "url": "https://www.bol.com/nl/nl/p/pikachu-ex-box/",
       "selector": null,
       "added_at": "2026-05-06T00:00:00Z",
@@ -70,6 +70,198 @@
       "url": "https://pokeflip.com/products/pokemon-paldean-fates-elite-trainer-box",
       "selector": null,
       "added_at": "2026-05-06T09:13:28.229Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-astral-radiance-elite--2682b3",
+      "name": "Pokemon - Astral Radiance - Elite Trainer Box",
+      "url": "https://pokeflip.com/products/pokemon-astral-radiance-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:43.893Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-go-elite-trainer-box-2d42c9",
+      "name": "Pokemon GO - Elite Trainer Box",
+      "url": "https://pokeflip.com/products/pokemon-go-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:43.894Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-brilliant-stars-elite--105d33",
+      "name": "Pokemon - Brilliant Stars - Elite Trainer Box",
+      "url": "https://pokeflip.com/products/pokemon-brilliant-stars-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:43.894Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-lost-origin-elite-trai-18e530",
+      "name": "Pokemon - Lost Origin - Elite Trainer Box",
+      "url": "https://pokeflip.com/products/pokemon-lost-origin-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:43.894Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-silver-tempest-elite-t-22a3bd",
+      "name": "Pokemon - Silver Tempest - Elite Trainer Box",
+      "url": "https://pokeflip.com/products/pokemon-silver-tempest-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:43.894Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-crown-zenith-elite-tra-1c108b",
+      "name": "Pokemon - Crown Zenith - Elite Trainer Box",
+      "url": "https://pokeflip.com/products/pokemon-crown-zenith-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:43.894Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-fusion-strike-elite-tr-2a0fb2",
+      "name": "Pokemon - Fusion Strike - Elite Trainer Box",
+      "url": "https://pokeflip.com/products/pokemon-fusion-strike-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:43.894Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-shining-fates-elite-tr-1faecf",
+      "name": "Pokemon - Shining Fates - Elite Trainer Box",
+      "url": "https://pokeflip.com/products/pokemon-shining-fates-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:43.894Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-obsidian-flames-elite--2673af",
+      "name": "Pokemon - Obsidian Flames - Elite Trainer Box",
+      "url": "https://pokeflip.com/products/pokemon-obsidian-flames-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:43.894Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-paldea-evolved-elite-t-1fc9f6",
+      "name": "Pokemon - Paldea Evolved - Elite Trainer Box",
+      "url": "https://pokeflip.com/products/pokemon-paldea-evolved-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:43.894Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-darkness-ablaze-elite--a5c616",
+      "name": "Pokemon - Darkness Ablaze - Elite Trainer Box",
+      "url": "https://pokeflip.com/products/pokemon-sword-shield-darkness-ablaze-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:43.894Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-chilling-reign-elite-t-408bb6",
+      "name": "Pokemon - Chilling Reign - Elite Trainer Box - Ice Rider Calyrex",
+      "url": "https://pokeflip.com/products/pokemon-chilling-reign-elite-trainer-box-ice-rider-calyrex",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:43.894Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-vivid-voltage-elite-tr-2042cb",
+      "name": "Pokemon - Vivid Voltage - Elite Trainer Box",
+      "url": "https://pokeflip.com/products/pokemon-sword-shield-vivid-voltage-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:43.894Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-chilling-reign-elite-t-1688d7",
+      "name": "Pokemon - Chilling Reign - Elite Trainer Box - Shadow Rider Calyrex",
+      "url": "https://pokeflip.com/products/pokemon-chilling-reign-elite-trainer-box-shadow-rider-calyrex",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:43.894Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-champion-s-path-elite--3b42fa",
+      "name": "Pokemon - Champion's Path - Elite Trainer Box",
+      "url": "https://pokeflip.com/products/pokemon-sword-shield-champions-path-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:43.894Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-cosmic-eclipse-elite-t-12378f",
+      "name": "Pokemon - Cosmic Eclipse - Elite Trainer Box",
+      "url": "https://pokeflip.com/products/pokemon-sun-moon-cosmic-eclipse-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:43.894Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-hidden-fates-elite-tra-1136d0",
+      "name": "Pokemon - Hidden Fates - Elite Trainer Box",
+      "url": "https://pokeflip.com/products/hidden-fates-elite-trainer-box-reprint",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:43.894Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-battle-styles-elite-tr-3448f8",
+      "name": "Pokemon - Battle Styles - Elite Trainer Box - Urshifu Rapid Strike",
+      "url": "https://pokeflip.com/products/pokemon-battle-styles-elite-trainer-box-urshifu-rapid-strike",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:43.894Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-battle-styles-elite-tr-3b60da",
+      "name": "Pokemon - Battle Styles - Elite Trainer Box - Urshifu Single Strike",
+      "url": "https://pokeflip.com/products/pokemon-battle-styles-elite-trainer-box-urshifu-single-strike",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:43.894Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-evolving-skies-elite-t-3cef5e",
+      "name": "Pokemon - Evolving Skies - Elite Trainer Box - Sylveon/Espeon/Glaceon/Vaporeon",
+      "url": "https://pokeflip.com/products/pokemon-evolving-skies-elite-trainer-box-sylveon-espeon-glaceon-vaporeon",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:43.894Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-evolving-skies-elite-t-2ad460",
+      "name": "Pokemon - Evolving Skies - Elite Trainer Box - Leafeon/Umbreon/Jolteon/Flareon",
+      "url": "https://pokeflip.com/products/pokemon-evolving-skies-elite-trainer-box-leafeon-umbreon-jolteon-flareon",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:43.894Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-celebrations-25th-anni-1dcfbd",
+      "name": "Pokemon - Celebrations - 25th Anniversary - Elite Trainer Box",
+      "url": "https://pokeflip.com/products/pokemon-celebrations-25th-anniversary-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:43.895Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-scarlet-violet-elite-t-225a58",
+      "name": "Pokemon - Scarlet & Violet - Elite Trainer Box - Koraidon",
+      "url": "https://pokeflip.com/products/pokemon-scarlet-violet-elite-trainer-box-koraidon",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:43.895Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-scarlet-violet-elite-t-193489",
+      "name": "Pokemon - Scarlet & Violet - Elite Trainer Box - Miraidon",
+      "url": "https://pokeflip.com/products/pokemon-scarlet-violet-elite-trainer-box-miraidon",
+      "selector": null,
+      "added_at": "2026-05-07T13:21:43.895Z",
       "active": true
     }
   ]
