@@ -10,9 +10,12 @@ import re
 import sys
 import time
 from collections import defaultdict
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from typing import Optional
 from urllib.parse import urlparse
+
+NOTIFY_COOLDOWN_HOURS = 2
 
 import requests
 from bs4 import BeautifulSoup
@@ -271,20 +274,28 @@ def main() -> int:
             print("  [?] Status onbekend")
             continue
 
-        prev_status = state.get(store_id, {}).get("in_stock")
-        state.setdefault(store_id, {})["in_stock"] = status
-        state[store_id]["last_checked"] = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
+        prev = state.setdefault(store_id, {})
+        prev_status = prev.get("in_stock")
+        prev["in_stock"] = status
+        prev["last_checked"] = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
 
         if status:
             print("  [✓] OP VOORRAAD")
-            if prev_status is not True:
+            last_notified = prev.get("last_notified")
+            cooldown_passed = not last_notified or (
+                datetime.now(timezone.utc) - datetime.fromisoformat(last_notified)
+                > timedelta(hours=NOTIFY_COOLDOWN_HOURS)
+            )
+            if prev_status is not True or cooldown_passed:
                 state_changed = True
                 sent = send_telegram(build_notification(store))
                 if sent:
+                    prev["last_notified"] = datetime.now(timezone.utc).isoformat()
                     print("  [✓] Telegram melding verstuurd")
         else:
             print("  [✗] Niet op voorraad")
-            if prev_status is not False:
+            if prev_status is True:
+                prev.pop("last_notified", None)
                 state_changed = True
 
     if state_changed:
