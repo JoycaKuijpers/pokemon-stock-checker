@@ -3391,6 +3391,54 @@
       "selector": null,
       "added_at": "2026-05-07T14:44:57.871Z",
       "active": true
+    },
+    {
+      "id": "pokemon-surging-sparks-booster-1781d3",
+      "name": "Pokemon Surging Sparks Boosterbox",
+      "url": "https://pokemagic.nl/product/pokemon-surging-sparks-boosterbox/",
+      "selector": null,
+      "added_at": "2026-05-07T14:46:46.082Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-paradox-rift-boosterbo-153f78",
+      "name": "Pokemon Paradox Rift Boosterbox",
+      "url": "https://pokemagic.nl/product/pre-order-pokemon-paradox-rift-booster-box/",
+      "selector": null,
+      "added_at": "2026-05-07T14:46:46.084Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-stellar-crown-boosterb-18a94b",
+      "name": "Pokemon Stellar Crown Boosterbox",
+      "url": "https://pokemagic.nl/product/pokemon-stellar-crown-boosterbox/",
+      "selector": null,
+      "added_at": "2026-05-07T14:46:46.084Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-temporal-forces-booste-9e2328",
+      "name": "Pokemon Temporal Forces Boosterbox",
+      "url": "https://pokemagic.nl/product/pokemon-temporal-forces-booster-box/",
+      "selector": null,
+      "added_at": "2026-05-07T14:46:46.084Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-twilight-masquerade-bo-2db8d2",
+      "name": "Pokemon Twilight Masquerade boosterbox",
+      "url": "https://pokemagic.nl/product/pokemon-twilight-masquerade-boosterbox/",
+      "selector": null,
+      "added_at": "2026-05-07T14:46:46.084Z",
+      "active": true
+    },
+    {
+      "id": "obsidian-flames-boosterbox-690dae",
+      "name": "Obsidian Flames boosterbox",
+      "url": "https://pokemagic.nl/product/obsidian-flames-boosterbox/",
+      "selector": null,
+      "added_at": "2026-05-07T14:46:46.084Z",
+      "active": true
     }
   ]
 }
