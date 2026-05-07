@@ -6071,6 +6071,678 @@
       "selector": null,
       "added_at": "2026-05-07T15:27:31.852Z",
       "active": true
+    },
+    {
+      "id": "pokemon-jp-eevee-heroes-booste-38e0e2",
+      "name": "Pokemon (JP) Eevee Heroes: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-jp-eevee-heroes-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-jp-151-booster-box-33e8c8",
+      "name": "Pokemon (JP) 151: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-jp-151-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-center-hiroshima-speci-4a403f",
+      "name": "Pokemon Center Hiroshima Special Box",
+      "url": "https://rarecards.nl/products/pokemon-center-hiroshima-special-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-cn-151-surprise-jumbo--5040bb",
+      "name": "Pokemon (CN) 151 Surprise: Jumbo Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-cn-151-surprise-jumbo-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-jp-super-electric-brea-4c7714",
+      "name": "Pokemon (JP) Super Electric Breaker: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-jp-super-electric-breaker-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-jp-shiny-treasure-ex-b-2756d9",
+      "name": "Pokemon (JP) Shiny Treasure ex: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-jp-shiny-treasure-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-jp-mega-dream-ex-boost-26c46d",
+      "name": "Pokemon (JP) Mega Dream ex: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-jp-mega-dream-ex-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-cn-151-surprise-slim-b-53e564",
+      "name": "Pokemon (CN) 151 Surprise: Slim Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-cn-151-surprise-slim-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-cn-151-gathering-jumbo-6d2bec",
+      "name": "Pokemon (CN) 151 Gathering: Jumbo Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-cn-151-gathering-jumbo-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-jp-clay-burst-booster--4bc197",
+      "name": "Pokemon (JP) Clay Burst: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-jp-clay-burst-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-jp-snow-hazard-booster-30f2af",
+      "name": "Pokemon (JP) Snow Hazard: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-jp-snow-hazard-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-jp-incandescent-arcana-5725c3",
+      "name": "Pokemon (JP) Incandescent Arcana: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-jp-incandescent-arcana-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-jp-mega-symphonia-boos-2c4df2",
+      "name": "Pokemon (JP) Mega Symphonia: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-jp-mega-symphonia-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-jp-battle-partners-boo-420e0e",
+      "name": "Pokemon (JP) Battle Partners:  Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-jp-battle-partners-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-jp-violet-ex-booster-b-1a9a1c",
+      "name": "Pokemon (JP) Violet ex: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-jp-violet-ex-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-jp-nihil-zero-booster--33502f",
+      "name": "Pokemon (JP) Nihil Zero: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-jp-nihil-zero-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-cn-151-gathering-slim--678ab6",
+      "name": "Pokemon (CN) 151 Gathering: Slim Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-cn-151-gathering-slim-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-kor-the-glory-of-team--37fc65",
+      "name": "Pokemon (KOR) The Glory of Team Rocket: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-kor-the-glory-of-team-rocket-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-cn-gem-pack-vol-4-boos-3c76f0",
+      "name": "Pokemon (CN) Gem Pack Vol. 4: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-cn-gem-pack-vol-4-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-jp-20th-anniversary-bo-1d1352",
+      "name": "Pokemon (JP) 20th Anniversary: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-jp-20th-anniversary-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-evolving-skies-booster-2e3a77",
+      "name": "Pokemon Evolving Skies: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-evolving-skies-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-brilliant-stars-booste-1d9565",
+      "name": "Pokemon Brilliant Stars: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-brilliant-stars-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-destined-rivals-booste-44a557",
+      "name": "Pokemon Destined Rivals: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-destined-rivals-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-chilling-reign-booster-2fd255",
+      "name": "Pokemon Chilling Reign: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-chilling-reign-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-astral-radiance-booste-1ab94e",
+      "name": "Pokemon Astral Radiance: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-astral-radiance-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-silver-tempest-booster-3c20e2",
+      "name": "Pokemon Silver Tempest: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-silver-tempest-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-darkness-ablaze-booste-bc2c58",
+      "name": "Pokemon Darkness Ablaze: Booster Box",
+      "url": "https://rarecards.nl/products/darkness-ablaze-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-paldea-evolved-booster-35e5be",
+      "name": "Pokemon Paldea Evolved: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-paldea-evolved-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-jp-25th-anniversary-co-31bb08",
+      "name": "Pokemon (JP) 25th Anniversary Collection: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-jp-25th-anniversary-collection-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-mega-evolution-booster-650608",
+      "name": "Pokemon Mega Evolution: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-mega-evolution-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-obsidian-flames-booste-2a3b4b",
+      "name": "Pokemon Obsidian Flames: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-obsidian-flames-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-surging-sparks-booster-4e8aeb",
+      "name": "Pokemon Surging Sparks: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-surging-sparks-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-battle-styles-booster--29071c",
+      "name": "Pokemon Battle Styles: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-battle-styles-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-twilight-masquerade-bo-30fadb",
+      "name": "Pokemon Twilight Masquerade: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-twilight-masquerade-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-vivid-voltage-booster--5799c8",
+      "name": "Pokemon Vivid Voltage: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-tcg-vivid-voltage-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-phantasmal-flames-boos-3eb33d",
+      "name": "Pokemon Phantasmal Flames: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-phantasmal-flames-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-temporal-forces-booste-42efda",
+      "name": "Pokemon Temporal Forces: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-temporal-forces-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-stellar-crown-booster--1d15d3",
+      "name": "Pokemon Stellar Crown: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-stellar-crown-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-paradox-rift-booster-b-2f1e1f",
+      "name": "Pokemon Paradox Rift: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-paradox-rift-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-scarlet-violet-booster-1edef5",
+      "name": "Pokemon Scarlet Violet: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-scarlet-violet-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-journey-together-boost-257a0d",
+      "name": "Pokemon Journey Together: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-journey-together-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-journey-together-boost-28a772",
+      "name": "Pokemon Journey Together: Booster Box (scheur in seal)",
+      "url": "https://rarecards.nl/products/pokemon-journey-together-booster-box-scheur-in-seal",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-jp-vmax-climax-booster-31d0cf",
+      "name": "Pokemon (JP) VMAX Climax: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-jp-vmax-climax-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-center-tohoku-special--3c0522",
+      "name": "Pokemon Center Tohoku Special Box",
+      "url": "https://rarecards.nl/products/pokemon-center-tohoku-special-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-jp-terastal-festival-e-374974",
+      "name": "Pokemon (JP) Terastal Festival ex: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-jp-terastal-festival-ex-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-jp-inferno-x-booster-b-3824e3",
+      "name": "Pokemon (JP) Inferno X: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-jp-inferno-x-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-jp-the-glory-of-team-r-39e4e7",
+      "name": "Pokemon (JP) The Glory of Team Rocket: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-jp-the-glory-of-team-rocket-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-jp-white-flare-deluxe--14aada",
+      "name": "Pokemon (JP) White Flare: Deluxe Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-jp-white-flare-deluxe-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-jp-black-bolt-booster--28f382",
+      "name": "Pokemon (JP) Black Bolt: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-jp-black-bolt-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-jp-white-flare-booster-1e9d43",
+      "name": "Pokemon (JP) White Flare: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-jp-white-flare-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-jp-ruler-of-the-black--296c3a",
+      "name": "Pokemon (JP) Ruler of the Black Flame: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-jp-ruler-of-the-black-flame-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-jp-ninja-spinner-boost-24e4ca",
+      "name": "Pokemon (JP) Ninja Spinner: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-jp-ninja-spinner-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-cn-25th-anniversary-co-2ceabb",
+      "name": "Pokemon (CN) 25th Anniversary Collection: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-cn-25th-anniversary-collection-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-jp-pokemon-go-booster--4bb25f",
+      "name": "Pokemon (JP) Pokemon GO: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-jp-pokemon-go-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-jp-mega-brave-booster--32d40d",
+      "name": "Pokemon (JP) Mega Brave: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-jp-mega-brave-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-jp-raging-surf-booster-4a8eaa",
+      "name": "Pokemon (JP) Raging Surf: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-jp-raging-surf-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.760Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-jp-cyber-judge-booster-21da53",
+      "name": "Pokemon (JP) Cyber Judge: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-jp-cyber-judge-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.761Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-kor-151-booster-box-42ba07",
+      "name": "Pokemon (KOR) 151: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-kor-151-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.761Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-cn-151-hope-slim-boost-3ba4f9",
+      "name": "Pokemon (CN) 151 Hope: Slim Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-cn-151-hope-slim-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.761Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-jp-mask-of-change-boos-348aee",
+      "name": "Pokemon (JP) Mask of Change: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-jp-mask-of-change-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.761Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-jp-night-wanderer-boos-325b9f",
+      "name": "Pokemon (JP) Night Wanderer: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-jp-night-wanderer-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.761Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-kor-vstar-universe-boo-372d28",
+      "name": "Pokemon (KOR) VSTAR Universe: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-kor-vstar-universe-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.761Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-kor-terastal-festival--3fedb2",
+      "name": "Pokemon (KOR) Terastal Festival: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-kor-terastal-festival-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.761Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-jp-stellar-miracle-boo-45a8f2",
+      "name": "Pokemon (JP) Stellar Miracle: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-jp-stellar-miracle-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.761Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-kor-mega-dream-booster-4d9ccc",
+      "name": "Pokemon (KOR) Mega Dream: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-kor-mega-dream-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.761Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-kor-inferno-x-booster--401432",
+      "name": "Pokemon (KOR) Inferno X: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-kor-inferno-x-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.761Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-cn-gem-pack-vol-2-boos-2b19a2",
+      "name": "Pokemon (CN) Gem Pack Vol. 2: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-gem-pack-2-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.761Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-cn-gem-pack-booster-bo-36d052",
+      "name": "Pokemon (CN) Gem Pack: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-cn-gem-pack-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.761Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-kor-super-electric-bre-3943a0",
+      "name": "Pokemon (KOR) Super Electric Breaker: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-kor-super-electric-breaker-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.761Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-kor-white-flare-booste-4fadee",
+      "name": "Pokemon (KOR) White Flare: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-kor-white-flare-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.761Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-kor-black-bolt-booster-4822d6",
+      "name": "Pokemon (KOR) Black Bolt: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-kor-black-bolt-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.761Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-kor-ancient-roar-boost-2f665c",
+      "name": "Pokemon (KOR) Ancient Roar: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-kor-ancient-roar-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.761Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-kor-paradise-dragona-b-4e6798",
+      "name": "Pokemon (KOR) Paradise Dragona: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-kor-paradise-dragona-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.761Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-kor-nihil-zero-booster-2dc629",
+      "name": "Pokemon (KOR) Nihil Zero: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-kor-nihil-zero-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.761Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-kor-violet-ex-booster--3d9ef9",
+      "name": "Pokemon (KOR) Violet ex: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-kor-violet-ex-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.761Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-kor-night-wanderer-boo-2cd822",
+      "name": "Pokemon (KOR) Night Wanderer: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-kor-night-wanderer-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.761Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-kor-stellar-miracle-bo-4d1602",
+      "name": "Pokemon (KOR) Stellar Miracle: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-kor-stellar-miracle-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.761Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-kor-mask-of-change-boo-4aa8d3",
+      "name": "Pokemon (KOR) Mask of Change: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-kor-mask-of-change-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.761Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-kor-cyber-judge-booste-5c70df",
+      "name": "Pokemon (KOR) Cyber Judge: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-kor-cyber-judge-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.761Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-kor-battle-partners-bo-66ad65",
+      "name": "Pokemon (KOR) Battle Partners: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-kor-battle-partners-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.761Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-kor-mega-symphonia-boo-52e5d0",
+      "name": "Pokemon (KOR) Mega Symphonia: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-kor-mega-symphonia-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.761Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-kor-mega-brave-booster-4e424b",
+      "name": "Pokemon (KOR) Mega Brave: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-kor-mega-brave-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.761Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-chaos-rising-booster-b-39b70e",
+      "name": "Pokemon Chaos Rising: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-chaos-rising-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.761Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-perfect-order-booster--4ae3c9",
+      "name": "Pokemon Perfect Order: Booster Box",
+      "url": "https://rarecards.nl/products/pokemon-perfect-order-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:27:57.761Z",
+      "active": true
     }
   ]
 }
