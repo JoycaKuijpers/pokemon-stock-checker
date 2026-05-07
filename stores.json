@@ -12023,6 +12023,46 @@
       "selector": null,
       "added_at": "2026-05-07T15:49:40.376Z",
       "active": true
+    },
+    {
+      "id": "pokemon-tcg-nihil-zero-booster-173d1d",
+      "name": "Pokemon TCG Nihil Zero Booster Pack (M3) Japans",
+      "url": "https://arlytrading.nl/winkel/tcg/pokemontcg/japans/pokemon-tcg-nihil-zero-booster-pack-m3-japans/",
+      "selector": null,
+      "added_at": "2026-05-07T15:50:15.678Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-nihil-zero-booster-872dd4",
+      "name": "Pokemon TCG Nihil Zero Boosterbox (M3) Japans",
+      "url": "https://arlytrading.nl/winkel/tcg/pokemontcg/japans/pokemon-tcg-nihil-zero-boosterbox-m3-japans/",
+      "selector": null,
+      "added_at": "2026-05-07T15:50:15.678Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-journey-together-b-298501",
+      "name": "Pokemon TCG Journey Together Boosterbox Enhanced Edition incl. Promo",
+      "url": "https://arlytrading.nl/winkel/tcg/pokemontcg/pokemon-series/journey/pokemon-journey-together-boosterbox-incl-promo/",
+      "selector": null,
+      "added_at": "2026-05-07T15:50:15.678Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-151c-series-4-boosterb-cb419d",
+      "name": "Pokemon 151c Series 4 Boosterbox – Chinees",
+      "url": "https://arlytrading.nl/winkel/tcg/pokemontcg/japans/pokemon-151-series-4-boosterbox-chinese/",
+      "selector": null,
+      "added_at": "2026-05-07T15:50:15.678Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-journey-together-boost-a7fa6a",
+      "name": "Pokemon Journey Together Booster Pack",
+      "url": "https://arlytrading.nl/winkel/tcg/pokemontcg/pokemon-series/journey/pokemon-journey-together-elite-booster/",
+      "selector": null,
+      "added_at": "2026-05-07T15:50:15.678Z",
+      "active": true
     }
   ]
 }
