@@ -11735,6 +11735,78 @@
       "selector": null,
       "added_at": "2026-05-07T15:48:38.950Z",
       "active": true
+    },
+    {
+      "id": "pokemon-mega-evolution-perfect-1bdb0a",
+      "name": "Pokemon – Mega Evolution: Perfect Order – Booster Box",
+      "url": "https://catchyourcards.nl/pokemon-perfect-order-booster-box/",
+      "selector": null,
+      "added_at": "2026-05-07T15:48:48.621Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-journey-together-36-pa-1eaea8",
+      "name": "Pokemon Journey Together 36 Packs – Booster Box",
+      "url": "https://catchyourcards.nl/pokemon-journey-together-36-packs-booster-box/",
+      "selector": null,
+      "added_at": "2026-05-07T15:48:48.622Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-mega-evolution-chaos-r-41b5cf",
+      "name": "Pokemon – Mega Evolution: Chaos Rising – Booster Box",
+      "url": "https://catchyourcards.nl/pokemon-mega-evolution-chaos-rising-booster-box/",
+      "selector": null,
+      "added_at": "2026-05-07T15:48:48.622Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-mega-ninja-spinner-465c33",
+      "name": "Pokemon TCG – Mega: Ninja Spinner – Booster Box (Japans)",
+      "url": "https://catchyourcards.nl/pokemon-japans-mega-ninja-spinner-booster-box/",
+      "selector": null,
+      "added_at": "2026-05-07T15:48:48.622Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-mega-evolution-phantas-9f5a02",
+      "name": "Pokemon – Mega Evolution: Phantasmal Flames Booster Box (36ct Display)",
+      "url": "https://catchyourcards.nl/pokmonmegaevolutionphantasmalflamesboosterbox36ctdisplay/",
+      "selector": null,
+      "added_at": "2026-05-07T15:48:48.622Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-mega-evolution-booster-9868c9",
+      "name": "Pokemon – Mega Evolution – Booster Box",
+      "url": "https://catchyourcards.nl/pokmon-megaevolution-boosterbox/",
+      "selector": null,
+      "added_at": "2026-05-07T15:48:48.622Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-destined-rivals-booste-42a5d5",
+      "name": "Pokemon – Destined Rivals – Booster Box",
+      "url": "https://catchyourcards.nl/pokmondestinedrivals36packs-boosterbox/",
+      "selector": null,
+      "added_at": "2026-05-07T15:48:48.622Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-surging-sparks-36-pack-521bbe",
+      "name": "Pokemon Surging Sparks 36 Packs – Boosterbox",
+      "url": "https://catchyourcards.nl/pokemon-surging-sparks-36-packs-boosterbox/",
+      "selector": null,
+      "added_at": "2026-05-07T15:48:48.622Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-obsidian-flames-bo-4170da",
+      "name": "Pokemon TCG – Obsidian Flames – Booster Box",
+      "url": "https://catchyourcards.nl/pokmontcg-obsidianflames36packsboosterbox/",
+      "selector": null,
+      "added_at": "2026-05-07T15:48:48.622Z",
+      "active": true
     }
   ]
 }
