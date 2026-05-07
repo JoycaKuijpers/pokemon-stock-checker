@@ -10159,6 +10159,38 @@
       "selector": null,
       "added_at": "2026-05-07T15:39:52.431Z",
       "active": true
+    },
+    {
+      "id": "pokemon-white-flare-elite--4722f6",
+      "name": "Pokemon White Flare Elite...",
+      "url": "https://www.tcgcenter.nl/nl/home/2059-pokemon-white-flare-elite-trainer-box-reshiram-max-1-per-klant-0196214113619.html",
+      "selector": null,
+      "added_at": "2026-05-07T15:40:06.289Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-black-bolt-elite--149809",
+      "name": "Pokemon Black Bolt Elite...",
+      "url": "https://www.tcgcenter.nl/nl/home/2058-pokemon-black-bolt-elite-trainer-box-zekrom-0196214113664.html",
+      "selector": null,
+      "added_at": "2026-05-07T15:40:06.291Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-paldean-fates-elite--fc438a",
+      "name": "Pokemon Paldean Fates Elite...",
+      "url": "https://www.tcgcenter.nl/nl/home/907-pokemon-paldean-fates-elite-trainer-box-pre-order-0820650856181.html",
+      "selector": null,
+      "added_at": "2026-05-07T15:40:06.291Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-phantasmal-flames--440413",
+      "name": "Pokemon Phantasmal Flames...",
+      "url": "https://www.tcgcenter.nl/nl/home/2210-pokemon-phantasmal-flames-elite-trainer-box-0196214124813.html",
+      "selector": null,
+      "added_at": "2026-05-07T15:40:06.291Z",
+      "active": true
     }
   ]
 }
