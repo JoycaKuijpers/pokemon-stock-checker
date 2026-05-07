@@ -11223,6 +11223,54 @@
       "selector": null,
       "added_at": "2026-05-07T15:46:54.237Z",
       "active": true
+    },
+    {
+      "id": "pokemon-tcg-fusion-strike-poke-29ffd9",
+      "name": "Pokemon TCG - Fusion Strike Pokemon Center Elite Trainer Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-fusion-strike-pokemon-center-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:47:01.107Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-prismatic-evolutio-2f1b99",
+      "name": "Pokemon TCG - Prismatic Evolutions Pokemon Center Elite Trainer Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-prismatic-evolutions-pokemon-center-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:47:01.107Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-pokemon-go-pokemon-1060ae",
+      "name": "Pokemon TCG - Pokemon GO Pokemon Center Elite Trainer Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-pokemon-go-pokemon-center-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:47:01.107Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-brilliant-stars-po-194f38",
+      "name": "Pokemon TCG - Brilliant Stars Pokemon Center Elite Trainer Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-brilliant-stars-pokemon-center-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:47:01.107Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-celebrations-pokem-44385f",
+      "name": "Pokemon TCG - Celebrations Pokemon Center Elite Trainer Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-celebrations-pokemon-center-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:47:01.107Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-astral-radiance-po-197d45",
+      "name": "Pokemon TCG - Astral Radiance Pokemon Center Elite Trainer Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-astral-radiance-pokemon-center-elite-trainer-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:47:01.107Z",
+      "active": true
     }
   ]
 }
