@@ -30,5 +30,5 @@ data = json.loads(STORES_FILE.read_text(encoding="utf-8"))
 for store in data.get("stores", []):
     store["name"] = fix_string(store["name"])
 
-STORES_FILE.write_text(json.dumps(data, indent=2, ensure_ascii=True), encoding="utf-8")
+STORES_FILE.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
 print(f"Klaar. {len(data['stores'])} stores gecleaned.")
