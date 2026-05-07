@@ -15423,6 +15423,14 @@
       "selector": null,
       "added_at": "2026-05-07T15:55:08.508Z",
       "active": true
+    },
+    {
+      "id": "pokemon-tcg-perfect-order-boos-38ff45",
+      "name": "Pokemon TCG - Perfect Order Booster Box",
+      "url": "https://tcgshop.nl/products/pokemon-tcg-perfect-order-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:55:11.825Z",
+      "active": true
     }
   ]
 }
