@@ -8799,6 +8799,14 @@
       "selector": null,
       "added_at": "2026-05-07T15:31:54.175Z",
       "active": true
+    },
+    {
+      "id": "pokemon-black-bolt-elite-train-15625e",
+      "name": "Pokemon Black Bolt Elite Trainer box",
+      "url": "javascript:void(0);",
+      "selector": null,
+      "added_at": "2026-05-07T15:34:48.373Z",
+      "active": true
     }
   ]
 }
