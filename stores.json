@@ -11271,6 +11271,166 @@
       "selector": null,
       "added_at": "2026-05-07T15:47:01.107Z",
       "active": true
+    },
+    {
+      "id": "pokemon-tcg-burning-shadows-bo-ba19df",
+      "name": "Pokemon TCG - Burning Shadows Booster Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-burning-shadows-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:47:15.931Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-fusion-strike-halv-1cf07c",
+      "name": "Pokemon TCG - Fusion Strike Halve Booster Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-fusion-strike-halve-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:47:15.931Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-journey-together-b-12eb64",
+      "name": "Pokemon TCG - Journey Together Booster Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-journey-together-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:47:15.931Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-mega-evolution-hal-a560ce",
+      "name": "Pokemon TCG - Mega Evolution Halve Booster Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-mega-evolution-halve-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:47:15.931Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-mega-evolution-boo-be9554",
+      "name": "Pokemon TCG - Mega Evolution Booster Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-mega-evolution-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:47:15.931Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-perfect-order-boos-6a0e0e",
+      "name": "Pokemon TCG - Perfect Order Booster Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-perfect-order-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:47:15.931Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-battle-styles-boos-87d8de",
+      "name": "Pokemon TCG - Battle Styles Booster Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-battle-styles-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:47:15.931Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-mega-evolution-enh-555c2d",
+      "name": "Pokemon TCG - Mega Evolution Enhanced Booster Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-mega-evolution-enhanced-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:47:15.931Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-phantasmal-flames--206438",
+      "name": "Pokemon TCG - Phantasmal Flames Booster Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-phantasmal-flames-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:47:15.931Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-temporal-forces-ha-26381e",
+      "name": "Pokemon TCG - Temporal Forces Halve Booster Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-temporal-forces-halve-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:47:15.931Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-fusion-strike-boos-e0099e",
+      "name": "Pokemon TCG - Fusion Strike Booster Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-fusion-strike-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:47:15.931Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-astral-radiance-bo-284a59",
+      "name": "Pokemon TCG - Astral Radiance Booster Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-astral-radiance-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:47:15.931Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-lost-origin-booste-7f0cfc",
+      "name": "Pokemon TCG - Lost Origin Booster Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-lost-origin-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:47:15.931Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-brilliant-stars-bo-a91bd8",
+      "name": "Pokemon TCG - Brilliant Stars Booster Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-brilliant-stars-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:47:15.931Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-chilling-reign-boo-1ee2f7",
+      "name": "Pokemon TCG - Chilling Reign Booster Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-chilling-reign-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:47:15.931Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-destined-rivals-bo-1ce8ee",
+      "name": "Pokemon TCG - Destined Rivals Booster Box",
+      "url": "https://www.tcgreus.nl/products/destined-rivals-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:47:15.931Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-stellar-crown-boos-b91291",
+      "name": "Pokemon TCG - Stellar Crown Booster Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-stellar-crown-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:47:15.931Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-twilight-masquerad-27645b",
+      "name": "Pokemon TCG - Twilight Masquerade Booster Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-twilight-masquerade-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:47:15.931Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-temporal-forces-bo-fec325",
+      "name": "Pokemon TCG - Temporal Forces Booster Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-temporal-forces-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:47:15.931Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tcg-chaos-rising-boost-1de49f",
+      "name": "Pokemon TCG - Chaos Rising Booster Box",
+      "url": "https://www.tcgreus.nl/products/pokemon-tcg-chaos-rising-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:47:15.931Z",
+      "active": true
     }
   ]
 }
