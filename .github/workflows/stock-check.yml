@@ -2,11 +2,12 @@ name: Pokémon Stock Check
 
 on:
   schedule:
+    # Elke 15 minuten checken (GitHub Actions minimum = 5 min, maar 15 is vriendelijker)
     - cron: "*/15 * * * *"
-  workflow_dispatch:
+  workflow_dispatch: # Handmatig starten via GitHub UI
 
 permissions:
-  contents: write
+  contents: write # Nodig om state.json terug te committen
 
 jobs:
   check-stock:
@@ -37,7 +38,7 @@ jobs:
         run: |
           git config user.name "pokemon-stock-bot"
           git config user.email "bot@github-actions"
-          git add state.json
+          find . -maxdepth 2 -name "state.json" ! -path "./.git/*" -exec git add {} +
           if git diff --cached --quiet; then
             echo "Geen state wijzigingen."
           else
