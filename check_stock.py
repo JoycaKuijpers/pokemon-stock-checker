@@ -9,8 +9,10 @@ import os
 import re
 import sys
 import time
+from collections import defaultdict
 from pathlib import Path
 from typing import Optional
+from urllib.parse import urlparse
 
 import requests
 from bs4 import BeautifulSoup
@@ -35,30 +37,16 @@ HEADERS = {
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 }
 
-# Dutch/Belgian out-of-stock signals (case-insensitive)
 OUT_OF_STOCK_PATTERNS = [
-    r"uitverkocht",
-    r"niet (op |meer )?voorraad",
-    r"niet beschikbaar",
-    r"tijdelijk niet leverbaar",
-    r"binnenkort beschikbaar",
-    r"out of stock",
-    r"sold out",
-    r"niet op voorraad",
-    r"op dit moment niet",
+    r"uitverkocht", r"niet (op |meer )?voorraad", r"niet beschikbaar",
+    r"tijdelijk niet leverbaar", r"binnenkort beschikbaar",
+    r"out of stock", r"sold out", r"op dit moment niet",
 ]
 
-# In-stock signals
 IN_STOCK_PATTERNS = [
-    r"in winkelwagen",
-    r"toevoegen aan winkelwagen",
-    r"koop nu",
-    r"bestel nu",
-    r"add to cart",
-    r"op voorraad",
-    r"in voorraad",
-    r"direct leverbaar",
-    r"vandaag besteld",
+    r"in winkelwagen", r"toevoegen aan winkelwagen", r"koop nu",
+    r"bestel nu", r"add to cart", r"op voorraad", r"in voorraad",
+    r"direct leverbaar", r"vandaag besteld",
 ]
 
 
@@ -72,6 +60,48 @@ def save_json(path: Path, data: dict) -> None:
     path.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
 
 
+def shopify_handle(url: str) -> Optional[str]:
+    """Extract Shopify product handle from URL, or None if not a product URL."""
+    m = re.search(r"/products/([^/?#]+)", url)
+    return m.group(1) if m else None
+
+
+def fetch_shopify_bulk(domain: str, handles: set) -> dict[str, bool]:
+    """Fetch availability for multiple products in one shop via products.json.
+    Returns {handle: available} for all found handles.
+    """
+    result = {}
+    page = 1
+    remaining = set(handles)
+
+    while remaining:
+        try:
+            resp = requests.get(
+                f"https://{domain}/products.json",
+                params={"limit": 250, "page": page},
+                headers=HEADERS,
+                timeout=(5, 15),
+            )
+            if not resp.ok:
+                break
+            products = resp.json().get("products", [])
+            if not products:
+                break
+            for p in products:
+                h = p.get("handle", "")
+                if h in remaining:
+                    result[h] = any(v.get("available", False) for v in p.get("variants", []))
+                    remaining.discard(h)
+            if len(products) < 250:
+                break
+            page += 1
+            time.sleep(0.5)
+        except requests.RequestException:
+            break
+
+    return result
+
+
 def fetch_page(url: str) -> Optional[str]:
     try:
         resp = requests.get(url, headers=HEADERS, timeout=(5, 10), allow_redirects=True)
@@ -83,7 +113,6 @@ def fetch_page(url: str) -> Optional[str]:
 
 
 def check_jsonld_availability(soup: BeautifulSoup) -> Optional[bool]:
-    """Check JSON-LD structured data for availability."""
     for script in soup.find_all("script", type="application/ld+json"):
         try:
             data = json.loads(script.string or "")
@@ -103,7 +132,6 @@ def check_jsonld_availability(soup: BeautifulSoup) -> Optional[bool]:
 
 
 def check_meta_availability(soup: BeautifulSoup) -> Optional[bool]:
-    """Check Open Graph / meta tags."""
     for tag in soup.find_all("meta"):
         prop = tag.get("property", "") or tag.get("name", "")
         content = tag.get("content", "").lower()
@@ -116,7 +144,6 @@ def check_meta_availability(soup: BeautifulSoup) -> Optional[bool]:
 
 
 def check_selector(soup: BeautifulSoup, selector: str) -> Optional[bool]:
-    """Check if a custom CSS selector element is present (and not disabled)."""
     try:
         elements = soup.select(selector)
         if not elements:
@@ -130,67 +157,28 @@ def check_selector(soup: BeautifulSoup, selector: str) -> Optional[bool]:
 
 
 def text_heuristic(soup: BeautifulSoup) -> Optional[bool]:
-    """Scan visible text for Dutch stock indicators."""
     text = soup.get_text(" ", strip=True).lower()
-
     for pattern in OUT_OF_STOCK_PATTERNS:
         if re.search(pattern, text):
             return False
-
     for pattern in IN_STOCK_PATTERNS:
         if re.search(pattern, text):
             return True
-
     return None
 
 
-def check_shopify_api(url: str) -> Optional[bool]:
-    """For Shopify product pages, use the .json API for reliable availability."""
-    # Match /products/{handle} URLs
-    match = re.search(r"(https?://[^/]+/products/[^/?#]+)", url)
-    if not match:
-        return None
-    api_url = match.group(1) + ".json"
-    try:
-        resp = requests.get(api_url, headers=HEADERS, timeout=(5, 10))
-        if not resp.ok:
-            return None
-        data = resp.json().get("product", {})
-        variants = data.get("variants", [])
-        if not variants:
-            return None
-        return any(v.get("available", False) for v in variants)
-    except requests.RequestException:
-        return None
-
-
-def is_in_stock(url: str, html: str, selector: Optional[str]) -> Optional[bool]:
-    """Return True=in stock, False=out of stock, None=unknown."""
-
-    # 1. Shopify API (most reliable for Shopify stores)
-    result = check_shopify_api(url)
-    if result is not None:
-        return result
-
+def is_in_stock_html(url: str, html: str, selector: Optional[str]) -> Optional[bool]:
     soup = BeautifulSoup(html, "lxml")
-
-    # 2. Structured data
     result = check_jsonld_availability(soup)
     if result is not None:
         return result
-
-    # 3. Meta tags
     result = check_meta_availability(soup)
     if result is not None:
         return result
-
-    # 4. Custom selector from store config
     if selector:
         result = check_selector(soup, selector)
         if result is not None:
             return result
-
-    # 5. Text heuristic
     return text_heuristic(soup)
 
 
@@ -202,12 +190,8 @@ def send_telegram(message: str) -> bool:
     try:
         resp = requests.post(
             url,
-            json={
-                "chat_id": TELEGRAM_CHAT_ID,
-                "text": message,
-                "parse_mode": "HTML",
-                "disable_web_page_preview": False,
-            },
+            json={"chat_id": TELEGRAM_CHAT_ID, "text": message,
+                  "parse_mode": "HTML", "disable_web_page_preview": False},
             timeout=10,
         )
         resp.raise_for_status()
@@ -232,8 +216,28 @@ def main() -> int:
     stores = stores_data.get("stores", [])
 
     active_stores = [s for s in stores if s.get("active", True)]
-    print(f"Checking {len(active_stores)} winkel(s)...")
+    print(f"Checking {len(active_stores)} product(en)...\n")
 
+    # ── Pre-fetch Shopify availability in bulk (one request per shop) ──
+    shopify_cache: dict[str, bool] = {}
+    shopify_by_domain: dict[str, set] = defaultdict(set)
+
+    for store in active_stores:
+        handle = shopify_handle(store["url"])
+        if handle:
+            domain = urlparse(store["url"]).netloc
+            shopify_by_domain[domain].add(handle)
+
+    for domain, handles in shopify_by_domain.items():
+        print(f"[Shopify] {domain} — {len(handles)} producten ophalen...")
+        availability = fetch_shopify_bulk(domain, handles)
+        for handle, available in availability.items():
+            shopify_cache[f"{domain}/{handle}"] = available
+        found = len(availability)
+        missed = len(handles) - found
+        print(f"  → {found} gevonden, {missed} niet gevonden in products.json\n")
+
+    # ── Check each store ──
     state_changed = False
 
     for store in active_stores:
@@ -242,12 +246,26 @@ def main() -> int:
         url = store["url"]
         selector = store.get("selector")
 
-        print(f"\n→ {name}")
-        html = fetch_page(url)
-        if html is None:
-            continue
+        print(f"→ {name}")
 
-        status = is_in_stock(url, html, selector)
+        # Try Shopify cache first
+        handle = shopify_handle(url)
+        if handle:
+            domain = urlparse(url).netloc
+            cache_key = f"{domain}/{handle}"
+            if cache_key in shopify_cache:
+                status = shopify_cache[cache_key]
+            else:
+                # Not found in bulk — product may not exist or URL is wrong
+                print("  [?] Niet gevonden in Shopify catalog")
+                continue
+        else:
+            # Non-Shopify: fetch HTML
+            html = fetch_page(url)
+            if html is None:
+                continue
+            status = is_in_stock_html(url, html, selector)
+            time.sleep(1)
 
         if status is None:
             print("  [?] Status onbekend")
@@ -261,16 +279,13 @@ def main() -> int:
             print("  [✓] OP VOORRAAD")
             if prev_status is not True:
                 state_changed = True
-                msg = build_notification(store)
-                sent = send_telegram(msg)
+                sent = send_telegram(build_notification(store))
                 if sent:
                     print("  [✓] Telegram melding verstuurd")
         else:
             print("  [✗] Niet op voorraad")
             if prev_status is not False:
                 state_changed = True
-
-        time.sleep(1)
 
     if state_changed:
         save_json(STATE_FILE, state)
