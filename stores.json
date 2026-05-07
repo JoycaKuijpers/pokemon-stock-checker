@@ -8743,6 +8743,22 @@
       "selector": null,
       "added_at": "2026-05-07T15:29:23.692Z",
       "active": true
+    },
+    {
+      "id": "elite-trainer-box-black-bolt-1c9875",
+      "name": "Elite Trainer Box – Black Bolt",
+      "url": "https://levelupcards.nl/product/elite-trainer-box-black-bolt/",
+      "selector": null,
+      "added_at": "2026-05-07T15:29:29.161Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-box-white-flair-138686",
+      "name": "Elite Trainer Box – White Flair",
+      "url": "https://levelupcards.nl/product/elite-trainer-box-white-flair/",
+      "selector": null,
+      "added_at": "2026-05-07T15:29:29.162Z",
+      "active": true
     }
   ]
 }
