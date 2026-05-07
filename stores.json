@@ -15407,6 +15407,22 @@
       "selector": null,
       "added_at": "2026-05-07T15:54:59.905Z",
       "active": true
+    },
+    {
+      "id": "uitverkocht-4b3150",
+      "name": "UITVERKOCHT",
+      "url": "https://tcgshop.nl/products/pokemon-tcg-stellar-crown-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:55:08.508Z",
+      "active": true
+    },
+    {
+      "id": "uitverkocht-19d3ae",
+      "name": "UITVERKOCHT",
+      "url": "https://tcgshop.nl/products/pokemon-tcg-destined-rivals-booster-box",
+      "selector": null,
+      "added_at": "2026-05-07T15:55:08.508Z",
+      "active": true
     }
   ]
 }
