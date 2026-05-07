@@ -10255,6 +10255,38 @@
       "selector": null,
       "added_at": "2026-05-07T15:40:11.226Z",
       "active": true
+    },
+    {
+      "id": "pokemon-me2-5-ascended--195a9f",
+      "name": "Pokemon ME2.5 Ascended...",
+      "url": "https://www.tcgcenter.nl/nl/home/2821-pokemon-me25-ascended-heroes-ex-box-mega-emboar-0196214131972.html",
+      "selector": null,
+      "added_at": "2026-05-07T15:40:29.558Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-me2-5-ascended--79d105",
+      "name": "Pokemon ME2.5 Ascended...",
+      "url": "https://www.tcgcenter.nl/nl/home/2820-pokemon-me25-ascended-heroes-ex-box-mega-meganium-0196214131972.html",
+      "selector": null,
+      "added_at": "2026-05-07T15:40:29.559Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-mega-kangaskhan-ex-box-598345",
+      "name": "Pokemon Mega Kangaskhan Ex Box",
+      "url": "https://www.tcgcenter.nl/nl/home/2219-mega-kangaskhan-ex-box-0196214116863.html",
+      "selector": null,
+      "added_at": "2026-05-07T15:40:29.559Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-mega-latias-ex-box-8c1979",
+      "name": "Pokemon Mega Latias Ex Box",
+      "url": "https://www.tcgcenter.nl/nl/home/2141-pokemon-mega-latias-ex-box-0196214119192.html",
+      "selector": null,
+      "added_at": "2026-05-07T15:40:29.559Z",
+      "active": true
     }
   ]
 }
