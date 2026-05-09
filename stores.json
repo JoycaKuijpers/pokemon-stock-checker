@@ -392,6 +392,16 @@
       "selector": null,
       "added_at": "2026-05-09T17:38:43.855Z",
       "active": true
+    },
+    {
+      "id": "boosterboxen-categorie-n-120942",
+      "name": "Boosterboxen / Categorieën",
+      "url": "https://www.collectableworld.nl/categorieen/boosterboxen",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-09T17:38:49.171Z",
+      "active": true
     }
   ]
 }
