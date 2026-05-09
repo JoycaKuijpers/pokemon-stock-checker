@@ -302,6 +302,16 @@
       "selector": null,
       "added_at": "2026-05-09T17:35:40.739Z",
       "active": true
+    },
+    {
+      "id": "pokemon-elite-trainer-box-kope-219b80",
+      "name": "Pokemon Elite Trainer Box kopen?",
+      "url": "https://www.bescards.com/pokemon-elite-trainer-box/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-09T17:35:44.681Z",
+      "active": true
     }
   ]
 }
