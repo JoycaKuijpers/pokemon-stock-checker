@@ -322,6 +322,16 @@
       "selector": null,
       "added_at": "2026-05-09T17:35:50.739Z",
       "active": true
+    },
+    {
+      "id": "booster-boxes-494b65",
+      "name": "Booster Boxes",
+      "url": "https://davidptcg.nl/collections/booster-boxes",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-09T17:36:10.744Z",
+      "active": true
     }
   ]
 }
