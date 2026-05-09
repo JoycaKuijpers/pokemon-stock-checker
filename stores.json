@@ -152,6 +152,16 @@
       "selector": null,
       "added_at": "2026-05-09T17:28:20.167Z",
       "active": true
+    },
+    {
+      "id": "pokemon-elite-trainer-boxen-1e49b9",
+      "name": "Pokemon Elite Trainer Boxen",
+      "url": "https://pokemagic.nl/product-categorie/sealed-producten/elite-trainer-box/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-09T17:28:24.167Z",
+      "active": true
     }
   ]
 }
