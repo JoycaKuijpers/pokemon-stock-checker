@@ -92,6 +92,16 @@
       "selector": null,
       "added_at": "2026-05-09T17:27:04.769Z",
       "active": true
+    },
+    {
+      "id": "pokemon-premium-collection-box-225575",
+      "name": "Pokemon Premium Collection Box",
+      "url": "https://www.pkmwinkel.nl/collections/pokemon-tcg-v-box",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-09T17:27:08.962Z",
+      "active": true
     }
   ]
 }
