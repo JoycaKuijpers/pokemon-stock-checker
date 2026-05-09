@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Pokémon Stock Checker
-Checks Dutch/Belgian webshops for product availability and sends Telegram alerts.
+Monitors Dutch/Belgian webshop categories and alerts when products come back in stock.
 """
 
 import json
@@ -15,8 +15,6 @@ from pathlib import Path
 from typing import Optional
 from urllib.parse import urlparse
 
-NOTIFY_COOLDOWN_HOURS = 2
-
 import requests
 from bs4 import BeautifulSoup
 
@@ -29,6 +27,8 @@ STATE_FILE = STORES_FILE.parent / "state.json"
 
 TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
+
+NOTIFY_COOLDOWN_HOURS = 2
 
 HEADERS = {
     "User-Agent": (
@@ -53,6 +53,8 @@ IN_STOCK_PATTERNS = [
 ]
 
 
+# ── Helpers ───────────────────────────────────────────────────────────────────
+
 def load_json(path: Path) -> dict:
     if path.exists():
         return json.loads(path.read_text(encoding="utf-8"))
@@ -63,20 +65,93 @@ def save_json(path: Path, data: dict) -> None:
     path.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
 
 
+def normalize_name(name: str) -> str:
+    return re.sub(r"Pok[eé]mon", "Pokemon", name, flags=re.I)
+
+
+def now_utc() -> str:
+    return time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
+
+
+def cooldown_passed(last_notified: Optional[str]) -> bool:
+    if not last_notified:
+        return True
+    elapsed = datetime.now(timezone.utc) - datetime.fromisoformat(last_notified)
+    return elapsed > timedelta(hours=NOTIFY_COOLDOWN_HOURS)
+
+
+def fetch_page(url: str) -> Optional[str]:
+    try:
+        resp = requests.get(url, headers=HEADERS, timeout=(5, 10), allow_redirects=True)
+        resp.raise_for_status()
+        return resp.text
+    except requests.RequestException as e:
+        print(f"  [FOUT] Kon {url} niet ophalen: {e}", file=sys.stderr)
+        return None
+
+
+# ── Product state tracking ────────────────────────────────────────────────────
+
+def process_product(prod_state: dict, key: str, name: str, url: str, available: bool) -> Optional[dict]:
+    """
+    Update state for one product. Returns a notification dict only when the
+    product transitions from out-of-stock → in-stock (never on first sight).
+    """
+    entry = prod_state.setdefault(key, {})
+    prev_status = entry.get("in_stock")  # None = first time, True/False = known
+
+    entry.update({"name": name, "url": url, "in_stock": available, "last_checked": now_utc()})
+
+    if available:
+        # Only notify on explicit False → True transition
+        if prev_status is False and cooldown_passed(entry.get("last_notified")):
+            entry["last_notified"] = datetime.now(timezone.utc).isoformat()
+            return {"name": name, "url": url}
+    else:
+        entry.pop("last_notified", None)
+
+    return None
+
+
+# ── Shopify ───────────────────────────────────────────────────────────────────
+
 def shopify_handle(url: str) -> Optional[str]:
-    """Extract Shopify product handle from URL, or None if not a product URL."""
     m = re.search(r"/products/([^/?#]+)", url)
     return m.group(1) if m else None
 
 
+def fetch_shopify_collection(domain: str, collection_handle: str) -> list[dict]:
+    """Fetch all products from a Shopify collection via the public JSON API."""
+    products = []
+    page = 1
+    while True:
+        try:
+            resp = requests.get(
+                f"https://{domain}/collections/{collection_handle}/products.json",
+                params={"limit": 250, "page": page},
+                headers=HEADERS,
+                timeout=(5, 15),
+            )
+            if not resp.ok:
+                break
+            batch = resp.json().get("products", [])
+            if not batch:
+                break
+            products.extend(batch)
+            if len(batch) < 250:
+                break
+            page += 1
+            time.sleep(0.3)
+        except requests.RequestException:
+            break
+    return products
+
+
 def fetch_shopify_bulk(domain: str, handles: set) -> dict[str, bool]:
-    """Fetch availability for multiple products in one shop via products.json.
-    Returns {handle: available} for all found handles.
-    """
+    """Fetch availability for individual Shopify products by handle (product mode)."""
     result = {}
     page = 1
     remaining = set(handles)
-
     while remaining:
         try:
             resp = requests.get(
@@ -101,19 +176,10 @@ def fetch_shopify_bulk(domain: str, handles: set) -> dict[str, bool]:
             time.sleep(0.5)
         except requests.RequestException:
             break
-
     return result
 
 
-def fetch_page(url: str) -> Optional[str]:
-    try:
-        resp = requests.get(url, headers=HEADERS, timeout=(5, 10), allow_redirects=True)
-        resp.raise_for_status()
-        return resp.text
-    except requests.RequestException as e:
-        print(f"  [FOUT] Kon {url} niet ophalen: {e}", file=sys.stderr)
-        return None
-
+# ── HTML availability helpers (product-page mode) ────────────────────────────
 
 def check_jsonld_availability(soup: BeautifulSoup) -> Optional[bool]:
     for script in soup.find_all("script", type="application/ld+json"):
@@ -172,12 +238,10 @@ def text_heuristic(soup: BeautifulSoup) -> Optional[bool]:
 
 def is_in_stock_html(url: str, html: str, selector: Optional[str]) -> Optional[bool]:
     soup = BeautifulSoup(html, "lxml")
-    result = check_jsonld_availability(soup)
-    if result is not None:
-        return result
-    result = check_meta_availability(soup)
-    if result is not None:
-        return result
+    for check in (check_jsonld_availability, check_meta_availability):
+        result = check(soup)
+        if result is not None:
+            return result
     if selector:
         result = check_selector(soup, selector)
         if result is not None:
@@ -185,14 +249,127 @@ def is_in_stock_html(url: str, html: str, selector: Optional[str]) -> Optional[b
     return text_heuristic(soup)
 
 
+# ── Category checkers ─────────────────────────────────────────────────────────
+
+def check_shopify_category(store: dict, state: dict) -> tuple[list[dict], bool]:
+    """Check a Shopify /collections/ page. Returns (notifications, state_changed)."""
+    url = store["url"]
+    m = re.search(r"/collections/([^/?#]+)", url)
+    if not m:
+        print("  [!] Geen collection handle gevonden in URL")
+        return [], False
+
+    domain = urlparse(url).netloc
+    handle = m.group(1)
+    products = fetch_shopify_collection(domain, handle)
+
+    if not products:
+        print("  [!] Geen producten gevonden in collectie")
+        return [], False
+
+    print(f"  → {len(products)} producten in collectie")
+
+    cat_state = state.setdefault(store["id"], {"products": {}})
+    prod_state = cat_state.setdefault("products", {})
+    cat_state["last_checked"] = now_utc()
+
+    notifications = []
+    for p in products:
+        available = any(v.get("available", False) for v in p.get("variants", []))
+        name = normalize_name(p["title"])
+        prod_url = f"https://{domain}/products/{p['handle']}"
+        notif = process_product(prod_state, p["handle"], name, prod_url, available)
+        if notif:
+            notifications.append(notif)
+
+    in_stock = sum(1 for e in prod_state.values() if e.get("in_stock"))
+    print(f"  → {in_stock}/{len(products)} op voorraad, {len(notifications)} nieuw op voorraad")
+    return notifications, True
+
+
+def check_woocommerce_category(store: dict, state: dict, soup: BeautifulSoup) -> tuple[list[dict], bool]:
+    """
+    Check a WooCommerce category page. Uses the 'instock'/'outofstock' CSS
+    classes that WooCommerce adds to every product card — no per-product
+    HTTP request needed.
+    """
+    cards = soup.select("li.product, div.product")
+    if not cards:
+        print("  [!] Geen WooCommerce product cards gevonden")
+        return [], False
+
+    print(f"  → {len(cards)} producten gevonden")
+
+    cat_state = state.setdefault(store["id"], {"products": {}})
+    prod_state = cat_state.setdefault("products", {})
+    cat_state["last_checked"] = now_utc()
+
+    notifications = []
+    for card in cards:
+        classes = card.get("class", [])
+        if "instock" in classes:
+            available = True
+        elif "outofstock" in classes:
+            available = False
+        else:
+            continue  # stock status unknown on this card
+
+        link = card.find("a", href=True)
+        if not link:
+            continue
+        prod_url = link.get("href", "")
+        if not prod_url:
+            continue
+
+        name_el = card.select_one(".woocommerce-loop-product__title, h2, h3")
+        name = name_el.get_text(strip=True) if name_el else (
+            link.get("title") or link.get_text(strip=True)
+        )
+        name = normalize_name(name[:120])
+        if not name:
+            continue
+
+        key = urlparse(prod_url).path.strip("/").replace("/", "-")
+        notif = process_product(prod_state, key, name, prod_url, available)
+        if notif:
+            notifications.append(notif)
+
+    in_stock = sum(1 for e in prod_state.values() if e.get("in_stock"))
+    print(f"  → {in_stock}/{len(cards)} op voorraad, {len(notifications)} nieuw op voorraad")
+    return notifications, True
+
+
+def check_category(store: dict, state: dict) -> tuple[list[dict], bool]:
+    """Auto-detect platform and check the category page."""
+    url = store["url"]
+
+    # Shopify: URL contains /collections/<handle>
+    if re.search(r"/collections/[^/?#]+", url):
+        return check_shopify_category(store, state)
+
+    # Everything else: fetch HTML and try WooCommerce detection
+    html = fetch_page(url)
+    if not html:
+        return [], False
+
+    soup = BeautifulSoup(html, "lxml")
+    if soup.select("li.product, div.product"):
+        return check_woocommerce_category(store, state, soup)
+
+    print("  [!] Platform niet herkend voor categorie-modus")
+    return [], False
+
+
+# ── Telegram ──────────────────────────────────────────────────────────────────
+
 def send_telegram(message: str) -> bool:
     if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
         print("  [SKIP] Telegram niet geconfigureerd.")
         return False
-    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
+    api_url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
     try:
         resp = requests.post(
-            url,
+            api_url,
             json={"chat_id": TELEGRAM_CHAT_ID, "text": message,
                   "parse_mode": "HTML", "disable_web_page_preview": False},
             timeout=10,
@@ -204,99 +381,103 @@ def send_telegram(message: str) -> bool:
         return False
 
 
-def build_notification(store: dict) -> str:
+def build_notification(name: str, url: str) -> str:
     return (
         f"🟢 <b>OP VOORRAAD!</b>\n\n"
-        f"🎮 <b>{store['name']}</b>\n"
-        f"🛒 <a href=\"{store['url']}\">{store['url']}</a>\n\n"
+        f"🎮 <b>{name}</b>\n"
+        f"🛒 <a href=\"{url}\">{url}</a>\n\n"
         f"⚡ Wees er snel bij!"
     )
 
+
+# ── Main ──────────────────────────────────────────────────────────────────────
 
 def main() -> int:
     stores_data = load_json(STORES_FILE)
     state = load_json(STATE_FILE)
     stores = stores_data.get("stores", [])
-
     active_stores = [s for s in stores if s.get("active", True)]
-    print(f"Checking {len(active_stores)} product(en)...\n")
 
-    # ── Pre-fetch Shopify availability in bulk (one request per shop) ──
+    print(f"Checking {len(active_stores)} entr{'y' if len(active_stores) == 1 else 'ies'}...\n")
+
+    # Pre-fetch Shopify availability in bulk for individual-product entries
     shopify_cache: dict[str, bool] = {}
     shopify_by_domain: dict[str, set] = defaultdict(set)
 
     for store in active_stores:
-        handle = shopify_handle(store["url"])
-        if handle:
-            domain = urlparse(store["url"]).netloc
-            shopify_by_domain[domain].add(handle)
+        if store.get("type", "product") == "product":
+            handle = shopify_handle(store["url"])
+            if handle:
+                domain = urlparse(store["url"]).netloc
+                shopify_by_domain[domain].add(handle)
 
     for domain, handles in shopify_by_domain.items():
         print(f"[Shopify] {domain} — {len(handles)} producten ophalen...")
         availability = fetch_shopify_bulk(domain, handles)
         for handle, available in availability.items():
             shopify_cache[f"{domain}/{handle}"] = available
-        found = len(availability)
-        missed = len(handles) - found
-        print(f"  → {found} gevonden, {missed} niet gevonden in products.json\n")
+        print(f"  → {len(availability)} gevonden, {len(handles) - len(availability)} niet gevonden\n")
 
-    # ── Check each store ──
     state_changed = False
 
     for store in active_stores:
-        store_id = store["id"]
-        name = store["name"]
-        url = store["url"]
-        selector = store.get("selector")
+        store_type = store.get("type", "product")
+        print(f"→ {store['name']} [{store_type}]")
 
-        print(f"→ {name}")
-
-        # Try Shopify cache first
-        handle = shopify_handle(url)
-        if handle:
-            domain = urlparse(url).netloc
-            cache_key = f"{domain}/{handle}"
-            if cache_key in shopify_cache:
-                status = shopify_cache[cache_key]
-            else:
-                # Not found in bulk — product may not exist or URL is wrong
-                print("  [?] Niet gevonden in Shopify catalog")
-                continue
-        else:
-            # Non-Shopify: fetch HTML
-            html = fetch_page(url)
-            if html is None:
-                continue
-            status = is_in_stock_html(url, html, selector)
+        if store_type == "category":
+            notifications, changed = check_category(store, state)
+            if changed:
+                state_changed = True
+            for notif in notifications:
+                sent = send_telegram(build_notification(notif["name"], notif["url"]))
+                if sent:
+                    print(f"  [✓] Melding verstuurd: {notif['name']}")
             time.sleep(1)
 
-        if status is None:
-            print("  [?] Status onbekend")
-            continue
-
-        prev = state.setdefault(store_id, {})
-        prev_status = prev.get("in_stock")
-        prev["in_stock"] = status
-        prev["last_checked"] = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
-
-        if status:
-            print("  [✓] OP VOORRAAD")
-            last_notified = prev.get("last_notified")
-            cooldown_passed = not last_notified or (
-                datetime.now(timezone.utc) - datetime.fromisoformat(last_notified)
-                > timedelta(hours=NOTIFY_COOLDOWN_HOURS)
-            )
-            if prev_status is not True or cooldown_passed:
-                state_changed = True
-                sent = send_telegram(build_notification(store))
-                if sent:
-                    prev["last_notified"] = datetime.now(timezone.utc).isoformat()
-                    print("  [✓] Telegram melding verstuurd")
         else:
-            print("  [✗] Niet op voorraad")
-            if prev_status is True:
-                prev.pop("last_notified", None)
-                state_changed = True
+            # Individual product mode (backward compatible)
+            url = store["url"]
+            store_id = store["id"]
+            selector = store.get("selector")
+
+            handle = shopify_handle(url)
+            if handle:
+                domain = urlparse(url).netloc
+                cache_key = f"{domain}/{handle}"
+                if cache_key not in shopify_cache:
+                    print("  [?] Niet gevonden in Shopify catalog")
+                    continue
+                status = shopify_cache[cache_key]
+            else:
+                html = fetch_page(url)
+                if html is None:
+                    continue
+                status = is_in_stock_html(url, html, selector)
+                time.sleep(1)
+
+            if status is None:
+                print("  [?] Status onbekend")
+                continue
+
+            prev = state.setdefault(store_id, {})
+            prev_status = prev.get("in_stock")
+            prev["in_stock"] = status
+            prev["last_checked"] = now_utc()
+
+            if status:
+                print("  [✓] OP VOORRAAD")
+                # Only notify on False → True (not on first sight)
+                if prev_status is False and cooldown_passed(prev.get("last_notified")):
+                    state_changed = True
+                    sent = send_telegram(build_notification(store["name"], url))
+                    if sent:
+                        prev["last_notified"] = datetime.now(timezone.utc).isoformat()
+                        print("  [✓] Telegram melding verstuurd")
+            else:
+                print("  [✗] Niet op voorraad")
+                if prev_status is True:
+                    prev.pop("last_notified", None)
+                    state_changed = True
 
     if state_changed:
         save_json(STATE_FILE, state)
