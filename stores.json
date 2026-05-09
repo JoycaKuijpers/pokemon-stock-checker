@@ -352,6 +352,16 @@
       "selector": null,
       "added_at": "2026-05-09T17:36:45.689Z",
       "active": true
+    },
+    {
+      "id": "winkel-13c2e3",
+      "name": "Winkel",
+      "url": "https://ultracards.eu/shop/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-09T17:36:57.897Z",
+      "active": true
     }
   ]
 }
