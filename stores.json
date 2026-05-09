@@ -402,6 +402,16 @@
       "selector": null,
       "added_at": "2026-05-09T17:38:49.171Z",
       "active": true
+    },
+    {
+      "id": "pre-order-809ca9",
+      "name": "Pre Order",
+      "url": "https://www.collectableworld.nl/pre-order",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-09T17:38:55.979Z",
+      "active": true
     }
   ]
 }
