@@ -232,6 +232,16 @@
       "selector": null,
       "added_at": "2026-05-09T17:33:02.063Z",
       "active": true
+    },
+    {
+      "id": "pokemon-collection-boxen-28e5d1",
+      "name": "Pokemon Collection boxen",
+      "url": "https://www.debroergrot.nl/collections/collection-boxen",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-09T17:33:06.457Z",
+      "active": true
     }
   ]
 }
