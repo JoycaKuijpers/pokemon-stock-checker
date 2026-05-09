@@ -35,6 +35,15 @@
       "selector": null,
       "added_at": "2026-05-09T17:26:09.216Z",
       "active": true
+    },
+    {
+      "id": "pokemon-elite-trainer-box-15645d",
+      "name": "Pokemon Elite Trainer Box",
+      "url": "https://pokefamily.nl/collections/elite-trainer-box",
+      "type": "category",
+      "selector": null,
+      "added_at": "2026-05-09T17:26:14.332Z",
+      "active": true
     }
   ]
 }
