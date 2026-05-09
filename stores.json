@@ -222,6 +222,16 @@
       "selector": null,
       "added_at": "2026-05-09T17:32:56.338Z",
       "active": true
+    },
+    {
+      "id": "elite-trainer-box-kopen-nu-dir-51b9bf",
+      "name": "Elite trainer box kopen? Nu direct uit voorraad leverbaar!",
+      "url": "https://www.debroergrot.nl/collections/elite-trainer-box",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-09T17:33:02.063Z",
+      "active": true
     }
   ]
 }
