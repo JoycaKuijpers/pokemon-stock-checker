@@ -442,6 +442,16 @@
       "selector": null,
       "added_at": "2026-05-09T17:39:24.289Z",
       "active": true
+    },
+    {
+      "id": "pokemon-boosterbox-2383e0",
+      "name": "Pokemon-boosterbox",
+      "url": "https://www.eastwoodtcg.com/pokemon-boosterbox",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-09T17:39:36.090Z",
+      "active": true
     }
   ]
 }
