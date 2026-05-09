@@ -182,6 +182,16 @@
       "selector": null,
       "added_at": "2026-05-09T17:29:37.947Z",
       "active": true
+    },
+    {
+      "id": "pokemon-booster-boxes-29c181",
+      "name": "Pokemon Booster Boxes",
+      "url": "https://pokeflip.com/collections/booster-boxes",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-09T17:29:41.428Z",
+      "active": true
     }
   ]
 }
