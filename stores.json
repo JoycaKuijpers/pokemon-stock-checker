@@ -262,6 +262,16 @@
       "selector": null,
       "added_at": "2026-05-09T17:34:12.442Z",
       "active": true
+    },
+    {
+      "id": "royal-cards-pokemon-kaarten-1e4618",
+      "name": "Royal Cards Pokemon Kaarten",
+      "url": "https://royalcards.nl/pokemon-kaarten/booster-box/engels/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-09T17:34:37.177Z",
+      "active": true
     }
   ]
 }
