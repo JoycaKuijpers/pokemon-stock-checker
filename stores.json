@@ -122,6 +122,16 @@
       "selector": null,
       "added_at": "2026-05-09T17:27:42.726Z",
       "active": true
+    },
+    {
+      "id": "categorie-elite-trainer-2b8a4f",
+      "name": "Categorie: Elite Trainer",
+      "url": "https://www.pkmkaarten.nl/product-categorie/trading-card-game-tcg/elite-trainer/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-09T17:28:00.838Z",
+      "active": true
     }
   ]
 }
