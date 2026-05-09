@@ -82,6 +82,16 @@
       "selector": null,
       "added_at": "2026-05-09T17:27:00.423Z",
       "active": true
+    },
+    {
+      "id": "theme-decks-2c6703",
+      "name": "Theme Decks",
+      "url": "https://www.pkmwinkel.nl/collections/theme-decks",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-09T17:27:04.769Z",
+      "active": true
     }
   ]
 }
