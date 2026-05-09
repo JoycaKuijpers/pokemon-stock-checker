@@ -1,15 +1,6 @@
 {
   "stores": [
     {
-      "id": "pokemon-pre-order-pagina-2-van-114ab8",
-      "name": "Pokemon Pre Order - Pagina 2 van 2 - TCG Company",
-      "url": "https://tcgcompany.nl/pokemon-pre-order/page/2/?sf_paged=2",
-      "type": "category",
-      "selector": null,
-      "added_at": "2026-05-09T17:20:10.785Z",
-      "active": true
-    },
-    {
       "id": "pokemon-pre-order-15cffe",
       "name": "Pokemon Pre Order",
       "url": "https://tcgcompany.nl/pokemon-pre-order/",
