@@ -53,6 +53,15 @@
       "selector": null,
       "added_at": "2026-05-09T17:26:18.259Z",
       "active": true
+    },
+    {
+      "id": "collection-box-453585",
+      "name": "Collection Box",
+      "url": "https://pokefamily.nl/collections/collection-box",
+      "type": "category",
+      "selector": null,
+      "added_at": "2026-05-09T17:26:23.793Z",
+      "active": true
     }
   ]
 }
