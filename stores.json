@@ -172,6 +172,16 @@
       "selector": null,
       "added_at": "2026-05-09T17:28:28.267Z",
       "active": true
+    },
+    {
+      "id": "pokemon-elite-trainer-boxes-2ee190",
+      "name": "Pokemon Elite Trainer Boxes",
+      "url": "https://pokeflip.com/collections/elite-trainer-boxes",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-09T17:29:37.947Z",
+      "active": true
     }
   ]
 }
