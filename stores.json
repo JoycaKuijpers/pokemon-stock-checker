@@ -102,6 +102,16 @@
       "selector": null,
       "added_at": "2026-05-09T17:27:08.962Z",
       "active": true
+    },
+    {
+      "id": "pokemon-premium-collection-ver-17181f",
+      "name": "Pokemon Premium Collection verzamelkaarten",
+      "url": "https://www.pkmwinkel.nl/collections/premium-collection-1",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-09T17:27:13.790Z",
+      "active": true
     }
   ]
 }
