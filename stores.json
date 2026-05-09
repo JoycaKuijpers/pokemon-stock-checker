@@ -8,6 +8,15 @@
       "selector": null,
       "added_at": "2026-05-09T17:23:17.874Z",
       "active": true
+    },
+    {
+      "id": "pokemon-elite-trainer-box-80344d",
+      "name": "Pokemon Elite Trainer Box",
+      "url": "https://tcgcompany.nl/pokemon-elite-trainer-box/",
+      "type": "category",
+      "selector": null,
+      "added_at": "2026-05-09T17:23:45.265Z",
+      "active": true
     }
   ]
 }
