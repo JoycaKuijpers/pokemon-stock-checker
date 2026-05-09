@@ -132,6 +132,16 @@
       "selector": null,
       "added_at": "2026-05-09T17:28:00.838Z",
       "active": true
+    },
+    {
+      "id": "categorie-gx-v-boxen-20ae4f",
+      "name": "Categorie: GX / V Boxen",
+      "url": "https://www.pkmkaarten.nl/product-categorie/trading-card-game-tcg/ex-gx-boxen/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-09T17:28:06.993Z",
+      "active": true
     }
   ]
 }
