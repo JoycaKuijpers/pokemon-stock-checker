@@ -287,32 +287,30 @@ def check_shopify_category(store: dict, state: dict) -> tuple[list[dict], bool]:
     return notifications, True
 
 
-def check_woocommerce_category(store: dict, state: dict, soup: BeautifulSoup) -> tuple[list[dict], bool]:
-    """
-    Check a WooCommerce category page. Uses the 'instock'/'outofstock' CSS
-    classes that WooCommerce adds to every product card — no per-product
-    HTTP request needed.
-    """
-    cards = soup.select("li.product, div.product")
-    if not cards:
-        print("  [!] Geen WooCommerce product cards gevonden")
-        return [], False
+def get_woocommerce_max_page(soup: BeautifulSoup) -> int:
+    """Extract the highest page number from WooCommerce pagination links."""
+    max_page = 1
+    for a in soup.select("a.page-numbers, .woocommerce-pagination a"):
+        try:
+            n = int(a.get_text(strip=True))
+            if n > max_page:
+                max_page = n
+        except ValueError:
+            continue
+    return max_page
 
-    print(f"  → {len(cards)} producten gevonden")
 
-    cat_state = state.setdefault(store["id"], {"products": {}})
-    prod_state = cat_state.setdefault("products", {})
-    cat_state["last_checked"] = now_utc()
-
-    notifications = []
-    for card in cards:
+def parse_woocommerce_cards(soup: BeautifulSoup) -> list[dict]:
+    """Extract product name, url and stock status from WooCommerce product cards."""
+    results = []
+    for card in soup.select("li.product, div.product"):
         classes = card.get("class", [])
         if "instock" in classes:
             available = True
         elif "outofstock" in classes:
             available = False
         else:
-            continue  # stock status unknown on this card
+            continue
 
         link = card.find("a", href=True)
         if not link:
@@ -329,13 +327,49 @@ def check_woocommerce_category(store: dict, state: dict, soup: BeautifulSoup) ->
         if not name:
             continue
 
-        key = urlparse(prod_url).path.strip("/").replace("/", "-")
-        notif = process_product(prod_state, key, name, prod_url, available)
+        results.append({"name": name, "url": prod_url, "available": available})
+    return results
+
+
+def check_woocommerce_category(store: dict, state: dict, soup: BeautifulSoup) -> tuple[list[dict], bool]:
+    """
+    Check a WooCommerce category page — including all paginated pages.
+    Uses the 'instock'/'outofstock' CSS classes; no per-product request needed.
+    """
+    base_url = store["url"].rstrip("/")
+    max_page = get_woocommerce_max_page(soup)
+
+    # Collect products from page 1 (already fetched) + remaining pages
+    all_products = parse_woocommerce_cards(soup)
+
+    for page in range(2, max_page + 1):
+        page_url = f"{base_url}/page/{page}/"
+        html = fetch_page(page_url)
+        if not html:
+            break
+        all_products.extend(parse_woocommerce_cards(BeautifulSoup(html, "lxml")))
+        time.sleep(0.5)
+
+    if not all_products:
+        print("  [!] Geen WooCommerce product cards gevonden")
+        return [], False
+
+    pages_str = f" ({max_page} pagina's)" if max_page > 1 else ""
+    print(f"  → {len(all_products)} producten gevonden{pages_str}")
+
+    cat_state = state.setdefault(store["id"], {"products": {}})
+    prod_state = cat_state.setdefault("products", {})
+    cat_state["last_checked"] = now_utc()
+
+    notifications = []
+    for p in all_products:
+        key = urlparse(p["url"]).path.strip("/").replace("/", "-")
+        notif = process_product(prod_state, key, p["name"], p["url"], p["available"])
         if notif:
             notifications.append(notif)
 
     in_stock = sum(1 for e in prod_state.values() if e.get("in_stock"))
-    print(f"  → {in_stock}/{len(cards)} op voorraad, {len(notifications)} nieuw op voorraad")
+    print(f"  → {in_stock}/{len(all_products)} op voorraad, {len(notifications)} nieuw op voorraad")
     return notifications, True
 
 
