@@ -312,6 +312,16 @@
       "selector": null,
       "added_at": "2026-05-09T17:35:44.681Z",
       "active": true
+    },
+    {
+      "id": "pokemon-collection-box-1b4e18",
+      "name": "Pokemon Collection Box",
+      "url": "https://www.bescards.com/pokemon-collection-box/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-09T17:35:50.739Z",
+      "active": true
     }
   ]
 }
