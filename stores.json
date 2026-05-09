@@ -142,6 +142,16 @@
       "selector": null,
       "added_at": "2026-05-09T17:28:06.993Z",
       "active": true
+    },
+    {
+      "id": "pokemon-boosterbox-3d2787",
+      "name": "Pokemon Boosterbox",
+      "url": "https://pokemagic.nl/product-categorie/sealed-producten/boosterbox/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-09T17:28:20.167Z",
+      "active": true
     }
   ]
 }
