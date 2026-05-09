@@ -452,6 +452,16 @@
       "selector": null,
       "added_at": "2026-05-09T17:39:36.090Z",
       "active": true
+    },
+    {
+      "id": "elite-trainer-boxen-33106d",
+      "name": "Elite Trainer Boxen",
+      "url": "https://www.eastwoodtcg.com/pokemon-elite-trainer-boxen",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-09T17:39:40.005Z",
+      "active": true
     }
   ]
 }
