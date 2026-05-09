@@ -242,6 +242,16 @@
       "selector": null,
       "added_at": "2026-05-09T17:33:06.457Z",
       "active": true
+    },
+    {
+      "id": "sealed-1daf91",
+      "name": "sealed",
+      "url": "https://www.pkmncardshop.nl/c/mega-evolution/mega-evolution/sealed",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-09T17:34:08.096Z",
+      "active": true
     }
   ]
 }
