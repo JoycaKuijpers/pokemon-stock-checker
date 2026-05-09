@@ -92,10 +92,13 @@ def fetch_page(url: str) -> Optional[str]:
 
 # ── Product state tracking ────────────────────────────────────────────────────
 
-def process_product(prod_state: dict, key: str, name: str, url: str, available: bool) -> Optional[dict]:
+def process_product(prod_state: dict, key: str, name: str, url: str, available: bool,
+                    notify_on_new: bool = False) -> Optional[dict]:
     """
-    Update state for one product. Returns a notification dict only when the
-    product transitions from out-of-stock → in-stock (never on first sight).
+    Update state for one product. Returns a notification dict when:
+    - Product transitions from out-of-stock → in-stock, OR
+    - Product is new (never seen before) AND notify_on_new is True
+      (used for pre-order/empty categories).
     """
     entry = prod_state.setdefault(key, {})
     prev_status = entry.get("in_stock")  # None = first time, True/False = known
@@ -103,8 +106,9 @@ def process_product(prod_state: dict, key: str, name: str, url: str, available: 
     entry.update({"name": name, "url": url, "in_stock": available, "last_checked": now_utc()})
 
     if available:
-        # Only notify on explicit False → True transition
-        if prev_status is False and cooldown_passed(entry.get("last_notified")):
+        is_new = prev_status is None
+        came_back = prev_status is False
+        if (came_back or (is_new and notify_on_new)) and cooldown_passed(entry.get("last_notified")):
             entry["last_notified"] = datetime.now(timezone.utc).isoformat()
             return {"name": name, "url": url}
     else:
@@ -273,12 +277,13 @@ def check_shopify_category(store: dict, state: dict) -> tuple[list[dict], bool]:
     prod_state = cat_state.setdefault("products", {})
     cat_state["last_checked"] = now_utc()
 
+    notify_on_new = store.get("notify_on_new", False)
     notifications = []
     for p in products:
         available = any(v.get("available", False) for v in p.get("variants", []))
         name = normalize_name(p["title"])
         prod_url = f"https://{domain}/products/{p['handle']}"
-        notif = process_product(prod_state, p["handle"], name, prod_url, available)
+        notif = process_product(prod_state, p["handle"], name, prod_url, available, notify_on_new)
         if notif:
             notifications.append(notif)
 
@@ -361,10 +366,11 @@ def check_woocommerce_category(store: dict, state: dict, soup: BeautifulSoup) ->
     prod_state = cat_state.setdefault("products", {})
     cat_state["last_checked"] = now_utc()
 
+    notify_on_new = store.get("notify_on_new", False)
     notifications = []
     for p in all_products:
         key = urlparse(p["url"]).path.strip("/").replace("/", "-")
-        notif = process_product(prod_state, key, p["name"], p["url"], p["available"])
+        notif = process_product(prod_state, key, p["name"], p["url"], p["available"], notify_on_new)
         if notif:
             notifications.append(notif)
 
@@ -522,3 +528,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
+
