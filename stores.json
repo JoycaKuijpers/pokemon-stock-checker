@@ -202,6 +202,16 @@
       "selector": null,
       "added_at": "2026-05-09T17:29:45.353Z",
       "active": true
+    },
+    {
+      "id": "pre-order-ac3f3d",
+      "name": "Pre Order",
+      "url": "https://pokefamily.nl/collections/pre-order",
+      "type": "category",
+      "notify_on_new": true,
+      "selector": null,
+      "added_at": "2026-05-09T17:32:28.787Z",
+      "active": true
     }
   ]
 }
