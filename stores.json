@@ -44,6 +44,15 @@
       "selector": null,
       "added_at": "2026-05-09T17:26:14.332Z",
       "active": true
+    },
+    {
+      "id": "pokemon-v-ex-box-111a70",
+      "name": "Pokemon V / Ex Box",
+      "url": "https://pokefamily.nl/collections/v-box",
+      "type": "category",
+      "selector": null,
+      "added_at": "2026-05-09T17:26:18.259Z",
+      "active": true
     }
   ]
 }
