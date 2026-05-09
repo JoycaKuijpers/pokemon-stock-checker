@@ -382,6 +382,16 @@
       "selector": null,
       "added_at": "2026-05-09T17:38:36.662Z",
       "active": true
+    },
+    {
+      "id": "v-boxen-categorie-n-def6b7",
+      "name": "V boxen / Categorieën",
+      "url": "https://www.collectableworld.nl/categorieen/v-boxen",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-09T17:38:43.855Z",
+      "active": true
     }
   ]
 }
