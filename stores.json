@@ -26,6 +26,15 @@
       "selector": null,
       "added_at": "2026-05-09T17:23:57.914Z",
       "active": true
+    },
+    {
+      "id": "pokemon-booster-box-2581bd",
+      "name": "Pokemon Booster Box",
+      "url": "https://pokefamily.nl/collections/pokemon-booster-box",
+      "type": "category",
+      "selector": null,
+      "added_at": "2026-05-09T17:26:09.216Z",
+      "active": true
     }
   ]
 }
