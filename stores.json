@@ -17,6 +17,15 @@
       "selector": null,
       "added_at": "2026-05-09T17:23:45.265Z",
       "active": true
+    },
+    {
+      "id": "pokemon-collection-box-kopen--bd2954",
+      "name": "Pokemon Collection Box kopen?",
+      "url": "https://tcgcompany.nl/pokemon-collection-box/",
+      "type": "category",
+      "selector": null,
+      "added_at": "2026-05-09T17:23:57.914Z",
+      "active": true
     }
   ]
 }
