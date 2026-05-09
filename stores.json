@@ -372,6 +372,16 @@
       "selector": null,
       "added_at": "2026-05-09T17:38:15.898Z",
       "active": true
+    },
+    {
+      "id": "elite-trainer-boxen-categorie--157947",
+      "name": "Elite Trainer Boxen / Categorieën",
+      "url": "https://www.collectableworld.nl/categorieen/elite-trainer-boxen",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-09T17:38:36.662Z",
+      "active": true
     }
   ]
 }
