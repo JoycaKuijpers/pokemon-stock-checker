@@ -332,6 +332,16 @@
       "selector": null,
       "added_at": "2026-05-09T17:36:10.744Z",
       "active": true
+    },
+    {
+      "id": "elite-trainer-boxes-b9aaaf",
+      "name": "Elite Trainer Boxes",
+      "url": "https://davidptcg.nl/collections/elite-trainer-boxes",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-09T17:36:19.615Z",
+      "active": true
     }
   ]
 }
