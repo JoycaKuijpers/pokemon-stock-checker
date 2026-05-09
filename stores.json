@@ -252,6 +252,16 @@
       "selector": null,
       "added_at": "2026-05-09T17:34:08.096Z",
       "active": true
+    },
+    {
+      "id": "sealed-f1538a",
+      "name": "sealed",
+      "url": "https://www.pkmncardshop.nl/c/mega-evolution/phantasmal-flames/sealed",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-09T17:34:12.442Z",
+      "active": true
     }
   ]
 }
