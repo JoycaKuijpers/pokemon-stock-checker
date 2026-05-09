@@ -462,6 +462,16 @@
       "selector": null,
       "added_at": "2026-05-09T17:39:40.005Z",
       "active": true
+    },
+    {
+      "id": "collection-boxen-2c9397",
+      "name": "Collection Boxen",
+      "url": "https://www.eastwoodtcg.com/pokemon-collection-boxen",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-09T17:39:47.342Z",
+      "active": true
     }
   ]
 }
