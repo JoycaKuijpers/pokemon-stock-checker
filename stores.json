@@ -72,6 +72,16 @@
       "selector": null,
       "added_at": "2026-05-09T17:26:52.744Z",
       "active": true
+    },
+    {
+      "id": "elite-trainer-box-2b6b57",
+      "name": "Elite Trainer Box",
+      "url": "https://www.pkmwinkel.nl/collections/elite-trainer-box",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-09T17:27:00.423Z",
+      "active": true
     }
   ]
 }
