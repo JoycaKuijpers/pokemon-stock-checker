@@ -362,6 +362,16 @@
       "selector": null,
       "added_at": "2026-05-09T17:36:57.897Z",
       "active": true
+    },
+    {
+      "id": "pokemon-booster-box-elite-trai-211671",
+      "name": "Pokemon Booster Box / Elite Trainer Box ETB / Ultra Premium Collection Box",
+      "url": "https://pokestock.com/collections/pokemon-booster-box",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-09T17:38:15.898Z",
+      "active": true
     }
   ]
 }
