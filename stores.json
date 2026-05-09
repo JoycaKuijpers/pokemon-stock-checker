@@ -62,6 +62,16 @@
       "selector": null,
       "added_at": "2026-05-09T17:26:23.793Z",
       "active": true
+    },
+    {
+      "id": "booster-box-2b009d",
+      "name": "Booster box",
+      "url": "https://www.pkmwinkel.nl/collections/booster-box",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-09T17:26:52.744Z",
+      "active": true
     }
   ]
 }
