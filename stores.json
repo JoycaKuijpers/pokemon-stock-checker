@@ -192,6 +192,16 @@
       "selector": null,
       "added_at": "2026-05-09T17:29:41.428Z",
       "active": true
+    },
+    {
+      "id": "pokemon-collection-boxes-1d4d44",
+      "name": "Pokemon Collection Boxes",
+      "url": "https://pokeflip.com/collections/collection-boxes",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-09T17:29:45.353Z",
+      "active": true
     }
   ]
 }
