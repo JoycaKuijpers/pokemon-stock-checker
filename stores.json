@@ -112,6 +112,16 @@
       "selector": null,
       "added_at": "2026-05-09T17:27:13.790Z",
       "active": true
+    },
+    {
+      "id": "pokemon-webshop-c37b0d",
+      "name": "Pokemon Webshop",
+      "url": "https://www.pokenatics.nl/shop",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-09T17:27:42.726Z",
+      "active": true
     }
   ]
 }
