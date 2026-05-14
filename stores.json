@@ -2022,6 +2022,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:57:32.249Z",
       "active": true
+    },
+    {
+      "id": "sleeved-booster-pack-1296b2",
+      "name": "Sleeved Booster pack",
+      "url": "https://pokeca.nl/collections/sleeved-booster-pack",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:57:41.546Z",
+      "active": true
     }
   ]
 }
