@@ -972,6 +972,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:35:13.587Z",
       "active": true
+    },
+    {
+      "id": "pokemon-boosterpack-3f9105",
+      "name": "Pokemon boosterpack",
+      "url": "https://tcgfanz.nl/pokemon-booster-pack/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:35:35.092Z",
+      "active": true
     }
   ]
 }
