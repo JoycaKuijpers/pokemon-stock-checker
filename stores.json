@@ -2172,6 +2172,16 @@
       "selector": null,
       "added_at": "2026-05-14T12:01:47.312Z",
       "active": true
+    },
+    {
+      "id": "boosterpacks-383556",
+      "name": "BOOSTERPACKS",
+      "url": "https://www.united-collectibles.nl/collections/pokemon-boosterpacks",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T12:01:52.571Z",
+      "active": true
     }
   ]
 }
