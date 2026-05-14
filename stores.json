@@ -2082,6 +2082,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:58:13.621Z",
       "active": true
+    },
+    {
+      "id": "pokemon-deck-dcef1f",
+      "name": "Pokemon Deck",
+      "url": "https://pokeca.nl/collections/deck",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:58:18.061Z",
+      "active": true
     }
   ]
 }
