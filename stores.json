@@ -2302,6 +2302,16 @@
       "selector": null,
       "added_at": "2026-05-14T12:03:54.719Z",
       "active": true
+    },
+    {
+      "id": "pokemon-blisters-kopen-offici--1dd0cb",
+      "name": "Pokemon blisters kopen, officiële blisters bij Dracoon",
+      "url": "https://dracoon.nl/trading-cards/pokemon-kaarten-kopen/pokemon-blisters-kopen/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T12:04:01.373Z",
+      "active": true
     }
   ]
 }
