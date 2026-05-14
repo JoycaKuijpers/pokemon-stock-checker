@@ -1582,6 +1582,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:44:08.756Z",
       "active": true
+    },
+    {
+      "id": "ok-mon-booster-packs-kopen-all-185197",
+      "name": "okémon Booster Packs Kopen? Alle Nieuwe Sets CatchYourCards",
+      "url": "https://catchyourcards.nl/categorie/pokemon/booster-packs/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:44:14.201Z",
+      "active": true
     }
   ]
 }
