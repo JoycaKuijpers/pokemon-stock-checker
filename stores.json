@@ -812,6 +812,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:32:22.271Z",
       "active": true
+    },
+    {
+      "id": "pokemon-c5ccad",
+      "name": "Pokemon",
+      "url": "https://cardstore.nl/a/search/pokemon?filter_product=Elite+Trainer+Box",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:32:29.027Z",
+      "active": true
     }
   ]
 }
