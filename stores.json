@@ -1802,6 +1802,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:52:20.535Z",
       "active": true
+    },
+    {
+      "id": "luiopzondag-nl-403504",
+      "name": "Luiopzondag.nl",
+      "url": "https://luiopzondag.nl/collections/tins",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:52:25.488Z",
+      "active": true
     }
   ]
 }
