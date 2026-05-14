@@ -2422,6 +2422,16 @@
       "selector": null,
       "added_at": "2026-05-14T12:26:15.444Z",
       "active": true
+    },
+    {
+      "id": "we-respecteren-uw-privacy--19c02a",
+      "name": "We respecteren uw privacy!",
+      "url": "https://www.dreamland.nl/zoeken/producten?q=pokemon+tcg",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T12:28:36.545Z",
+      "active": true
     }
   ]
 }
