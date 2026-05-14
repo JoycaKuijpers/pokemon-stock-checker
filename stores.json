@@ -2132,6 +2132,16 @@
       "selector": null,
       "added_at": "2026-05-14T12:00:40.420Z",
       "active": true
+    },
+    {
+      "id": "elite-trainer-box-273b76",
+      "name": "Elite Trainer Box",
+      "url": "https://www.tcgtriarch.com/product-category/pokemon/elite-trainer-box/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T12:00:44.086Z",
+      "active": true
     }
   ]
 }
