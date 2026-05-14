@@ -702,6 +702,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:30:27.579Z",
       "active": true
+    },
+    {
+      "id": "oudere-collectionboxen-collect-349168",
+      "name": "Oudere Collectionboxen / Collectieboxen",
+      "url": "https://www.articollect.nl/collectieboxen/oudere-collectionboxen",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:30:31.184Z",
+      "active": true
     }
   ]
 }
