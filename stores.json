@@ -2522,6 +2522,16 @@
       "selector": null,
       "added_at": "2026-05-14T12:40:18.018Z",
       "active": true
+    },
+    {
+      "id": "search-html-391f01",
+      "name": "search.html",
+      "url": "https://www.mediamarkt.nl/nl/search.html?query=pokemon+tcg",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T12:41:17.417Z",
+      "active": true
     }
   ]
 }
