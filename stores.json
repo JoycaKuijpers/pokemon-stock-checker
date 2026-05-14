@@ -1752,6 +1752,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:51:25.191Z",
       "active": true
+    },
+    {
+      "id": "theme-decks-en-battle-decks-2254a3",
+      "name": "Theme Decks en Battle Decks",
+      "url": "https://arlytrading.nl/product-categorie/tcg/pokemontcg/theme_deck/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:51:32.328Z",
+      "active": true
     }
   ]
 }
