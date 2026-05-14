@@ -1622,6 +1622,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:44:34.319Z",
       "active": true
+    },
+    {
+      "id": "pokemon-kaarten-kopen--b73102",
+      "name": "Pokemon kaarten kopen?",
+      "url": "https://www.qualitycardstcg.nl/pokemon-voorraad",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:46:17.842Z",
+      "active": true
     }
   ]
 }
