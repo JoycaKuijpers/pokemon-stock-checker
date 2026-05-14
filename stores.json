@@ -1722,6 +1722,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:51:07.760Z",
       "active": true
+    },
+    {
+      "id": "pokemon-tin-en-mini-tin-11f011",
+      "name": "Pokemon Tin en Mini Tin",
+      "url": "https://arlytrading.nl/product-categorie/tcg/pokemontcg/tin-en-mini-tin/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:51:14.800Z",
+      "active": true
     }
   ]
 }
