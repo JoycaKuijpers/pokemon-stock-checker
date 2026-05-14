@@ -2312,6 +2312,16 @@
       "selector": null,
       "added_at": "2026-05-14T12:04:01.373Z",
       "active": true
+    },
+    {
+      "id": "pokemon-tcg-archieven-1e3ade",
+      "name": "Pokemon TCG Archieven",
+      "url": "https://www.despelvogel.com/product-categorie/pokemon-tcg/?srsltid=AfmBOooJhMQtYwt0tMTdnoGkqAaRl4ykB8bBD7RzMWT3Z9FM53RunHnt",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T12:04:32.191Z",
+      "active": true
     }
   ]
 }
