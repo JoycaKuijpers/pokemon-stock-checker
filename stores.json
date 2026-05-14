@@ -2202,6 +2202,16 @@
       "selector": null,
       "added_at": "2026-05-14T12:02:05.812Z",
       "active": true
+    },
+    {
+      "id": "booster-box-archives-283a6c",
+      "name": "Booster Box Archives",
+      "url": "https://globalcardshop.com/product-category/populaire-producten/pokemon-producten/booster-box/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T12:02:23.890Z",
+      "active": true
     }
   ]
 }
