@@ -1102,6 +1102,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:36:53.100Z",
       "active": true
+    },
+    {
+      "id": "pokemon-tins-fba710",
+      "name": "Pokemon Tins",
+      "url": "https://tcgwinkel.nl/collections/pokemon-tins",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:36:57.829Z",
+      "active": true
     }
   ]
 }
