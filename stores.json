@@ -852,6 +852,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:33:39.619Z",
       "active": true
+    },
+    {
+      "id": "pokemon-sleeved-booster-packs--1911f9",
+      "name": "Pokemon Sleeved Booster Packs kopen?",
+      "url": "https://tcgcompany.nl/sleeved-booster-packs/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:33:43.864Z",
+      "active": true
     }
   ]
 }
