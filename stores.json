@@ -1932,6 +1932,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:55:04.565Z",
       "active": true
+    },
+    {
+      "id": "pre-orders-opkomende-pokemon-s-130d2f",
+      "name": "Pre-Orders Opkomende Pokemon Sets",
+      "url": "https://oppacards.com/product-category/pre-orders-opkomende-pokemon-sets/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:55:37.578Z",
+      "active": true
     }
   ]
 }
