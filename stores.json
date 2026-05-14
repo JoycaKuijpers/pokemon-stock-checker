@@ -922,6 +922,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:34:36.497Z",
       "active": true
+    },
+    {
+      "id": "booster-box-254f52",
+      "name": "Booster Box",
+      "url": "https://www.tcg-cards.nl/pokemon/booster-box",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:34:44.962Z",
+      "active": true
     }
   ]
 }
