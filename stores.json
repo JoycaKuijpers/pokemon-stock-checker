@@ -2542,6 +2542,14 @@
       "selector": null,
       "added_at": "2026-05-14T12:41:34.844Z",
       "active": true
+    },
+    {
+      "id": "zoekresultaten-voor-pokemon-tc-e4b11b",
+      "name": "Zoekresultaten voor: Pokemon tcg",
+      "url": "https://www.bruna.nl/zoeken/pokemon%20tcg",
+      "selector": null,
+      "added_at": "2026-05-14T12:41:48.681Z",
+      "active": true
     }
   ]
 }
