@@ -1362,6 +1362,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:41:22.147Z",
       "active": true
+    },
+    {
+      "id": "booster-bundle-e17740",
+      "name": "Booster Bundle",
+      "url": "https://www.tcgreus.nl/collections/booster-bundle",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:41:27.583Z",
+      "active": true
     }
   ]
 }
