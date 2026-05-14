@@ -2252,6 +2252,16 @@
       "selector": null,
       "added_at": "2026-05-14T12:03:19.998Z",
       "active": true
+    },
+    {
+      "id": "pokemon-boosterbox-kopen-offic-22888f",
+      "name": "Pokemon boosterbox kopen, officiële boosterboxen bij Dracoon",
+      "url": "https://dracoon.nl/trading-cards/pokemon-kaarten-kopen/pokemon-boosterbox-kopen/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T12:03:36.300Z",
+      "active": true
     }
   ]
 }
