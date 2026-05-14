@@ -542,6 +542,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:28:10.105Z",
       "active": true
+    },
+    {
+      "id": "pokemon-booster-boxes-kopen--2c5250",
+      "name": "Pokemon Booster Boxes Kopen?",
+      "url": "https://rarecards.nl/collections/pokemon-booster-boxes",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:28:13.818Z",
+      "active": true
     }
   ]
 }
