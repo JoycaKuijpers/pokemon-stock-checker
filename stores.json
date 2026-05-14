@@ -1272,6 +1272,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:39:09.135Z",
       "active": true
+    },
+    {
+      "id": "boosters-178c9e",
+      "name": "boosters",
+      "url": "https://tcgshop.nl/products/boosters",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:39:25.103Z",
+      "active": true
     }
   ]
 }
