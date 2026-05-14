@@ -2072,6 +2072,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:58:09.698Z",
       "active": true
+    },
+    {
+      "id": "build-battle-164d51",
+      "name": "Build & Battle",
+      "url": "https://pokeca.nl/collections/build-battle",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:58:13.621Z",
+      "active": true
     }
   ]
 }
