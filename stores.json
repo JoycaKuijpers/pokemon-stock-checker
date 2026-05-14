@@ -952,6 +952,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:35:02.533Z",
       "active": true
+    },
+    {
+      "id": "box-sets-2508fd",
+      "name": "Box Sets",
+      "url": "https://www.tcg-cards.nl/pokemon/box-sets",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:35:09.792Z",
+      "active": true
     }
   ]
 }
