@@ -22,8 +22,8 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from typing import Optional
 from urllib.parse import urlparse
-
 import requests
+import cloudscraper
 from bs4 import BeautifulSoup
 
 SCRIPT_DIR = Path(__file__).parent
