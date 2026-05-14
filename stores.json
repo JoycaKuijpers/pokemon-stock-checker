@@ -512,6 +512,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:27:57.656Z",
       "active": true
+    },
+    {
+      "id": "sleeved-booster-packs-kopen--4e67ea",
+      "name": "Sleeved Booster Packs Kopen?",
+      "url": "https://rarecards.nl/collections/sleeved-booster-packs",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:28:02.477Z",
+      "active": true
     }
   ]
 }
