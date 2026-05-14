@@ -1992,6 +1992,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:56:46.769Z",
       "active": true
+    },
+    {
+      "id": "booster-box-1638e6",
+      "name": "Booster Box",
+      "url": "https://pokeca.nl/collections/booster-box",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:57:04.752Z",
+      "active": true
     }
   ]
 }
