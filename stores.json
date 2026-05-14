@@ -1712,6 +1712,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:50:57.210Z",
       "active": true
+    },
+    {
+      "id": "blisters-en-mini-portfolio-137f12",
+      "name": "Blisters en Mini Portfolio",
+      "url": "https://arlytrading.nl/product-categorie/tcg/pokemontcg/blisters-en-mini-portfolio/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:51:07.760Z",
+      "active": true
     }
   ]
 }
