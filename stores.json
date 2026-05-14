@@ -1772,6 +1772,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:51:36.677Z",
       "active": true
+    },
+    {
+      "id": "luiopzondag-nl-475486",
+      "name": "Luiopzondag.nl",
+      "url": "https://luiopzondag.nl/collections/boosterpacks",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:52:10.347Z",
+      "active": true
     }
   ]
 }
