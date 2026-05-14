@@ -592,6 +592,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:28:34.239Z",
       "active": true
+    },
+    {
+      "id": "categorie-booster-packs-33e728",
+      "name": "Categorie: Booster Packs",
+      "url": "https://www.pkmkaarten.nl/product-categorie/trading-card-game-tcg/booster-packs/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:28:48.919Z",
+      "active": true
     }
   ]
 }
