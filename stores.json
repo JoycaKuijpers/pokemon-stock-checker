@@ -1672,6 +1672,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:49:53.541Z",
       "active": true
+    },
+    {
+      "id": "pokemon-boosters-99a892",
+      "name": "Pokemon Boosters",
+      "url": "https://www.qualitycardstcg.nl/pokemon-boosters",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:49:58.446Z",
+      "active": true
     }
   ]
 }
