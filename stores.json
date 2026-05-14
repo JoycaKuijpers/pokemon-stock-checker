@@ -1792,6 +1792,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:52:15.247Z",
       "active": true
+    },
+    {
+      "id": "luiopzondag-nl-85df14",
+      "name": "Luiopzondag.nl",
+      "url": "https://luiopzondag.nl/collections/pokemon-elite-trainer-boxen",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:52:20.535Z",
+      "active": true
     }
   ]
 }
