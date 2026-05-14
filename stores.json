@@ -2272,6 +2272,16 @@
       "selector": null,
       "added_at": "2026-05-14T12:03:41.366Z",
       "active": true
+    },
+    {
+      "id": "pokemon-elite-trainer-box-kope-13a788",
+      "name": "Pokemon Elite Trainer Box kopen, officiële ETB’s bij Dracoon",
+      "url": "https://dracoon.nl/trading-cards/pokemon-kaarten-kopen/pokemon-elite-trainer-box-kopen/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T12:03:45.717Z",
+      "active": true
     }
   ]
 }
