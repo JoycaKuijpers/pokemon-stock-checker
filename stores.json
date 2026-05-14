@@ -1832,6 +1832,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:52:35.279Z",
       "active": true
+    },
+    {
+      "id": "luiopzondag-nl-481323",
+      "name": "Luiopzondag.nl",
+      "url": "https://luiopzondag.nl/collections/boosterboxen",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:52:42.037Z",
+      "active": true
     }
   ]
 }
