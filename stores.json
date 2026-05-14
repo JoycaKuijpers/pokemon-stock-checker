@@ -2102,6 +2102,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:59:44.267Z",
       "active": true
+    },
+    {
+      "id": "pokemon-121265",
+      "name": "Pokemon",
+      "url": "https://www.collectorstore.nl/product-categorie/pokemon-summer-sale/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T12:00:16.271Z",
+      "active": true
     }
   ]
 }
