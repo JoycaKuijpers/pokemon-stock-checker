@@ -2232,6 +2232,16 @@
       "selector": null,
       "added_at": "2026-05-14T12:02:39.492Z",
       "active": true
+    },
+    {
+      "id": "collection-boxen-archives-2745bc",
+      "name": "Collection boxen Archives",
+      "url": "https://globalcardshop.com/product-category/collection-boxen/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T12:02:56.436Z",
+      "active": true
     }
   ]
 }
