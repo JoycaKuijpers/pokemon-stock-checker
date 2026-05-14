@@ -1182,6 +1182,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:37:53.827Z",
       "active": true
+    },
+    {
+      "id": "pokemon-boosterpacks-409efc",
+      "name": "Pokemon Boosterpacks",
+      "url": "https://www.tcgcenter.nl/nl/43-boosterpacks",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:38:20.055Z",
+      "active": true
     }
   ]
 }
