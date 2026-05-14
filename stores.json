@@ -1092,6 +1092,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:36:48.589Z",
       "active": true
+    },
+    {
+      "id": "pokemon-battle-decks-132be5",
+      "name": "Pokemon Battle Decks",
+      "url": "https://tcgwinkel.nl/collections/pokemon-battle-decks",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:36:53.100Z",
+      "active": true
     }
   ]
 }
