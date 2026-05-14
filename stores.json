@@ -1042,6 +1042,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:36:25.445Z",
       "active": true
+    },
+    {
+      "id": "pokemon-elite-trainer-box-b46789",
+      "name": "Pokemon Elite Trainer Box",
+      "url": "https://tcgwinkel.nl/collections/pokemon-elite-trainer-box",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:36:29.903Z",
+      "active": true
     }
   ]
 }
