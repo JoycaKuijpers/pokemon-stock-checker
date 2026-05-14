@@ -742,6 +742,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:31:06.656Z",
       "active": true
+    },
+    {
+      "id": "pokemon-elite-trainer-boxen-181961",
+      "name": "Pokemon elite trainer boxen",
+      "url": "https://levelupcards.nl/product-category/pokemon/pokemon-elite-trainer-boxen/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:31:29.451Z",
+      "active": true
     }
   ]
 }
