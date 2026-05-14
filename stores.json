@@ -1462,6 +1462,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:42:36.517Z",
       "active": true
+    },
+    {
+      "id": "tech-sticker-collection-473b44",
+      "name": "Tech Sticker Collection",
+      "url": "https://www.tcgreus.nl/collections/tech-sticker-collection",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:42:41.242Z",
+      "active": true
     }
   ]
 }
