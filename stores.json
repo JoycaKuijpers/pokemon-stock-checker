@@ -1312,6 +1312,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:39:36.387Z",
       "active": true
+    },
+    {
+      "id": "tins-121a4d",
+      "name": "tins",
+      "url": "https://tcgshop.nl/products/tins",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:39:39.962Z",
+      "active": true
     }
   ]
 }
