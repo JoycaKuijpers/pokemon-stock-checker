@@ -1012,6 +1012,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:35:51.777Z",
       "active": true
+    },
+    {
+      "id": "pokemon-tin-111777",
+      "name": "Pokemon Tin",
+      "url": "https://tcgfanz.nl/pokemon-tin/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:35:56.523Z",
+      "active": true
     }
   ]
 }
