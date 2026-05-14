@@ -1122,6 +1122,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:37:29.389Z",
       "active": true
+    },
+    {
+      "id": "pokemon-booster-packs-kopen-317bf2",
+      "name": "Pokemon Booster Packs Kopen",
+      "url": "https://www.tcgal.nl/webwinkel/producten/booster-packs-1",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:37:31.950Z",
+      "active": true
     }
   ]
 }
