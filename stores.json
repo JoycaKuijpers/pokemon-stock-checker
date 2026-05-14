@@ -2600,6 +2600,16 @@
       "selector": null,
       "added_at": "2026-05-14T12:42:45.796Z",
       "active": true
+    },
+    {
+      "id": "pokemon-kaarten-35e6a5",
+      "name": "Pokemon-kaarten",
+      "url": "https://www.spellenrijk.nl/pokemon-kaarten/?ft14=Elite-Trainer-Boxen",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T12:42:50.445Z",
+      "active": true
     }
   ]
 }
