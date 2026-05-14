@@ -682,6 +682,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:30:19.814Z",
       "active": true
+    },
+    {
+      "id": "collectionboxen-collectieboxen-1d83c9",
+      "name": "Collectionboxen / Collectieboxen",
+      "url": "https://www.articollect.nl/collectieboxen/collectionboxen",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:30:23.913Z",
+      "active": true
     }
   ]
 }
