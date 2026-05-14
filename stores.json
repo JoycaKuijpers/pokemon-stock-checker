@@ -2092,6 +2092,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:58:18.061Z",
       "active": true
+    },
+    {
+      "id": "alle-pokemon-producten-278a96",
+      "name": "Alle Pokemon producten",
+      "url": "https://cards-center.nl/collections/producten?filter.p.vendor=Pok%C3%A9mon",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:59:44.267Z",
+      "active": true
     }
   ]
 }
