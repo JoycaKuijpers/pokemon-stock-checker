@@ -2442,6 +2442,16 @@
       "selector": null,
       "added_at": "2026-05-14T12:31:49.599Z",
       "active": true
+    },
+    {
+      "id": "trading-card-games-33ce95",
+      "name": "Trading Card Games",
+      "url": "https://startspeler.com/trading-card-games.html?cat=757",
+      "type": "category",
+      "notify_on_new": true,
+      "selector": null,
+      "added_at": "2026-05-14T12:32:25.047Z",
+      "active": true
     }
   ]
 }
