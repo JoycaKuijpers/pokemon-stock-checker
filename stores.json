@@ -2062,6 +2062,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:58:05.498Z",
       "active": true
+    },
+    {
+      "id": "booster-bundle-864b0e",
+      "name": "Booster Bundle",
+      "url": "https://pokeca.nl/collections/booster-bundle",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:58:09.698Z",
+      "active": true
     }
   ]
 }
