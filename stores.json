@@ -992,6 +992,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:35:41.469Z",
       "active": true
+    },
+    {
+      "id": "pokemon-elite-trainer-box-122a3b",
+      "name": "Pokemon Elite Trainer Box",
+      "url": "https://tcgfanz.nl/pokemon-elite-trainer-box/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:35:46.030Z",
+      "active": true
     }
   ]
 }
