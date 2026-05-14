@@ -1332,6 +1332,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:39:43.125Z",
       "active": true
+    },
+    {
+      "id": "pokemon-tcg-e41a86",
+      "name": "Pokemon TCG",
+      "url": "https://www.tcgreus.nl/collections/2-pack-blister",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:40:34.279Z",
+      "active": true
     }
   ]
 }
