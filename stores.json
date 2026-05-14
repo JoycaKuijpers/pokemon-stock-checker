@@ -1022,6 +1022,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:35:56.523Z",
       "active": true
+    },
+    {
+      "id": "pokemon-blister-2ed47c",
+      "name": "Pokemon blister",
+      "url": "https://tcgfanz.nl/pokemon-blister/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:36:09.960Z",
+      "active": true
     }
   ]
 }
