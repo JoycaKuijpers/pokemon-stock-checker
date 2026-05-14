@@ -532,6 +532,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:28:06.315Z",
       "active": true
+    },
+    {
+      "id": "booster-bundles-kopen--319989",
+      "name": "Booster Bundles Kopen?",
+      "url": "https://rarecards.nl/collections/pokemon-booster-bundels",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:28:10.105Z",
+      "active": true
     }
   ]
 }
