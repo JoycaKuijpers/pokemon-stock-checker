@@ -1492,6 +1492,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:43:20.037Z",
       "active": true
+    },
+    {
+      "id": "boosters-c177952768-1dff17",
+      "name": "Boosters-c177952768",
+      "url": "https://tcgcavern.nl/shop/Boosters-c177952768/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:43:23.544Z",
+      "active": true
     }
   ]
 }
