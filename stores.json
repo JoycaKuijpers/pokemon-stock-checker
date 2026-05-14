@@ -2182,6 +2182,16 @@
       "selector": null,
       "added_at": "2026-05-14T12:01:52.571Z",
       "active": true
+    },
+    {
+      "id": "elite-trainer-boxes-1a798d",
+      "name": "ELITE TRAINER BOXES",
+      "url": "https://www.united-collectibles.nl/collections/pokemon-elite-trainer-boxes",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T12:01:57.966Z",
+      "active": true
     }
   ]
 }
