@@ -1232,6 +1232,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:38:50.466Z",
       "active": true
+    },
+    {
+      "id": "pokemon-v-box-vmax-vstar-boxen-30286c",
+      "name": "Pokemon V Box VMAX VSTAR Boxen",
+      "url": "https://www.tcgcenter.nl/nl/58-v-vstar-en-vmax-boxen",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:38:54.796Z",
+      "active": true
     }
   ]
 }
