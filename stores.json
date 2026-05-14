@@ -2650,6 +2650,16 @@
       "selector": null,
       "added_at": "2026-05-14T12:43:55.349Z",
       "active": true
+    },
+    {
+      "id": "1000403-828431",
+      "name": "1000403",
+      "url": "https://www.bazaarofmagic.eu/nl-NL/c/pokemon-decks/1000403",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T12:44:00.152Z",
+      "active": true
     }
   ]
 }
