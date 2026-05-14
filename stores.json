@@ -1552,6 +1552,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:43:43.665Z",
       "active": true
+    },
+    {
+      "id": "pokemon-blister-kopen-ruim-ass-211a5e",
+      "name": "Pokemon Blister Kopen? Ruim Assortiment",
+      "url": "https://catchyourcards.nl/categorie/pokemon/blister/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:43:57.400Z",
+      "active": true
     }
   ]
 }
