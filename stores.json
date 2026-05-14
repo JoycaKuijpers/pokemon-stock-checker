@@ -492,6 +492,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:26:46.282Z",
       "active": true
+    },
+    {
+      "id": "pokemon-blisters-tins-productt-28f7cc",
+      "name": "Pokemon Blisters/Tins / Producttype",
+      "url": "https://www.peppicollect.nl/producttype/pokemon-blisters-tins",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:26:50.351Z",
+      "active": true
     }
   ]
 }
