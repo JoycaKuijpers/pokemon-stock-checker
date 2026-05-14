@@ -932,6 +932,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:34:44.962Z",
       "active": true
+    },
+    {
+      "id": "elite-trainer-box-226a29",
+      "name": "Elite Trainer Box",
+      "url": "https://www.tcg-cards.nl/pokemon/elite-trainer-box",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:34:50.635Z",
+      "active": true
     }
   ]
 }
