@@ -1642,6 +1642,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:46:25.529Z",
       "active": true
+    },
+    {
+      "id": "pokemon-boosterbox-9b6e20",
+      "name": "Pokemon Boosterbox",
+      "url": "https://www.qualitycardstcg.nl/pokemon-boosterboxes",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:46:31.362Z",
+      "active": true
     }
   ]
 }
