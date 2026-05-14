@@ -962,6 +962,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:35:09.792Z",
       "active": true
+    },
+    {
+      "id": "theme-decks-16b5b9",
+      "name": "Theme Decks",
+      "url": "https://www.tcg-cards.nl/pokemon/theme-decks",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:35:13.587Z",
+      "active": true
     }
   ]
 }
