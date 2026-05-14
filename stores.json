@@ -1072,6 +1072,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:36:39.299Z",
       "active": true
+    },
+    {
+      "id": "pokemon-boosters-ab07a1",
+      "name": "Pokemon Boosters",
+      "url": "https://tcgwinkel.nl/collections/pokemon-boosters",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:36:43.858Z",
+      "active": true
     }
   ]
 }
