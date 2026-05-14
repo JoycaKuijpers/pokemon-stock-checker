@@ -2680,6 +2680,16 @@
       "selector": null,
       "added_at": "2026-05-14T12:51:49.532Z",
       "active": true
+    },
+    {
+      "id": "1000406-1c46f0",
+      "name": "1000406",
+      "url": "https://www.bazaarofmagic.eu/nl-NL/c/pokemon-speciale-boxen/1000406",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T13:00:56.895Z",
+      "active": true
     }
   ]
 }
