@@ -1912,6 +1912,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:54:47.036Z",
       "active": true
+    },
+    {
+      "id": "elite-trainer-boxen-1bcf79",
+      "name": "Elite Trainer Boxen",
+      "url": "https://mojocards.nl/collections/elite-trainer-boxen",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:54:59.560Z",
+      "active": true
     }
   ]
 }
