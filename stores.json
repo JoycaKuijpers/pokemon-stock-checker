@@ -632,6 +632,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:29:08.008Z",
       "active": true
+    },
+    {
+      "id": "categorie-pin-sets-249b42",
+      "name": "Categorie: Pin Sets",
+      "url": "https://www.pkmkaarten.nl/product-categorie/trading-card-game-tcg/pins-sets/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:29:15.262Z",
+      "active": true
     }
   ]
 }
