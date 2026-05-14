@@ -1162,6 +1162,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:37:46.241Z",
       "active": true
+    },
+    {
+      "id": "pokemon-blister-kopen-12d8bf",
+      "name": "Pokemon Blister Kopen",
+      "url": "https://www.tcgal.nl/webwinkel/producten/pokemon-blisters",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:37:49.869Z",
+      "active": true
     }
   ]
 }
