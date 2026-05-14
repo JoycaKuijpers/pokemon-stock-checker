@@ -1542,6 +1542,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:43:38.837Z",
       "active": true
+    },
+    {
+      "id": "pre-orders-c177952763-16419c",
+      "name": "Pre-Orders-c177952763",
+      "url": "https://tcgcavern.nl/shop/Pre-Orders-c177952763/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:43:43.665Z",
+      "active": true
     }
   ]
 }
