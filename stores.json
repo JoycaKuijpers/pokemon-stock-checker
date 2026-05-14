@@ -562,6 +562,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:28:21.646Z",
       "active": true
+    },
+    {
+      "id": "pokemon-collection-boxes-kopen-3bf968",
+      "name": "Pokemon Collection Boxes Kopen?",
+      "url": "https://rarecards.nl/collections/pokemon-collection-boxes",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:28:26.364Z",
+      "active": true
     }
   ]
 }
