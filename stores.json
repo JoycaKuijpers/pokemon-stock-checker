@@ -1352,6 +1352,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:41:04.341Z",
       "active": true
+    },
+    {
+      "id": "pokemon-tcg-1e5a75",
+      "name": "Pokemon TCG",
+      "url": "https://www.tcgreus.nl/collections/boosterbox",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:41:22.147Z",
+      "active": true
     }
   ]
 }
