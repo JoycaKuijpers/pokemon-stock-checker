@@ -482,6 +482,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:26:41.338Z",
       "active": true
+    },
+    {
+      "id": "pokemon-boxen-producttype-391f75",
+      "name": "Pokemon Boxen / Producttype",
+      "url": "https://www.peppicollect.nl/producttype/pokemon-boxen",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:26:46.282Z",
+      "active": true
     }
   ]
 }
