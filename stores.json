@@ -1152,6 +1152,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:37:42.099Z",
       "active": true
+    },
+    {
+      "id": "pokemon-bundels-kopen-a49a27",
+      "name": "Pokemon Bundels Kopen",
+      "url": "https://www.tcgal.nl/webwinkel/producten/pokemon-bundles",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:37:46.241Z",
+      "active": true
     }
   ]
 }
