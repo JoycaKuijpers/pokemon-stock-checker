@@ -2452,6 +2452,16 @@
       "selector": null,
       "added_at": "2026-05-14T12:32:25.047Z",
       "active": true
+    },
+    {
+      "id": "1000399-16f8a6",
+      "name": "1000399",
+      "url": "https://www.spellenwinkel.nl/nl-NL/c/pokemon-tcg/1000399",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T12:32:59.362Z",
+      "active": true
     }
   ]
 }
