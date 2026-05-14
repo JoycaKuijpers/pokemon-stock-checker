@@ -832,6 +832,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:32:35.262Z",
       "active": true
+    },
+    {
+      "id": "pokemon-booster-box-kopen--8a1d7f",
+      "name": "Pokemon Booster Box kopen?",
+      "url": "https://tcgcompany.nl/pokemon-booster-box/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:33:28.029Z",
+      "active": true
     }
   ]
 }
