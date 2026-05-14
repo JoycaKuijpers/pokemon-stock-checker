@@ -692,6 +692,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:30:23.913Z",
       "active": true
+    },
+    {
+      "id": "tins-150a64",
+      "name": "Tins",
+      "url": "https://www.articollect.nl/tins",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:30:27.579Z",
+      "active": true
     }
   ]
 }
