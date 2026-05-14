@@ -662,6 +662,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:29:48.253Z",
       "active": true
+    },
+    {
+      "id": "elite-trainer-boxen-a9d355",
+      "name": "Elite Trainer Boxen",
+      "url": "https://www.articollect.nl/elite-trainer-boxen",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:29:51.490Z",
+      "active": true
     }
   ]
 }
