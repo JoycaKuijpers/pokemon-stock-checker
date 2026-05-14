@@ -1882,6 +1882,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:54:23.392Z",
       "active": true
+    },
+    {
+      "id": "booster-box-1d1a52",
+      "name": "Booster Box",
+      "url": "https://mojocards.nl/collections/booster-boxen",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:54:32.390Z",
+      "active": true
     }
   ]
 }
