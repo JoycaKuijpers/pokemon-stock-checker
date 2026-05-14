@@ -1592,6 +1592,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:44:14.201Z",
       "active": true
+    },
+    {
+      "id": "exclusieve-tcg-sets-bundels-ko-1046c2",
+      "name": "Exclusieve TCG Sets & Bundels Kopen",
+      "url": "https://catchyourcards.nl/categorie/pokemon/sets/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:44:19.888Z",
+      "active": true
     }
   ]
 }
