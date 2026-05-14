@@ -2318,7 +2318,7 @@
     },
     {
       "id": "1000399-16f8a6",
-      "name": "1000399",
+      "name": "Spellenwinkel — Pokemon TCG",
       "url": "https://www.spellenwinkel.nl/nl-NL/c/pokemon-tcg/1000399",
       "type": "category",
       "notify_on_new": false,
@@ -2364,64 +2364,6 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T12:37:25.914Z",
-      "active": true
-    },
-    {
-      "id": "s-49a849",
-      "name": "s",
-      "url": "https://www.bol.com/nl/nl/s/?searchtext=pokemon+tcg&filter_N=38520&bltgh=c7745612-8a6b-4a2a-9508-d229409f3eb1.g.i.QueryContextHook",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-14T12:38:51.842Z",
-      "active": true
-    },
-    {
-      "id": "s-54e4e6",
-      "name": "s",
-      "url": "https://www.bol.com/nl/nl/s/?searchtext=pokemon+tcg&filter_N=38520+4298327804+4298344086+4298316066+4298351126+7679922695+7679105296+7679104798&N=55042&bltgh=cd560542-ed74-4d97-9e95-504c223ffbdb.g.i.QueryContextHook",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-14T12:40:18.018Z",
-      "active": true
-    },
-    {
-      "id": "search-html-391f01",
-      "name": "search.html",
-      "url": "https://www.mediamarkt.nl/nl/search.html?query=pokemon+tcg",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-14T12:41:17.417Z",
-      "active": true
-    },
-    {
-      "id": "wehkamp-3fb1a7",
-      "name": "Wehkamp",
-      "url": "https://www.wehkamp.nl/zoeken/?term=pokemon+tcg&type=recentsearch&merk=pokemon",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-14T12:41:34.844Z",
-      "active": true
-    },
-    {
-      "id": "zoekresultaten-voor-pokemon-tc-e4b11b",
-      "name": "Zoekresultaten voor: Pokemon tcg",
-      "url": "https://www.bruna.nl/zoeken/pokemon%20tcg",
-      "selector": null,
-      "added_at": "2026-05-14T12:41:48.681Z",
-      "active": true
-    },
-    {
-      "id": "zoekresultaten-voor-pokemon-tc-305803",
-      "name": "Zoekresultaten voor  Pokemon tcg",
-      "url": "https://www.kruidvat.nl/search/pokemon%20tcg",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-14T12:42:08.857Z",
       "active": true
     },
     {
@@ -2496,7 +2438,7 @@
     },
     {
       "id": "1000401-d5e7e2",
-      "name": "1000401",
+      "name": "Bazaar of Magic — Boosters",
       "url": "https://www.bazaarofmagic.eu/nl-NL/c/pokemon-boosters/1000401",
       "type": "category",
       "notify_on_new": false,
@@ -2506,7 +2448,7 @@
     },
     {
       "id": "1000402-1d04c4",
-      "name": "1000402",
+      "name": "Bazaar of Magic — Blisters",
       "url": "https://www.bazaarofmagic.eu/nl-NL/c/pokemon-booster-blisters/1000402",
       "type": "category",
       "notify_on_new": false,
@@ -2516,7 +2458,7 @@
     },
     {
       "id": "1000403-828431",
-      "name": "1000403",
+      "name": "Bazaar of Magic — Decks",
       "url": "https://www.bazaarofmagic.eu/nl-NL/c/pokemon-decks/1000403",
       "type": "category",
       "notify_on_new": false,
@@ -2526,7 +2468,7 @@
     },
     {
       "id": "1000404-16d165",
-      "name": "1000404",
+      "name": "Bazaar of Magic — Tins",
       "url": "https://www.bazaarofmagic.eu/nl-NL/c/pokemon-tins/1000404",
       "type": "category",
       "notify_on_new": false,
@@ -2546,7 +2488,7 @@
     },
     {
       "id": "1000406-1c46f0",
-      "name": "1000406",
+      "name": "Bazaar of Magic — Speciale Boxen",
       "url": "https://www.bazaarofmagic.eu/nl-NL/c/pokemon-speciale-boxen/1000406",
       "type": "category",
       "notify_on_new": false,
