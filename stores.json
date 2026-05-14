@@ -1572,6 +1572,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:44:01.508Z",
       "active": true
+    },
+    {
+      "id": "sealed-booster-box-kopen-nu-bi-4fea5c",
+      "name": "Sealed Booster Box kopen? Nu bij CatchYourCards.nl",
+      "url": "https://catchyourcards.nl/categorie/pokemon/booster-box/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:44:08.756Z",
+      "active": true
     }
   ]
 }
