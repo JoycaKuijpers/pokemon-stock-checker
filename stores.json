@@ -2472,6 +2472,16 @@
       "selector": null,
       "added_at": "2026-05-14T12:35:09.389Z",
       "active": true
+    },
+    {
+      "id": "pokemon-kaarten-kopen-booster--28dd89",
+      "name": "Pokemon Kaarten Kopen? Booster Packs & Sets",
+      "url": "https://boardgameshop.nl/tcg/pokemon/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T12:35:41.414Z",
+      "active": true
     }
   ]
 }
