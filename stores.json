@@ -1982,6 +1982,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:56:42.761Z",
       "active": true
+    },
+    {
+      "id": "pokemon-tin-kopen-tcgpokemon-84834c",
+      "name": "Pokemon Tin Kopen TCGPokemon",
+      "url": "https://oppacards.com/product-category/pokemon-tin/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:56:46.769Z",
+      "active": true
     }
   ]
 }
