@@ -732,6 +732,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:31:03.048Z",
       "active": true
+    },
+    {
+      "id": "pokemon-collection-boxen-2b5dd1",
+      "name": "Pokemon collection boxen",
+      "url": "https://levelupcards.nl/product-category/pokemon/pokemon-collection-boxen/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:31:06.656Z",
+      "active": true
     }
   ]
 }
