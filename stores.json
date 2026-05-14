@@ -1502,6 +1502,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:43:23.544Z",
       "active": true
+    },
+    {
+      "id": "elite-trainer-boxes-c177952764-46e238",
+      "name": "Elite-Trainer-Boxes-c177952764",
+      "url": "https://tcgcavern.nl/shop/Elite-Trainer-Boxes-c177952764/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:43:26.963Z",
+      "active": true
     }
   ]
 }
