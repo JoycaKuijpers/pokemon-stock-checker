@@ -1,33 +1,6 @@
 {
   "stores": [
     {
-      "id": "pokemon-pre-order-15cffe",
-      "name": "Pokemon Pre Order",
-      "url": "https://tcgcompany.nl/pokemon-pre-order/",
-      "type": "category",
-      "selector": null,
-      "added_at": "2026-05-09T17:23:17.874Z",
-      "active": true
-    },
-    {
-      "id": "pokemon-elite-trainer-box-80344d",
-      "name": "Pokemon Elite Trainer Box",
-      "url": "https://tcgcompany.nl/pokemon-elite-trainer-box/",
-      "type": "category",
-      "selector": null,
-      "added_at": "2026-05-09T17:23:45.265Z",
-      "active": true
-    },
-    {
-      "id": "pokemon-collection-box-kopen--bd2954",
-      "name": "Pokemon Collection Box kopen?",
-      "url": "https://tcgcompany.nl/pokemon-collection-box/",
-      "type": "category",
-      "selector": null,
-      "added_at": "2026-05-09T17:23:57.914Z",
-      "active": true
-    },
-    {
       "id": "pokemon-booster-box-2581bd",
       "name": "Pokemon Booster Box",
       "url": "https://pokefamily.nl/collections/pokemon-booster-box",
@@ -291,36 +264,6 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-09T17:34:55.231Z",
-      "active": true
-    },
-    {
-      "id": "pokemon-booster-box-kopen--c3c84b",
-      "name": "Pokemon Booster Box kopen?",
-      "url": "https://www.bescards.com/pokemon-booster-box/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-09T17:35:40.739Z",
-      "active": true
-    },
-    {
-      "id": "pokemon-elite-trainer-box-kope-219b80",
-      "name": "Pokemon Elite Trainer Box kopen?",
-      "url": "https://www.bescards.com/pokemon-elite-trainer-box/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-09T17:35:44.681Z",
-      "active": true
-    },
-    {
-      "id": "pokemon-collection-box-1b4e18",
-      "name": "Pokemon Collection Box",
-      "url": "https://www.bescards.com/pokemon-collection-box/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-09T17:35:50.739Z",
       "active": true
     },
     {
@@ -831,86 +774,6 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T11:32:35.262Z",
-      "active": true
-    },
-    {
-      "id": "pokemon-booster-box-kopen--8a1d7f",
-      "name": "Pokemon Booster Box kopen?",
-      "url": "https://tcgcompany.nl/pokemon-booster-box/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-14T11:33:28.029Z",
-      "active": true
-    },
-    {
-      "id": "pokemon-booster-packs-kopen--61a749",
-      "name": "Pokemon Booster Packs kopen?",
-      "url": "https://tcgcompany.nl/pokemon-booster-packs/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-14T11:33:39.619Z",
-      "active": true
-    },
-    {
-      "id": "pokemon-sleeved-booster-packs--1911f9",
-      "name": "Pokemon Sleeved Booster Packs kopen?",
-      "url": "https://tcgcompany.nl/sleeved-booster-packs/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-14T11:33:43.864Z",
-      "active": true
-    },
-    {
-      "id": "pokemon-tins-kopen--142cb5",
-      "name": "Pokemon Tins kopen?",
-      "url": "https://tcgcompany.nl/pokemon-tins/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-14T11:33:51.304Z",
-      "active": true
-    },
-    {
-      "id": "pokemon-mini-tins-kopen--1734af",
-      "name": "Pokemon Mini Tins kopen?",
-      "url": "https://tcgcompany.nl/pokemon-mini-tins/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-14T11:33:57.567Z",
-      "active": true
-    },
-    {
-      "id": "1-pack-blister-checklane-pokem-492379",
-      "name": "1 Pack Blister / Checklane Pokemon kopen?",
-      "url": "https://tcgcompany.nl/1-pack-blister-pokemon/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-14T11:34:05.066Z",
-      "active": true
-    },
-    {
-      "id": "2-pack-blister-pokemon-kopen--fef1e0",
-      "name": "2 Pack Blister Pokemon kopen?",
-      "url": "https://tcgcompany.nl/2-pack-blister-pokemon/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-14T11:34:10.679Z",
-      "active": true
-    },
-    {
-      "id": "3-pack-blister-pokemon-kopen--14b3fb",
-      "name": "3 Pack Blister Pokemon kopen?",
-      "url": "https://tcgcompany.nl/3-pack-blister-pokemon/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-14T11:34:14.886Z",
       "active": true
     },
     {
