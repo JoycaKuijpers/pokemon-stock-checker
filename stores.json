@@ -1842,6 +1842,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:52:42.037Z",
       "active": true
+    },
+    {
+      "id": "pokemon-boxen-kopen-pokemon-ka-129ff1",
+      "name": "Pokemon Boxen kopen Pokemon kaarten los verzamelen 2HG",
+      "url": "https://2hg.nl/nl/520-pok%C3%A9mon-boxen",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:53:29.635Z",
+      "active": true
     }
   ]
 }
