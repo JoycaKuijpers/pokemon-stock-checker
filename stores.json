@@ -842,6 +842,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:33:28.029Z",
       "active": true
+    },
+    {
+      "id": "pokemon-booster-packs-kopen--61a749",
+      "name": "Pokemon Booster Packs kopen?",
+      "url": "https://tcgcompany.nl/pokemon-booster-packs/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:33:39.619Z",
+      "active": true
     }
   ]
 }
