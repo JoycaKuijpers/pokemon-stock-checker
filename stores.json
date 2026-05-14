@@ -2222,6 +2222,16 @@
       "selector": null,
       "added_at": "2026-05-14T12:02:28.488Z",
       "active": true
+    },
+    {
+      "id": "elite-trainer-boxen-archives-15aa85",
+      "name": "Elite Trainer Boxen Archives",
+      "url": "https://globalcardshop.com/product-category/populaire-producten/pokemon-producten/elite-trainer-boxen/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T12:02:39.492Z",
+      "active": true
     }
   ]
 }
