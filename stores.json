@@ -1872,6 +1872,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:54:15.922Z",
       "active": true
+    },
+    {
+      "id": "pokemon-bundels-1076c5",
+      "name": "Pokemon bundels",
+      "url": "https://mojocards.nl/collections/pokemon-bundels",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:54:23.392Z",
+      "active": true
     }
   ]
 }
