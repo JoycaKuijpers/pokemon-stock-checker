@@ -602,6 +602,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:28:48.919Z",
       "active": true
+    },
+    {
+      "id": "categorie-figure-sets-19666d",
+      "name": "Categorie: Figure Sets",
+      "url": "https://www.pkmkaarten.nl/product-categorie/trading-card-game-tcg/figure-sets/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:29:00.216Z",
+      "active": true
     }
   ]
 }
