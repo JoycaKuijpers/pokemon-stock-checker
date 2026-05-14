@@ -2032,6 +2032,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:57:41.546Z",
       "active": true
+    },
+    {
+      "id": "tins-fada4f",
+      "name": "Tins",
+      "url": "https://pokeca.nl/collections/engels-boxen",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:57:48.876Z",
+      "active": true
     }
   ]
 }
