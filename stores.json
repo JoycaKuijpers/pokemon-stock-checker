@@ -912,6 +912,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:34:14.886Z",
       "active": true
+    },
+    {
+      "id": "boosters-25c108",
+      "name": "Boosters",
+      "url": "https://www.tcg-cards.nl/pokemon/boosters",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:34:36.497Z",
+      "active": true
     }
   ]
 }
