@@ -2212,6 +2212,16 @@
       "selector": null,
       "added_at": "2026-05-14T12:02:23.890Z",
       "active": true
+    },
+    {
+      "id": "booster-packs-archives-1cbc76",
+      "name": "Booster Packs Archives",
+      "url": "https://globalcardshop.com/product-category/populaire-producten/pokemon-producten/booster-packs-pokemon-producten/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T12:02:28.488Z",
+      "active": true
     }
   ]
 }
