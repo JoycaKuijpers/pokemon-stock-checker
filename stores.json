@@ -2630,6 +2630,16 @@
       "selector": null,
       "added_at": "2026-05-14T12:43:25.479Z",
       "active": true
+    },
+    {
+      "id": "1000401-d5e7e2",
+      "name": "1000401",
+      "url": "https://www.bazaarofmagic.eu/nl-NL/c/pokemon-boosters/1000401",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T12:43:50.033Z",
+      "active": true
     }
   ]
 }
