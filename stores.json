@@ -1302,6 +1302,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:39:32.099Z",
       "active": true
+    },
+    {
+      "id": "collection-boxes-17ffba",
+      "name": "collection-boxes",
+      "url": "https://tcgshop.nl/products/collection-boxes",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:39:36.387Z",
+      "active": true
     }
   ]
 }
