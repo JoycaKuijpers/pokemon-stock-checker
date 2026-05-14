@@ -862,6 +862,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:33:43.864Z",
       "active": true
+    },
+    {
+      "id": "pokemon-tins-kopen--142cb5",
+      "name": "Pokemon Tins kopen?",
+      "url": "https://tcgcompany.nl/pokemon-tins/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:33:51.304Z",
+      "active": true
     }
   ]
 }
