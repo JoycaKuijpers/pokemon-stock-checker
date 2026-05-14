@@ -1202,6 +1202,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:38:26.537Z",
       "active": true
+    },
+    {
+      "id": "pokemon-blisters-1dea5c",
+      "name": "Pokemon Blisters",
+      "url": "https://www.tcgcenter.nl/nl/44-blisters-checklanes-en-mini-portfolio-s",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:38:37.722Z",
+      "active": true
     }
   ]
 }
