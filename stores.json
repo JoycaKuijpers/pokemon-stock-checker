@@ -772,6 +772,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:32:01.244Z",
       "active": true
+    },
+    {
+      "id": "pokemon-585ab9",
+      "name": "Pokemon",
+      "url": "https://cardstore.nl/a/search/pokemon?filter_product=Booster+Box",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:32:05.492Z",
+      "active": true
     }
   ]
 }
