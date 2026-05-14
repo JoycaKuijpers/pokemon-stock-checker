@@ -23,8 +23,9 @@ from pathlib import Path
 from typing import Optional
 from urllib.parse import urlparse
 import requests
-import cloudscraper
+
 from bs4 import BeautifulSoup
+import cloudscraper
 
 SCRIPT_DIR = Path(__file__).parent
 STORES_FILE = next(
@@ -117,7 +118,7 @@ def cooldown_passed(last_notified: Optional[str]) -> bool:
     return elapsed > timedelta(hours=NOTIFY_COOLDOWN_HOURS)
 
 
-import cloudscraper
+
 
 def fetch_page(url: str) -> Optional[str]:
     # Eerste poging met gewone requests
@@ -132,7 +133,7 @@ def fetch_page(url: str) -> Optional[str]:
 
     # Tweede poging met cloudscraper bij 403 of andere fout
     try:
-        print(f"  [retry] Cloudscraper poging voor {url}")
+        print(f"  [retry] Cloudscraper poging voor {url}", flush=True)
         scraper = cloudscraper.create_scraper()
         resp = scraper.get(url, headers=HEADERS, timeout=(5, 15))
         resp.raise_for_status()
@@ -291,15 +292,15 @@ def check_shopify_category(store: dict, state: dict) -> tuple[list[dict], bool]:
     url = store["url"]
     m = re.search(r"/collections/([^/?#]+)", url)
     if not m:
-        print("  [!] Geen collection handle gevonden in URL")
+        print("  [!] Geen collection handle gevonden in URL", flush=True)
         return [], False
     domain = urlparse(url).netloc
     handle = m.group(1)
     products = fetch_shopify_collection(domain, handle)
     if not products:
-        print("  [!] Geen producten gevonden in collectie")
+        print("  [!] Geen producten gevonden in collectie", flush=True)
         return [], False
-    print(f"  → {len(products)} producten in collectie")
+    print(f"  → {len(products)} producten in collectie", flush=True)
     cat_state = state.setdefault(store["id"], {"products": {}})
     prod_state = cat_state.setdefault("products", {})
     cat_state["last_checked"] = now_utc()
@@ -313,7 +314,7 @@ def check_shopify_category(store: dict, state: dict) -> tuple[list[dict], bool]:
         if notif:
             notifications.append(notif)
     in_stock = sum(1 for e in prod_state.values() if e.get("in_stock"))
-    print(f"  → {in_stock}/{len(products)} op voorraad, {len(notifications)} nieuw op voorraad")
+    print(f"  → {in_stock}/{len(products)} op voorraad, {len(notifications)} nieuw op voorraad", flush=True)
     return notifications, True
 
 
@@ -368,10 +369,10 @@ def check_woocommerce_category(store: dict, state: dict, soup: BeautifulSoup) ->
         all_products.extend(parse_woocommerce_cards(BeautifulSoup(html, "lxml")))
         time.sleep(0.5)
     if not all_products:
-        print("  [!] Geen WooCommerce product cards gevonden")
+        print("  [!] Geen WooCommerce product cards gevonden", flush=True)
         return [], False
     pages_str = f" ({max_page} pagina's)" if max_page > 1 else ""
-    print(f"  → {len(all_products)} producten gevonden{pages_str}")
+    print(f"  → {len(all_products)} producten gevonden{pages_str}", flush=True)
     cat_state = state.setdefault(store["id"], {"products": {}})
     prod_state = cat_state.setdefault("products", {})
     cat_state["last_checked"] = now_utc()
@@ -383,7 +384,7 @@ def check_woocommerce_category(store: dict, state: dict, soup: BeautifulSoup) ->
         if notif:
             notifications.append(notif)
     in_stock = sum(1 for e in prod_state.values() if e.get("in_stock"))
-    print(f"  → {in_stock}/{len(all_products)} op voorraad, {len(notifications)} nieuw op voorraad")
+    print(f"  → {in_stock}/{len(all_products)} op voorraad, {len(notifications)} nieuw op voorraad", flush=True)
     return notifications, True
 
 
@@ -397,13 +398,13 @@ def check_category(store: dict, state: dict) -> tuple[list[dict], bool]:
     soup = BeautifulSoup(html, "lxml")
     if soup.select("li.product, div.product"):
         return check_woocommerce_category(store, state, soup)
-    print("  [!] Platform niet herkend voor categorie-modus")
+    print("  [!] Platform niet herkend voor categorie-modus", flush=True)
     return [], False
 
 
 def send_telegram(message: str, chat_id: str) -> bool:
     if not TELEGRAM_BOT_TOKEN or not chat_id:
-        print("  [SKIP] Telegram niet geconfigureerd.")
+        print("  [SKIP] Telegram niet geconfigureerd.", flush=True)
         return False
     api_url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
     try:
@@ -437,24 +438,25 @@ def notify_with_delay(notifications: list[dict]) -> None:
         msg = build_notification(notif["name"], notif["url"])
         sent = send_telegram(msg, TELEGRAM_CHAT_ID)
         if sent:
-            print(f"  [✓] Privé melding verstuurd: {notif['name']}")
+            print(f"  [✓] Privé melding verstuurd: {notif['name']}", flush=True)
     if TELEGRAM_CHANNEL_ID:
-        print(f"\n  [⏳] Wacht {CHANNEL_DELAY_SECONDS // 60} minuten voor kanaalmelding...")
+        print(f"\n  [⏳] Wacht {CHANNEL_DELAY_SECONDS // 60} minuten voor kanaalmelding...", flush=True)
         time.sleep(CHANNEL_DELAY_SECONDS)
         for notif in notifications:
             msg = build_notification(notif["name"], notif["url"])
             sent = send_telegram(msg, TELEGRAM_CHANNEL_ID)
             if sent:
-                print(f"  [✓] Kanaalmelding verstuurd: {notif['name']}")
+                print(f"  [✓] Kanaalmelding verstuurd: {notif['name']}", flush=True)
 
 
 def main() -> int:
+    print("Script gestart.", flush=True)
     stores_data = load_json(STORES_FILE)
     state = load_json(STATE_FILE)
     stores = stores_data.get("stores", [])
     active_stores = [s for s in stores if s.get("active", True)]
 
-    print(f"Checking {len(active_stores)} entr{'y' if len(active_stores) == 1 else 'ies'}...\n")
+    print(f"Checking {len(active_stores)} entr{'y' if len(active_stores) == 1 else 'ies'}...\n", flush=True)
 
     shopify_cache: dict[str, bool] = {}
     shopify_by_domain: dict[str, set] = defaultdict(set)
@@ -467,17 +469,17 @@ def main() -> int:
                 shopify_by_domain[domain].add(handle)
 
     for domain, handles in shopify_by_domain.items():
-        print(f"[Shopify] {domain} — {len(handles)} producten ophalen...")
+        print(f"[Shopify] {domain} — {len(handles)} producten ophalen...", flush=True)
         availability = fetch_shopify_bulk(domain, handles)
         for handle, available in availability.items():
             shopify_cache[f"{domain}/{handle}"] = available
-        print(f"  → {len(availability)} gevonden, {len(handles) - len(availability)} niet gevonden\n")
+        print(f"  → {len(availability)} gevonden, {len(handles) - len(availability)} niet gevonden\n", flush=True)
 
     state_changed = False
 
     for store in active_stores:
         store_type = store.get("type", "product")
-        print(f"→ {store['name']} [{store_type}]")
+        print(f"→ {store['name']} [{store_type}]", flush=True)
 
         if store_type == "category":
             notifications, changed = check_category(store, state)
@@ -487,7 +489,7 @@ def main() -> int:
             notifications = [n for n in notifications if is_tcg_product(n["name"])]
             filtered = before - len(notifications)
             if filtered:
-                print(f"  [filter] {filtered} niet-TCG producten genegeerd")
+                print(f"  [filter] {filtered} niet-TCG producten genegeerd", flush=True)
             notify_with_delay(notifications)
             time.sleep(1)
 
@@ -501,7 +503,7 @@ def main() -> int:
                 domain = urlparse(url).netloc
                 cache_key = f"{domain}/{handle}"
                 if cache_key not in shopify_cache:
-                    print("  [?] Niet gevonden in Shopify catalog")
+                    print("  [?] Niet gevonden in Shopify catalog", flush=True)
                     continue
                 status = shopify_cache[cache_key]
             else:
@@ -512,7 +514,7 @@ def main() -> int:
                 time.sleep(1)
 
             if status is None:
-                print("  [?] Status onbekend")
+                print("  [?] Status onbekend", flush=True)
                 continue
 
             prev = state.setdefault(store_id, {})
@@ -521,23 +523,23 @@ def main() -> int:
             prev["last_checked"] = now_utc()
 
             if status:
-                print("  [✓] OP VOORRAAD")
+                print("  [✓] OP VOORRAAD", flush=True)
                 if prev_status is False and cooldown_passed(prev.get("last_notified")):
                     state_changed = True
                     if is_tcg_product(store["name"]):
                         notify_with_delay([{"name": store["name"], "url": url}])
                         prev["last_notified"] = datetime.now(timezone.utc).isoformat()
                     else:
-                        print(f"  [filter] Geen TCG-product, melding overgeslagen")
+                        print(f"  [filter] Geen TCG-product, melding overgeslagen", flush=True)
             else:
-                print("  [✗] Niet op voorraad")
+                print("  [✗] Niet op voorraad", flush=True)
                 if prev_status is True:
                     prev.pop("last_notified", None)
                     state_changed = True
 
     if state_changed:
         save_json(STATE_FILE, state)
-        print("\nState opgeslagen.")
+        print("\nState opgeslagen.", flush=True)
 
     return 0
 
