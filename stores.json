@@ -522,6 +522,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:28:02.477Z",
       "active": true
+    },
+    {
+      "id": "pokemon-blister-packs-kopen--30b9a1",
+      "name": "Pokemon Blister Packs Kopen?",
+      "url": "https://rarecards.nl/collections/blister-packs",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:28:06.315Z",
+      "active": true
     }
   ]
 }
