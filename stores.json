@@ -1052,6 +1052,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:36:29.903Z",
       "active": true
+    },
+    {
+      "id": "pokemon-ultra-premium-collecti-fabae9",
+      "name": "Pokemon Ultra Premium Collection",
+      "url": "https://tcgwinkel.nl/collections/pokemon-ultra-premium-collection",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:36:34.971Z",
+      "active": true
     }
   ]
 }
