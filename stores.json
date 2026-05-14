@@ -762,6 +762,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:31:41.434Z",
       "active": true
+    },
+    {
+      "id": "pokemon-d05892",
+      "name": "Pokemon",
+      "url": "https://cardstore.nl/a/search/pokemon?filter_product=Booster+Blister",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:32:01.244Z",
+      "active": true
     }
   ]
 }
