@@ -1632,6 +1632,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:46:17.842Z",
       "active": true
+    },
+    {
+      "id": "pokemon-elite-trainer-box--359469",
+      "name": "Pokemon-elite-trainer-box/",
+      "url": "https://www.qualitycardstcg.nl/pokemon-elite-trainer-boxes",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:46:25.529Z",
+      "active": true
     }
   ]
 }
