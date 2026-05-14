@@ -2052,6 +2052,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:57:58.230Z",
       "active": true
+    },
+    {
+      "id": "blisters-1c4ff1",
+      "name": "Blisters",
+      "url": "https://pokeca.nl/collections/3-pack-blisters",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:58:05.498Z",
+      "active": true
     }
   ]
 }
