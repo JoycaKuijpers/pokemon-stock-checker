@@ -882,6 +882,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:33:57.567Z",
       "active": true
+    },
+    {
+      "id": "1-pack-blister-checklane-pokem-492379",
+      "name": "1 Pack Blister / Checklane Pokemon kopen?",
+      "url": "https://tcgcompany.nl/1-pack-blister-pokemon/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:34:05.066Z",
+      "active": true
     }
   ]
 }
