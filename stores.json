@@ -1762,6 +1762,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:51:32.328Z",
       "active": true
+    },
+    {
+      "id": "prerelease-kit-11079a",
+      "name": "Prerelease Kit",
+      "url": "https://arlytrading.nl/product-categorie/tcg/pokemontcg/prerelease-kit/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:51:36.677Z",
+      "active": true
     }
   ]
 }
