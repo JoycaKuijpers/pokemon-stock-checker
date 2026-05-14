@@ -1782,6 +1782,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:52:10.347Z",
       "active": true
+    },
+    {
+      "id": "luiopzondag-nl-7521bb",
+      "name": "Luiopzondag.nl",
+      "url": "https://luiopzondag.nl/collections/sleeved-booster-packs",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:52:15.247Z",
+      "active": true
     }
   ]
 }
