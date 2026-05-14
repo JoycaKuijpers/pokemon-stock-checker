@@ -1652,6 +1652,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:46:31.362Z",
       "active": true
+    },
+    {
+      "id": "pokemon-collection-boxes-605f2f",
+      "name": "Pokemon collection Boxes",
+      "url": "https://www.qualitycardstcg.nl/pokemon-collection-boxes",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:47:27.476Z",
+      "active": true
     }
   ]
 }
