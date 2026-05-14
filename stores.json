@@ -652,6 +652,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:29:44.795Z",
       "active": true
+    },
+    {
+      "id": "boosterpacks-en-boosterpacks-1511b2",
+      "name": "Boosterpacks EN / Boosterpacks",
+      "url": "https://www.articollect.nl/boosterpacks/boosterpacks-en",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:29:48.253Z",
+      "active": true
     }
   ]
 }
