@@ -1062,6 +1062,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:36:34.971Z",
       "active": true
+    },
+    {
+      "id": "pokemon-blisters-10217d",
+      "name": "Pokemon Blisters",
+      "url": "https://tcgwinkel.nl/collections/pokemon-blisters",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:36:39.299Z",
+      "active": true
     }
   ]
 }
