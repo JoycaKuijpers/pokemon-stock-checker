@@ -1862,6 +1862,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:53:33.904Z",
       "active": true
+    },
+    {
+      "id": "pokemon-decks-148a6a",
+      "name": "Pokemon Decks",
+      "url": "https://mojocards.nl/collections/pokemon-decks",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:54:15.922Z",
+      "active": true
     }
   ]
 }
