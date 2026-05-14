@@ -1692,6 +1692,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:50:02.384Z",
       "active": true
+    },
+    {
+      "id": "pokemon-boosterpack-en-booster-1357ef",
+      "name": "Pokemon Boosterpack en boosterbox",
+      "url": "https://arlytrading.nl/product-categorie/tcg/pokemontcg/booster-box-packs/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:50:42.706Z",
+      "active": true
     }
   ]
 }
