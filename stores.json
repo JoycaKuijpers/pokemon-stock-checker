@@ -2660,6 +2660,16 @@
       "selector": null,
       "added_at": "2026-05-14T12:44:00.152Z",
       "active": true
+    },
+    {
+      "id": "1000404-16d165",
+      "name": "1000404",
+      "url": "https://www.bazaarofmagic.eu/nl-NL/c/pokemon-tins/1000404",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T12:44:03.869Z",
+      "active": true
     }
   ]
 }
