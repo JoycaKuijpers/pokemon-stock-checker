@@ -1222,6 +1222,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:38:42.818Z",
       "active": true
+    },
+    {
+      "id": "pokemon-collectors-chests-tins-1e8038",
+      "name": "Pokemon Collectors Chests, Tins en Mini Tins",
+      "url": "https://www.tcgcenter.nl/nl/45-collectors-chests-tins-en-mini-tins",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:38:50.466Z",
+      "active": true
     }
   ]
 }
