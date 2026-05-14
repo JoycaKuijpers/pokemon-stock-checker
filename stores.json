@@ -752,6 +752,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:31:29.451Z",
       "active": true
+    },
+    {
+      "id": "shop-6e89e3",
+      "name": "shop",
+      "url": "https://kvdpcards.nl/shop",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:31:41.434Z",
+      "active": true
     }
   ]
 }
