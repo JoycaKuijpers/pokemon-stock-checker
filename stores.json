@@ -1962,6 +1962,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:56:11.485Z",
       "active": true
+    },
+    {
+      "id": "pokemon-collection-box-kopen-t-197e57",
+      "name": "Pokemon Collection Box Kopen TCGPokemon",
+      "url": "https://oppacards.com/product-category/pokemon-collection-box/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:56:38.372Z",
+      "active": true
     }
   ]
 }
