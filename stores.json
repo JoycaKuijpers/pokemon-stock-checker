@@ -1212,6 +1212,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:38:37.722Z",
       "active": true
+    },
+    {
+      "id": "pokemon-elite-trainer-boxen-457c02",
+      "name": "Pokemon Elite Trainer Boxen",
+      "url": "https://www.tcgcenter.nl/nl/14-elite-trainer-boxen",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:38:42.818Z",
+      "active": true
     }
   ]
 }
