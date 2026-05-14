@@ -2412,6 +2412,16 @@
       "selector": null,
       "added_at": "2026-05-14T12:25:42.327Z",
       "active": true
+    },
+    {
+      "id": "pokemon-tcg-18fa0d",
+      "name": "Pokemon-tcg",
+      "url": "https://www.top1toys.nl/asmodee/pokemon/pokemon-tcg",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T12:26:15.444Z",
+      "active": true
     }
   ]
 }
