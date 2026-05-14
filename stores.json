@@ -2640,6 +2640,16 @@
       "selector": null,
       "added_at": "2026-05-14T12:43:50.033Z",
       "active": true
+    },
+    {
+      "id": "1000402-1d04c4",
+      "name": "1000402",
+      "url": "https://www.bazaarofmagic.eu/nl-NL/c/pokemon-booster-blisters/1000402",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T12:43:55.349Z",
+      "active": true
     }
   ]
 }
