@@ -902,6 +902,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:34:10.679Z",
       "active": true
+    },
+    {
+      "id": "3-pack-blister-pokemon-kopen--14b3fb",
+      "name": "3 Pack Blister Pokemon kopen?",
+      "url": "https://tcgcompany.nl/3-pack-blister-pokemon/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:34:14.886Z",
+      "active": true
     }
   ]
 }
