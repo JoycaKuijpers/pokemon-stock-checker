@@ -712,6 +712,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:30:31.184Z",
       "active": true
+    },
+    {
+      "id": "pokemon-boosterpacks-3058e9",
+      "name": "Pokemon boosterpacks",
+      "url": "https://levelupcards.nl/product-category/pokemon/pokemon-boosterpacks/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:30:59.294Z",
+      "active": true
     }
   ]
 }
