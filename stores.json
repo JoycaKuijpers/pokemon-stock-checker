@@ -1562,6 +1562,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:43:57.400Z",
       "active": true
+    },
+    {
+      "id": "pokemon-tcg-booster-bundels-3002d4",
+      "name": "Pokemon TCG Booster Bundels",
+      "url": "https://catchyourcards.nl/categorie/pokemon/booster-bundle/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:44:01.508Z",
+      "active": true
     }
   ]
 }
