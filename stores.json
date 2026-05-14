@@ -1082,6 +1082,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:36:43.858Z",
       "active": true
+    },
+    {
+      "id": "pokemon-box-sets-b6885d",
+      "name": "Pokemon Box Sets",
+      "url": "https://tcgwinkel.nl/collections/pokemon-box-sets",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:36:48.589Z",
+      "active": true
     }
   ]
 }
