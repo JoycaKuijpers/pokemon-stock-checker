@@ -502,6 +502,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:26:50.351Z",
       "active": true
+    },
+    {
+      "id": "pokemon-booster-packs-kopen--2c5e39",
+      "name": "Pokemon Booster Packs Kopen?",
+      "url": "https://rarecards.nl/collections/pokemon-booster-packs",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:27:57.656Z",
+      "active": true
     }
   ]
 }
