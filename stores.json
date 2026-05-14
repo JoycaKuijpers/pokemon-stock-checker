@@ -1952,6 +1952,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:55:43.911Z",
       "active": true
+    },
+    {
+      "id": "pokemon-elite-trainer-box-kope-191f14",
+      "name": "Pokemon Elite Trainer Box Kopen",
+      "url": "https://oppacards.com/product-category/pokemon-elite-trainer-boxen/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:56:11.485Z",
+      "active": true
     }
   ]
 }
