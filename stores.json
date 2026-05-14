@@ -1342,6 +1342,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:40:34.279Z",
       "active": true
+    },
+    {
+      "id": "pokemon-tcg-c14bd2",
+      "name": "Pokemon TCG",
+      "url": "https://www.tcgreus.nl/collections/battle-stadium",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:41:04.341Z",
+      "active": true
     }
   ]
 }
