@@ -2242,6 +2242,16 @@
       "selector": null,
       "added_at": "2026-05-14T12:02:56.436Z",
       "active": true
+    },
+    {
+      "id": "pre-24dce0",
+      "name": "Pre",
+      "url": "https://globalcardshop.com/product-category/pre-order/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T12:03:19.998Z",
+      "active": true
     }
   ]
 }
