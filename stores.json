@@ -2002,6 +2002,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:57:04.752Z",
       "active": true
+    },
+    {
+      "id": "elite-trainer-box-23b181",
+      "name": "Elite Trainer Box",
+      "url": "https://pokeca.nl/collections/elite-trainer-box",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:57:20.469Z",
+      "active": true
     }
   ]
 }
