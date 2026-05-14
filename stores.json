@@ -2162,6 +2162,16 @@
       "selector": null,
       "added_at": "2026-05-14T12:01:33.238Z",
       "active": true
+    },
+    {
+      "id": "booster-boxes-30c292",
+      "name": "BOOSTER BOXES",
+      "url": "https://www.united-collectibles.nl/collections/pokemon-booster-box",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T12:01:47.312Z",
+      "active": true
     }
   ]
 }
