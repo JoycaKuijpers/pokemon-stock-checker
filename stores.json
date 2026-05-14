@@ -2122,6 +2122,16 @@
       "selector": null,
       "added_at": "2026-05-14T12:00:24.577Z",
       "active": true
+    },
+    {
+      "id": "booster-box-241012",
+      "name": "Booster box",
+      "url": "https://www.tcgtriarch.com/product-category/pokemon/pokemon-booster-box/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T12:00:40.420Z",
+      "active": true
     }
   ]
 }
