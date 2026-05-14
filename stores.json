@@ -622,6 +622,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:29:03.916Z",
       "active": true
+    },
+    {
+      "id": "categorie-tins-2d1fb4",
+      "name": "Categorie: Tins",
+      "url": "https://www.pkmkaarten.nl/product-categorie/trading-card-game-tcg/tins/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:29:08.008Z",
+      "active": true
     }
   ]
 }
