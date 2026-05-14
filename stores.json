@@ -572,6 +572,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:28:26.364Z",
       "active": true
+    },
+    {
+      "id": "pokemon-tins-kopen--31fb42",
+      "name": "Pokemon Tins Kopen?",
+      "url": "https://rarecards.nl/collections/pokemon-tins",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:28:30.478Z",
+      "active": true
     }
   ]
 }
