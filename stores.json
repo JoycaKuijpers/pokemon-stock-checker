@@ -2012,6 +2012,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:57:20.469Z",
       "active": true
+    },
+    {
+      "id": "pokemon-booster-packs-1db6ad",
+      "name": "Pokemon Booster Packs",
+      "url": "https://pokeca.nl/collections/pokemon-booster-packs",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:57:32.249Z",
+      "active": true
     }
   ]
 }
