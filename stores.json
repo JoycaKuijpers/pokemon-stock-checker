@@ -1852,6 +1852,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:53:29.635Z",
       "active": true
+    },
+    {
+      "id": "pokemon-boosters-en-blisters-k-19bec9",
+      "name": "Pokemon Boosters en Blisters kopen Pokemon kaarten los verzamelen 2HG",
+      "url": "https://2hg.nl/nl/521-pok%C3%A9mon-boosters-en-blisters",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:53:33.904Z",
+      "active": true
     }
   ]
 }
