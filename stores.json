@@ -1142,6 +1142,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:37:34.900Z",
       "active": true
+    },
+    {
+      "id": "pokemon-boxen-kopen-4d6f29",
+      "name": "Pokemon Boxen Kopen",
+      "url": "https://www.tcgal.nl/webwinkel/producten/pokemon-boxen",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:37:42.099Z",
+      "active": true
     }
   ]
 }
