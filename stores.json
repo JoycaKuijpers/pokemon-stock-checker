@@ -1732,6 +1732,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:51:14.800Z",
       "active": true
+    },
+    {
+      "id": "pokemon-v-vstar-vmax-ex-box-1ae42e",
+      "name": "Pokemon V, VSTAR, VMAX, EX Box",
+      "url": "https://arlytrading.nl/product-categorie/tcg/pokemontcg/vstar-en-vmax/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:51:20.709Z",
+      "active": true
     }
   ]
 }
