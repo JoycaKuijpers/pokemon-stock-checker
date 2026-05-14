@@ -1702,6 +1702,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:50:42.706Z",
       "active": true
+    },
+    {
+      "id": "elite-trainer-box-232728",
+      "name": "Elite Trainer Box",
+      "url": "https://arlytrading.nl/product-categorie/tcg/pokemontcg/elite-trainer-boxen/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:50:57.210Z",
+      "active": true
     }
   ]
 }
