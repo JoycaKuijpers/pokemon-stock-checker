@@ -892,6 +892,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:34:05.066Z",
       "active": true
+    },
+    {
+      "id": "2-pack-blister-pokemon-kopen--fef1e0",
+      "name": "2 Pack Blister Pokemon kopen?",
+      "url": "https://tcgcompany.nl/2-pack-blister-pokemon/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:34:10.679Z",
+      "active": true
     }
   ]
 }
