@@ -2550,6 +2550,16 @@
       "selector": null,
       "added_at": "2026-05-14T12:41:48.681Z",
       "active": true
+    },
+    {
+      "id": "zoekresultaten-voor-pokemon-tc-305803",
+      "name": "Zoekresultaten voor  Pokemon tcg",
+      "url": "https://www.kruidvat.nl/search/pokemon%20tcg",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T12:42:08.857Z",
+      "active": true
     }
   ]
 }
