@@ -2352,6 +2352,16 @@
       "selector": null,
       "added_at": "2026-05-14T12:05:22.361Z",
       "active": true
+    },
+    {
+      "id": "pokemon-1a6bb7",
+      "name": "Pokemon",
+      "url": "https://www.speelkaartenwinkel.nl/trading-cards/pokemon.html?tcg_product_type=1214",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T12:05:28.013Z",
+      "active": true
     }
   ]
 }
