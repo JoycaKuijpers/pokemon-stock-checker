@@ -1392,6 +1392,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:41:39.677Z",
       "active": true
+    },
+    {
+      "id": "pokemon-tcg-565ec3",
+      "name": "Pokemon TCG",
+      "url": "https://www.tcgreus.nl/collections/collection-box",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:41:43.720Z",
+      "active": true
     }
   ]
 }
