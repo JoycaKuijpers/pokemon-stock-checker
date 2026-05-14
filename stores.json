@@ -1532,6 +1532,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:43:35.481Z",
       "active": true
+    },
+    {
+      "id": "tins-c177952766-bec751",
+      "name": "Tins-c177952766",
+      "url": "https://tcgcavern.nl/shop/Tins-c177952766/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:43:38.837Z",
+      "active": true
     }
   ]
 }
