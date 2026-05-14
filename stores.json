@@ -1942,6 +1942,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:55:37.578Z",
       "active": true
+    },
+    {
+      "id": "pokemon-booster-box-kopen-tcgp-83089a",
+      "name": "Pokemon Booster Box Kopen TCGPokemon",
+      "url": "https://oppacards.com/product-category/pokemon-booster-box/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:55:43.911Z",
+      "active": true
     }
   ]
 }
