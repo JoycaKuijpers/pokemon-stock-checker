@@ -552,6 +552,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:28:13.818Z",
       "active": true
+    },
+    {
+      "id": "pokemon-elite-trainer-boxes-ko-41252e",
+      "name": "Pokemon Elite Trainer Boxes Kopen",
+      "url": "https://rarecards.nl/collections/pokemon-elite-trainer-box",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:28:21.646Z",
+      "active": true
     }
   ]
 }
