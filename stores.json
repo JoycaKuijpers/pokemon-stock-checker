@@ -1812,6 +1812,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:52:25.488Z",
       "active": true
+    },
+    {
+      "id": "luiopzondag-nl-10aa73",
+      "name": "Luiopzondag.nl",
+      "url": "https://luiopzondag.nl/collections/pokemon-collection-boxen",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:52:29.933Z",
+      "active": true
     }
   ]
 }
