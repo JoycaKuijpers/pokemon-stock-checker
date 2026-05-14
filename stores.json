@@ -1192,6 +1192,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:38:20.055Z",
       "active": true
+    },
+    {
+      "id": "pokemon-boosterboxen-31840a",
+      "name": "Pokemon Boosterboxen",
+      "url": "https://www.tcgcenter.nl/nl/13-boosterboxen",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:38:26.537Z",
+      "active": true
     }
   ]
 }
