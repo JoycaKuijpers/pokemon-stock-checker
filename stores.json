@@ -1742,6 +1742,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:51:20.709Z",
       "active": true
+    },
+    {
+      "id": "collector-s-box-en-chest-1d2ca5",
+      "name": "Collector's box en chest",
+      "url": "https://arlytrading.nl/product-categorie/tcg/pokemontcg/pokemon_box/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:51:25.191Z",
+      "active": true
     }
   ]
 }
