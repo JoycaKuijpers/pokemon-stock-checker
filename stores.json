@@ -472,6 +472,16 @@
       "selector": null,
       "added_at": "2026-05-09T17:39:47.342Z",
       "active": true
+    },
+    {
+      "id": "pokemon-boosterpacks-productty-284370",
+      "name": "Pokemon Boosterpacks / Producttype",
+      "url": "https://www.peppicollect.nl/producttype/pokemon-boosterpacks",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:26:41.338Z",
+      "active": true
     }
   ]
 }
