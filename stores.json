@@ -982,6 +982,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:35:35.092Z",
       "active": true
+    },
+    {
+      "id": "pokemon-boosterbox-e7d57b",
+      "name": "Pokemon boosterbox",
+      "url": "https://tcgfanz.nl/pokemon-booster-box/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:35:41.469Z",
+      "active": true
     }
   ]
 }
