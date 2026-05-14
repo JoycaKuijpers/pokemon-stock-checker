@@ -2192,6 +2192,16 @@
       "selector": null,
       "added_at": "2026-05-14T12:01:57.966Z",
       "active": true
+    },
+    {
+      "id": "collection-boxes-24e094",
+      "name": "COLLECTION BOXES",
+      "url": "https://www.united-collectibles.nl/collections/pokemon-collection-box",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T12:02:05.812Z",
+      "active": true
     }
   ]
 }
