@@ -942,6 +942,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:34:50.635Z",
       "active": true
+    },
+    {
+      "id": "tins-1c640a",
+      "name": "Tins",
+      "url": "https://www.tcg-cards.nl/pokemon/tins",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:35:02.533Z",
+      "active": true
     }
   ]
 }
