@@ -1612,6 +1612,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:44:28.953Z",
       "active": true
+    },
+    {
+      "id": "speciale-boxen-131e89",
+      "name": "Speciale Boxen",
+      "url": "https://catchyourcards.nl/categorie/pokemon/speciale-boxen/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:44:34.319Z",
+      "active": true
     }
   ]
 }
