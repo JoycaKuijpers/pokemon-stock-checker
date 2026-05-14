@@ -2292,6 +2292,16 @@
       "selector": null,
       "added_at": "2026-05-14T12:03:49.596Z",
       "active": true
+    },
+    {
+      "id": "pokemon-tins-kopen-offici-le-p-20b7f2",
+      "name": "Pokemon tins kopen, officiële Pokemon tins bij Dracoon",
+      "url": "https://dracoon.nl/trading-cards/pokemon-kaarten-kopen/pokemon-tins-kopen/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T12:03:54.719Z",
+      "active": true
     }
   ]
 }
