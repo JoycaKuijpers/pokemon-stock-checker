@@ -612,6 +612,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:29:00.216Z",
       "active": true
+    },
+    {
+      "id": "categorie-battle-theme-decks-2aaeed",
+      "name": "Categorie: Battle & Theme Decks",
+      "url": "https://www.pkmkaarten.nl/product-categorie/trading-card-game-tcg/battle-theme-decks/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:29:03.916Z",
+      "active": true
     }
   ]
 }
