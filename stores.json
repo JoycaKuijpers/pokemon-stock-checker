@@ -2532,6 +2532,16 @@
       "selector": null,
       "added_at": "2026-05-14T12:41:17.417Z",
       "active": true
+    },
+    {
+      "id": "wehkamp-3fb1a7",
+      "name": "Wehkamp",
+      "url": "https://www.wehkamp.nl/zoeken/?term=pokemon+tcg&type=recentsearch&merk=pokemon",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T12:41:34.844Z",
+      "active": true
     }
   ]
 }
