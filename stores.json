@@ -2282,6 +2282,16 @@
       "selector": null,
       "added_at": "2026-05-14T12:03:45.717Z",
       "active": true
+    },
+    {
+      "id": "pokemon-speciale-boxen-kopen-o-e2528b",
+      "name": "Pokemon speciale boxen kopen, officiële boxen bij Dracoon",
+      "url": "https://dracoon.nl/trading-cards/pokemon-kaarten-kopen/pokemon-speciale-boxen-kopen/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T12:03:49.596Z",
+      "active": true
     }
   ]
 }
