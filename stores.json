@@ -1292,6 +1292,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:39:28.665Z",
       "active": true
+    },
+    {
+      "id": "booster-boxes-16b7da",
+      "name": "booster-boxes",
+      "url": "https://tcgshop.nl/products/booster-boxes",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:39:32.099Z",
+      "active": true
     }
   ]
 }
