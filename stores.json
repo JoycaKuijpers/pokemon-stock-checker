@@ -672,6 +672,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:29:51.490Z",
       "active": true
+    },
+    {
+      "id": "upc-137347",
+      "name": "UPC",
+      "url": "https://www.articollect.nl/upc",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:30:19.814Z",
+      "active": true
     }
   ]
 }
