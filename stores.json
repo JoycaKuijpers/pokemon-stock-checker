@@ -582,6 +582,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:28:30.478Z",
       "active": true
+    },
+    {
+      "id": "pokemon-mini-tins-kopen--3c9e4a",
+      "name": "Pokemon Mini Tins Kopen?",
+      "url": "https://rarecards.nl/collections/mini-tins",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:28:34.239Z",
+      "active": true
     }
   ]
 }
