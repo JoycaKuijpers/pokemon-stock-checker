@@ -2112,6 +2112,16 @@
       "selector": null,
       "added_at": "2026-05-14T12:00:16.271Z",
       "active": true
+    },
+    {
+      "id": "pre-order-1f9487",
+      "name": "pre-order",
+      "url": "https://www.collectorstore.nl/product-categorie/pre-order/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T12:00:24.577Z",
+      "active": true
     }
   ]
 }
