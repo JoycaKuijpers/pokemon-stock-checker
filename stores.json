@@ -2620,6 +2620,16 @@
       "selector": null,
       "added_at": "2026-05-14T12:43:02.038Z",
       "active": true
+    },
+    {
+      "id": "zoeken-html-244ac8",
+      "name": "zoeken.html",
+      "url": "https://www.spellenrijk.nl/zoeken.html?s=pokemon+tcg&grp=96",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T12:43:25.479Z",
+      "active": true
     }
   ]
 }
