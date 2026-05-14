@@ -1682,6 +1682,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:49:58.446Z",
       "active": true
+    },
+    {
+      "id": "pokemon-tins-2efd04",
+      "name": "Pokemon Tins",
+      "url": "https://www.qualitycardstcg.nl/pokemon-tins",
+      "type": "category",
+      "notify_on_new": true,
+      "selector": null,
+      "added_at": "2026-05-14T11:50:02.384Z",
+      "active": true
     }
   ]
 }
