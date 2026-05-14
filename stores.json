@@ -2402,6 +2402,16 @@
       "selector": null,
       "added_at": "2026-05-14T12:05:56.218Z",
       "active": true
+    },
+    {
+      "id": "all-6b590c",
+      "name": "all",
+      "url": "https://www.lobbes.nl/zoek/pokemon%20tcg/all",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T12:25:42.327Z",
+      "active": true
     }
   ]
 }
