@@ -117,15 +117,29 @@ def cooldown_passed(last_notified: Optional[str]) -> bool:
     return elapsed > timedelta(hours=NOTIFY_COOLDOWN_HOURS)
 
 
+import cloudscraper
+
 def fetch_page(url: str) -> Optional[str]:
+    # Eerste poging met gewone requests
     try:
         resp = requests.get(url, headers=HEADERS, timeout=(5, 10), allow_redirects=True)
+        if resp.status_code == 403:
+            raise requests.HTTPError("403")
         resp.raise_for_status()
         return resp.text
-    except requests.RequestException as e:
-        print(f"  [FOUT] Kon {url} niet ophalen: {e}", file=sys.stderr)
-        return None
+    except (requests.HTTPError, requests.RequestException):
+        pass
 
+    # Tweede poging met cloudscraper bij 403 of andere fout
+    try:
+        print(f"  [retry] Cloudscraper poging voor {url}")
+        scraper = cloudscraper.create_scraper()
+        resp = scraper.get(url, headers=HEADERS, timeout=(5, 15))
+        resp.raise_for_status()
+        return resp.text
+    except Exception as e:
+        print(f"  [FOUT] Cloudscraper ook mislukt voor {url}: {e}", file=sys.stderr)
+        return None
 
 def process_product(prod_state: dict, key: str, name: str, url: str, available: bool,
                     notify_on_new: bool = False) -> Optional[dict]:
