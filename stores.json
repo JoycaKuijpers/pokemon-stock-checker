@@ -1322,6 +1322,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:39:39.962Z",
       "active": true
+    },
+    {
+      "id": "blisters-1cfda2",
+      "name": "blisters",
+      "url": "https://tcgshop.nl/products/blisters",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:39:43.125Z",
+      "active": true
     }
   ]
 }
