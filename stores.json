@@ -1822,6 +1822,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:52:29.933Z",
       "active": true
+    },
+    {
+      "id": "luiopzondag-nl-3ae167",
+      "name": "Luiopzondag.nl",
+      "url": "https://luiopzondag.nl/collections/pokemon-blister",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:52:35.279Z",
+      "active": true
     }
   ]
 }
