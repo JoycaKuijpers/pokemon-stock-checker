@@ -1252,6 +1252,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:38:58.326Z",
       "active": true
+    },
+    {
+      "id": "pokemon-pre-orders-2f836d",
+      "name": "Pokemon Pre-orders",
+      "url": "https://www.tcgcenter.nl/nl/24-pokemon-pre-orders",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:39:05.330Z",
+      "active": true
     }
   ]
 }
