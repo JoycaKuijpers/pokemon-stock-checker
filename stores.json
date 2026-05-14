@@ -1482,6 +1482,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:42:45.339Z",
       "active": true
+    },
+    {
+      "id": "booster-boxes-c177952265-129882",
+      "name": "Booster-Boxes-c177952265",
+      "url": "https://tcgcavern.nl/shop/Booster-Boxes-c177952265/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:43:20.037Z",
+      "active": true
     }
   ]
 }
