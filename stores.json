@@ -1112,6 +1112,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:36:57.829Z",
       "active": true
+    },
+    {
+      "id": "pokemon-booster-boxen-kopen-tc-29a9ab",
+      "name": "Pokemon Booster Boxen Kopen? TCGAL.nl",
+      "url": "https://www.tcgal.nl/webwinkel/producten/booster-boxen",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:37:29.389Z",
+      "active": true
     }
   ]
 }
