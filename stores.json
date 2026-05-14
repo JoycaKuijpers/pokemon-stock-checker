@@ -1372,6 +1372,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:41:27.583Z",
       "active": true
+    },
+    {
+      "id": "pokemon-tcg-b829c9",
+      "name": "Pokemon TCG",
+      "url": "https://www.tcgreus.nl/collections/booster-pack",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:41:31.658Z",
+      "active": true
     }
   ]
 }
