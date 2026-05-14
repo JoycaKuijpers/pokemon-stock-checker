@@ -1602,6 +1602,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:44:19.888Z",
       "active": true
+    },
+    {
+      "id": "pokemon-elite-trainer-box-kope-31c851",
+      "name": "Pokemon Elite Trainer Box Kopen? Ruim Aanbod- CatchYourCards",
+      "url": "https://catchyourcards.nl/categorie/pokemon/elite-trainer-boxen/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:44:28.953Z",
+      "active": true
     }
   ]
 }
