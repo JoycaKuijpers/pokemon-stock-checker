@@ -2462,6 +2462,16 @@
       "selector": null,
       "added_at": "2026-05-14T12:32:59.362Z",
       "active": true
+    },
+    {
+      "id": "pokemon-b9992f",
+      "name": "Pokemon",
+      "url": "https://www.spellenhuis.nl/trading-cards/pokemon/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T12:35:09.389Z",
+      "active": true
     }
   ]
 }
