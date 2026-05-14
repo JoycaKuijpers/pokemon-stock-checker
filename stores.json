@@ -1242,6 +1242,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:38:54.796Z",
       "active": true
+    },
+    {
+      "id": "premium-en-special-collection--25fcdd",
+      "name": "Premium en Special Collection Boxen",
+      "url": "https://www.tcgcenter.nl/nl/59-premium-en-special-collection-boxen",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:38:58.326Z",
+      "active": true
     }
   ]
 }
