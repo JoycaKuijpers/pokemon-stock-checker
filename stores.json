@@ -1032,6 +1032,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:36:09.960Z",
       "active": true
+    },
+    {
+      "id": "pokemon-booster-boxen-21569f",
+      "name": "Pokemon Booster Boxen",
+      "url": "https://tcgwinkel.nl/collections/pokemon-booster-boxen/pokemon-tcg",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:36:25.445Z",
+      "active": true
     }
   ]
 }
