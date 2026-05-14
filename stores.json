@@ -1972,6 +1972,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:56:38.372Z",
       "active": true
+    },
+    {
+      "id": "pokemon-booster-pack-kopen-tcg-21369b",
+      "name": "Pokemon Booster Pack Kopen TCGPokemon",
+      "url": "https://oppacards.com/product-category/pokemon-booster-pack/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:56:42.761Z",
+      "active": true
     }
   ]
 }
