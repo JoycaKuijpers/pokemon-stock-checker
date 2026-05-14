@@ -1382,6 +1382,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:41:31.658Z",
       "active": true
+    },
+    {
+      "id": "pokemon-tcg-dfc868",
+      "name": "Pokemon TCG",
+      "url": "https://www.tcgreus.nl/collections/checklane-blister",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:41:39.677Z",
+      "active": true
     }
   ]
 }
