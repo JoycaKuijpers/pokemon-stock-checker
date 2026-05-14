@@ -1902,6 +1902,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:54:38.662Z",
       "active": true
+    },
+    {
+      "id": "boxen-1736c1",
+      "name": "Boxen",
+      "url": "https://mojocards.nl/collections/pokemon-box",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:54:47.036Z",
+      "active": true
     }
   ]
 }
