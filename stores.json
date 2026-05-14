@@ -2512,6 +2512,16 @@
       "selector": null,
       "added_at": "2026-05-14T12:38:51.842Z",
       "active": true
+    },
+    {
+      "id": "s-54e4e6",
+      "name": "s",
+      "url": "https://www.bol.com/nl/nl/s/?searchtext=pokemon+tcg&filter_N=38520+4298327804+4298344086+4298316066+4298351126+7679922695+7679105296+7679104798&N=55042&bltgh=cd560542-ed74-4d97-9e95-504c223ffbdb.g.i.QueryContextHook",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T12:40:18.018Z",
+      "active": true
     }
   ]
 }
