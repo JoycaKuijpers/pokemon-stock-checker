@@ -1522,6 +1522,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:43:31.847Z",
       "active": true
+    },
+    {
+      "id": "blisters-c177953271-1bafe5",
+      "name": "Blisters-c177953271",
+      "url": "https://tcgcavern.nl/shop/Blisters-c177953271/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:43:35.481Z",
+      "active": true
     }
   ]
 }
