@@ -2142,6 +2142,16 @@
       "selector": null,
       "added_at": "2026-05-14T12:00:44.086Z",
       "active": true
+    },
+    {
+      "id": "collection-boxen-7ba0eb",
+      "name": "Collection Boxen",
+      "url": "https://www.tcgtriarch.com/product-category/pokemon/collection-boxen/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T12:01:00.601Z",
+      "active": true
     }
   ]
 }
