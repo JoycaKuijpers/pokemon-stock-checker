@@ -802,6 +802,16 @@
       "selector": null,
       "added_at": "2026-05-14T11:32:16.804Z",
       "active": true
+    },
+    {
+      "id": "pokemon-5f6d71",
+      "name": "Pokemon",
+      "url": "https://cardstore.nl/a/search/pokemon?filter_product=Deck",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:32:22.271Z",
+      "active": true
     }
   ]
 }
