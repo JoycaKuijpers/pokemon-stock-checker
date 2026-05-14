@@ -2262,6 +2262,16 @@
       "selector": null,
       "added_at": "2026-05-14T12:03:36.300Z",
       "active": true
+    },
+    {
+      "id": "pokemon-booster-packs-kopen-of-43cb4d",
+      "name": "Pokemon booster packs kopen, officiële packs bij Dracoon",
+      "url": "https://dracoon.nl/trading-cards/pokemon-kaarten-kopen/pokemon-booster-packs-kopen/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T12:03:41.366Z",
+      "active": true
     }
   ]
 }
