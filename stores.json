@@ -2670,6 +2670,16 @@
       "selector": null,
       "added_at": "2026-05-14T12:44:03.869Z",
       "active": true
+    },
+    {
+      "id": "our-bounty-hunters-have-search-10ca01",
+      "name": "Our Bounty Hunters have searched for you!",
+      "url": "https://www.tbhstore.nl/search/?search=pokemon",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T12:51:49.532Z",
+      "active": true
     }
   ]
 }
