@@ -29,7 +29,7 @@ jobs:
         run: pip install requests
 
       - name: Send free alerts
-        env:env:
+        env:
           WHOP_API_KEY: ${{ secrets.WHOP_API_KEY }}
           WHOP_CHANNEL_ID: ${{ secrets.WHOP_CHANNEL_ID }}
         run: python send_free_alerts.py
