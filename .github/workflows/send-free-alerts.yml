@@ -29,9 +29,9 @@ jobs:
         run: pip install requests
 
       - name: Send free alerts
-        env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHANNEL_FREE: ${{ secrets.TELEGRAM_CHANNEL_FREE }}
+        env:env:
+          WHOP_API_KEY: ${{ secrets.WHOP_API_KEY }}
+          WHOP_CHANNEL_ID: ${{ secrets.WHOP_CHANNEL_ID }}
         run: python send_free_alerts.py
 
       - name: Commit pending changes
