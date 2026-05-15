@@ -1,0 +1,47 @@
+name: Send Paid Alerts
+
+on:
+  schedule:
+    # Elke 5 minuten — GitHub Actions minimum
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  send-paid-alerts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Send paid alerts
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+        run: python send_paid_alerts.py
+
+      - name: Commit pending changes
+        run: |
+          git config user.name "pokemon-stock-bot"
+          git config user.email "bot@github-actions"
+          find . -maxdepth 2 -name "pending_paid.json" ! -path "./.git/*" -exec git add {} +
+          if git diff --cached --quiet; then
+            echo "Geen wijzigingen in pending_paid.json"
+          else
+            git commit -m "chore: update pending paid alerts [skip ci]"
+            git push
+          fi
