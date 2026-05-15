@@ -430,23 +430,76 @@ def build_notification(name: str, url: str) -> str:
     )
 
 
+def queue_free_alerts(notifications: list[dict]) -> None:
+    """Voeg meldingen toe aan pending_free.json voor het gratis kanaal."""
+    pending_file = STATE_FILE.parent / "pending_free.json"
+    existing = []
+    if pending_file.exists():
+        try:
+            existing = json.loads(pending_file.read_text(encoding="utf-8"))
+        except Exception:
+            existing = []
+
+    now = datetime.now(timezone.utc).isoformat()
+    existing_urls = {item["url"] for item in existing}
+
+    added = 0
+    for notif in notifications:
+        if notif["url"] not in existing_urls:
+            existing.append({
+                "name": notif["name"],
+                "url": notif["url"],
+                "queued_at": now,
+            })
+            added += 1
+
+    pending_file.write_text(json.dumps(existing, indent=2, ensure_ascii=False), encoding="utf-8")
+    if added:
+        print(f"  [✓] {added} melding(en) in wachtrij voor gratis kanaal (6 uur)", flush=True)
+
+
+def queue_paid_alerts(notifications: list[dict]) -> None:
+    """Voeg meldingen toe aan pending_paid.json voor het betaalde kanaal (5 min vertraging)."""
+    pending_file = STATE_FILE.parent / "pending_paid.json"
+    existing = []
+    if pending_file.exists():
+        try:
+            existing = json.loads(pending_file.read_text(encoding="utf-8"))
+        except Exception:
+            existing = []
+
+    now = datetime.now(timezone.utc).isoformat()
+    existing_urls = {item["url"] for item in existing}
+
+    added = 0
+    for notif in notifications:
+        if notif["url"] not in existing_urls:
+            existing.append({
+                "name": notif["name"],
+                "url": notif["url"],
+                "queued_at": now,
+            })
+            added += 1
+
+    pending_file.write_text(json.dumps(existing, indent=2, ensure_ascii=False), encoding="utf-8")
+    if added:
+        print(f"  [✓] {added} melding(en) in wachtrij voor betaald kanaal (5 min)", flush=True)
+
+
 def notify_with_delay(notifications: list[dict]) -> None:
-    """Stuur direct naar privé chat, wacht 5 minuten, stuur naar Card Radar kanaal."""
+    """Stuur direct naar privé chat, wachtrij voor betaald en gratis kanaal."""
     if not notifications:
         return
+    # Stap 1 — direct naar jou
     for notif in notifications:
         msg = build_notification(notif["name"], notif["url"])
         sent = send_telegram(msg, TELEGRAM_CHAT_ID)
         if sent:
             print(f"  [✓] Privé melding verstuurd: {notif['name']}", flush=True)
-    if TELEGRAM_CHANNEL_ID:
-        print(f"\n  [⏳] Wacht {CHANNEL_DELAY_SECONDS // 60} minuten voor kanaalmelding...", flush=True)
-        time.sleep(CHANNEL_DELAY_SECONDS)
-        for notif in notifications:
-            msg = build_notification(notif["name"], notif["url"])
-            sent = send_telegram(msg, TELEGRAM_CHANNEL_ID)
-            if sent:
-                print(f"  [✓] Kanaalmelding verstuurd: {notif['name']}", flush=True)
+    # Stap 2 — wachtrij voor betaald kanaal (5 min via send_paid_alerts.py)
+    queue_paid_alerts(notifications)
+    # Stap 3 — wachtrij voor gratis kanaal (6 uur via send_free_alerts.py)
+    queue_free_alerts(notifications)
 
 
 def main() -> int:
