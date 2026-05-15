@@ -35,11 +35,11 @@ jobs:
           TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
         run: python check_stock.py
 
-      - name: Commit state changes
+     - name: Commit state changes
         run: |
           git config user.name "pokemon-stock-bot"
           git config user.email "bot@github-actions"
-          find . -maxdepth 2 -name "state.json" ! -path "./.git/*" -exec git add {} +
+          find . -maxdepth 2 \( -name "state.json" -o -name "pending_paid.json" -o -name "pending_free.json" \) ! -path "./.git/*" -exec git add {} +
           if git diff --cached --quiet; then
             echo "Geen state wijzigingen."
           else
