@@ -35,7 +35,7 @@ jobs:
           TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
         run: python check_stock.py
 
-     - name: Commit state changes
+      - name: Commit state changes
         run: |
           git config user.name "pokemon-stock-bot"
           git config user.email "bot@github-actions"
