@@ -4,18 +4,18 @@ send_free_alerts.py
 
 Draait elke 30 minuten via GitHub Actions.
 Checkt pending_free.json op meldingen die 6+ uur oud zijn
-en stuurt ze naar het gratis Telegram-kanaal.
+en post ze naar het publieke Whop forum (gratis zichtbaar voor iedereen).
 
 GitHub Secrets nodig:
-  TELEGRAM_BOT_TOKEN       — zelfde bot token als check_stock.py
-  TELEGRAM_CHANNEL_FREE    — chat ID van het gratis publieke kanaal
+  WHOP_API_KEY     — Company API key van Whop
+  WHOP_CHANNEL_ID  — Experience ID van het publieke forum (exp_WDHmktRAikmxPN)
 """
 
 import json
 import os
 import sys
 import requests
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, timezone
 from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).parent
@@ -24,8 +24,9 @@ PENDING_FILE = next(
     SCRIPT_DIR / "pending_free.json",
 )
 
-TELEGRAM_BOT_TOKEN   = os.environ.get("TELEGRAM_BOT_TOKEN", "")
-TELEGRAM_CHANNEL_FREE = os.environ.get("TELEGRAM_CHANNEL_FREE", "")
+WHOP_API_KEY    = os.environ.get("WHOP_API_KEY", "")
+WHOP_CHANNEL_ID = os.environ.get("WHOP_CHANNEL_ID", "")
+WHOP_API_URL    = "https://api.whop.com/api/v5/messages"
 
 FREE_DELAY_HOURS = 6
 
@@ -40,33 +41,39 @@ def save_pending(pending: list[dict]) -> None:
     PENDING_FILE.write_text(json.dumps(pending, indent=2, ensure_ascii=False), encoding="utf-8")
 
 
-def send_telegram(message: str, chat_id: str) -> bool:
-    if not TELEGRAM_BOT_TOKEN or not chat_id:
-        print("  [SKIP] Telegram niet geconfigureerd.", flush=True)
+def post_to_whop(name: str, url: str) -> bool:
+    if not WHOP_API_KEY or not WHOP_CHANNEL_ID:
+        print("  [SKIP] Whop niet geconfigureerd.", flush=True)
         return False
-    api_url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
+
+    content = (
+        f"🟢 **OP VOORRAAD!**\n\n"
+        f"📦 **{name}**\n"
+        f"🛒 {url}\n\n"
+        f"⚡ Wees er snel bij!\n\n"
+        f"💡 *Wil je meldingen binnen 5 minuten? Upgrade naar Card Radar.*"
+    )
+
+    headers = {
+        "Authorization": f"Bearer {WHOP_API_KEY}",
+        "Content-Type": "application/json",
+    }
+
+    payload = {
+        "channel_id": WHOP_CHANNEL_ID,
+        "content": content,
+    }
+
     try:
-        resp = requests.post(
-            api_url,
-            json={"chat_id": chat_id, "text": message,
-                  "parse_mode": "HTML", "disable_web_page_preview": False},
-            timeout=10,
-        )
+        resp = requests.post(WHOP_API_URL, json=payload, headers=headers, timeout=10)
         resp.raise_for_status()
         return True
-    except requests.RequestException as e:
-        print(f"  [FOUT] Telegram mislukt: {e}", file=sys.stderr)
+    except requests.exceptions.HTTPError as e:
+        print(f"  [FOUT] Whop HTTP fout: {e} — {resp.text}", file=sys.stderr)
         return False
-
-
-def build_notification(name: str, url: str) -> str:
-    return (
-        f"🟢 <b>OP VOORRAAD!</b>\n\n"
-        f"📦 <b>{name}</b>\n"
-        f"🛒 <a href=\"{url}\">{url}</a>\n\n"
-        f"⚡ Wees er snel bij!\n\n"
-        f"<i>💡 Upgrade naar Card Radar betaald voor meldingen binnen 5 minuten.</i>"
-    )
+    except requests.exceptions.RequestException as e:
+        print(f"  [FOUT] Whop verbindingsfout: {e}", file=sys.stderr)
+        return False
 
 
 def main() -> int:
@@ -89,13 +96,11 @@ def main() -> int:
         hours_old = age.total_seconds() / 3600
 
         if hours_old >= FREE_DELAY_HOURS:
-            msg = build_notification(item["name"], item["url"])
-            sent = send_telegram(msg, TELEGRAM_CHANNEL_FREE)
+            sent = post_to_whop(item["name"], item["url"])
             if sent:
-                print(f"  [✓] Gratis melding verstuurd: {item['name']}", flush=True)
+                print(f"  [✓] Whop forum post verstuurd: {item['name']}", flush=True)
                 sent_count += 1
             else:
-                # Bij fout toch in wachtrij houden voor volgende run
                 still_pending.append(item)
         else:
             remaining = FREE_DELAY_HOURS - hours_old
