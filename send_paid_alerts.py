@@ -54,8 +54,8 @@ def send_telegram(message: str, chat_id: str) -> bool:
         )
         resp.raise_for_status()
         return True
-    except requests.RequestException as e:
-        print(f"  [FOUT] Telegram mislukt: {e}", file=sys.stderr)
+    except requests.exceptions.HTTPError as e:
+        print(f"  [FOUT] Telegram mislukt: {e} — {resp.text}", file=sys.stderr)
         return False
 
 
