@@ -2267,14 +2267,12 @@
       "active": true
     },
     {
-      "id": "all-6b590c",
-      "name": "all",
-      "url": "https://www.lobbes.nl/zoek/pokemon%20tcg/all",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-14T12:25:42.327Z",
-      "active": true
+  "id": "lobbes-pokemon-kaarten",
+  "name": "Lobbes Pokémon Kaarten",
+  "url": "https://www.lobbes.nl/karakters/pokemon/pokemon-kaarten",
+  "type": "category",
+  "active": true,
+  "notify_on_new": false
     },
     {
       "id": "pokemon-tcg-18fa0d",
