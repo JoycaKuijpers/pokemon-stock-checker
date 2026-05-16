@@ -368,6 +368,146 @@ def get_lobbes_max_page(soup: BeautifulSoup) -> int:
     return max_page
 
 
+def parse_spellenrijk_cards(soup: BeautifulSoup) -> list[dict]:
+    """Spellenrijk.nl — Logic4 platform. Eigen CMS, geen WooCommerce/Shopify."""
+    results = []
+    for card in soup.select("div.productlistholder"):
+        # Mobiele duplicaten overslaan (zelfde product, andere weergave)
+        classes = " ".join(card.get("class", []))
+        if "HideProductOnPcBig" in classes:
+            continue
+
+        # Voorraadstatus via stock-klasse op de span
+        stock_el = card.select_one("span.productlist-stock")
+        if stock_el:
+            stock_classes = " ".join(stock_el.get("class", []))
+            available = "stock-green" in stock_classes
+        else:
+            continue  # geen statusindicator
+
+        # Productnaam + URL via de titel-link
+        link = card.select_one("div.productlist-title a")
+        if not link:
+            link = card.select_one("a.productlist-imgholder")
+        if not link:
+            continue
+        prod_url = link.get("href", "")
+        if not prod_url.startswith("http"):
+            continue
+        name = link.get("title") or link.get_text(strip=True)
+        name = normalize_name(name[:120])
+        if not name:
+            continue
+        results.append({"name": name, "url": prod_url, "available": available})
+    return results
+
+
+def get_spellenrijk_max_page(soup: BeautifulSoup, base_url: str) -> int:
+    """Paginering voor Spellenrijk — zoekt genummerde paginaLinks."""
+    max_page = 1
+    for a in soup.find_all("a", href=True):
+        href = a.get("href", "")
+        # Logic4 gebruikt typisch ?skip=N of &pagina=N
+        m = re.search(r"[?&](?:skip|pagina|page)=(\d+)", href)
+        if m:
+            try:
+                # skip werkt per 20/24 producten; converteer naar paginanummer
+                val = int(m.group(1))
+                page_num = (val // 20) + 1 if "skip" in href else val
+                if page_num > max_page:
+                    max_page = page_num
+            except ValueError:
+                continue
+        # Alternatief: genummerde links die op dezelfde base-URL uitkomen
+        elif href.startswith(base_url.split("?")[0]):
+            try:
+                n = int(a.get_text(strip=True))
+                if 1 < n <= 50:
+                    max_page = max(max_page, n)
+            except ValueError:
+                continue
+    return max_page
+
+
+def parse_moxspellen_cards(soup: BeautifulSoup, base_url: str) -> list[dict]:
+    """Moxspellen.nl — IZICMS 2.0 platform."""
+    from urllib.parse import urljoin
+    results = []
+    for card in soup.select("div.span3.product"):
+        # Voorraad: div.in-stock aanwezig = op voorraad
+        available = card.select_one("div.in-stock") is not None
+
+        link = card.select_one("a[href]")
+        if not link:
+            continue
+        href = link.get("href", "")
+        prod_url = urljoin(base_url, href)  # maakt van relatieve URL een absolute URL
+
+        name_el = card.select_one("span.name")
+        name = name_el.get_text(strip=True) if name_el else (
+            link.get("title") or link.get_text(strip=True)
+        )
+        name = normalize_name(name[:120])
+        if not name:
+            continue
+        results.append({"name": name, "url": prod_url, "available": available})
+    return results
+
+
+def get_moxspellen_max_page(soup: BeautifulSoup) -> int:
+    """Paginering voor IZICMS — zoekt genummerde links in paginaNav."""
+    max_page = 1
+    for a in soup.select(".pagination a, .pager a, [class*='page'] a"):
+        try:
+            n = int(a.get_text(strip=True))
+            if n > max_page:
+                max_page = n
+        except ValueError:
+            continue
+    return max_page
+
+
+def parse_pkmkaarten_cards(soup: BeautifulSoup) -> list[dict]:
+    """pkmkaarten.nl — WooCommerce met custom theme (li heeft geen .product class).
+
+    In stock:  button.add_to_cart_button aanwezig
+    Uitverkocht: geen button, of uitverkocht-tekst in kaart
+    """
+    results = []
+    for card in soup.select("ul.products li"):
+        # Controleer op uitverkocht class (WooCommerce standaard, ook al is li naamloos)
+        li_classes = " ".join(card.get("class", []))
+        if "outofstock" in li_classes:
+            available = False
+        elif card.select_one("button.add_to_cart_button, a.add_to_cart_button"):
+            available = True
+        else:
+            # Geen duidelijke indicator — tekst-fallback
+            text = card.get_text(" ", strip=True).lower()
+            if any(re.search(p, text) for p in OUT_OF_STOCK_PATTERNS):
+                available = False
+            elif any(re.search(p, text) for p in IN_STOCK_PATTERNS):
+                available = True
+            else:
+                continue  # onbekend, overslaan
+
+        link = card.select_one("a[href]")
+        if not link:
+            continue
+        prod_url = link.get("href", "")
+        if not prod_url.startswith("http"):
+            continue
+        name_el = card.select_one("h3, h2, .product-meta h3, .woocommerce-loop-product__title")
+        name = name_el.get_text(strip=True) if name_el else (
+            link.get("title") or link.get_text(strip=True)
+        )
+        name = normalize_name(name[:120])
+        if not name:
+            continue
+        results.append({"name": name, "url": prod_url, "available": available})
+    return results
+
+
 def get_woocommerce_max_page(soup: BeautifulSoup) -> int:
     max_page = 1
     for a in soup.select("a.page-numbers, .woocommerce-pagination a"):
@@ -639,6 +779,104 @@ def check_category(store: dict, state: dict) -> tuple[list[dict], bool]:
             in_stock = sum(1 for e in prod_state.values() if e.get("in_stock"))
             print(f"  → {in_stock}/{len(all_products)} op voorraad, {len(notifications)} nieuw op voorraad", flush=True)
             return notifications, True
+
+    # Spellenrijk.nl — Logic4 platform
+    if "spellenrijk" in parsed_domain:
+        cards = parse_spellenrijk_cards(soup)
+        if cards is not None:
+            base = url.split("?")[0].rstrip("/")
+            max_page = get_spellenrijk_max_page(soup, base)
+            all_products = cards
+            for page in range(2, max_page + 1):
+                sep = "&" if "?" in url else "?"
+                page_html = fetch_page(f"{url}{sep}pagina={page}")
+                if not page_html:
+                    break
+                all_products.extend(parse_spellenrijk_cards(BeautifulSoup(page_html, "lxml")))
+                time.sleep(0.5)
+            if not all_products:
+                print("  [!] Geen Spellenrijk producten gevonden", flush=True)
+                return [], False
+            pages_str = f" ({max_page} pagina's)" if max_page > 1 else ""
+            print(f"  → {len(all_products)} producten gevonden (Spellenrijk/Logic4){pages_str}", flush=True)
+            cat_state = state.setdefault(store["id"], {"products": {}})
+            prod_state = cat_state.setdefault("products", {})
+            cat_state["last_checked"] = now_utc()
+            notify_on_new = store.get("notify_on_new", False)
+            notifications = []
+            for p in all_products:
+                key = urlparse(p["url"]).path.strip("/").replace("/", "-")
+                notif = process_product(prod_state, key, p["name"], p["url"], p["available"], notify_on_new)
+                if notif:
+                    notifications.append(notif)
+            in_stock = sum(1 for e in prod_state.values() if e.get("in_stock"))
+            print(f"  → {in_stock}/{len(all_products)} op voorraad, {len(notifications)} nieuw op voorraad", flush=True)
+            return notifications, True
+
+    # Moxspellen.nl — IZICMS 2.0
+    if "moxspellen" in parsed_domain:
+        parsed_url = urlparse(url)
+        base_origin = f"{parsed_url.scheme}://{parsed_url.netloc}"
+        all_products = parse_moxspellen_cards(soup, base_origin)
+        max_page = get_moxspellen_max_page(soup)
+        for page in range(2, max_page + 1):
+            sep = "&" if "?" in url else "?"
+            page_html = fetch_page(f"{url}{sep}page={page}")
+            if not page_html:
+                break
+            all_products.extend(parse_moxspellen_cards(BeautifulSoup(page_html, "lxml"), base_origin))
+            time.sleep(0.5)
+        if not all_products:
+            print("  [!] Geen Moxspellen producten gevonden", flush=True)
+            return [], False
+        pages_str = f" ({max_page} pagina's)" if max_page > 1 else ""
+        print(f"  → {len(all_products)} producten gevonden (Moxspellen/IZICMS){pages_str}", flush=True)
+        cat_state = state.setdefault(store["id"], {"products": {}})
+        prod_state = cat_state.setdefault("products", {})
+        cat_state["last_checked"] = now_utc()
+        notify_on_new = store.get("notify_on_new", False)
+        notifications = []
+        for p in all_products:
+            key = urlparse(p["url"]).path.strip("/").replace("/", "-")
+            notif = process_product(prod_state, key, p["name"], p["url"], p["available"], notify_on_new)
+            if notif:
+                notifications.append(notif)
+        in_stock = sum(1 for e in prod_state.values() if e.get("in_stock"))
+        print(f"  → {in_stock}/{len(all_products)} op voorraad, {len(notifications)} nieuw op voorraad", flush=True)
+        return notifications, True
+
+    # pkmkaarten.nl — WooCommerce met custom theme (li heeft geen .product class)
+    if "pkmkaarten" in parsed_domain:
+        if not soup.select("ul.products li"):
+            print("  [!] pkmkaarten: ul.products li niet gevonden", flush=True)
+            return [], False
+        max_page = get_woocommerce_max_page(soup)
+        all_products = parse_pkmkaarten_cards(soup)
+        base_url_wc = store["url"].rstrip("/")
+        for page in range(2, max_page + 1):
+            page_html = fetch_page(f"{base_url_wc}/page/{page}/")
+            if not page_html:
+                break
+            all_products.extend(parse_pkmkaarten_cards(BeautifulSoup(page_html, "lxml")))
+            time.sleep(0.5)
+        if not all_products:
+            print("  [!] Geen pkmkaarten producten gevonden", flush=True)
+            return [], False
+        pages_str = f" ({max_page} pagina's)" if max_page > 1 else ""
+        print(f"  → {len(all_products)} producten gevonden (pkmkaarten/WooCommerce){pages_str}", flush=True)
+        cat_state = state.setdefault(store["id"], {"products": {}})
+        prod_state = cat_state.setdefault("products", {})
+        cat_state["last_checked"] = now_utc()
+        notify_on_new = store.get("notify_on_new", False)
+        notifications = []
+        for p in all_products:
+            key = urlparse(p["url"]).path.strip("/").replace("/", "-")
+            notif = process_product(prod_state, key, p["name"], p["url"], p["available"], notify_on_new)
+            if notif:
+                notifications.append(notif)
+        in_stock = sum(1 for e in prod_state.values() if e.get("in_stock"))
+        print(f"  → {in_stock}/{len(all_products)} op voorraad, {len(notifications)} nieuw op voorraad", flush=True)
+        return notifications, True
 
     # WooCommerce
     if soup.select("li.product, div.product"):
