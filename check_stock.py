@@ -479,6 +479,37 @@ def get_magento_max_page(soup: BeautifulSoup) -> int:
     return max_page
 
 
+def check_woocommerce_category(store: dict, state: dict, soup: BeautifulSoup) -> tuple[list[dict], bool]:
+    base_url = store["url"].rstrip("/")
+    max_page = get_woocommerce_max_page(soup)
+    all_products = parse_woocommerce_cards(soup)
+    for page in range(2, max_page + 1):
+        page_url = f"{base_url}/page/{page}/"
+        html = fetch_page(page_url)
+        if not html:
+            break
+        all_products.extend(parse_woocommerce_cards(BeautifulSoup(html, "lxml")))
+        time.sleep(0.5)
+    if not all_products:
+        print("  [!] Geen WooCommerce product cards gevonden", flush=True)
+        return [], False
+    pages_str = f" ({max_page} pagina's)" if max_page > 1 else ""
+    print(f"  → {len(all_products)} producten gevonden{pages_str}", flush=True)
+    cat_state = state.setdefault(store["id"], {"products": {}})
+    prod_state = cat_state.setdefault("products", {})
+    cat_state["last_checked"] = now_utc()
+    notify_on_new = store.get("notify_on_new", False)
+    notifications = []
+    for p in all_products:
+        key = urlparse(p["url"]).path.strip("/").replace("/", "-")
+        notif = process_product(prod_state, key, p["name"], p["url"], p["available"], notify_on_new)
+        if notif:
+            notifications.append(notif)
+    in_stock = sum(1 for e in prod_state.values() if e.get("in_stock"))
+    print(f"  → {in_stock}/{len(all_products)} op voorraad, {len(notifications)} nieuw op voorraad", flush=True)
+    return notifications, True
+
+
 def check_generic_category(store: dict, state: dict, soup: BeautifulSoup,
                             parse_fn, platform_name: str) -> tuple[list[dict], bool]:
     """Generieke category checker voor JouwWeb, Shopware, Magento etc."""
