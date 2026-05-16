@@ -318,6 +318,56 @@ def check_shopify_category(store: dict, state: dict) -> tuple[list[dict], bool]:
     return notifications, True
 
 
+def parse_lobbes_cards(soup: BeautifulSoup) -> list[dict]:
+    """Lobbes.nl / lobbesspeelgoed.be — producten in .column.item-in-grid."""
+    results = []
+    for card in soup.select(".column.item-in-grid"):
+        # Beschikbaarheid via delivery-status badge
+        status_el = card.select_one(".delivery-status.c-success")
+        if status_el:
+            available = True
+        else:
+            # Check op uitverkocht of andere niet-beschikbaar tekst
+            all_status = card.select_one(".delivery-status")
+            if all_status:
+                available = False
+            else:
+                # Geen statusbadge: sla over (product niet te beoordelen)
+                continue
+
+        # Link en titel via grid-title-container
+        link_el = card.select_one(".grid-title-container a")
+        if not link_el:
+            link_el = card.find("a", href=True)
+        if not link_el:
+            continue
+        prod_url = link_el.get("href", "")
+        if not prod_url.startswith("http"):
+            continue
+
+        name_el = card.select_one(".title.title-bottom, .grid-title-container span")
+        name = name_el.get_text(strip=True) if name_el else link_el.get("title", "") or link_el.get_text(strip=True)
+        name = normalize_name(name[:120])
+        if not name:
+            continue
+
+        results.append({"name": name, "url": prod_url, "available": available})
+    return results
+
+
+def get_lobbes_max_page(soup: BeautifulSoup) -> int:
+    """Paginering voor Lobbes: zoek paginering links in .list-pagination."""
+    max_page = 1
+    for a in soup.select(".list-pagination a"):
+        try:
+            n = int(a.get_text(strip=True))
+            if n > max_page:
+                max_page = n
+        except ValueError:
+            continue
+    return max_page
+
+
 def get_woocommerce_max_page(soup: BeautifulSoup) -> int:
     max_page = 1
     for a in soup.select("a.page-numbers, .woocommerce-pagination a"):
@@ -554,6 +604,41 @@ def check_category(store: dict, state: dict) -> tuple[list[dict], bool]:
     if not html:
         return [], False
     soup = BeautifulSoup(html, "lxml")
+
+    # Lobbes (lobbes.nl / lobbesspeelgoed.be)
+    parsed_domain = urlparse(url).netloc
+    if "lobbes" in parsed_domain:
+        cards = parse_lobbes_cards(soup)
+        if cards or soup.select(".column.item-in-grid"):
+            # Gebruik dezelfde generieke flow maar met Lobbes-paginering
+            base_url = store["url"].rstrip("/")
+            all_products = cards
+            max_page = get_lobbes_max_page(soup)
+            for page in range(2, max_page + 1):
+                page_url = f"{base_url}?page={page}"
+                html = fetch_page(page_url)
+                if not html:
+                    break
+                all_products.extend(parse_lobbes_cards(BeautifulSoup(html, "lxml")))
+                time.sleep(0.5)
+            if not all_products:
+                print("  [!] Geen Lobbes producten gevonden", flush=True)
+                return [], False
+            pages_str = f" ({max_page} pagina's)" if max_page > 1 else ""
+            print(f"  → {len(all_products)} producten gevonden (Lobbes){pages_str}", flush=True)
+            cat_state = state.setdefault(store["id"], {"products": {}})
+            prod_state = cat_state.setdefault("products", {})
+            cat_state["last_checked"] = now_utc()
+            notify_on_new = store.get("notify_on_new", False)
+            notifications = []
+            for p in all_products:
+                key = urlparse(p["url"]).path.strip("/").replace("/", "-")
+                notif = process_product(prod_state, key, p["name"], p["url"], p["available"], notify_on_new)
+                if notif:
+                    notifications.append(notif)
+            in_stock = sum(1 for e in prod_state.values() if e.get("in_stock"))
+            print(f"  → {in_stock}/{len(all_products)} op voorraad, {len(notifications)} nieuw op voorraad", flush=True)
+            return notifications, True
 
     # WooCommerce
     if soup.select("li.product, div.product"):
