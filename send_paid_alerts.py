@@ -72,6 +72,7 @@ def main() -> int:
     print("Paid alerts checker gestart.", flush=True)
     print(f"Channel ID: '{TELEGRAM_CHANNEL_ID}'", flush=True)
     print(f"Bot token aanwezig: {bool(TELEGRAM_BOT_TOKEN)}", flush=True)
+    print(f"Bot token eerste 10 tekens: '{TELEGRAM_BOT_TOKEN[:10]}'", flush=True)
 
     pending = load_pending()
     if not pending:
