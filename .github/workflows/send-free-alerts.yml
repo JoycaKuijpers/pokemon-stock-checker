@@ -34,14 +34,15 @@ jobs:
           WHOP_CHANNEL_ID: ${{ secrets.WHOP_CHANNEL_ID }}
         run: python send_free_alerts.py
 
-      - name: Commit pending changes
+      - name: Commit state changes
         run: |
           git config user.name "pokemon-stock-bot"
           git config user.email "bot@github-actions"
-          find . -maxdepth 2 -name "pending_free.json" ! -path "./.git/*" -exec git add {} +
+          find . -maxdepth 2 \( -name "state.json" -o -name "pending_paid.json" -o -name "pending_free.json" \) ! -path "./.git/*" -exec git add {} +
           if git diff --cached --quiet; then
-            echo "Geen wijzigingen in pending_free.json"
+            echo "Geen state wijzigingen."
           else
-            git commit -m "chore: update pending free alerts [skip ci]"
+            git commit -m "chore: update stock state [skip ci]"
+            git pull --rebase
             git push
           fi
