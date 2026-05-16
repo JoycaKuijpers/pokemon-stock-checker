@@ -357,22 +357,149 @@ def parse_woocommerce_cards(soup: BeautifulSoup) -> list[dict]:
     return results
 
 
-def check_woocommerce_category(store: dict, state: dict, soup: BeautifulSoup) -> tuple[list[dict], bool]:
+def parse_jouwweb_cards(soup: BeautifulSoup) -> list[dict]:
+    """JouwWeb webshops — producten in .product-list of .products-grid."""
+    results = []
+    for card in soup.select(".product-list__item, .product-item, article.product"):
+        # Beschikbaarheid via class of data-attribuut
+        classes = " ".join(card.get("class", []))
+        if "out-of-stock" in classes or "uitverkocht" in classes:
+            available = False
+        elif "in-stock" in classes or "available" in classes:
+            available = True
+        else:
+            # Kijk naar tekst in de kaart
+            text = card.get_text(" ", strip=True).lower()
+            if any(re.search(p, text) for p in OUT_OF_STOCK_PATTERNS):
+                available = False
+            elif any(re.search(p, text) for p in IN_STOCK_PATTERNS):
+                available = True
+            else:
+                continue
+
+        link = card.find("a", href=True)
+        if not link:
+            continue
+        prod_url = link.get("href", "")
+        if not prod_url.startswith("http"):
+            continue
+        name_el = card.select_one("h2, h3, .product-title, .product-name")
+        name = name_el.get_text(strip=True) if name_el else link.get_text(strip=True)
+        name = normalize_name(name[:120])
+        if not name:
+            continue
+        results.append({"name": name, "url": prod_url, "available": available})
+    return results
+
+
+def parse_shopware_cards(soup: BeautifulSoup) -> list[dict]:
+    """Shopware webshops — producten in .product-box of .cms-element-product-listing."""
+    results = []
+    for card in soup.select(".product-box, .product-card, article[class*='product']"):
+        text = card.get_text(" ", strip=True).lower()
+        if any(re.search(p, text) for p in OUT_OF_STOCK_PATTERNS):
+            available = False
+        elif any(re.search(p, text) for p in IN_STOCK_PATTERNS):
+            available = True
+        else:
+            # Kijk naar uitverkocht badge
+            badge = card.select_one(".badge, .product-badge, .is-soldout")
+            if badge and "uitverkocht" in badge.get_text(strip=True).lower():
+                available = False
+            else:
+                available = True  # default: op voorraad als geen signaal
+
+        link = card.select_one("a.product-image-link, a[href*='/detail/'], a.product-name")
+        if not link:
+            link = card.find("a", href=True)
+        if not link:
+            continue
+        prod_url = link.get("href", "")
+        if not prod_url.startswith("http"):
+            continue
+        name_el = card.select_one(".product-name, h2, h3")
+        name = name_el.get_text(strip=True) if name_el else link.get("title", "") or link.get_text(strip=True)
+        name = normalize_name(name[:120])
+        if not name:
+            continue
+        results.append({"name": name, "url": prod_url, "available": available})
+    return results
+
+
+def parse_magento_cards(soup: BeautifulSoup) -> list[dict]:
+    """Magento webshops — producten in .product-items of .products-grid."""
+    results = []
+    for card in soup.select(".product-item, .item.product"):
+        classes = " ".join(card.get("class", []))
+        if "out-of-stock" in classes:
+            available = False
+        else:
+            stock_el = card.select_one(".stock, .availability")
+            if stock_el:
+                stock_text = stock_el.get_text(strip=True).lower()
+                if any(re.search(p, stock_text) for p in OUT_OF_STOCK_PATTERNS):
+                    available = False
+                else:
+                    available = True
+            else:
+                text = card.get_text(" ", strip=True).lower()
+                if any(re.search(p, text) for p in OUT_OF_STOCK_PATTERNS):
+                    available = False
+                elif any(re.search(p, text) for p in IN_STOCK_PATTERNS):
+                    available = True
+                else:
+                    continue
+
+        link = card.select_one("a.product-item-link, a.product-item-photo")
+        if not link:
+            link = card.find("a", href=True)
+        if not link:
+            continue
+        prod_url = link.get("href", "")
+        if not prod_url.startswith("http"):
+            continue
+        name_el = card.select_one(".product-item-name, strong.product-item-name, .product-name")
+        name = name_el.get_text(strip=True) if name_el else link.get("title", "") or link.get_text(strip=True)
+        name = normalize_name(name[:120])
+        if not name:
+            continue
+        results.append({"name": name, "url": prod_url, "available": available})
+    return results
+
+
+def get_magento_max_page(soup: BeautifulSoup) -> int:
+    max_page = 1
+    for a in soup.select(".pages a, .pagination a"):
+        try:
+            n = int(a.get_text(strip=True))
+            if n > max_page:
+                max_page = n
+        except ValueError:
+            continue
+    return max_page
+
+
+def check_generic_category(store: dict, state: dict, soup: BeautifulSoup,
+                            parse_fn, platform_name: str) -> tuple[list[dict], bool]:
+    """Generieke category checker voor JouwWeb, Shopware, Magento etc."""
     base_url = store["url"].rstrip("/")
-    max_page = get_woocommerce_max_page(soup)
-    all_products = parse_woocommerce_cards(soup)
+    all_products = parse_fn(soup)
+
+    # Paginering proberen
+    max_page = get_magento_max_page(soup)
     for page in range(2, max_page + 1):
-        page_url = f"{base_url}/page/{page}/"
+        page_url = f"{base_url}?p={page}"
         html = fetch_page(page_url)
         if not html:
             break
-        all_products.extend(parse_woocommerce_cards(BeautifulSoup(html, "lxml")))
+        all_products.extend(parse_fn(BeautifulSoup(html, "lxml")))
         time.sleep(0.5)
+
     if not all_products:
-        print("  [!] Geen WooCommerce product cards gevonden", flush=True)
+        print(f"  [!] Geen producten gevonden ({platform_name})", flush=True)
         return [], False
-    pages_str = f" ({max_page} pagina's)" if max_page > 1 else ""
-    print(f"  → {len(all_products)} producten gevonden{pages_str}", flush=True)
+
+    print(f"  → {len(all_products)} producten gevonden ({platform_name})", flush=True)
     cat_state = state.setdefault(store["id"], {"products": {}})
     prod_state = cat_state.setdefault("products", {})
     cat_state["last_checked"] = now_utc()
@@ -396,8 +523,29 @@ def check_category(store: dict, state: dict) -> tuple[list[dict], bool]:
     if not html:
         return [], False
     soup = BeautifulSoup(html, "lxml")
+
+    # WooCommerce
     if soup.select("li.product, div.product"):
         return check_woocommerce_category(store, state, soup)
+
+    # Magento
+    if soup.select(".product-item, .item.product, .products-grid"):
+        cards = parse_magento_cards(soup)
+        if cards:
+            return check_generic_category(store, state, soup, parse_magento_cards, "Magento")
+
+    # Shopware
+    if soup.select(".product-box, .product-card, .cms-element-product-listing"):
+        cards = parse_shopware_cards(soup)
+        if cards:
+            return check_generic_category(store, state, soup, parse_shopware_cards, "Shopware")
+
+    # JouwWeb
+    if soup.select(".product-list__item, .product-item, article.product"):
+        cards = parse_jouwweb_cards(soup)
+        if cards:
+            return check_generic_category(store, state, soup, parse_jouwweb_cards, "JouwWeb")
+
     print("  [!] Platform niet herkend voor categorie-modus", flush=True)
     return [], False
 
