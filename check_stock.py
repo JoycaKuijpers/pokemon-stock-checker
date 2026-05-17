@@ -153,8 +153,8 @@ def process_product(prod_state: dict, key: str, name: str, url: str, available: 
         if (came_back or (is_new and notify_on_new)) and cooldown_passed(entry.get("last_notified")):
             entry["last_notified"] = datetime.now(timezone.utc).isoformat()
             return {"name": name, "url": url}
-    else:
-        entry.pop("last_notified", None)
+    # last_notified bewust NIET verwijderen bij uitverkocht:
+    # anders reset de cooldown bij elke tijdelijke statuswissel en krijg je duplicaten.
     return None
 
 
@@ -1089,8 +1089,8 @@ def main() -> int:
             else:
                 print("  [✗] Niet op voorraad", flush=True)
                 if prev_status is True:
-                    prev.pop("last_notified", None)
                     state_changed = True
+                # last_notified bewust NIET verwijderen: voorkomt duplicaten bij tijdelijke statuswissels
 
     if state_changed:
         save_json(STATE_FILE, state)
