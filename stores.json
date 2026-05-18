@@ -3107,6 +3107,16 @@
       "selector": null,
       "added_at": "2026-05-18T21:03:02.980Z",
       "active": true
+    },
+    {
+      "id": "blister-packs-4a2a39",
+      "name": "Blister Packs",
+      "url": "https://www.tcgcardgameshop.nl/collections/blister-packs/Engels",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T21:03:07.360Z",
+      "active": true
     }
   ]
 }
