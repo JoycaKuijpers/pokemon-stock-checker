@@ -2907,6 +2907,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:42:47.939Z",
       "active": true
+    },
+    {
+      "id": "preorder-9c716f",
+      "name": "Preorder",
+      "url": "https://arlytrading.nl/product-categorie/preorder/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:43:48.682Z",
+      "active": true
     }
   ]
 }
