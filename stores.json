@@ -3297,6 +3297,16 @@
       "selector": null,
       "added_at": "2026-05-18T21:10:18.205Z",
       "active": true
+    },
+    {
+      "id": "boosterbox-504a22",
+      "name": "Boosterbox",
+      "url": "https://www.tcg-outlet.nl/product-category/boosterbox/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T21:10:25.457Z",
+      "active": true
     }
   ]
 }
