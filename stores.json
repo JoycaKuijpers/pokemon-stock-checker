@@ -3027,6 +3027,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:56:41.730Z",
       "active": true
+    },
+    {
+      "id": "booster-bundle-archives-27793e",
+      "name": "Booster Bundle Archives",
+      "url": "https://tcgshoppers.nl/product-category/boosters/booster-bundle/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:56:48.375Z",
+      "active": true
     }
   ]
 }
