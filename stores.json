@@ -2747,6 +2747,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:35:44.706Z",
       "active": true
+    },
+    {
+      "id": "pokemon-tcg-7e0bd8",
+      "name": "Pokemon TCG",
+      "url": "https://jd-collectibles.nl/collections/pokemon-tcg",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:36:09.732Z",
+      "active": true
     }
   ]
 }
