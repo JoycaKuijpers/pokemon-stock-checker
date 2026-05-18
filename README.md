@@ -28,7 +28,8 @@ Ga naar **Settings → Secrets and variables → Actions** en voeg toe:
 | Secret | Waarde |
 |--------|--------|
 | `TELEGRAM_BOT_TOKEN` | Token van @BotFather |
-| `TELEGRAM_CHAT_ID` | Je chat of groep ID |
+| `TELEGRAM_CHAT_ID` | ID van de community chat (Whop-leden) |
+| `TELEGRAM_ADMIN_CHAT_ID` | Jouw persoonlijke chat ID (foutmeldingen) |
 
 ### 3. Telegram bot aanmaken
 
