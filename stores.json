@@ -2867,6 +2867,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:41:26.720Z",
       "active": true
+    },
+    {
+      "id": "collectie-boxen-2e1565",
+      "name": "Collectie boxen",
+      "url": "https://ripandshipkings.com/collections/collectie-boxen",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:41:38.415Z",
+      "active": true
     }
   ]
 }
