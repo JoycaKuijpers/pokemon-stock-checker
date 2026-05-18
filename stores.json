@@ -2977,6 +2977,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:48:24.546Z",
       "active": true
+    },
+    {
+      "id": "elite-trainer-box-archives-31996f",
+      "name": "Elite Trainer Box Archives",
+      "url": "https://tcgshoppers.nl/product-category/sealed-collectie/elite-trainer-box/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:56:09.129Z",
+      "active": true
     }
   ]
 }
