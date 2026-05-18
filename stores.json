@@ -3147,6 +3147,16 @@
       "selector": null,
       "added_at": "2026-05-18T21:03:20.456Z",
       "active": true
+    },
+    {
+      "id": "collection-boxen-1baa37",
+      "name": "Collection boxen",
+      "url": "https://www.tcgcardgameshop.nl/collections/collection-boxen/Engels",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T21:03:25.502Z",
+      "active": true
     }
   ]
 }
