@@ -2967,6 +2967,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:48:18.988Z",
       "active": true
+    },
+    {
+      "id": "shop-27f01c",
+      "name": "shop",
+      "url": "https://www.pikoba.com/shop?Categorie=Collection%2520Boxes",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:48:24.546Z",
+      "active": true
     }
   ]
 }
