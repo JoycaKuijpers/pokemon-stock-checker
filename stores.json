@@ -2543,6 +2543,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:12:27.999Z",
       "active": true
+    },
+    {
+      "id": "collection-box-214dc3",
+      "name": "Collection Box",
+      "url": "https://capturecards.nl/collections/collection-box/Pok%C3%A9mon-TCG",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:29:15.659Z",
+      "active": true
     }
   ]
 }
