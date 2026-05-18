@@ -2697,6 +2697,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:33:55.402Z",
       "active": true
+    },
+    {
+      "id": "collection-boxen-3fa3c5",
+      "name": "collection-boxen",
+      "url": "https://zycards.nl/collection-boxen/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:34:00.652Z",
+      "active": true
     }
   ]
 }
