@@ -2937,6 +2937,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:44:19.247Z",
       "active": true
+    },
+    {
+      "id": "shop-2fe5e5",
+      "name": "shop",
+      "url": "https://www.pikoba.com/shop?Categorie=ETB",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:48:06.814Z",
+      "active": true
     }
   ]
 }
