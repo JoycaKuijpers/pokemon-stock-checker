@@ -3307,6 +3307,16 @@
       "selector": null,
       "added_at": "2026-05-18T21:10:25.457Z",
       "active": true
+    },
+    {
+      "id": "v-box-474fac",
+      "name": "V box",
+      "url": "https://www.tcg-outlet.nl/product-category/v-box-2/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T21:10:46.951Z",
+      "active": true
     }
   ]
 }
