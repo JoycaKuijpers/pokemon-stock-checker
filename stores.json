@@ -2737,6 +2737,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:34:46.731Z",
       "active": true
+    },
+    {
+      "id": "pokemon-a161f9",
+      "name": "Pokemon",
+      "url": "https://knoldex.nl/collections/pokemon",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:35:44.706Z",
+      "active": true
     }
   ]
 }
