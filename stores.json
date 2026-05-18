@@ -2643,6 +2643,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:31:54.367Z",
       "active": true
+    },
+    {
+      "id": "elite-trainer-boxen-26f6c1",
+      "name": "Elite Trainer Boxen",
+      "url": "https://www.tcgpower.nl/pokemon/sealed-items/elite-trainer-boxen",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:32:04.188Z",
+      "active": true
     }
   ]
 }
