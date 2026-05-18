@@ -2717,6 +2717,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:34:05.120Z",
       "active": true
+    },
+    {
+      "id": "pre-order-1f9db9",
+      "name": "Pre-Order",
+      "url": "https://www.miraicards.com/collections/pre-order",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:34:20.266Z",
+      "active": true
     }
   ]
 }
