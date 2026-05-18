@@ -2563,6 +2563,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:29:19.983Z",
       "active": true
+    },
+    {
+      "id": "booster-box-217102",
+      "name": "Booster Box",
+      "url": "https://capturecards.nl/collections/booster-box/Pok%C3%A9mon-TCG",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:29:24.283Z",
+      "active": true
     }
   ]
 }
