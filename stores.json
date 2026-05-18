@@ -3227,6 +3227,16 @@
       "selector": null,
       "added_at": "2026-05-18T21:05:15.142Z",
       "active": true
+    },
+    {
+      "id": "tin-boxen-24e31a",
+      "name": "tin-boxen",
+      "url": "https://www.tcgpeppi.nl/product-categorie/tin-boxen/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T21:05:19.018Z",
+      "active": true
     }
   ]
 }
