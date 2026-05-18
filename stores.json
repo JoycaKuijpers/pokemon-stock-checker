@@ -2947,6 +2947,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:48:06.814Z",
       "active": true
+    },
+    {
+      "id": "shop-3155c7",
+      "name": "shop",
+      "url": "https://www.pikoba.com/shop?Categorie=Booster%2520Packs",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:48:14.380Z",
+      "active": true
     }
   ]
 }
