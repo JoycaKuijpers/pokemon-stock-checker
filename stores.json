@@ -2757,6 +2757,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:36:09.732Z",
       "active": true
+    },
+    {
+      "id": "pokemon-tcg-booster-box-kopen--196468",
+      "name": "Pokemon TCG: Booster Box kopen?",
+      "url": "https://piplupplaza.nl/product-categorie/pokemon/booster-boxes/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:37:39.736Z",
+      "active": true
     }
   ]
 }
