@@ -3007,6 +3007,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:56:32.991Z",
       "active": true
+    },
+    {
+      "id": "booster-box-archives-59e453",
+      "name": "Booster Box Archives",
+      "url": "https://tcgshoppers.nl/product-category/boxen/pokemon-booster-box/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:56:37.367Z",
+      "active": true
     }
   ]
 }
