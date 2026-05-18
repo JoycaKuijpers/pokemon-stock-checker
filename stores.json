@@ -2927,6 +2927,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:43:56.548Z",
       "active": true
+    },
+    {
+      "id": "all-pokemon-267550",
+      "name": "All Pokemon",
+      "url": "https://beamcardshop.com/collections/all-pokemon",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:44:19.247Z",
+      "active": true
     }
   ]
 }
