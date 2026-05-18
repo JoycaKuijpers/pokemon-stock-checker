@@ -2633,6 +2633,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:31:40.213Z",
       "active": true
+    },
+    {
+      "id": "pokemon-tins-2fe8a9",
+      "name": "Pokemon tins",
+      "url": "https://www.tcgpower.nl/pokemon/sealed-items/tins",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:31:54.367Z",
+      "active": true
     }
   ]
 }
