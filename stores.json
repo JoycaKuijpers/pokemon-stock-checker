@@ -3157,6 +3157,16 @@
       "selector": null,
       "added_at": "2026-05-18T21:03:25.502Z",
       "active": true
+    },
+    {
+      "id": "tins-30221e",
+      "name": "Tins",
+      "url": "https://www.tcgcardgameshop.nl/collections/tins/Engels",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T21:03:29.448Z",
+      "active": true
     }
   ]
 }
