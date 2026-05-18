@@ -2877,6 +2877,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:41:38.415Z",
       "active": true
+    },
+    {
+      "id": "pokemon-ccb6dd",
+      "name": "Pokemon",
+      "url": "https://ripandshipkings.com/collections/booster-packs",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:41:49.107Z",
+      "active": true
     }
   ]
 }
