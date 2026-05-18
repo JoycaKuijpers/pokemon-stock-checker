@@ -2603,6 +2603,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:29:38.702Z",
       "active": true
+    },
+    {
+      "id": "boosterpacks-3ee59c",
+      "name": "Boosterpacks",
+      "url": "https://www.tcgpower.nl/pokemon/sealed-items/boosterpacks",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:31:29.451Z",
+      "active": true
     }
   ]
 }
