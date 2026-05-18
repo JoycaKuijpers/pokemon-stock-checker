@@ -3017,6 +3017,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:56:37.367Z",
       "active": true
+    },
+    {
+      "id": "collection-box-archives-24ca64",
+      "name": "Collection Box Archives",
+      "url": "https://tcgshoppers.nl/product-category/boxen/pokemon-collection-box/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:56:41.730Z",
+      "active": true
     }
   ]
 }
