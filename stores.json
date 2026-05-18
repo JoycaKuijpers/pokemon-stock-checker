@@ -2917,6 +2917,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:43:48.682Z",
       "active": true
+    },
+    {
+      "id": "pokemon-tcg-winkel-9c384b",
+      "name": "Pokemon TCG Winkel",
+      "url": "https://arlytrading.nl/product-categorie/tcg/pokemontcg/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:43:56.548Z",
+      "active": true
     }
   ]
 }
