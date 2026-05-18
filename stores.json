@@ -2523,6 +2523,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:12:12.351Z",
       "active": true
+    },
+    {
+      "id": "blister-pack-132dbc",
+      "name": "Blister Pack",
+      "url": "https://pocketgames.nl/collections/blister-pack",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:12:22.424Z",
+      "active": true
     }
   ]
 }
