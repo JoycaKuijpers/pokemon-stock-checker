@@ -3067,6 +3067,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:57:00.062Z",
       "active": true
+    },
+    {
+      "id": "pokemon-tcg-bekijk-alles-hier--22c909",
+      "name": "Pokemon TCG: bekijk alles hier!",
+      "url": "https://www.intertoys.nl/pokemon-tcg",
+      "type": "category",
+      "notify_on_new": true,
+      "selector": null,
+      "added_at": "2026-05-18T20:57:12.287Z",
+      "active": true
     }
   ]
 }
