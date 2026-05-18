@@ -2583,6 +2583,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:29:28.251Z",
       "active": true
+    },
+    {
+      "id": "blister-3d46d0",
+      "name": "Blister",
+      "url": "https://capturecards.nl/collections/blister/Pok%C3%A9mon-TCG",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:29:32.243Z",
+      "active": true
     }
   ]
 }
