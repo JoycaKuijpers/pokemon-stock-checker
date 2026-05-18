@@ -2767,6 +2767,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:37:39.736Z",
       "active": true
+    },
+    {
+      "id": "elite-trainer-boxes-375c6b",
+      "name": "Elite Trainer Boxes",
+      "url": "https://piplupplaza.nl/product-categorie/pokemon/elite-trainer-boxes/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:37:48.480Z",
+      "active": true
     }
   ]
 }
