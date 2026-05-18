@@ -2807,6 +2807,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:38:30.367Z",
       "active": true
+    },
+    {
+      "id": "packs-219285",
+      "name": "Packs",
+      "url": "https://piplupplaza.nl/product-categorie/pokemon/packs/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:38:40.067Z",
+      "active": true
     }
   ]
 }
