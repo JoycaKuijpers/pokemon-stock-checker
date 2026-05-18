@@ -2797,6 +2797,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:38:21.155Z",
       "active": true
+    },
+    {
+      "id": "blisters-1be4de",
+      "name": "Blisters",
+      "url": "https://piplupplaza.nl/product-categorie/pokemon/blisters/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:38:30.367Z",
+      "active": true
     }
   ]
 }
