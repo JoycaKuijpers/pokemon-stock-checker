@@ -2777,6 +2777,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:37:48.480Z",
       "active": true
+    },
+    {
+      "id": "pokemon-tcg-collection-boxes-31b9f8",
+      "name": "Pokemon TCG: Collection Boxes",
+      "url": "https://piplupplaza.nl/product-categorie/pokemon/collection-boxes/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:38:07.287Z",
+      "active": true
     }
   ]
 }
