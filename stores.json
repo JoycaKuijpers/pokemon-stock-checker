@@ -3077,6 +3077,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:57:12.287Z",
       "active": true
+    },
+    {
+      "id": "pokemon-29fe8b",
+      "name": "Pokemon",
+      "url": "https://www.collectorstore.nl/product-categorie/trading-cards/pokemon-trading-cards/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T21:01:26.889Z",
+      "active": true
     }
   ]
 }
