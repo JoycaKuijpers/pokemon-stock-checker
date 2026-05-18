@@ -2857,6 +2857,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:40:51.237Z",
       "active": true
+    },
+    {
+      "id": "elite-trainer-boxen-44fa99",
+      "name": "Elite trainer boxen",
+      "url": "https://ripandshipkings.com/collections/elite-trainer-boxen",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:41:26.720Z",
+      "active": true
     }
   ]
 }
