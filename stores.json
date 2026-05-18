@@ -3177,6 +3177,16 @@
       "selector": null,
       "added_at": "2026-05-18T21:03:33.622Z",
       "active": true
+    },
+    {
+      "id": "ultra-premium-collection-boxen-13d6cc",
+      "name": "Ultra Premium Collection Boxen",
+      "url": "https://www.tcgcardgameshop.nl/collections/ultra-premium-collection-boxen/Engels",
+      "type": "category",
+      "notify_on_new": true,
+      "selector": null,
+      "added_at": "2026-05-18T21:03:38.645Z",
+      "active": true
     }
   ]
 }
