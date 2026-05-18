@@ -2573,6 +2573,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:29:24.283Z",
       "active": true
+    },
+    {
+      "id": "booster-bundle-bc46c0",
+      "name": "Booster Bundle",
+      "url": "https://capturecards.nl/collections/booster-bundle/Pok%C3%A9mon-TCG",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:29:28.251Z",
+      "active": true
     }
   ]
 }
