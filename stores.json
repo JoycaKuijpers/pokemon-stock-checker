@@ -3277,6 +3277,16 @@
       "selector": null,
       "added_at": "2026-05-18T21:10:01.386Z",
       "active": true
+    },
+    {
+      "id": "booster-bundel-516827",
+      "name": "booster bundel",
+      "url": "https://www.tcg-outlet.nl/product-category/booster-bundel/",
+      "type": "category",
+      "notify_on_new": true,
+      "selector": null,
+      "added_at": "2026-05-18T21:10:09.086Z",
+      "active": true
     }
   ]
 }
