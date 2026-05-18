@@ -3287,6 +3287,16 @@
       "selector": null,
       "added_at": "2026-05-18T21:10:09.086Z",
       "active": true
+    },
+    {
+      "id": "booster-packs-4bf36a",
+      "name": "Booster Packs",
+      "url": "https://www.tcg-outlet.nl/product-category/booster-packs/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T21:10:18.205Z",
+      "active": true
     }
   ]
 }
