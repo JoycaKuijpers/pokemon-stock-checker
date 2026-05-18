@@ -3247,6 +3247,16 @@
       "selector": null,
       "added_at": "2026-05-18T21:05:23.441Z",
       "active": true
+    },
+    {
+      "id": "elite-trainer-boxes-220f8d",
+      "name": "elite-trainer-boxes",
+      "url": "https://www.tcgpeppi.nl/product-categorie/elite-trainer-boxes/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T21:05:39.607Z",
+      "active": true
     }
   ]
 }
