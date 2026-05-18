@@ -2267,12 +2267,12 @@
       "active": true
     },
     {
-  "id": "lobbes-pokemon-kaarten",
-  "name": "Lobbes Pokémon Kaarten",
-  "url": "https://www.lobbes.nl/karakters/pokemon/pokemon-kaarten",
-  "type": "category",
-  "active": true,
-  "notify_on_new": false
+      "id": "lobbes-pokemon-kaarten",
+      "name": "Lobbes Pokémon Kaarten",
+      "url": "https://www.lobbes.nl/karakters/pokemon/pokemon-kaarten",
+      "type": "category",
+      "active": true,
+      "notify_on_new": false
     },
     {
       "id": "pokemon-tcg-18fa0d",
@@ -2492,6 +2492,16 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T13:00:56.895Z",
+      "active": true
+    },
+    {
+      "id": "elite-trainer-box-1481da",
+      "name": "Elite Trainer Box",
+      "url": "https://pocketgames.nl/collections/trainer-boxen-pokemon",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:11:49.911Z",
       "active": true
     }
   ]
