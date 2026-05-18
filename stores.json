@@ -3087,6 +3087,16 @@
       "selector": null,
       "added_at": "2026-05-18T21:01:26.889Z",
       "active": true
+    },
+    {
+      "id": "booster-packs-29e392",
+      "name": "Booster Packs",
+      "url": "https://www.tcgcardgameshop.nl/collections/booster-packs/Engels",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T21:02:44.970Z",
+      "active": true
     }
   ]
 }
