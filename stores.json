@@ -3317,6 +3317,16 @@
       "selector": null,
       "added_at": "2026-05-18T21:10:46.951Z",
       "active": true
+    },
+    {
+      "id": "elite-trainer-boxes-47c6f8",
+      "name": "Elite Trainer Boxes",
+      "url": "https://www.tcg-outlet.nl/product-category/elite-trainer-boxes/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T21:10:55.014Z",
+      "active": true
     }
   ]
 }
