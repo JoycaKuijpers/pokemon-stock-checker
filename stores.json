@@ -2987,6 +2987,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:56:09.129Z",
       "active": true
+    },
+    {
+      "id": "packs-archives-1480c2",
+      "name": "Packs Archives",
+      "url": "https://tcgshoppers.nl/product-category/packs/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:56:28.714Z",
+      "active": true
     }
   ]
 }
