@@ -2727,6 +2727,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:34:20.266Z",
       "active": true
+    },
+    {
+      "id": "pokemon-trading-card-game-kope-1a2dcd",
+      "name": "Pokemon Trading Card Game Kopen",
+      "url": "https://www.miraicards.com/collections/pokemon",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:34:46.731Z",
+      "active": true
     }
   ]
 }
