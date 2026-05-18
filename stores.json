@@ -2847,6 +2847,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:40:47.181Z",
       "active": true
+    },
+    {
+      "id": "elite-trainer-boxen-archieven-c59e29",
+      "name": "Elite Trainer Boxen Archieven",
+      "url": "https://yellowlightningcards.nl/product-category/elite_trainer_boxen/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:40:51.237Z",
+      "active": true
     }
   ]
 }
