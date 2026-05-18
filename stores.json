@@ -3187,6 +3187,16 @@
       "selector": null,
       "added_at": "2026-05-18T21:03:38.645Z",
       "active": true
+    },
+    {
+      "id": "shop-18600d",
+      "name": "Shop",
+      "url": "https://tcgshoppers.nl/webshop/?gad_source=5&gad_campaignid=23551418820&gclid=EAIaIQobChMIiPXMxtzDlAMVQJKDBx3rqSMhEAAYASAAEgKRKPD_BwE",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T21:04:42.212Z",
+      "active": true
     }
   ]
 }
