@@ -3267,6 +3267,16 @@
       "selector": null,
       "added_at": "2026-05-18T21:06:15.075Z",
       "active": true
+    },
+    {
+      "id": "blister-packs-3b8e9a",
+      "name": "Blister Packs",
+      "url": "https://www.tcg-outlet.nl/product-category/blister-packs/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T21:10:01.386Z",
+      "active": true
     }
   ]
 }
