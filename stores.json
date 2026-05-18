@@ -2553,6 +2553,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:29:15.659Z",
       "active": true
+    },
+    {
+      "id": "elite-trainer-box-121dd7",
+      "name": "Elite Trainer Box",
+      "url": "https://capturecards.nl/collections/elite-trainer-box/Pok%C3%A9mon-TCG",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:29:19.983Z",
+      "active": true
     }
   ]
 }
