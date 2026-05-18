@@ -2671,6 +2671,14 @@
       "selector": null,
       "added_at": "2026-05-18T20:32:38.467Z",
       "active": true
+    },
+    {
+      "id": "pokemon-blisters-kopen-zycards-296d6b",
+      "name": "Pokemon Blisters kopen | Zycards",
+      "url": "https://zycards.nl/blisters/",
+      "selector": ".button.product_type_simple.add_to_cart_button.ajax_add_to_cart",
+      "added_at": "2026-05-18T20:33:45.809Z",
+      "active": true
     }
   ]
 }
