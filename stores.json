@@ -2827,6 +2827,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:40:38.494Z",
       "active": true
+    },
+    {
+      "id": "boosters-blisters-en-tins-arch-143b2e",
+      "name": "Boosters, Blisters en Tins Archieven",
+      "url": "https://yellowlightningcards.nl/product-category/boosters/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:40:42.753Z",
+      "active": true
     }
   ]
 }
