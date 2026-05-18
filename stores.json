@@ -2957,6 +2957,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:48:14.380Z",
       "active": true
+    },
+    {
+      "id": "shop-3161b1",
+      "name": "shop",
+      "url": "https://www.pikoba.com/shop?Categorie=Booster%2520Boxes",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:48:18.988Z",
+      "active": true
     }
   ]
 }
