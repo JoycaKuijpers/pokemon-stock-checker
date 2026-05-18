@@ -3097,6 +3097,16 @@
       "selector": null,
       "added_at": "2026-05-18T21:02:44.970Z",
       "active": true
+    },
+    {
+      "id": "sleeved-booster-packs-235310",
+      "name": "Sleeved Booster Packs",
+      "url": "https://www.tcgcardgameshop.nl/collections/sleeved-booster-packs/Engels",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T21:03:02.980Z",
+      "active": true
     }
   ]
 }
