@@ -3217,6 +3217,16 @@
       "selector": null,
       "added_at": "2026-05-18T21:05:11.493Z",
       "active": true
+    },
+    {
+      "id": "boosterboxen-2942a4",
+      "name": "Boosterboxen",
+      "url": "https://www.tcgpeppi.nl/product-categorie/boosterboxen/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T21:05:15.142Z",
+      "active": true
     }
   ]
 }
