@@ -3047,6 +3047,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:56:51.680Z",
       "active": true
+    },
+    {
+      "id": "2-pack-blister-archives-120173",
+      "name": "2 Pack Blister Archives",
+      "url": "https://tcgshoppers.nl/product-category/blisters/2-pack-blister/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:56:55.823Z",
+      "active": true
     }
   ]
 }
