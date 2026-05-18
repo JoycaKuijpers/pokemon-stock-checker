@@ -3167,6 +3167,16 @@
       "selector": null,
       "added_at": "2026-05-18T21:03:29.448Z",
       "active": true
+    },
+    {
+      "id": "checklanes-3584e6",
+      "name": "Checklanes",
+      "url": "https://www.tcgcardgameshop.nl/collections/checklanes/Engels",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T21:03:33.622Z",
+      "active": true
     }
   ]
 }
