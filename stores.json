@@ -2679,6 +2679,16 @@
       "selector": ".button.product_type_simple.add_to_cart_button.ajax_add_to_cart",
       "added_at": "2026-05-18T20:33:45.809Z",
       "active": true
+    },
+    {
+      "id": "booster-boxen-1fee23",
+      "name": "booster-boxen",
+      "url": "https://zycards.nl/booster-boxen/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:33:50.935Z",
+      "active": true
     }
   ]
 }
