@@ -2997,6 +2997,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:56:28.714Z",
       "active": true
+    },
+    {
+      "id": "sleeved-booster-packs-archives-2634fc",
+      "name": "Sleeved Booster Packs Archives",
+      "url": "https://tcgshoppers.nl/product-category/packs/sleeved-booster-packs/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:56:32.991Z",
+      "active": true
     }
   ]
 }
