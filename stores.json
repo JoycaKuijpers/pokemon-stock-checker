@@ -2707,6 +2707,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:34:00.652Z",
       "active": true
+    },
+    {
+      "id": "tins-1f5ede",
+      "name": "tins",
+      "url": "https://zycards.nl/tins/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:34:05.120Z",
+      "active": true
     }
   ]
 }
