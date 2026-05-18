@@ -3057,6 +3057,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:56:55.823Z",
       "active": true
+    },
+    {
+      "id": "3-pack-blister-archives-279f29",
+      "name": "3 Pack Blister Archives",
+      "url": "https://tcgshoppers.nl/product-category/blisters/3-pack-blister/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:57:00.062Z",
+      "active": true
     }
   ]
 }
