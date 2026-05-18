@@ -2653,6 +2653,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:32:04.188Z",
       "active": true
+    },
+    {
+      "id": "blisters-sealed-items-pokemon-47b92a",
+      "name": "Blisters / Sealed items / Pokemon",
+      "url": "https://www.tcgpower.nl/pokemon/sealed-items/blisters",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:32:10.187Z",
+      "active": true
     }
   ]
 }
