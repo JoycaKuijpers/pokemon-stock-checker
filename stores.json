@@ -2817,6 +2817,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:38:40.067Z",
       "active": true
+    },
+    {
+      "id": "booster-boxen-archieven-100577",
+      "name": "Booster Boxen Archieven",
+      "url": "https://yellowlightningcards.nl/product-category/booster_boxen/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:40:38.494Z",
+      "active": true
     }
   ]
 }
