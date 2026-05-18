@@ -2837,6 +2837,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:40:42.753Z",
       "active": true
+    },
+    {
+      "id": "collection-boxen-archieven-8c3860",
+      "name": "Collection Boxen Archieven",
+      "url": "https://yellowlightningcards.nl/product-category/collection_boxen/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:40:47.181Z",
+      "active": true
     }
   ]
 }
