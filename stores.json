@@ -2623,6 +2623,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:31:36.058Z",
       "active": true
+    },
+    {
+      "id": "collection-boxen-3daf81",
+      "name": "Collection Boxen",
+      "url": "https://www.tcgpower.nl/pokemon/sealed-items/collection-boxen",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:31:40.213Z",
+      "active": true
     }
   ]
 }
