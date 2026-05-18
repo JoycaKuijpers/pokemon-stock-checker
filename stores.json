@@ -2897,6 +2897,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:41:57.083Z",
       "active": true
+    },
+    {
+      "id": "pokemon-99dbf9",
+      "name": "Pokemon",
+      "url": "https://www.tcgkingdom.nl/c-7536048/pokemon/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:42:47.939Z",
+      "active": true
     }
   ]
 }
