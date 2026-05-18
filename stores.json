@@ -3037,6 +3037,16 @@
       "selector": null,
       "added_at": "2026-05-18T20:56:48.375Z",
       "active": true
+    },
+    {
+      "id": "1-pack-blister-archives-223d0d",
+      "name": "1 Pack Blister Archives",
+      "url": "https://tcgshoppers.nl/product-category/blisters/1pack-blister/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-18T20:56:51.680Z",
+      "active": true
     }
   ]
 }
