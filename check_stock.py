@@ -45,7 +45,15 @@ HEADERS = {
         "Chrome/124.0.0.0 Safari/537.36"
     ),
     "Accept-Language": "nl-NL,nl;q=0.9,en;q=0.8",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Upgrade-Insecure-Requests": "1",
 }
 
 OUT_OF_STOCK_PATTERNS = [
@@ -328,17 +336,33 @@ def get_woocommerce_max_page(soup: BeautifulSoup) -> int:
     return max_page
 
 
+def _card_stock_from_button_or_text(card: BeautifulSoup) -> Optional[bool]:
+    """Fallback stock detection via add-to-cart button or page text."""
+    btn = card.select_one("a.add_to_cart_button, button.add_to_cart_button, .ajax_add_to_cart")
+    if btn:
+        return not (btn.get("disabled") or "disabled" in btn.get("class", []))
+    text = card.get_text(" ", strip=True).lower()
+    if any(re.search(p, text) for p in OUT_OF_STOCK_PATTERNS):
+        return False
+    if any(re.search(p, text) for p in IN_STOCK_PATTERNS):
+        return True
+    return None
+
+
 def parse_woocommerce_cards(soup: BeautifulSoup) -> list[dict]:
     """Extract product name, url and stock status from WooCommerce product cards."""
     results = []
-    for card in soup.select("li.product, div.product"):
+    for card in soup.select("li.product, div.product, article.product"):
         classes = card.get("class", [])
         if "instock" in classes:
             available = True
         elif "outofstock" in classes:
             available = False
         else:
-            continue
+            # No stock class — try button / text heuristic
+            available = _card_stock_from_button_or_text(card)
+            if available is None:
+                continue
 
         link = card.find("a", href=True)
         if not link:
@@ -385,11 +409,169 @@ def check_woocommerce_category(store: dict, state: dict, soup: BeautifulSoup) ->
 
     pages_str = f" ({max_page} pagina's)" if max_page > 1 else ""
     print(f"  → {len(all_products)} producten gevonden{pages_str}")
+    return _apply_category_state(store, state, all_products)
 
+
+# ── WooCommerce Blocks ────────────────────────────────────────────────────────
+
+def parse_woocommerce_block_cards(soup: BeautifulSoup) -> list[dict]:
+    """Parse WooCommerce Gutenberg blocks product grid (wc-block-grid__product)."""
+    results = []
+    for card in soup.select("li.wc-block-grid__product"):
+        link = card.select_one("a.wc-block-grid__product-link, a[href]")
+        if not link:
+            continue
+        prod_url = link.get("href", "")
+        if not prod_url or not prod_url.startswith("http"):
+            continue
+        name_el = card.select_one(".wc-block-grid__product-title, h2, h3")
+        raw = name_el.get_text(strip=True) if name_el else link.get_text(strip=True)
+        name = normalize_name(raw[:120])
+        if not name:
+            continue
+        available = _card_stock_from_button_or_text(card)
+        if available is None:
+            continue
+        results.append({"name": name, "url": prod_url, "available": available})
+    return results
+
+
+def check_woocommerce_blocks_category(store: dict, state: dict, soup: BeautifulSoup) -> tuple[list[dict], bool]:
+    """Check a WooCommerce Blocks product grid, including paginated pages."""
+    base_url = store["url"].rstrip("/")
+    max_page = get_woocommerce_max_page(soup)
+    all_products = parse_woocommerce_block_cards(soup)
+    for page in range(2, max_page + 1):
+        html = fetch_page(f"{base_url}/page/{page}/")
+        if not html:
+            break
+        all_products.extend(parse_woocommerce_block_cards(BeautifulSoup(html, "lxml")))
+        time.sleep(0.5)
+    if not all_products:
+        print("  [!] Geen WooCommerce Blocks product cards gevonden")
+        return [], False
+    pages_str = f" ({max_page} pagina's)" if max_page > 1 else ""
+    print(f"  → {len(all_products)} producten gevonden{pages_str}")
+    return _apply_category_state(store, state, all_products)
+
+
+# ── Magento 2 ─────────────────────────────────────────────────────────────────
+
+def parse_magento_cards(soup: BeautifulSoup) -> list[dict]:
+    """Parse Magento 2 category product listing (li.product-item)."""
+    results = []
+    for card in soup.select("li.product-item"):
+        link = card.select_one("a.product-item-link")
+        if not link:
+            continue
+        prod_url = link.get("href", "")
+        name = normalize_name(link.get_text(strip=True)[:120])
+        if not name or not prod_url:
+            continue
+        stock_el = card.select_one(".stock")
+        if stock_el:
+            available = "available" in stock_el.get("class", [])
+        else:
+            btn = card.select_one(".action.tocart")
+            if btn:
+                available = not btn.get("disabled")
+            else:
+                available = _card_stock_from_button_or_text(card)
+                if available is None:
+                    continue
+        results.append({"name": name, "url": prod_url, "available": available})
+    return results
+
+
+def check_magento_category(store: dict, state: dict, soup: BeautifulSoup) -> tuple[list[dict], bool]:
+    """Check a Magento 2 category page including pagination (?p=N)."""
+    base_url = re.sub(r"[?&]p=\d+", "", store["url"]).rstrip("?& /")
+    max_page = 1
+    for a in soup.select(".pages .item a, .pages-items a"):
+        try:
+            n = int(a.get_text(strip=True))
+            if n > max_page:
+                max_page = n
+        except ValueError:
+            continue
+    all_products = parse_magento_cards(soup)
+    for page in range(2, max_page + 1):
+        sep = "&" if "?" in base_url else "?"
+        html = fetch_page(f"{base_url}{sep}p={page}")
+        if not html:
+            break
+        all_products.extend(parse_magento_cards(BeautifulSoup(html, "lxml")))
+        time.sleep(0.5)
+    if not all_products:
+        print("  [!] Geen Magento product cards gevonden")
+        return [], False
+    pages_str = f" ({max_page} pagina's)" if max_page > 1 else ""
+    print(f"  → {len(all_products)} producten gevonden{pages_str}")
+    return _apply_category_state(store, state, all_products)
+
+
+# ── Shopware 6 ────────────────────────────────────────────────────────────────
+
+def parse_shopware_cards(soup: BeautifulSoup) -> list[dict]:
+    """Parse Shopware 6 product listing (div.card.product-box)."""
+    results = []
+    for card in soup.select("div.card.product-box, .product-box"):
+        link = card.select_one("a.product-name, a.product-image-link")
+        if not link:
+            continue
+        prod_url = link.get("href", "")
+        if not prod_url or not prod_url.startswith("http"):
+            continue
+        name_el = card.select_one(".product-name")
+        raw = name_el.get_text(strip=True) if name_el else link.get_text(strip=True)
+        name = normalize_name(raw[:120])
+        if not name:
+            continue
+        btn = card.select_one("button.btn-buy, .btn-buy")
+        if btn:
+            available = not (btn.get("disabled") or "disabled" in btn.get("class", []))
+        else:
+            available = _card_stock_from_button_or_text(card)
+            if available is None:
+                continue
+        results.append({"name": name, "url": prod_url, "available": available})
+    return results
+
+
+def check_shopware_category(store: dict, state: dict, soup: BeautifulSoup) -> tuple[list[dict], bool]:
+    """Check a Shopware 6 category page including pagination (?p=N)."""
+    base_url = re.sub(r"[?&]p=\d+", "", store["url"]).rstrip("?& /")
+    max_page = 1
+    for el in soup.select(".pagination a, .pagination-nav a"):
+        try:
+            n = int(el.get_text(strip=True))
+            if n > max_page:
+                max_page = n
+        except ValueError:
+            continue
+    all_products = parse_shopware_cards(soup)
+    for page in range(2, max_page + 1):
+        sep = "&" if "?" in base_url else "?"
+        html = fetch_page(f"{base_url}{sep}p={page}")
+        if not html:
+            break
+        all_products.extend(parse_shopware_cards(BeautifulSoup(html, "lxml")))
+        time.sleep(0.5)
+    if not all_products:
+        print("  [!] Geen Shopware product cards gevonden")
+        return [], False
+    pages_str = f" ({max_page} pagina's)" if max_page > 1 else ""
+    print(f"  → {len(all_products)} producten gevonden{pages_str}")
+    return _apply_category_state(store, state, all_products)
+
+
+# ── Shared state helper ───────────────────────────────────────────────────────
+
+def _apply_category_state(store: dict, state: dict, all_products: list[dict]) -> tuple[list[dict], bool]:
+    """Update state and collect notifications for a parsed product list."""
     cat_state = state.setdefault(store["id"], {"products": {}})
     prod_state = cat_state.setdefault("products", {})
     cat_state["last_checked"] = now_utc()
-
     notify_on_new = store.get("notify_on_new", False)
     notifications = []
     for p in all_products:
@@ -397,11 +579,12 @@ def check_woocommerce_category(store: dict, state: dict, soup: BeautifulSoup) ->
         notif = process_product(prod_state, key, p["name"], p["url"], p["available"], notify_on_new)
         if notif:
             notifications.append(notif)
-
     in_stock = sum(1 for e in prod_state.values() if e.get("in_stock"))
     print(f"  → {in_stock}/{len(all_products)} op voorraad, {len(notifications)} nieuw op voorraad")
     return notifications, True
 
+
+# ── Platform auto-detect ──────────────────────────────────────────────────────
 
 def check_category(store: dict, state: dict) -> tuple[list[dict], bool]:
     """Auto-detect platform and check the category page."""
@@ -411,14 +594,23 @@ def check_category(store: dict, state: dict) -> tuple[list[dict], bool]:
     if re.search(r"/collections/[^/?#]+", url):
         return check_shopify_category(store, state)
 
-    # Everything else: fetch HTML and try WooCommerce detection
     html = fetch_page(url)
     if not html:
         return [], False
 
     soup = BeautifulSoup(html, "lxml")
-    if soup.select("li.product, div.product"):
+
+    if soup.select("li.product, div.product, article.product"):
         return check_woocommerce_category(store, state, soup)
+
+    if soup.select("li.wc-block-grid__product"):
+        return check_woocommerce_blocks_category(store, state, soup)
+
+    if soup.select("li.product-item"):
+        return check_magento_category(store, state, soup)
+
+    if soup.select("div.card.product-box, .product-box"):
+        return check_shopware_category(store, state, soup)
 
     print("  [!] Platform niet herkend voor categorie-modus")
     return [], False
@@ -626,5 +818,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
-
 
