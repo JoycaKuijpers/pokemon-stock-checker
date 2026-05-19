@@ -1,6 +1,33 @@
 {
   "stores": [
     {
+      "id": "pokemon-pre-order-15cffe",
+      "name": "Pokemon Pre Order",
+      "url": "https://tcgcompany.nl/pokemon-pre-order/",
+      "type": "category",
+      "selector": null,
+      "added_at": "2026-05-09T17:23:17.874Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-elite-trainer-box-80344d",
+      "name": "Pokemon Elite Trainer Box",
+      "url": "https://tcgcompany.nl/pokemon-elite-trainer-box/",
+      "type": "category",
+      "selector": null,
+      "added_at": "2026-05-09T17:23:45.265Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-collection-box-kopen--bd2954",
+      "name": "Pokemon Collection Box kopen?",
+      "url": "https://tcgcompany.nl/pokemon-collection-box/",
+      "type": "category",
+      "selector": null,
+      "added_at": "2026-05-09T17:23:57.914Z",
+      "active": true
+    },
+    {
       "id": "pokemon-booster-box-2581bd",
       "name": "Pokemon Booster Box",
       "url": "https://pokefamily.nl/collections/pokemon-booster-box",
@@ -264,6 +291,36 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-09T17:34:55.231Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-booster-box-kopen--c3c84b",
+      "name": "Pokemon Booster Box kopen?",
+      "url": "https://www.bescards.com/pokemon-booster-box/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-09T17:35:40.739Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-elite-trainer-box-kope-219b80",
+      "name": "Pokemon Elite Trainer Box kopen?",
+      "url": "https://www.bescards.com/pokemon-elite-trainer-box/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-09T17:35:44.681Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-collection-box-1b4e18",
+      "name": "Pokemon Collection Box",
+      "url": "https://www.bescards.com/pokemon-collection-box/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-09T17:35:50.739Z",
       "active": true
     },
     {
@@ -777,6 +834,86 @@
       "active": true
     },
     {
+      "id": "pokemon-booster-box-kopen--8a1d7f",
+      "name": "Pokemon Booster Box kopen?",
+      "url": "https://tcgcompany.nl/pokemon-booster-box/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:33:28.029Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-booster-packs-kopen--61a749",
+      "name": "Pokemon Booster Packs kopen?",
+      "url": "https://tcgcompany.nl/pokemon-booster-packs/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:33:39.619Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-sleeved-booster-packs--1911f9",
+      "name": "Pokemon Sleeved Booster Packs kopen?",
+      "url": "https://tcgcompany.nl/sleeved-booster-packs/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:33:43.864Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-tins-kopen--142cb5",
+      "name": "Pokemon Tins kopen?",
+      "url": "https://tcgcompany.nl/pokemon-tins/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:33:51.304Z",
+      "active": true
+    },
+    {
+      "id": "pokemon-mini-tins-kopen--1734af",
+      "name": "Pokemon Mini Tins kopen?",
+      "url": "https://tcgcompany.nl/pokemon-mini-tins/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:33:57.567Z",
+      "active": true
+    },
+    {
+      "id": "1-pack-blister-checklane-pokem-492379",
+      "name": "1 Pack Blister / Checklane Pokemon kopen?",
+      "url": "https://tcgcompany.nl/1-pack-blister-pokemon/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:34:05.066Z",
+      "active": true
+    },
+    {
+      "id": "2-pack-blister-pokemon-kopen--fef1e0",
+      "name": "2 Pack Blister Pokemon kopen?",
+      "url": "https://tcgcompany.nl/2-pack-blister-pokemon/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:34:10.679Z",
+      "active": true
+    },
+    {
+      "id": "3-pack-blister-pokemon-kopen--14b3fb",
+      "name": "3 Pack Blister Pokemon kopen?",
+      "url": "https://tcgcompany.nl/3-pack-blister-pokemon/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T11:34:14.886Z",
+      "active": true
+    },
+    {
       "id": "boosters-25c108",
       "name": "Boosters",
       "url": "https://www.tcg-cards.nl/pokemon/boosters",
@@ -834,7 +971,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T11:35:13.587Z",
-      "active": true
+      "active": false
     },
     {
       "id": "pokemon-boosterpack-3f9105",
@@ -1354,7 +1491,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T11:43:20.037Z",
-      "active": true
+      "active": false
     },
     {
       "id": "boosters-c177952768-1dff17",
@@ -1364,7 +1501,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T11:43:23.544Z",
-      "active": true
+      "active": false
     },
     {
       "id": "elite-trainer-boxes-c177952764-46e238",
@@ -1374,7 +1511,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T11:43:26.963Z",
-      "active": true
+      "active": false
     },
     {
       "id": "collection-boxes-c177953269-14c8bd",
@@ -1384,7 +1521,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T11:43:31.847Z",
-      "active": true
+      "active": false
     },
     {
       "id": "blisters-c177953271-1bafe5",
@@ -1394,7 +1531,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T11:43:35.481Z",
-      "active": true
+      "active": false
     },
     {
       "id": "tins-c177952766-bec751",
@@ -1404,7 +1541,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T11:43:38.837Z",
-      "active": true
+      "active": false
     },
     {
       "id": "pre-orders-c177952763-16419c",
@@ -1414,7 +1551,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T11:43:43.665Z",
-      "active": true
+      "active": false
     },
     {
       "id": "pokemon-blister-kopen-ruim-ass-211a5e",
@@ -1424,7 +1561,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T11:43:57.400Z",
-      "active": true
+      "active": false
     },
     {
       "id": "pokemon-tcg-booster-bundels-3002d4",
@@ -1434,7 +1571,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T11:44:01.508Z",
-      "active": true
+      "active": false
     },
     {
       "id": "sealed-booster-box-kopen-nu-bi-4fea5c",
@@ -1444,7 +1581,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T11:44:08.756Z",
-      "active": true
+      "active": false
     },
     {
       "id": "ok-mon-booster-packs-kopen-all-185197",
@@ -1454,7 +1591,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T11:44:14.201Z",
-      "active": true
+      "active": false
     },
     {
       "id": "exclusieve-tcg-sets-bundels-ko-1046c2",
@@ -1464,7 +1601,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T11:44:19.888Z",
-      "active": true
+      "active": false
     },
     {
       "id": "pokemon-elite-trainer-box-kope-31c851",
@@ -1474,7 +1611,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T11:44:28.953Z",
-      "active": true
+      "active": false
     },
     {
       "id": "speciale-boxen-131e89",
@@ -1484,7 +1621,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T11:44:34.319Z",
-      "active": true
+      "active": false
     },
     {
       "id": "pokemon-kaarten-kopen--b73102",
@@ -2267,12 +2404,14 @@
       "active": true
     },
     {
-      "id": "lobbes-pokemon-kaarten",
-      "name": "Lobbes Pokémon Kaarten",
-      "url": "https://www.lobbes.nl/karakters/pokemon/pokemon-kaarten",
+      "id": "all-6b590c",
+      "name": "all",
+      "url": "https://www.lobbes.nl/zoek/pokemon%20tcg/all",
       "type": "category",
-      "active": true,
-      "notify_on_new": false
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T12:25:42.327Z",
+      "active": true
     },
     {
       "id": "pokemon-tcg-18fa0d",
@@ -2282,7 +2421,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T12:26:15.444Z",
-      "active": true
+      "active": false
     },
     {
       "id": "we-respecteren-uw-privacy--19c02a",
@@ -2292,7 +2431,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T12:28:36.545Z",
-      "active": false
+      "active": true
     },
     {
       "id": "thema-pokemon-21cdad",
@@ -2302,7 +2441,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T12:31:49.599Z",
-      "active": true
+      "active": false
     },
     {
       "id": "trading-card-games-33ce95",
@@ -2316,13 +2455,13 @@
     },
     {
       "id": "1000399-16f8a6",
-      "name": "Spellenwinkel — Pokemon TCG",
+      "name": "1000399",
       "url": "https://www.spellenwinkel.nl/nl-NL/c/pokemon-tcg/1000399",
       "type": "category",
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T12:32:59.362Z",
-      "active": true
+      "active": false
     },
     {
       "id": "pokemon-b9992f",
@@ -2365,6 +2504,64 @@
       "active": true
     },
     {
+      "id": "s-49a849",
+      "name": "s",
+      "url": "https://www.bol.com/nl/nl/s/?searchtext=pokemon+tcg&filter_N=38520&bltgh=c7745612-8a6b-4a2a-9508-d229409f3eb1.g.i.QueryContextHook",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T12:38:51.842Z",
+      "active": true
+    },
+    {
+      "id": "s-54e4e6",
+      "name": "s",
+      "url": "https://www.bol.com/nl/nl/s/?searchtext=pokemon+tcg&filter_N=38520+4298327804+4298344086+4298316066+4298351126+7679922695+7679105296+7679104798&N=55042&bltgh=cd560542-ed74-4d97-9e95-504c223ffbdb.g.i.QueryContextHook",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T12:40:18.018Z",
+      "active": true
+    },
+    {
+      "id": "search-html-391f01",
+      "name": "search.html",
+      "url": "https://www.mediamarkt.nl/nl/search.html?query=pokemon+tcg",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T12:41:17.417Z",
+      "active": true
+    },
+    {
+      "id": "wehkamp-3fb1a7",
+      "name": "Wehkamp",
+      "url": "https://www.wehkamp.nl/zoeken/?term=pokemon+tcg&type=recentsearch&merk=pokemon",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T12:41:34.844Z",
+      "active": true
+    },
+    {
+      "id": "zoekresultaten-voor-pokemon-tc-e4b11b",
+      "name": "Zoekresultaten voor: Pokemon tcg",
+      "url": "https://www.bruna.nl/zoeken/pokemon%20tcg",
+      "selector": null,
+      "added_at": "2026-05-14T12:41:48.681Z",
+      "active": true
+    },
+    {
+      "id": "zoekresultaten-voor-pokemon-tc-305803",
+      "name": "Zoekresultaten voor  Pokemon tcg",
+      "url": "https://www.kruidvat.nl/search/pokemon%20tcg",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-14T12:42:08.857Z",
+      "active": true
+    },
+    {
       "id": "pokemon-kaarten-423520",
       "name": "Pokemon-kaarten",
       "url": "https://www.spellenrijk.nl/pokemon-kaarten/?ft14=Booster-Packs&limit=filterft14",
@@ -2372,7 +2569,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T12:42:33.438Z",
-      "active": true
+      "active": false
     },
     {
       "id": "pokemon-kaarten-3869b5",
@@ -2382,7 +2579,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T12:42:37.982Z",
-      "active": true
+      "active": false
     },
     {
       "id": "pokemon-kaarten-3dea1a",
@@ -2392,7 +2589,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T12:42:41.783Z",
-      "active": true
+      "active": false
     },
     {
       "id": "pokemon-kaarten-8b4906",
@@ -2402,7 +2599,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T12:42:45.796Z",
-      "active": true
+      "active": false
     },
     {
       "id": "pokemon-kaarten-35e6a5",
@@ -2412,7 +2609,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T12:42:50.445Z",
-      "active": true
+      "active": false
     },
     {
       "id": "pokemon-kaarten-421055",
@@ -2422,7 +2619,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T12:43:02.038Z",
-      "active": true
+      "active": false
     },
     {
       "id": "zoeken-html-244ac8",
@@ -2432,47 +2629,47 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T12:43:25.479Z",
-      "active": true
+      "active": false
     },
     {
       "id": "1000401-d5e7e2",
-      "name": "Bazaar of Magic — Boosters",
+      "name": "1000401",
       "url": "https://www.bazaarofmagic.eu/nl-NL/c/pokemon-boosters/1000401",
       "type": "category",
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T12:43:50.033Z",
-      "active": true
+      "active": false
     },
     {
       "id": "1000402-1d04c4",
-      "name": "Bazaar of Magic — Blisters",
+      "name": "1000402",
       "url": "https://www.bazaarofmagic.eu/nl-NL/c/pokemon-booster-blisters/1000402",
       "type": "category",
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T12:43:55.349Z",
-      "active": true
+      "active": false
     },
     {
       "id": "1000403-828431",
-      "name": "Bazaar of Magic — Decks",
+      "name": "1000403",
       "url": "https://www.bazaarofmagic.eu/nl-NL/c/pokemon-decks/1000403",
       "type": "category",
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T12:44:00.152Z",
-      "active": true
+      "active": false
     },
     {
       "id": "1000404-16d165",
-      "name": "Bazaar of Magic — Tins",
+      "name": "1000404",
       "url": "https://www.bazaarofmagic.eu/nl-NL/c/pokemon-tins/1000404",
       "type": "category",
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T12:44:03.869Z",
-      "active": true
+      "active": false
     },
     {
       "id": "our-bounty-hunters-have-search-10ca01",
@@ -2482,851 +2679,17 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T12:51:49.532Z",
-      "active": true
+      "active": false
     },
     {
       "id": "1000406-1c46f0",
-      "name": "Bazaar of Magic — Speciale Boxen",
+      "name": "1000406",
       "url": "https://www.bazaarofmagic.eu/nl-NL/c/pokemon-speciale-boxen/1000406",
       "type": "category",
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T13:00:56.895Z",
-      "active": true
-    },
-    {
-      "id": "elite-trainer-box-1481da",
-      "name": "Elite Trainer Box",
-      "url": "https://pocketgames.nl/collections/trainer-boxen-pokemon",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:11:49.911Z",
-      "active": true
-    },
-    {
-      "id": "booster-box-94eb60",
-      "name": "Booster Box",
-      "url": "https://pocketgames.nl/collections/booster-boxen",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:11:57.701Z",
-      "active": true
-    },
-    {
-      "id": "booster-bundle-f7cf42",
-      "name": "Booster Bundle",
-      "url": "https://pocketgames.nl/collections/booster-bundle",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:12:12.351Z",
-      "active": true
-    },
-    {
-      "id": "blister-pack-132dbc",
-      "name": "Blister Pack",
-      "url": "https://pocketgames.nl/collections/blister-pack",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:12:22.424Z",
-      "active": true
-    },
-    {
-      "id": "special-releases-a51a1e",
-      "name": "Special Releases",
-      "url": "https://pocketgames.nl/collections/special-releases",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:12:27.999Z",
-      "active": true
-    },
-    {
-      "id": "collection-box-214dc3",
-      "name": "Collection Box",
-      "url": "https://capturecards.nl/collections/collection-box/Pok%C3%A9mon-TCG",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:29:15.659Z",
-      "active": true
-    },
-    {
-      "id": "elite-trainer-box-121dd7",
-      "name": "Elite Trainer Box",
-      "url": "https://capturecards.nl/collections/elite-trainer-box/Pok%C3%A9mon-TCG",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:29:19.983Z",
-      "active": true
-    },
-    {
-      "id": "booster-box-217102",
-      "name": "Booster Box",
-      "url": "https://capturecards.nl/collections/booster-box/Pok%C3%A9mon-TCG",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:29:24.283Z",
-      "active": true
-    },
-    {
-      "id": "booster-bundle-bc46c0",
-      "name": "Booster Bundle",
-      "url": "https://capturecards.nl/collections/booster-bundle/Pok%C3%A9mon-TCG",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:29:28.251Z",
-      "active": true
-    },
-    {
-      "id": "blister-3d46d0",
-      "name": "Blister",
-      "url": "https://capturecards.nl/collections/blister/Pok%C3%A9mon-TCG",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:29:32.243Z",
-      "active": true
-    },
-    {
-      "id": "booster-242fdf",
-      "name": "Booster",
-      "url": "https://capturecards.nl/collections/booster/Pok%C3%A9mon-TCG",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:29:38.702Z",
-      "active": true
-    },
-    {
-      "id": "boosterpacks-3ee59c",
-      "name": "Boosterpacks",
-      "url": "https://www.tcgpower.nl/pokemon/sealed-items/boosterpacks",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:31:29.451Z",
-      "active": true
-    },
-    {
-      "id": "boosterpacks-3ef186",
-      "name": "Boosterpacks",
-      "url": "https://www.tcgpower.nl/pokemon/sealed-items/boosterboxen",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:31:36.058Z",
-      "active": true
-    },
-    {
-      "id": "collection-boxen-3daf81",
-      "name": "Collection Boxen",
-      "url": "https://www.tcgpower.nl/pokemon/sealed-items/collection-boxen",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:31:40.213Z",
-      "active": true
-    },
-    {
-      "id": "pokemon-tins-2fe8a9",
-      "name": "Pokemon tins",
-      "url": "https://www.tcgpower.nl/pokemon/sealed-items/tins",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:31:54.367Z",
-      "active": true
-    },
-    {
-      "id": "elite-trainer-boxen-26f6c1",
-      "name": "Elite Trainer Boxen",
-      "url": "https://www.tcgpower.nl/pokemon/sealed-items/elite-trainer-boxen",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:32:04.188Z",
-      "active": true
-    },
-    {
-      "id": "blisters-sealed-items-pokemon-47b92a",
-      "name": "Blisters / Sealed items / Pokemon",
-      "url": "https://www.tcgpower.nl/pokemon/sealed-items/blisters",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:32:10.187Z",
-      "active": true
-    },
-    {
-      "id": "pokemon-booster-packs-kopen-zy-338526",
-      "name": "Pokemon Booster Packs Kopen | Zycards",
-      "url": "https://zycards.nl/pokemon-booster-packs/",
-      "selector": null,
-      "added_at": "2026-05-18T20:32:38.467Z",
-      "active": true
-    },
-    {
-      "id": "pokemon-blisters-kopen-zycards-296d6b",
-      "name": "Pokemon Blisters kopen | Zycards",
-      "url": "https://zycards.nl/blisters/",
-      "selector": ".button.product_type_simple.add_to_cart_button.ajax_add_to_cart",
-      "added_at": "2026-05-18T20:33:45.809Z",
-      "active": true
-    },
-    {
-      "id": "booster-boxen-1fee23",
-      "name": "booster-boxen",
-      "url": "https://zycards.nl/booster-boxen/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:33:50.935Z",
-      "active": true
-    },
-    {
-      "id": "pokemon-elite-trainer-boxen-ko-39a8a1",
-      "name": "Pokemon Elite Trainer Boxen Kopen | Zycards",
-      "url": "https://zycards.nl/elite-trainer-boxen/",
-      "selector": null,
-      "added_at": "2026-05-18T20:33:55.402Z",
-      "active": true
-    },
-    {
-      "id": "collection-boxen-3fa3c5",
-      "name": "collection-boxen",
-      "url": "https://zycards.nl/collection-boxen/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:34:00.652Z",
-      "active": true
-    },
-    {
-      "id": "tins-1f5ede",
-      "name": "tins",
-      "url": "https://zycards.nl/tins/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:34:05.120Z",
-      "active": true
-    },
-    {
-      "id": "pre-order-1f9db9",
-      "name": "Pre-Order",
-      "url": "https://www.miraicards.com/collections/pre-order",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:34:20.266Z",
-      "active": true
-    },
-    {
-      "id": "pokemon-trading-card-game-kope-1a2dcd",
-      "name": "Pokemon Trading Card Game Kopen",
-      "url": "https://www.miraicards.com/collections/pokemon",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:34:46.731Z",
-      "active": true
-    },
-    {
-      "id": "pokemon-a161f9",
-      "name": "Pokemon",
-      "url": "https://knoldex.nl/collections/pokemon",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:35:44.706Z",
-      "active": true
-    },
-    {
-      "id": "pokemon-tcg-7e0bd8",
-      "name": "Pokemon TCG",
-      "url": "https://jd-collectibles.nl/collections/pokemon-tcg",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:36:09.732Z",
-      "active": true
-    },
-    {
-      "id": "pokemon-tcg-booster-box-kopen--196468",
-      "name": "Pokemon TCG: Booster Box kopen?",
-      "url": "https://piplupplaza.nl/product-categorie/pokemon/booster-boxes/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:37:39.736Z",
-      "active": true
-    },
-    {
-      "id": "elite-trainer-boxes-375c6b",
-      "name": "Elite Trainer Boxes",
-      "url": "https://piplupplaza.nl/product-categorie/pokemon/elite-trainer-boxes/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:37:48.480Z",
-      "active": true
-    },
-    {
-      "id": "pokemon-tcg-collection-boxes-31b9f8",
-      "name": "Pokemon TCG: Collection Boxes",
-      "url": "https://piplupplaza.nl/product-categorie/pokemon/collection-boxes/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:38:07.287Z",
-      "active": true
-    },
-    {
-      "id": "tins-1c525a",
-      "name": "Tins",
-      "url": "https://piplupplaza.nl/product-categorie/pokemon/tins/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:38:21.155Z",
-      "active": true
-    },
-    {
-      "id": "blisters-1be4de",
-      "name": "Blisters",
-      "url": "https://piplupplaza.nl/product-categorie/pokemon/blisters/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:38:30.367Z",
-      "active": true
-    },
-    {
-      "id": "packs-219285",
-      "name": "Packs",
-      "url": "https://piplupplaza.nl/product-categorie/pokemon/packs/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:38:40.067Z",
-      "active": true
-    },
-    {
-      "id": "booster-boxen-archieven-100577",
-      "name": "Booster Boxen Archieven",
-      "url": "https://yellowlightningcards.nl/product-category/booster_boxen/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:40:38.494Z",
-      "active": true
-    },
-    {
-      "id": "boosters-blisters-en-tins-arch-143b2e",
-      "name": "Boosters, Blisters en Tins Archieven",
-      "url": "https://yellowlightningcards.nl/product-category/boosters/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:40:42.753Z",
-      "active": true
-    },
-    {
-      "id": "collection-boxen-archieven-8c3860",
-      "name": "Collection Boxen Archieven",
-      "url": "https://yellowlightningcards.nl/product-category/collection_boxen/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:40:47.181Z",
-      "active": true
-    },
-    {
-      "id": "elite-trainer-boxen-archieven-c59e29",
-      "name": "Elite Trainer Boxen Archieven",
-      "url": "https://yellowlightningcards.nl/product-category/elite_trainer_boxen/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:40:51.237Z",
-      "active": true
-    },
-    {
-      "id": "elite-trainer-boxen-44fa99",
-      "name": "Elite trainer boxen",
-      "url": "https://ripandshipkings.com/collections/elite-trainer-boxen",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:41:26.720Z",
-      "active": true
-    },
-    {
-      "id": "collectie-boxen-2e1565",
-      "name": "Collectie boxen",
-      "url": "https://ripandshipkings.com/collections/collectie-boxen",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:41:38.415Z",
-      "active": true
-    },
-    {
-      "id": "pokemon-ccb6dd",
-      "name": "Pokemon",
-      "url": "https://ripandshipkings.com/collections/booster-packs",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:41:49.107Z",
-      "active": true
-    },
-    {
-      "id": "pokemon-31b88c",
-      "name": "Pokemon",
-      "url": "https://ripandshipkings.com/collections/pokemon-booster-boxen",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:41:57.083Z",
-      "active": true
-    },
-    {
-      "id": "pokemon-99dbf9",
-      "name": "Pokemon",
-      "url": "https://www.tcgkingdom.nl/c-7536048/pokemon/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:42:47.939Z",
-      "active": true
-    },
-    {
-      "id": "preorder-9c716f",
-      "name": "Preorder",
-      "url": "https://arlytrading.nl/product-categorie/preorder/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:43:48.682Z",
-      "active": true
-    },
-    {
-      "id": "pokemon-tcg-winkel-9c384b",
-      "name": "Pokemon TCG Winkel",
-      "url": "https://arlytrading.nl/product-categorie/tcg/pokemontcg/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:43:56.548Z",
-      "active": true
-    },
-    {
-      "id": "all-pokemon-267550",
-      "name": "All Pokemon",
-      "url": "https://beamcardshop.com/collections/all-pokemon",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:44:19.247Z",
-      "active": true
-    },
-    {
-      "id": "shop-2fe5e5",
-      "name": "shop",
-      "url": "https://www.pikoba.com/shop?Categorie=ETB",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:48:06.814Z",
-      "active": true
-    },
-    {
-      "id": "shop-3155c7",
-      "name": "shop",
-      "url": "https://www.pikoba.com/shop?Categorie=Booster%2520Packs",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:48:14.380Z",
-      "active": true
-    },
-    {
-      "id": "shop-3161b1",
-      "name": "shop",
-      "url": "https://www.pikoba.com/shop?Categorie=Booster%2520Boxes",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:48:18.988Z",
-      "active": true
-    },
-    {
-      "id": "shop-27f01c",
-      "name": "shop",
-      "url": "https://www.pikoba.com/shop?Categorie=Collection%2520Boxes",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:48:24.546Z",
-      "active": true
-    },
-    {
-      "id": "elite-trainer-box-archives-31996f",
-      "name": "Elite Trainer Box Archives",
-      "url": "https://tcgshoppers.nl/product-category/sealed-collectie/elite-trainer-box/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:56:09.129Z",
-      "active": true
-    },
-    {
-      "id": "packs-archives-1480c2",
-      "name": "Packs Archives",
-      "url": "https://tcgshoppers.nl/product-category/packs/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:56:28.714Z",
-      "active": true
-    },
-    {
-      "id": "sleeved-booster-packs-archives-2634fc",
-      "name": "Sleeved Booster Packs Archives",
-      "url": "https://tcgshoppers.nl/product-category/packs/sleeved-booster-packs/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:56:32.991Z",
-      "active": true
-    },
-    {
-      "id": "booster-box-archives-59e453",
-      "name": "Booster Box Archives",
-      "url": "https://tcgshoppers.nl/product-category/boxen/pokemon-booster-box/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:56:37.367Z",
-      "active": true
-    },
-    {
-      "id": "collection-box-archives-24ca64",
-      "name": "Collection Box Archives",
-      "url": "https://tcgshoppers.nl/product-category/boxen/pokemon-collection-box/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:56:41.730Z",
-      "active": true
-    },
-    {
-      "id": "booster-bundle-archives-27793e",
-      "name": "Booster Bundle Archives",
-      "url": "https://tcgshoppers.nl/product-category/boosters/booster-bundle/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:56:48.375Z",
-      "active": true
-    },
-    {
-      "id": "1-pack-blister-archives-223d0d",
-      "name": "1 Pack Blister Archives",
-      "url": "https://tcgshoppers.nl/product-category/blisters/1pack-blister/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:56:51.680Z",
-      "active": true
-    },
-    {
-      "id": "2-pack-blister-archives-120173",
-      "name": "2 Pack Blister Archives",
-      "url": "https://tcgshoppers.nl/product-category/blisters/2-pack-blister/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:56:55.823Z",
-      "active": true
-    },
-    {
-      "id": "3-pack-blister-archives-279f29",
-      "name": "3 Pack Blister Archives",
-      "url": "https://tcgshoppers.nl/product-category/blisters/3-pack-blister/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T20:57:00.062Z",
-      "active": true
-    },
-    {
-      "id": "pokemon-tcg-bekijk-alles-hier--22c909",
-      "name": "Pokemon TCG: bekijk alles hier!",
-      "url": "https://www.intertoys.nl/pokemon-tcg",
-      "type": "category",
-      "notify_on_new": true,
-      "selector": null,
-      "added_at": "2026-05-18T20:57:12.287Z",
-      "active": true
-    },
-    {
-      "id": "pokemon-29fe8b",
-      "name": "Pokemon",
-      "url": "https://www.collectorstore.nl/product-categorie/trading-cards/pokemon-trading-cards/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T21:01:26.889Z",
-      "active": true
-    },
-    {
-      "id": "booster-packs-29e392",
-      "name": "Booster Packs",
-      "url": "https://www.tcgcardgameshop.nl/collections/booster-packs/Engels",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T21:02:44.970Z",
-      "active": true
-    },
-    {
-      "id": "sleeved-booster-packs-235310",
-      "name": "Sleeved Booster Packs",
-      "url": "https://www.tcgcardgameshop.nl/collections/sleeved-booster-packs/Engels",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T21:03:02.980Z",
-      "active": true
-    },
-    {
-      "id": "blister-packs-4a2a39",
-      "name": "Blister Packs",
-      "url": "https://www.tcgcardgameshop.nl/collections/blister-packs/Engels",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T21:03:07.360Z",
-      "active": true
-    },
-    {
-      "id": "booster-bundle-21cd89",
-      "name": "Booster Bundle",
-      "url": "https://www.tcgcardgameshop.nl/collections/booster-bundle",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T21:03:10.786Z",
-      "active": true
-    },
-    {
-      "id": "booster-box-2b1282",
-      "name": "Booster Box",
-      "url": "https://www.tcgcardgameshop.nl/collections/booster-box/Engels",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T21:03:14.724Z",
-      "active": true
-    },
-    {
-      "id": "elite-trainer-box-etb--225d41",
-      "name": "Elite Trainer Box (ETB)",
-      "url": "https://www.tcgcardgameshop.nl/collections/elite-trainer-box-etb/Engels",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T21:03:20.456Z",
-      "active": true
-    },
-    {
-      "id": "collection-boxen-1baa37",
-      "name": "Collection boxen",
-      "url": "https://www.tcgcardgameshop.nl/collections/collection-boxen/Engels",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T21:03:25.502Z",
-      "active": true
-    },
-    {
-      "id": "tins-30221e",
-      "name": "Tins",
-      "url": "https://www.tcgcardgameshop.nl/collections/tins/Engels",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T21:03:29.448Z",
-      "active": true
-    },
-    {
-      "id": "checklanes-3584e6",
-      "name": "Checklanes",
-      "url": "https://www.tcgcardgameshop.nl/collections/checklanes/Engels",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T21:03:33.622Z",
-      "active": true
-    },
-    {
-      "id": "ultra-premium-collection-boxen-13d6cc",
-      "name": "Ultra Premium Collection Boxen",
-      "url": "https://www.tcgcardgameshop.nl/collections/ultra-premium-collection-boxen/Engels",
-      "type": "category",
-      "notify_on_new": true,
-      "selector": null,
-      "added_at": "2026-05-18T21:03:38.645Z",
-      "active": true
-    },
-    {
-      "id": "shop-18600d",
-      "name": "Shop",
-      "url": "https://tcgshoppers.nl/webshop/?gad_source=5&gad_campaignid=23551418820&gclid=EAIaIQobChMIiPXMxtzDlAMVQJKDBx3rqSMhEAAYASAAEgKRKPD_BwE",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T21:04:42.212Z",
-      "active": true
-    },
-    {
-      "id": "booster-packs-21ba6c",
-      "name": "Booster Packs",
-      "url": "https://www.tcgpeppi.nl/product-categorie/booster-packs/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T21:04:55.977Z",
-      "active": true
-    },
-    {
-      "id": "booster-bundles-25329e",
-      "name": "booster-bundles",
-      "url": "https://www.tcgpeppi.nl/product-categorie/booster-bundles/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T21:05:11.493Z",
-      "active": true
-    },
-    {
-      "id": "boosterboxen-2942a4",
-      "name": "Boosterboxen",
-      "url": "https://www.tcgpeppi.nl/product-categorie/boosterboxen/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T21:05:15.142Z",
-      "active": true
-    },
-    {
-      "id": "tin-boxen-24e31a",
-      "name": "tin-boxen",
-      "url": "https://www.tcgpeppi.nl/product-categorie/tin-boxen/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T21:05:19.018Z",
-      "active": true
-    },
-    {
-      "id": "collector-boxen-2cf026",
-      "name": "Collector boxen",
-      "url": "https://www.tcgpeppi.nl/product-categorie/collector-box/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T21:05:23.441Z",
-      "active": true
-    },
-    {
-      "id": "elite-trainer-boxes-220f8d",
-      "name": "elite-trainer-boxes",
-      "url": "https://www.tcgpeppi.nl/product-categorie/elite-trainer-boxes/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T21:05:39.607Z",
-      "active": true
-    },
-    {
-      "id": "producten-dd58c5",
-      "name": "PRODUCTEN",
-      "url": "https://pullcards.nl/collections/all",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T21:06:15.075Z",
-      "active": true
-    },
-    {
-      "id": "blister-packs-3b8e9a",
-      "name": "Blister Packs",
-      "url": "https://www.tcg-outlet.nl/product-category/blister-packs/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T21:10:01.386Z",
-      "active": true
-    },
-    {
-      "id": "booster-bundel-516827",
-      "name": "booster bundel",
-      "url": "https://www.tcg-outlet.nl/product-category/booster-bundel/",
-      "type": "category",
-      "notify_on_new": true,
-      "selector": null,
-      "added_at": "2026-05-18T21:10:09.086Z",
-      "active": true
-    },
-    {
-      "id": "booster-packs-4bf36a",
-      "name": "Booster Packs",
-      "url": "https://www.tcg-outlet.nl/product-category/booster-packs/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T21:10:18.205Z",
-      "active": true
-    },
-    {
-      "id": "boosterbox-504a22",
-      "name": "Boosterbox",
-      "url": "https://www.tcg-outlet.nl/product-category/boosterbox/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T21:10:25.457Z",
-      "active": true
-    },
-    {
-      "id": "v-box-474fac",
-      "name": "V box",
-      "url": "https://www.tcg-outlet.nl/product-category/v-box-2/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T21:10:46.951Z",
-      "active": true
-    },
-    {
-      "id": "elite-trainer-boxes-47c6f8",
-      "name": "Elite Trainer Boxes",
-      "url": "https://www.tcg-outlet.nl/product-category/elite-trainer-boxes/",
-      "type": "category",
-      "notify_on_new": false,
-      "selector": null,
-      "added_at": "2026-05-18T21:10:55.014Z",
-      "active": true
+      "active": false
     }
   ]
 }
