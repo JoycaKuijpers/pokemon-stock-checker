@@ -127,7 +127,7 @@ def fetch_page(url: str) -> Optional[str]:
 # ── Product state tracking ────────────────────────────────────────────────────
 
 def process_product(prod_state: dict, key: str, name: str, url: str, available: bool,
-                    notify_on_new: bool = False) -> Optional[dict]:
+                    notify_on_new: bool = False, image: str = "", price: str = "") -> Optional[dict]:
     """
     Update state for one product. Returns a notification dict when:
     - Product transitions from out-of-stock → in-stock, OR
@@ -144,7 +144,7 @@ def process_product(prod_state: dict, key: str, name: str, url: str, available: 
         came_back = prev_status is False
         if (came_back or (is_new and notify_on_new)) and cooldown_passed(entry.get("last_notified")):
             entry["last_notified"] = datetime.now(timezone.utc).isoformat()
-            return {"name": name, "url": url}
+            return {"name": name, "url": url, "image": image, "price": price}
     else:
         entry.pop("last_notified", None)
 
@@ -313,7 +313,10 @@ def check_shopify_category(store: dict, state: dict) -> tuple[list[dict], bool]:
         available = any(v.get("available", False) for v in p.get("variants", []))
         name = normalize_name(p["title"])
         prod_url = f"https://{domain}/products/{p['handle']}"
-        notif = process_product(prod_state, p["handle"], name, prod_url, available, notify_on_new)
+        image = (p.get("images") or [{}])[0].get("src", "")
+        raw_price = (p.get("variants") or [{}])[0].get("price", "")
+        price = f"€ {raw_price}" if raw_price else ""
+        notif = process_product(prod_state, p["handle"], name, prod_url, available, notify_on_new, image, price)
         if notif:
             notifications.append(notif)
 
@@ -378,7 +381,12 @@ def parse_woocommerce_cards(soup: BeautifulSoup) -> list[dict]:
         if not name:
             continue
 
-        results.append({"name": name, "url": prod_url, "available": available})
+        img = card.select_one("img")
+        image = img.get("src") or img.get("data-src") or img.get("data-lazy-src", "") if img else ""
+        price_el = card.select_one(".price .woocommerce-Price-amount, .price")
+        price = price_el.get_text(strip=True) if price_el else ""
+
+        results.append({"name": name, "url": prod_url, "available": available, "image": image, "price": price})
     return results
 
 
@@ -431,7 +439,11 @@ def parse_woocommerce_block_cards(soup: BeautifulSoup) -> list[dict]:
         available = _card_stock_from_button_or_text(card)
         if available is None:
             continue
-        results.append({"name": name, "url": prod_url, "available": available})
+        img = card.select_one("img")
+        image = img.get("src") or img.get("data-src") or img.get("data-lazy-src", "") if img else ""
+        price_el = card.select_one(".wc-block-grid__product-price, .price")
+        price = price_el.get_text(strip=True) if price_el else ""
+        results.append({"name": name, "url": prod_url, "available": available, "image": image, "price": price})
     return results
 
 
@@ -478,7 +490,11 @@ def parse_magento_cards(soup: BeautifulSoup) -> list[dict]:
                 available = _card_stock_from_button_or_text(card)
                 if available is None:
                     continue
-        results.append({"name": name, "url": prod_url, "available": available})
+        img = card.select_one("img.product-image-photo, img")
+        image = img.get("src") or img.get("data-src", "") if img else ""
+        price_el = card.select_one(".price-wrapper .price, .special-price .price, .price")
+        price = price_el.get_text(strip=True) if price_el else ""
+        results.append({"name": name, "url": prod_url, "available": available, "image": image, "price": price})
     return results
 
 
@@ -533,7 +549,11 @@ def parse_shopware_cards(soup: BeautifulSoup) -> list[dict]:
             available = _card_stock_from_button_or_text(card)
             if available is None:
                 continue
-        results.append({"name": name, "url": prod_url, "available": available})
+        img = card.select_one("img.product-image, img")
+        image = img.get("src") or img.get("data-src", "") if img else ""
+        price_el = card.select_one(".product-price, .price-unit-reference")
+        price = price_el.get_text(strip=True) if price_el else ""
+        results.append({"name": name, "url": prod_url, "available": available, "image": image, "price": price})
     return results
 
 
@@ -575,7 +595,8 @@ def _apply_category_state(store: dict, state: dict, all_products: list[dict]) ->
     notifications = []
     for p in all_products:
         key = urlparse(p["url"]).path.strip("/").replace("/", "-")
-        notif = process_product(prod_state, key, p["name"], p["url"], p["available"], notify_on_new)
+        notif = process_product(prod_state, key, p["name"], p["url"], p["available"], notify_on_new,
+                                p.get("image", ""), p.get("price", ""))
         if notif:
             notifications.append(notif)
     in_stock = sum(1 for e in prod_state.values() if e.get("in_stock"))
@@ -651,13 +672,32 @@ def send_telegram_admin(message: str) -> bool:
     return _send_telegram_to(TELEGRAM_ADMIN_CHAT_ID, message)
 
 
-def build_notification(name: str, url: str) -> str:
+def build_notification(name: str, url: str, price: str = "") -> str:
+    price_line = f"\n💰 <b>{price}</b>" if price else ""
     return (
         f"🟢 <b>OP VOORRAAD!</b>\n\n"
-        f"🎮 <b>{name}</b>\n"
+        f"🎮 <b>{name}</b>{price_line}\n"
         f"🛒 <a href=\"{url}\">{url}</a>\n\n"
         f"⚡ Wees er snel bij!"
     )
+
+
+def send_telegram_photo(image_url: str, caption: str) -> bool:
+    """Stuur een voorraadmelding met productfoto naar de community chat."""
+    if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
+        return False
+    try:
+        resp = requests.post(
+            f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendPhoto",
+            json={"chat_id": TELEGRAM_CHAT_ID, "photo": image_url,
+                  "caption": caption, "parse_mode": "HTML"},
+            timeout=10,
+        )
+        resp.raise_for_status()
+        return True
+    except requests.RequestException as e:
+        print(f"  [WARN] sendPhoto mislukt, fallback naar tekst: {e}", file=sys.stderr)
+        return False
 
 
 # ── Error tracking ────────────────────────────────────────────────────────────
@@ -707,7 +747,12 @@ def check_single_store(store: dict, state: dict, shopify_cache: dict) -> None:
         if alert:
             send_telegram_admin(alert)
         for notif in notifications:
-            sent = send_telegram(build_notification(notif["name"], notif["url"]))
+            msg = build_notification(notif["name"], notif["url"], notif.get("price", ""))
+            image = notif.get("image", "")
+            if image:
+                sent = send_telegram_photo(image, msg) or send_telegram(msg)
+            else:
+                sent = send_telegram(msg)
             if sent:
                 print(f"  [OK] Melding verstuurd: {notif['name']}")
         time.sleep(1)
