@@ -45,15 +45,14 @@ HEADERS = {
         "Chrome/124.0.0.0 Safari/537.36"
     ),
     "Accept-Language": "nl-NL,nl;q=0.9,en;q=0.8",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
-    "Accept-Encoding": "gzip, deflate, br",
-    "Cache-Control": "no-cache",
-    "Pragma": "no-cache",
-    "Sec-Fetch-Dest": "document",
-    "Sec-Fetch-Mode": "navigate",
-    "Sec-Fetch-Site": "none",
-    "Sec-Fetch-User": "?1",
-    "Upgrade-Insecure-Requests": "1",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+}
+
+# Aparte headers voor JSON API calls (Shopify) — geen browser-navigatie-indicatoren
+API_HEADERS = {
+    "User-Agent": HEADERS["User-Agent"],
+    "Accept": "application/json, */*;q=0.8",
+    "Accept-Language": "nl-NL,nl;q=0.9,en;q=0.8",
 }
 
 OUT_OF_STOCK_PATTERNS = [
@@ -168,7 +167,7 @@ def fetch_shopify_collection(domain: str, collection_handle: str) -> list[dict]:
             resp = _get_with_retry(
                 f"https://{domain}/collections/{collection_handle}/products.json",
                 params={"limit": 250, "page": page},
-                headers=HEADERS,
+                headers=API_HEADERS,
                 timeout=(5, 15),
             )
             batch = resp.json().get("products", [])
@@ -179,7 +178,7 @@ def fetch_shopify_collection(domain: str, collection_handle: str) -> list[dict]:
                 break
             page += 1
             time.sleep(0.3)
-        except requests.RequestException:
+        except (requests.RequestException, ValueError):
             break
     return products
 
@@ -194,7 +193,7 @@ def fetch_shopify_bulk(domain: str, handles: set) -> dict[str, bool]:
             resp = _get_with_retry(
                 f"https://{domain}/products.json",
                 params={"limit": 250, "page": page},
-                headers=HEADERS,
+                headers=API_HEADERS,
                 timeout=(5, 15),
             )
             products = resp.json().get("products", [])
@@ -209,7 +208,7 @@ def fetch_shopify_bulk(domain: str, handles: set) -> dict[str, bool]:
                 break
             page += 1
             time.sleep(0.5)
-        except requests.RequestException:
+        except (requests.RequestException, ValueError):
             break
     return result
 
