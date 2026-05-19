@@ -12,6 +12,7 @@ import re
 import sys
 import time
 from collections import defaultdict
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from typing import Optional
@@ -35,6 +36,7 @@ NOTIFY_COOLDOWN_HOURS = 2
 RETRY_ATTEMPTS = 3
 RETRY_BACKOFF_BASE = 2  # seconden; wachttijd verdubbelt per poging
 ERROR_ALERT_THRESHOLD = 3  # Telegram-alert na dit aantal opeenvolgende mislukte checks
+MAX_WORKERS = 10  # Aantal stores dat tegelijk gecheckt wordt
 
 HEADERS = {
     "User-Agent": (
@@ -87,18 +89,22 @@ def cooldown_passed(last_notified: Optional[str]) -> bool:
 
 
 def _get_with_retry(url: str, **kwargs) -> requests.Response:
-    """GET met exponential backoff. Gooit de laatste uitzondering als alle pogingen mislukken."""
+    """GET met exponential backoff. Herprobeert alleen bij verbindingsfouten en 5xx-responses."""
     last_exc: Exception = RuntimeError("no attempts made")
     for attempt in range(RETRY_ATTEMPTS):
         try:
             resp = requests.get(url, **kwargs)
-            resp.raise_for_status()
-            return resp
-        except requests.RequestException as e:
+            if resp.ok or resp.status_code < 500:
+                # 2xx = succes; 4xx = client-fout, geen zin om te herproberen
+                resp.raise_for_status()
+                return resp
+            # 5xx = serverfout, wel herproberen
+            last_exc = requests.HTTPError(f"Server error {resp.status_code}", response=resp)
+        except (requests.ConnectionError, requests.Timeout) as e:
             last_exc = e
-            if attempt < RETRY_ATTEMPTS - 1:
-                wait = RETRY_BACKOFF_BASE ** attempt + random.uniform(0, 1)
-                time.sleep(wait)
+        if attempt < RETRY_ATTEMPTS - 1:
+            wait = RETRY_BACKOFF_BASE ** attempt + random.uniform(0, 1)
+            time.sleep(wait)
     raise last_exc
 
 
@@ -496,6 +502,76 @@ def stock_state_hash(state: dict) -> str:
     return hashlib.md5(canonical.encode()).hexdigest()
 
 
+# ── Per-store worker ──────────────────────────────────────────────────────────
+
+def check_single_store(store: dict, state: dict, shopify_cache: dict) -> None:
+    """Verwerk één store: check voorraad, update state, stuur Telegram-meldingen."""
+    store_type = store.get("type", "product")
+    store_id = store["id"]
+    print(f"-> {store['name']} [{store_type}]")
+
+    if store_type == "category":
+        notifications, success = check_category(store, state)
+        alert = update_store_errors(store_id, state, success)
+        if alert:
+            send_telegram_admin(alert)
+        for notif in notifications:
+            sent = send_telegram(build_notification(notif["name"], notif["url"]))
+            if sent:
+                print(f"  [OK] Melding verstuurd: {notif['name']}")
+        time.sleep(1)
+        return
+
+    # Individual product mode
+    url = store["url"]
+    selector = store.get("selector")
+
+    handle = shopify_handle(url)
+    if handle:
+        domain = urlparse(url).netloc
+        cache_key = f"{domain}/{handle}"
+        if cache_key not in shopify_cache:
+            print("  [?] Niet gevonden in Shopify catalog")
+            update_store_errors(store_id, state, success=False)
+            return
+        status = shopify_cache[cache_key]
+    else:
+        html = fetch_page(url)
+        if html is None:
+            alert = update_store_errors(store_id, state, success=False)
+            if alert:
+                send_telegram_admin(alert)
+            return
+        status = is_in_stock_html(url, html, selector)
+        time.sleep(1)
+
+    if status is None:
+        print("  [?] Status onbekend")
+        alert = update_store_errors(store_id, state, success=False)
+        if alert:
+            send_telegram_admin(alert)
+        return
+
+    update_store_errors(store_id, state, success=True)
+
+    prev = state.setdefault(store_id, {})
+    prev_status = prev.get("in_stock")
+    prev["in_stock"] = status
+    prev["last_checked"] = now_utc()
+
+    if status:
+        print("  [+] OP VOORRAAD")
+        if prev_status is False and cooldown_passed(prev.get("last_notified")):
+            sent = send_telegram(build_notification(store["name"], url))
+            if sent:
+                prev["last_notified"] = datetime.now(timezone.utc).isoformat()
+                print("  [OK] Telegram melding verstuurd")
+    else:
+        print("  [-] Niet op voorraad")
+        if prev_status is True:
+            prev.pop("last_notified", None)
+
+
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 def main() -> int:
@@ -504,7 +580,8 @@ def main() -> int:
     stores = stores_data.get("stores", [])
     active_stores = [s for s in stores if s.get("active", True)]
 
-    print(f"Checking {len(active_stores)} entr{'y' if len(active_stores) == 1 else 'ies'}...\n")
+    print(f"Checking {len(active_stores)} entr{'y' if len(active_stores) == 1 else 'ies'} "
+          f"met {MAX_WORKERS} parallelle workers...\n")
 
     initial_hash = stock_state_hash(state)
 
@@ -524,74 +601,19 @@ def main() -> int:
         availability = fetch_shopify_bulk(domain, handles)
         for handle, available in availability.items():
             shopify_cache[f"{domain}/{handle}"] = available
-        print(f"  → {len(availability)} gevonden, {len(handles) - len(availability)} niet gevonden\n")
+        print(f"  -> {len(availability)} gevonden, {len(handles) - len(availability)} niet gevonden\n")
 
-    for store in active_stores:
-        store_type = store.get("type", "product")
-        store_id = store["id"]
-        print(f"→ {store['name']} [{store_type}]")
-
-        if store_type == "category":
-            notifications, success = check_category(store, state)
-            alert = update_store_errors(store_id, state, success)
-            if alert:
-                send_telegram_admin(alert)
-            for notif in notifications:
-                sent = send_telegram(build_notification(notif["name"], notif["url"]))
-                if sent:
-                    print(f"  [✓] Melding verstuurd: {notif['name']}")
-            time.sleep(1)
-
-        else:
-            # Individual product mode (backward compatible)
-            url = store["url"]
-            selector = store.get("selector")
-
-            handle = shopify_handle(url)
-            if handle:
-                domain = urlparse(url).netloc
-                cache_key = f"{domain}/{handle}"
-                if cache_key not in shopify_cache:
-                    print("  [?] Niet gevonden in Shopify catalog")
-                    update_store_errors(store_id, state, success=False)
-                    continue
-                status = shopify_cache[cache_key]
-            else:
-                html = fetch_page(url)
-                if html is None:
-                    alert = update_store_errors(store_id, state, success=False)
-                    if alert:
-                        send_telegram_admin(alert)
-                    continue
-                status = is_in_stock_html(url, html, selector)
-                time.sleep(1)
-
-            if status is None:
-                print("  [?] Status onbekend")
-                alert = update_store_errors(store_id, state, success=False)
-                if alert:
-                    send_telegram(alert)
-                continue
-
-            update_store_errors(store_id, state, success=True)
-
-            prev = state.setdefault(store_id, {})
-            prev_status = prev.get("in_stock")
-            prev["in_stock"] = status
-            prev["last_checked"] = now_utc()
-
-            if status:
-                print("  [✓] OP VOORRAAD")
-                # Only notify on False → True (not on first sight)
-                if prev_status is False and cooldown_passed(prev.get("last_notified")):
-                    sent = send_telegram(build_notification(store["name"], url))
-                    if sent:
-                        prev["last_notified"] = datetime.now(timezone.utc).isoformat()
-                        print("  [✓] Telegram melding verstuurd")
-            else:
-                print("  [✗] Niet op voorraad")
-                if prev_status is True:
-                    prev.pop("last_notified", None)
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        futures = {
+            executor.submit(check_single_store, store, state, shopify_cache): store
+            for store in active_stores
+        }
+        for future in as_completed(futures):
+            try:
+                future.result()
+            except Exception as e:
+                store = futures[future]
+                print(f"  [FOUT] Onverwachte fout bij {store['name']}: {e}", file=sys.stderr)
 
     if stock_state_hash(state) != initial_hash:
         save_json(STATE_FILE, state)
@@ -604,4 +626,5 @@ def main() -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
+
 
