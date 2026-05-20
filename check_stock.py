@@ -419,6 +419,62 @@ def check_woocommerce_category(store: dict, state: dict, soup: BeautifulSoup) ->
     return _apply_category_state(store, state, all_products)
 
 
+# ── WooCommerce custom loop theme (e.g. tcgcompany.nl) ───────────────────────
+
+def parse_woocommerce_loop_cards(soup: BeautifulSoup) -> list[dict]:
+    """Parse custom WooCommerce themes that wrap products in div.inner-loop-product-holder.
+    Stock is encoded as CSS classes: stock-instock / stock-one / stock-few / stock-many = available;
+    stock-other / stock-outofstock / stock-backorder = not available.
+    """
+    IN_STOCK_CLASSES = {"stock-instock", "stock-one", "stock-few", "stock-many"}
+    results = []
+    for card in soup.select("div.inner-loop-product-holder"):
+        classes = set(card.get("class", []))
+        stock_cls = classes & (IN_STOCK_CLASSES | {"stock-other", "stock-outofstock", "stock-backorder"})
+        if not stock_cls:
+            continue
+        available = bool(stock_cls & IN_STOCK_CLASSES)
+
+        link = card.select_one("a.woocommerce-loop-product__link, a.woocommerce-LoopProduct-link, a[href]")
+        if not link:
+            continue
+        prod_url = link.get("href", "")
+        if not prod_url or not prod_url.startswith("http"):
+            continue
+
+        name_el = card.select_one(".woocommerce-loop-product__title, h2, h3")
+        name = normalize_name((name_el.get_text(strip=True) if name_el else link.get_text(strip=True))[:120])
+        if not name:
+            continue
+
+        img = card.select_one("img")
+        image = (img.get("src") or img.get("data-src") or img.get("data-lazy-src", "")) if img else ""
+        price_el = card.select_one(".woocommerce-Price-amount, .price")
+        price = price_el.get_text(strip=True) if price_el else ""
+
+        results.append({"name": name, "url": prod_url, "available": available, "image": image, "price": price})
+    return results
+
+
+def check_woocommerce_loop_category(store: dict, state: dict, soup: BeautifulSoup) -> tuple[list[dict], bool]:
+    """Check a custom WooCommerce loop theme, including pagination."""
+    base_url = store["url"].rstrip("/")
+    max_page = get_woocommerce_max_page(soup)
+    all_products = parse_woocommerce_loop_cards(soup)
+    for page in range(2, max_page + 1):
+        html = fetch_page(f"{base_url}/page/{page}/")
+        if not html:
+            break
+        all_products.extend(parse_woocommerce_loop_cards(BeautifulSoup(html, "lxml")))
+        time.sleep(0.5)
+    if not all_products:
+        print("  [!] Geen custom WooCommerce loop cards gevonden")
+        return [], False
+    pages_str = f" ({max_page} pagina's)" if max_page > 1 else ""
+    print(f"  → {len(all_products)} producten gevonden{pages_str}")
+    return _apply_category_state(store, state, all_products)
+
+
 # ── WooCommerce Blocks ────────────────────────────────────────────────────────
 
 def parse_woocommerce_block_cards(soup: BeautifulSoup) -> list[dict]:
@@ -619,6 +675,9 @@ def check_category(store: dict, state: dict) -> tuple[list[dict], bool]:
         return [], False
 
     soup = BeautifulSoup(html, "lxml")
+
+    if soup.select("div.inner-loop-product-holder"):
+        return check_woocommerce_loop_category(store, state, soup)
 
     if soup.select("li.product, div.product, article.product"):
         return check_woocommerce_category(store, state, soup)
