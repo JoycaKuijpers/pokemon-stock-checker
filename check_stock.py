@@ -686,13 +686,18 @@ def fetch_page_js(url: str, wait_selector: Optional[str] = None) -> Optional[str
             )
             page = ctx.new_page()
             page.goto(url, wait_until="domcontentloaded", timeout=30_000)
+            # Wacht tot JS klaar is: no-js class verdwijnt van <html>, of max 10s
+            try:
+                page.wait_for_function("!document.documentElement.classList.contains('no-js')", timeout=10_000)
+            except PWTimeout:
+                pass
             if wait_selector:
                 try:
                     page.wait_for_selector(wait_selector, timeout=8_000)
                 except PWTimeout:
                     pass
             else:
-                page.wait_for_timeout(3_000)
+                page.wait_for_timeout(4_000)
             html = page.content()
             # DEBUG: toon paginatitel en eerste unieke class-namen voor diagnose
             soup_dbg = BeautifulSoup(html, "lxml")
@@ -701,7 +706,7 @@ def fetch_page_js(url: str, wait_selector: Optional[str] = None) -> Optional[str
                 c for tag in soup_dbg.find_all(True)
                 for c in tag.get("class", [])
                 if len(c) > 3
-            ))[:20]
+            ))[:30]
             print(f"  [DEBUG] Titel: {title!r}")
             print(f"  [DEBUG] Eerste classes: {classes}")
             browser.close()
@@ -728,13 +733,13 @@ def fetch_js_api_responses(url: str, json_keys: tuple = ("products", "items", "r
             page = ctx.new_page()
 
             def on_response(response):
-                if response.status != 200:
-                    return
                 ct = response.headers.get("content-type", "")
                 if "json" not in ct:
                     return
-                # DEBUG: log elke JSON-response
-                print(f"  [DEBUG] JSON response: {response.url[:120]} ({response.status})")
+                # DEBUG: log elke JSON-response (ook niet-200)
+                print(f"  [DEBUG] JSON response: {response.status} {response.url[:120]}")
+                if response.status != 200:
+                    return
                 try:
                     data = response.json()
                     top_keys = list(data.keys())[:10] if isinstance(data, dict) else type(data).__name__
@@ -754,7 +759,9 @@ def fetch_js_api_responses(url: str, json_keys: tuple = ("products", "items", "r
                     pass
 
             page.on("response", on_response)
-            page.goto(url, wait_until="networkidle", timeout=35_000)
+            print(f"  [DEBUG] Playwright laadt: {url[:80]}")
+            page.goto(url, wait_until="domcontentloaded", timeout=30_000)
+            page.wait_for_timeout(5_000)  # wacht op XHR-calls na initieel laden
             browser.close()
     except Exception as e:
         print(f"  [FOUT] Playwright API-onderschepping mislukt voor {url}: {e}", file=sys.stderr)
@@ -1168,3 +1175,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
+
