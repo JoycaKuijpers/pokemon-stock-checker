@@ -2411,7 +2411,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T12:25:42.327Z",
-      "active": true
+      "active": false
     },
     {
       "id": "pokemon-tcg-18fa0d",
