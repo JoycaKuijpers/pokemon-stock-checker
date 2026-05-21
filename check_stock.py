@@ -694,6 +694,16 @@ def fetch_page_js(url: str, wait_selector: Optional[str] = None) -> Optional[str
             else:
                 page.wait_for_timeout(3_000)
             html = page.content()
+            # DEBUG: toon paginatitel en eerste unieke class-namen voor diagnose
+            soup_dbg = BeautifulSoup(html, "lxml")
+            title = soup_dbg.title.string if soup_dbg.title else "(geen titel)"
+            classes = list(dict.fromkeys(
+                c for tag in soup_dbg.find_all(True)
+                for c in tag.get("class", [])
+                if len(c) > 3
+            ))[:20]
+            print(f"  [DEBUG] Titel: {title!r}")
+            print(f"  [DEBUG] Eerste classes: {classes}")
             browser.close()
         return html
     except Exception as e:
@@ -720,10 +730,15 @@ def fetch_js_api_responses(url: str, json_keys: tuple = ("products", "items", "r
             def on_response(response):
                 if response.status != 200:
                     return
-                if "json" not in response.headers.get("content-type", ""):
+                ct = response.headers.get("content-type", "")
+                if "json" not in ct:
                     return
+                # DEBUG: log elke JSON-response
+                print(f"  [DEBUG] JSON response: {response.url[:120]} ({response.status})")
                 try:
                     data = response.json()
+                    top_keys = list(data.keys())[:10] if isinstance(data, dict) else type(data).__name__
+                    print(f"  [DEBUG] Keys: {top_keys}")
                     for key in json_keys:
                         items = data.get(key)
                         if isinstance(items, list) and items:
