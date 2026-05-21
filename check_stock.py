@@ -134,6 +134,22 @@ def fetch_page(url: str) -> Optional[str]:
     try:
         resp = _get_with_retry(url, headers=get_headers(), timeout=(5, 10), allow_redirects=True)
         return resp.text
+    except requests.HTTPError as e:
+        if e.response is not None and e.response.status_code == 403:
+            # Cloudflare of andere bot-bescherming — fallback naar cloudscraper
+            print(f"  [CF] 403 ontvangen, cloudscraper proberen voor {url}...")
+            try:
+                import cloudscraper
+                scraper = cloudscraper.create_scraper(browser={"browser": "chrome", "platform": "windows"})
+                resp = scraper.get(url, timeout=15)
+                if resp.ok:
+                    return resp.text
+                print(f"  [FOUT] Cloudscraper: HTTP {resp.status_code}", file=sys.stderr)
+            except Exception as ce:
+                print(f"  [FOUT] Cloudscraper mislukt: {ce}", file=sys.stderr)
+        else:
+            print(f"  [FOUT] Kon {url} niet ophalen na {RETRY_ATTEMPTS} pogingen: {e}", file=sys.stderr)
+        return None
     except requests.RequestException as e:
         print(f"  [FOUT] Kon {url} niet ophalen na {RETRY_ATTEMPTS} pogingen: {e}", file=sys.stderr)
         return None
@@ -1137,4 +1153,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
-
