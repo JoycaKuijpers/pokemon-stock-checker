@@ -655,6 +655,200 @@ def check_shopware_category(store: dict, state: dict, soup: BeautifulSoup) -> tu
     return _apply_category_state(store, state, all_products)
 
 
+# ── Playwright (JS-rendered sites) ───────────────────────────────────────────
+
+def fetch_page_js(url: str, wait_selector: Optional[str] = None) -> Optional[str]:
+    """Laad een JS-rendered pagina met Playwright en geef de gerenderde HTML terug."""
+    try:
+        from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
+        with sync_playwright() as pw:
+            browser = pw.chromium.launch(headless=True)
+            ctx = browser.new_context(
+                user_agent=random.choice(USER_AGENTS),
+                locale="nl-NL",
+                viewport={"width": 1280, "height": 900},
+            )
+            page = ctx.new_page()
+            page.goto(url, wait_until="domcontentloaded", timeout=30_000)
+            if wait_selector:
+                try:
+                    page.wait_for_selector(wait_selector, timeout=8_000)
+                except PWTimeout:
+                    pass
+            else:
+                page.wait_for_timeout(3_000)
+            html = page.content()
+            browser.close()
+        return html
+    except Exception as e:
+        print(f"  [FOUT] Playwright kon {url} niet laden: {e}", file=sys.stderr)
+        return None
+
+
+def fetch_js_api_responses(url: str, json_keys: tuple = ("products", "items", "results")) -> list[dict]:
+    """
+    Laad een pagina met Playwright en onderschep JSON API-responses.
+    Geeft producten terug uit de eerste response die een van de opgegeven sleutels bevat.
+    """
+    captured: list[dict] = []
+    try:
+        from playwright.sync_api import sync_playwright
+        with sync_playwright() as pw:
+            browser = pw.chromium.launch(headless=True)
+            ctx = browser.new_context(
+                user_agent=random.choice(USER_AGENTS),
+                locale="nl-NL",
+            )
+            page = ctx.new_page()
+
+            def on_response(response):
+                if response.status != 200:
+                    return
+                if "json" not in response.headers.get("content-type", ""):
+                    return
+                try:
+                    data = response.json()
+                    for key in json_keys:
+                        items = data.get(key)
+                        if isinstance(items, list) and items:
+                            captured.extend(items)
+                            return
+                        # Geneste structuur (bijv. {"results": {"products": [...]}})
+                        if isinstance(data.get(key), dict):
+                            sub = data[key].get("products") or data[key].get("items")
+                            if isinstance(sub, list) and sub:
+                                captured.extend(sub)
+                                return
+                except Exception:
+                    pass
+
+            page.on("response", on_response)
+            page.goto(url, wait_until="networkidle", timeout=35_000)
+            browser.close()
+    except Exception as e:
+        print(f"  [FOUT] Playwright API-onderschepping mislukt voor {url}: {e}", file=sys.stderr)
+    return captured
+
+
+# ── Dreamland ─────────────────────────────────────────────────────────────────
+
+def parse_dreamland_api_products(products: list[dict]) -> list[dict]:
+    """Vertaal Dreamland API-producten naar ons standaardformaat."""
+    results = []
+    for p in products:
+        name = normalize_name((p.get("name") or p.get("title") or "")[:120])
+        if not name:
+            continue
+
+        url = p.get("url") or p.get("link") or p.get("slug") or ""
+        if url and not url.startswith("http"):
+            url = f"https://www.dreamland.nl{url}"
+        if not url:
+            continue
+
+        # Voorraad bepalen — diverse veldnamen proberen
+        out_of_stock = p.get("outOfStock") or p.get("out_of_stock")
+        avail_raw = p.get("available") or p.get("inStock") or p.get("availability")
+        if out_of_stock is not None:
+            available = not bool(out_of_stock)
+        elif avail_raw is not None:
+            available = (
+                bool(avail_raw) if isinstance(avail_raw, bool)
+                else str(avail_raw).lower() in ("true", "in_stock", "instock", "available", "1")
+            )
+        else:
+            continue  # Geen voorraadinfo → overslaan
+
+        image = p.get("image") or p.get("imageUrl") or p.get("img") or ""
+        if image and not image.startswith("http"):
+            image = f"https://www.dreamland.nl{image}"
+
+        price_raw = p.get("price") or p.get("priceValue") or ""
+        price = f"€ {price_raw}" if price_raw else ""
+
+        results.append({"name": name, "url": url, "available": available, "image": image, "price": price})
+    return results
+
+
+def check_dreamland_category(store: dict, state: dict) -> tuple[list[dict], bool]:
+    """Check een Dreamland categorie/zoekpagina via Playwright API-onderschepping."""
+    print("  [JS] Dreamland — Playwright API-onderschepping...")
+    raw = fetch_js_api_responses(store["url"])
+    if not raw:
+        print("  [!] Geen producten onderschept via Dreamland API")
+        return [], False
+
+    all_products = parse_dreamland_api_products(raw)
+    if not all_products:
+        print("  [!] Geen parseerbare producten in Dreamland API-response")
+        return [], False
+
+    print(f"  → {len(all_products)} producten gevonden via API-onderschepping")
+    return _apply_category_state(store, state, all_products)
+
+
+# ── Lobbes ────────────────────────────────────────────────────────────────────
+
+def parse_lobbes_cards(soup: BeautifulSoup) -> list[dict]:
+    """Parse Lobbes.nl productkaarten na JS-rendering."""
+    results = []
+    selectors = [
+        "[class*='product-card']", "[class*='productcard']",
+        "[class*='product-item']", "[class*='product_item']",
+        "[class*='product-tile']", "[class*='producttile']",
+        "article[class]",
+    ]
+    cards = []
+    for sel in selectors:
+        cards = soup.select(sel)
+        if cards:
+            break
+
+    for card in cards:
+        link = card.find("a", href=True)
+        if not link:
+            continue
+        prod_url = link.get("href", "")
+        if not prod_url:
+            continue
+        if not prod_url.startswith("http"):
+            prod_url = f"https://www.lobbes.nl{prod_url}"
+
+        name_el = card.select_one("h2, h3, [class*='title'], [class*='name']")
+        name = normalize_name((name_el.get_text(strip=True) if name_el else link.get_text(strip=True))[:120])
+        if not name:
+            continue
+
+        available = _card_stock_from_button_or_text(card)
+        if available is None:
+            available = True  # Geen duidelijke indicator → aannemen dat het beschikbaar is
+
+        img = card.select_one("img")
+        image = (img.get("src") or img.get("data-src") or img.get("data-lazy-src", "")) if img else ""
+        price_el = card.select_one("[class*='price']")
+        price = price_el.get_text(strip=True) if price_el else ""
+
+        results.append({"name": name, "url": prod_url, "available": available, "image": image, "price": price})
+    return results
+
+
+def check_lobbes_category(store: dict, state: dict) -> tuple[list[dict], bool]:
+    """Check een Lobbes.nl categoriepagina via Playwright."""
+    print("  [JS] Lobbes — Playwright rendering...")
+    html = fetch_page_js(store["url"], wait_selector="[class*='product']")
+    if not html:
+        return [], False
+
+    soup = BeautifulSoup(html, "lxml")
+    all_products = parse_lobbes_cards(soup)
+    if not all_products:
+        print("  [!] Geen Lobbes productkaarten gevonden na JS-rendering")
+        return [], False
+
+    print(f"  → {len(all_products)} producten gevonden")
+    return _apply_category_state(store, state, all_products)
+
+
 # ── Shared state helper ───────────────────────────────────────────────────────
 
 def _apply_category_state(store: dict, state: dict, all_products: list[dict]) -> tuple[list[dict], bool]:
@@ -680,6 +874,13 @@ def _apply_category_state(store: dict, state: dict, all_products: list[dict]) ->
 def check_category(store: dict, state: dict) -> tuple[list[dict], bool]:
     """Auto-detect platform and check the category page."""
     url = store["url"]
+    domain = urlparse(url).netloc
+
+    # JS-rendered sites — vaste domein-detectie, altijd via Playwright
+    if "dreamland.nl" in domain:
+        return check_dreamland_category(store, state)
+    if "lobbes.nl" in domain:
+        return check_lobbes_category(store, state)
 
     # Shopify: URL contains /collections/<handle>
     if re.search(r"/collections/[^/?#]+", url):
@@ -936,3 +1137,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
+
