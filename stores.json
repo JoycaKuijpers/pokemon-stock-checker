@@ -971,7 +971,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T11:35:13.587Z",
-      "active": false
+      "active": true
     },
     {
       "id": "pokemon-boosterpack-3f9105",
@@ -1491,7 +1491,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T11:43:20.037Z",
-      "active": false
+      "active": true
     },
     {
       "id": "boosters-c177952768-1dff17",
@@ -1501,7 +1501,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T11:43:23.544Z",
-      "active": false
+      "active": true
     },
     {
       "id": "elite-trainer-boxes-c177952764-46e238",
@@ -1511,7 +1511,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T11:43:26.963Z",
-      "active": false
+      "active": true
     },
     {
       "id": "collection-boxes-c177953269-14c8bd",
@@ -1521,7 +1521,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T11:43:31.847Z",
-      "active": false
+      "active": true
     },
     {
       "id": "blisters-c177953271-1bafe5",
@@ -1531,7 +1531,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T11:43:35.481Z",
-      "active": false
+      "active": true
     },
     {
       "id": "tins-c177952766-bec751",
@@ -1541,7 +1541,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T11:43:38.837Z",
-      "active": false
+      "active": true
     },
     {
       "id": "pre-orders-c177952763-16419c",
@@ -1551,7 +1551,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T11:43:43.665Z",
-      "active": false
+      "active": true
     },
     {
       "id": "pokemon-blister-kopen-ruim-ass-211a5e",
@@ -1561,7 +1561,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T11:43:57.400Z",
-      "active": false
+      "active": true
     },
     {
       "id": "pokemon-tcg-booster-bundels-3002d4",
@@ -1571,7 +1571,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T11:44:01.508Z",
-      "active": false
+      "active": true
     },
     {
       "id": "sealed-booster-box-kopen-nu-bi-4fea5c",
@@ -1581,7 +1581,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T11:44:08.756Z",
-      "active": false
+      "active": true
     },
     {
       "id": "ok-mon-booster-packs-kopen-all-185197",
@@ -1591,7 +1591,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T11:44:14.201Z",
-      "active": false
+      "active": true
     },
     {
       "id": "exclusieve-tcg-sets-bundels-ko-1046c2",
@@ -1601,7 +1601,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T11:44:19.888Z",
-      "active": false
+      "active": true
     },
     {
       "id": "pokemon-elite-trainer-box-kope-31c851",
@@ -1611,7 +1611,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T11:44:28.953Z",
-      "active": false
+      "active": true
     },
     {
       "id": "speciale-boxen-131e89",
@@ -1621,7 +1621,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T11:44:34.319Z",
-      "active": false
+      "active": true
     },
     {
       "id": "pokemon-kaarten-kopen--b73102",
@@ -2421,7 +2421,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T12:26:15.444Z",
-      "active": false
+      "active": true
     },
     {
       "id": "we-respecteren-uw-privacy--19c02a",
@@ -2441,7 +2441,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T12:31:49.599Z",
-      "active": false
+      "active": true
     },
     {
       "id": "trading-card-games-33ce95",
@@ -2461,7 +2461,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T12:32:59.362Z",
-      "active": false
+      "active": true
     },
     {
       "id": "pokemon-b9992f",
@@ -2579,7 +2579,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T12:42:37.982Z",
-      "active": false
+      "active": true
     },
     {
       "id": "pokemon-kaarten-3dea1a",
@@ -2589,7 +2589,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T12:42:41.783Z",
-      "active": false
+      "active": true
     },
     {
       "id": "pokemon-kaarten-8b4906",
@@ -2609,7 +2609,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T12:42:50.445Z",
-      "active": false
+      "active": true
     },
     {
       "id": "pokemon-kaarten-421055",
@@ -2619,7 +2619,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T12:43:02.038Z",
-      "active": false
+      "active": true
     },
     {
       "id": "zoeken-html-244ac8",
@@ -2629,7 +2629,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T12:43:25.479Z",
-      "active": false
+      "active": true
     },
     {
       "id": "1000401-d5e7e2",
@@ -2639,7 +2639,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T12:43:50.033Z",
-      "active": false
+      "active": true
     },
     {
       "id": "1000402-1d04c4",
@@ -2649,7 +2649,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T12:43:55.349Z",
-      "active": false
+      "active": true
     },
     {
       "id": "1000403-828431",
@@ -2659,7 +2659,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T12:44:00.152Z",
-      "active": false
+      "active": true
     },
     {
       "id": "1000404-16d165",
@@ -2669,7 +2669,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T12:44:03.869Z",
-      "active": false
+      "active": true
     },
     {
       "id": "our-bounty-hunters-have-search-10ca01",
@@ -2679,7 +2679,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T12:51:49.532Z",
-      "active": false
+      "active": true
     },
     {
       "id": "1000406-1c46f0",
@@ -2689,7 +2689,7 @@
       "notify_on_new": false,
       "selector": null,
       "added_at": "2026-05-14T13:00:56.895Z",
-      "active": false
+      "active": true
     }
   ]
 }
