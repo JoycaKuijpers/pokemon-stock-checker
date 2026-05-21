@@ -761,7 +761,23 @@ def fetch_js_api_responses(url: str, json_keys: tuple = ("products", "items", "r
             page.on("response", on_response)
             print(f"  [DEBUG] Playwright laadt: {url[:80]}")
             page.goto(url, wait_until="domcontentloaded", timeout=30_000)
-            page.wait_for_timeout(5_000)  # wacht op XHR-calls na initieel laden
+
+            # Cookie-consent wall wegklikken (Dreamland toont GDPR-wall voor eerste bezoek)
+            for selector in [
+                "button[id*='accept']", "button[class*='accept']",
+                "button[id*='agree']",  "button[class*='agree']",
+                "button[id*='consent']","button[class*='consent']",
+                "#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll",
+                ".js-cookie-accept", ".cookie-accept", "[data-testid='cookie-accept']",
+            ]:
+                try:
+                    page.click(selector, timeout=2_000)
+                    print(f"  [DEBUG] Cookie-wall geklikt: {selector}")
+                    break
+                except Exception:
+                    pass
+
+            page.wait_for_timeout(5_000)  # wacht op XHR-calls na cookie-accept
             browser.close()
     except Exception as e:
         print(f"  [FOUT] Playwright API-onderschepping mislukt voor {url}: {e}", file=sys.stderr)
