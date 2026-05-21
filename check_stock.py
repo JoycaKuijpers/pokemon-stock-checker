@@ -38,22 +38,37 @@ RETRY_BACKOFF_BASE = 2  # seconden; wachttijd verdubbelt per poging
 ERROR_ALERT_THRESHOLD = 3  # Telegram-alert na dit aantal opeenvolgende mislukte checks
 MAX_WORKERS = 10  # Aantal stores dat tegelijk gecheckt wordt
 
-HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/124.0.0.0 Safari/537.36"
-    ),
-    "Accept-Language": "nl-NL,nl;q=0.9,en;q=0.8",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-}
+USER_AGENTS = [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+]
+
+
+def get_headers() -> dict:
+    """Geeft browser-headers terug met een willekeurige User-Agent."""
+    return {
+        "User-Agent": random.choice(USER_AGENTS),
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Accept-Language": "nl-NL,nl;q=0.9,en;q=0.8",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Upgrade-Insecure-Requests": "1",
+        "Cache-Control": "no-cache",
+    }
+
 
 # Aparte headers voor JSON API calls (Shopify) — geen browser-navigatie-indicatoren
-API_HEADERS = {
-    "User-Agent": HEADERS["User-Agent"],
-    "Accept": "application/json, */*;q=0.8",
-    "Accept-Language": "nl-NL,nl;q=0.9,en;q=0.8",
-}
+def get_api_headers() -> dict:
+    """Geeft minimale headers voor JSON API calls (geen browser-navigatie-indicatoren)."""
+    return {
+        "User-Agent": random.choice(USER_AGENTS),
+        "Accept": "application/json, */*;q=0.8",
+        "Accept-Language": "nl-NL,nl;q=0.9,en;q=0.8",
+    }
 
 OUT_OF_STOCK_PATTERNS = [
     r"uitverkocht", r"niet (op |meer )?voorraad", r"niet beschikbaar",
@@ -117,7 +132,7 @@ def _get_with_retry(url: str, **kwargs) -> requests.Response:
 
 def fetch_page(url: str) -> Optional[str]:
     try:
-        resp = _get_with_retry(url, headers=HEADERS, timeout=(5, 10), allow_redirects=True)
+        resp = _get_with_retry(url, headers=get_headers(), timeout=(5, 10), allow_redirects=True)
         return resp.text
     except requests.RequestException as e:
         print(f"  [FOUT] Kon {url} niet ophalen na {RETRY_ATTEMPTS} pogingen: {e}", file=sys.stderr)
@@ -167,7 +182,7 @@ def fetch_shopify_collection(domain: str, collection_handle: str) -> list[dict]:
             resp = _get_with_retry(
                 f"https://{domain}/collections/{collection_handle}/products.json",
                 params={"limit": 250, "page": page},
-                headers=API_HEADERS,
+                headers=get_api_headers(),
                 timeout=(5, 15),
             )
             batch = resp.json().get("products", [])
@@ -193,7 +208,7 @@ def fetch_shopify_bulk(domain: str, handles: set) -> dict[str, bool]:
             resp = _get_with_retry(
                 f"https://{domain}/products.json",
                 params={"limit": 250, "page": page},
-                headers=API_HEADERS,
+                headers=get_api_headers(),
                 timeout=(5, 15),
             )
             products = resp.json().get("products", [])
@@ -921,4 +936,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
-
