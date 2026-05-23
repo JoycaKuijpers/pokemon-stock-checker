@@ -2860,6 +2860,16 @@
       "selector": null,
       "added_at": "2026-05-23T20:40:06.244Z",
       "active": true
+    },
+    {
+      "id": "tins-meer-tcg-masters-212371",
+      "name": "Tins & Meer ► TCG Masters",
+      "url": "https://tcgmasters.nl/tins-meer/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-23T20:40:32.535Z",
+      "active": true
     }
   ]
 }
