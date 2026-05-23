@@ -3230,6 +3230,16 @@
       "selector": null,
       "added_at": "2026-05-23T20:59:47.665Z",
       "active": true
+    },
+    {
+      "id": "pokemon-producten-183b26",
+      "name": "Pokemon-producten",
+      "url": "https://www.cardmastershop.nl/pokemon-producten",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-23T21:00:59.035Z",
+      "active": true
     }
   ]
 }
