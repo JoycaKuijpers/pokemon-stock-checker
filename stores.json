@@ -2750,6 +2750,16 @@
       "selector": null,
       "added_at": "2026-05-23T20:36:24.078Z",
       "active": true
+    },
+    {
+      "id": "elite-trainer-box-1481da",
+      "name": "Elite Trainer Box",
+      "url": "https://pocketgames.nl/collections/trainer-boxen-pokemon",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-23T20:37:34.761Z",
+      "active": true
     }
   ]
 }
