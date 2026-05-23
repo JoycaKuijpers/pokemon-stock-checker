@@ -2990,6 +2990,16 @@
       "selector": null,
       "added_at": "2026-05-23T20:48:28.148Z",
       "active": true
+    },
+    {
+      "id": "tins-chests-14309a",
+      "name": "Tins & Chests",
+      "url": "https://bkcards.nl/collections/tins-chests",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-23T20:48:41.837Z",
+      "active": true
     }
   ]
 }
