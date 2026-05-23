@@ -3030,6 +3030,16 @@
       "selector": null,
       "added_at": "2026-05-23T20:49:28.799Z",
       "active": true
+    },
+    {
+      "id": "chaos-rising-2fe0e3",
+      "name": "Chaos Rising",
+      "url": "https://ilovepokemon.nl/product-category/trading-cards/pokemon-losse-kaarten/chaos-rising/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-23T20:49:48.789Z",
+      "active": true
     }
   ]
 }
