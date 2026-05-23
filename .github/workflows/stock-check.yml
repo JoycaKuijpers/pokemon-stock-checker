@@ -70,5 +70,6 @@ jobs:
             echo "Geen state wijzigingen."
           else
             git commit -m "chore: update stock state [skip ci]"
+            git pull --rebase origin main
             git push
           fi
