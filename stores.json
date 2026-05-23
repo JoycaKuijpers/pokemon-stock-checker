@@ -2900,6 +2900,16 @@
       "selector": null,
       "added_at": "2026-05-23T20:42:51.347Z",
       "active": true
+    },
+    {
+      "id": "booster-packs-archieven-72f02d",
+      "name": "Booster Packs Archieven",
+      "url": "https://tcguniverse.nl/product-categorie/booster-packs/",
+      "type": "category",
+      "notify_on_new": true,
+      "selector": null,
+      "added_at": "2026-05-23T20:43:17.303Z",
+      "active": true
     }
   ]
 }
