@@ -2850,6 +2850,16 @@
       "selector": null,
       "added_at": "2026-05-23T20:39:58.747Z",
       "active": true
+    },
+    {
+      "id": "checklanes-tcg-masters-896eeb",
+      "name": "Checklanes ► TCG Masters",
+      "url": "https://tcgmasters.nl/checklanes/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-23T20:40:06.244Z",
+      "active": true
     }
   ]
 }
