@@ -2760,6 +2760,16 @@
       "selector": null,
       "added_at": "2026-05-23T20:37:34.761Z",
       "active": true
+    },
+    {
+      "id": "booster-box-94eb60",
+      "name": "Booster Box",
+      "url": "https://pocketgames.nl/collections/booster-boxen",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-23T20:37:43.405Z",
+      "active": true
     }
   ]
 }
