@@ -3240,6 +3240,16 @@
       "selector": null,
       "added_at": "2026-05-23T21:00:59.035Z",
       "active": true
+    },
+    {
+      "id": "alle-producten-6fdcd4",
+      "name": "alle-producten",
+      "url": "https://packpop.nl/alle-producten/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-23T21:01:27.194Z",
+      "active": true
     }
   ]
 }
