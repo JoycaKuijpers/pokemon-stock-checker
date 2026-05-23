@@ -2880,6 +2880,16 @@
       "selector": null,
       "added_at": "2026-05-23T20:41:33.652Z",
       "active": true
+    },
+    {
+      "id": "elite-trainer-boxes-archieven-b11bcc",
+      "name": "Elite Trainer Boxes Archieven",
+      "url": "https://tcguniverse.nl/product-categorie/elite-trainer-boxes/",
+      "type": "category",
+      "notify_on_new": true,
+      "selector": null,
+      "added_at": "2026-05-23T20:42:43.820Z",
+      "active": true
     }
   ]
 }
