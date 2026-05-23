@@ -3210,6 +3210,16 @@
       "selector": null,
       "added_at": "2026-05-23T20:59:26.007Z",
       "active": true
+    },
+    {
+      "id": "pokemon-boxen-172478",
+      "name": "Pokemon Boxen",
+      "url": "https://ottencards.nl/collections/boxen",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-23T20:59:30.951Z",
+      "active": true
     }
   ]
 }
