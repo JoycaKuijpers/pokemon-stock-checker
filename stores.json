@@ -3180,6 +3180,16 @@
       "selector": null,
       "added_at": "2026-05-23T20:58:30.297Z",
       "active": true
+    },
+    {
+      "id": "pokemon-1c9d44",
+      "name": "Pokemon",
+      "url": "https://www.playingcardshop.eu/trading-cards/pokemon.html",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-23T20:58:58.723Z",
+      "active": true
     }
   ]
 }
