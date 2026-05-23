@@ -2830,6 +2830,16 @@
       "selector": null,
       "added_at": "2026-05-23T20:39:28.752Z",
       "active": true
+    },
+    {
+      "id": "booster-packs-tcg-masters-e1d265",
+      "name": "Booster Packs ► TCG Masters",
+      "url": "https://tcgmasters.nl/booster-packs/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-23T20:39:45.397Z",
+      "active": true
     }
   ]
 }
