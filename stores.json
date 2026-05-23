@@ -2930,6 +2930,16 @@
       "selector": null,
       "added_at": "2026-05-23T20:43:34.099Z",
       "active": true
+    },
+    {
+      "id": "tot-50-korting-op-pokemon-tcg--14a06e",
+      "name": "Tot 50% Korting op Pokemon TCG Artikelen",
+      "url": "https://www.kortingopspeelgoed.nl/pokemon/pokemon-tcg",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-23T20:44:12.787Z",
+      "active": true
     }
   ]
 }
