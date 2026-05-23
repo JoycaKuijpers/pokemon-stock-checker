@@ -3220,6 +3220,16 @@
       "selector": null,
       "added_at": "2026-05-23T20:59:30.951Z",
       "active": true
+    },
+    {
+      "id": "pokemon-tins-12dd49",
+      "name": "Pokemon Tins",
+      "url": "https://ottencards.nl/collections/tins",
+      "type": "category",
+      "notify_on_new": true,
+      "selector": null,
+      "added_at": "2026-05-23T20:59:47.665Z",
+      "active": true
     }
   ]
 }
