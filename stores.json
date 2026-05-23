@@ -3100,6 +3100,16 @@
       "selector": null,
       "added_at": "2026-05-23T20:52:38.226Z",
       "active": true
+    },
+    {
+      "id": "pokemon-tcg-elite-trainer-box--2e3360",
+      "name": "Pokemon TCG Elite Trainer Box kopen? (ETB)",
+      "url": "https://card-binder.com/nl/collections/pokemon-tcg-elite-trainer-boxes-etb",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-23T20:52:49.506Z",
+      "active": true
     }
   ]
 }
