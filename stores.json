@@ -3020,6 +3020,16 @@
       "selector": null,
       "added_at": "2026-05-23T20:49:18.350Z",
       "active": true
+    },
+    {
+      "id": "boxen-16566a",
+      "name": "Boxen",
+      "url": "https://ilovepokemon.nl/product-category/trading-cards/pokemon/boxen-decks/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-23T20:49:28.799Z",
+      "active": true
     }
   ]
 }
