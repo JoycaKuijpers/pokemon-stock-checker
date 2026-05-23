@@ -2810,6 +2810,16 @@
       "selector": null,
       "added_at": "2026-05-23T20:39:03.540Z",
       "active": true
+    },
+    {
+      "id": "elite-trainer-boxen-tcg-master-116217",
+      "name": "Elite Trainer Boxen ► TCG Masters",
+      "url": "https://tcgmasters.nl/elite-trainer-boxen/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-23T20:39:23.696Z",
+      "active": true
     }
   ]
 }
