@@ -2770,6 +2770,16 @@
       "selector": null,
       "added_at": "2026-05-23T20:37:43.405Z",
       "active": true
+    },
+    {
+      "id": "booster-bundle-f7cf42",
+      "name": "Booster Bundle",
+      "url": "https://pocketgames.nl/collections/booster-bundle",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-23T20:37:50.329Z",
+      "active": true
     }
   ]
 }
