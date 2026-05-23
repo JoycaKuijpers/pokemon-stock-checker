@@ -3010,6 +3010,16 @@
       "selector": null,
       "added_at": "2026-05-23T20:48:50.642Z",
       "active": true
+    },
+    {
+      "id": "booster-packs-6cc5e3",
+      "name": "Booster Packs",
+      "url": "https://ilovepokemon.nl/product-category/trading-cards/pokemon/booster-packs/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-23T20:49:18.350Z",
+      "active": true
     }
   ]
 }
