@@ -3200,6 +3200,16 @@
       "selector": null,
       "added_at": "2026-05-23T20:59:19.468Z",
       "active": true
+    },
+    {
+      "id": "pokemon-blisters-e7464f",
+      "name": "Pokemon Blisters",
+      "url": "https://ottencards.nl/collections/blisters",
+      "type": "category",
+      "notify_on_new": true,
+      "selector": null,
+      "added_at": "2026-05-23T20:59:26.007Z",
+      "active": true
     }
   ]
 }
