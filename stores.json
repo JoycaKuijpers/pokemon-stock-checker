@@ -3130,6 +3130,16 @@
       "selector": null,
       "added_at": "2026-05-23T20:53:05.656Z",
       "active": true
+    },
+    {
+      "id": "pokemon-tcg-tins-kopen--16f30e",
+      "name": "Pokemon TCG Tins kopen?",
+      "url": "https://card-binder.com/nl/collections/pokemon-tcg-tins",
+      "type": "category",
+      "notify_on_new": true,
+      "selector": null,
+      "added_at": "2026-05-23T20:53:16.019Z",
+      "active": true
     }
   ]
 }
