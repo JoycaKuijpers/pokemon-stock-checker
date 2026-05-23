@@ -2890,6 +2890,16 @@
       "selector": null,
       "added_at": "2026-05-23T20:42:43.820Z",
       "active": true
+    },
+    {
+      "id": "specials-archieven-1247b0",
+      "name": "Specials Archieven",
+      "url": "https://tcguniverse.nl/product-categorie/specials/",
+      "type": "category",
+      "notify_on_new": true,
+      "selector": null,
+      "added_at": "2026-05-23T20:42:51.347Z",
+      "active": true
     }
   ]
 }
