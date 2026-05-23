@@ -2970,6 +2970,16 @@
       "selector": null,
       "added_at": "2026-05-23T20:47:08.951Z",
       "active": true
+    },
+    {
+      "id": "booster-bundles-1822c0",
+      "name": "Booster Bundles",
+      "url": "https://bkcards.nl/collections/booster-bundles",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-23T20:48:08.951Z",
+      "active": true
     }
   ]
 }
