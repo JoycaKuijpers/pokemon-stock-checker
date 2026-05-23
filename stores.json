@@ -3140,6 +3140,16 @@
       "selector": null,
       "added_at": "2026-05-23T20:53:16.019Z",
       "active": true
+    },
+    {
+      "id": "pokemon-kaarten-fe8526",
+      "name": "Pokemon Kaarten",
+      "url": "https://cardforge.nl/pokemon-kaarten/pokemon/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-23T20:55:06.006Z",
+      "active": true
     }
   ]
 }
