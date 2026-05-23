@@ -3150,6 +3150,16 @@
       "selector": null,
       "added_at": "2026-05-23T20:55:06.006Z",
       "active": true
+    },
+    {
+      "id": "trading-card-game-pokemon-tcg--165bb3",
+      "name": "trading-card-game-Pokemon-tcg-6",
+      "url": "https://merchmore.nl/shop/category/trading-card-game-pokemon-tcg-6",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-23T20:56:37.030Z",
+      "active": true
     }
   ]
 }
