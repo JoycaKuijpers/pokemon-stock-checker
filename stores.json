@@ -2950,6 +2950,16 @@
       "selector": null,
       "added_at": "2026-05-23T20:45:49.059Z",
       "active": true
+    },
+    {
+      "id": "booster-boxen-20a44b",
+      "name": "Booster Boxen",
+      "url": "https://bkcards.nl/collections/booster-boxen",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-23T20:46:10.680Z",
+      "active": true
     }
   ]
 }
