@@ -3120,6 +3120,16 @@
       "selector": null,
       "added_at": "2026-05-23T20:52:56.382Z",
       "active": true
+    },
+    {
+      "id": "pokemon-tcg-blisters-1-2-3-pac-1a8d99",
+      "name": "Pokemon TCG Blisters 1-, 2- & 3-pack Blisters",
+      "url": "https://card-binder.com/nl/collections/pokemon-tcg-blisters",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-23T20:53:05.656Z",
+      "active": true
     }
   ]
 }
