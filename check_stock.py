@@ -634,6 +634,52 @@ def check_magento_category(store: dict, state: dict, soup: BeautifulSoup) -> tup
     return _apply_category_state(store, state, all_products)
 
 
+# ── JouwWeb e-commerce ───────────────────────────────────────────────────────
+
+def parse_jouwweb_cards(soup: BeautifulSoup, base_url: str) -> list[dict]:
+    """Parse JouwWeb product gallery (li.product-gallery__item).
+    Uitverkocht-items bevatten tekst 'uitverkocht' of 'houd mij op de hoogte'.
+    """
+    from urllib.parse import urljoin
+    OUT_HINTS = ("uitverkocht", "houd mij op de hoogte", "out of stock")
+    results = []
+    for card in soup.select("li.product-gallery__item"):
+        link = card.select_one("a[href]")
+        if not link:
+            continue
+        href = link.get("href", "")
+        if not href or href.startswith("#"):
+            continue
+        prod_url = urljoin(base_url, href)
+
+        name_el = card.select_one("[class*='title'], [class*='name'], h2, h3")
+        name = normalize_name((name_el.get_text(strip=True) if name_el else link.get_text(strip=True))[:120])
+        if not name:
+            continue
+
+        text = card.get_text(" ", strip=True).lower()
+        available = not any(hint in text for hint in OUT_HINTS)
+
+        img = card.select_one("img")
+        image = (img.get("src") or img.get("data-src", "")) if img else ""
+        price_el = card.select_one("[class*='price']")
+        price = price_el.get_text(strip=True) if price_el else ""
+
+        results.append({"name": name, "url": prod_url, "available": available, "image": image, "price": price})
+    return results
+
+
+def check_jouwweb_category(store: dict, state: dict, soup: BeautifulSoup) -> tuple[list[dict], bool]:
+    """Check a JouwWeb e-commerce category page."""
+    base_url = store["url"]
+    all_products = parse_jouwweb_cards(soup, base_url)
+    if not all_products:
+        print("  [!] Geen JouwWeb productkaarten gevonden")
+        return [], False
+    print(f"  → {len(all_products)} producten gevonden")
+    return _apply_category_state(store, state, all_products)
+
+
 # ── Shopware 6 ────────────────────────────────────────────────────────────────
 
 def parse_shopware_cards(soup: BeautifulSoup) -> list[dict]:
@@ -687,6 +733,79 @@ def check_shopware_category(store: dict, state: dict, soup: BeautifulSoup) -> tu
         time.sleep(0.5)
     if not all_products:
         print("  [!] Geen Shopware product cards gevonden")
+        return [], False
+    pages_str = f" ({max_page} pagina's)" if max_page > 1 else ""
+    print(f"  → {len(all_products)} producten gevonden{pages_str}")
+    return _apply_category_state(store, state, all_products)
+
+
+# ── PrestaShop ────────────────────────────────────────────────────────────────
+
+def parse_prestashop_cards(soup: BeautifulSoup) -> list[dict]:
+    """Parse PrestaShop category pages (.product-miniature).
+    Stock: span.out_of_stock / span.unavailable = out of stock; anders in stock.
+    """
+    results = []
+    for card in soup.select(".product-miniature"):
+        # Naam zit in h5.product-name > a, of .product-title
+        name_el = card.select_one(".product-name, .product-title, h2, h3, h4, h5")
+        name_link = name_el.select_one("a[href]") if name_el else None
+        prod_url = (name_link.get("href") if name_link else None) or ""
+
+        # Fallback: eerste link met echte URL
+        if not prod_url:
+            for a in card.select("a[href]"):
+                href = a.get("href", "")
+                if href.startswith("http") and "/?" not in href:
+                    prod_url = href
+                    break
+
+        if not prod_url or not prod_url.startswith("http"):
+            continue
+
+        name = normalize_name((name_el.get_text(strip=True) if name_el else "")[:120])
+        if not name:
+            continue
+
+        # Stock: expliciete out-of-stock indicator is betrouwbaarder dan tekst-heuristiek
+        out_of_stock = bool(card.select_one(".out_of_stock, .unavailable, .alloutofstock"))
+        if not out_of_stock:
+            text = card.get_text(" ", strip=True).lower()
+            out_of_stock = "niet op voorraad" in text or "out of stock" in text
+        available = not out_of_stock
+
+        img = card.select_one("img[data-original], img[data-src], img[src]")
+        image = (img.get("data-original") or img.get("data-src") or img.get("src", "")) if img else ""
+        price_el = card.select_one(".price")
+        price = price_el.get_text(strip=True) if price_el else ""
+
+        results.append({"name": name, "url": prod_url, "available": available, "image": image, "price": price})
+    return results
+
+
+def check_prestashop_category(store: dict, state: dict, soup: BeautifulSoup) -> tuple[list[dict], bool]:
+    """Check a PrestaShop category page, including pagination (?p=N)."""
+    base_url = re.sub(r"[?&]p=\d+", "", store["url"]).rstrip("?& /")
+    max_page = 1
+    for a in soup.select(".pagination a, [class*='pagination'] a"):
+        try:
+            n = int(a.get_text(strip=True))
+            if n > max_page:
+                max_page = n
+        except ValueError:
+            continue
+
+    all_products = parse_prestashop_cards(soup)
+    for page in range(2, max_page + 1):
+        sep = "&" if "?" in base_url else "?"
+        html = fetch_page(f"{base_url}{sep}p={page}")
+        if not html:
+            break
+        all_products.extend(parse_prestashop_cards(BeautifulSoup(html, "lxml")))
+        time.sleep(0.5)
+
+    if not all_products:
+        print("  [!] Geen PrestaShop productkaarten gevonden")
         return [], False
     pages_str = f" ({max_page} pagina's)" if max_page > 1 else ""
     print(f"  → {len(all_products)} producten gevonden{pages_str}")
@@ -1018,6 +1137,9 @@ def check_category(store: dict, state: dict) -> tuple[list[dict], bool]:
 
     soup = BeautifulSoup(html, "lxml")
 
+    if soup.select("li.product-gallery__item"):
+        return check_jouwweb_category(store, state, soup)
+
     if soup.select("div.inner-loop-product-holder"):
         return check_woocommerce_loop_category(store, state, soup)
 
@@ -1035,6 +1157,9 @@ def check_category(store: dict, state: dict) -> tuple[list[dict], bool]:
 
     if soup.select("div.card.product-box, .product-box"):
         return check_shopware_category(store, state, soup)
+
+    if soup.select(".product-miniature"):
+        return check_prestashop_category(store, state, soup)
 
     print("  [!] Platform niet herkend voor categorie-modus")
     return [], False
