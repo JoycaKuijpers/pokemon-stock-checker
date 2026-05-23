@@ -2800,6 +2800,16 @@
       "selector": null,
       "added_at": "2026-05-23T20:38:02.448Z",
       "active": true
+    },
+    {
+      "id": "blisters-tcg-masters-eedd5a",
+      "name": "Blisters ► TCG Masters",
+      "url": "https://tcgmasters.nl/blisters/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-23T20:39:03.540Z",
+      "active": true
     }
   ]
 }
