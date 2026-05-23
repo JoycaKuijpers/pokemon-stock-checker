@@ -2840,6 +2840,16 @@
       "selector": null,
       "added_at": "2026-05-23T20:39:45.397Z",
       "active": true
+    },
+    {
+      "id": "bundels-tcg-masters-e453b9",
+      "name": "Bundels ► TCG Masters",
+      "url": "https://tcgmasters.nl/bundels/",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-23T20:39:58.747Z",
+      "active": true
     }
   ]
 }
