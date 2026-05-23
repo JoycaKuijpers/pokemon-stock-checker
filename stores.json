@@ -3110,6 +3110,16 @@
       "selector": null,
       "added_at": "2026-05-23T20:52:49.506Z",
       "active": true
+    },
+    {
+      "id": "pokemon-tcg-verzamelboxen-1c99ba",
+      "name": "Pokemon TCG Verzamelboxen",
+      "url": "https://card-binder.com/nl/collections/pokemon-tcg-collection-boxes",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-23T20:52:56.382Z",
+      "active": true
     }
   ]
 }
