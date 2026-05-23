@@ -3160,6 +3160,16 @@
       "selector": null,
       "added_at": "2026-05-23T20:56:37.030Z",
       "active": true
+    },
+    {
+      "id": "pokemon-241d62",
+      "name": "Pokemon",
+      "url": "https://shopforgaming.com/product-category/trading-card-games/pokemon/?v=1a13105b7e4e",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-23T20:57:34.216Z",
+      "active": true
     }
   ]
 }
