@@ -3090,6 +3090,16 @@
       "selector": null,
       "added_at": "2026-05-23T20:52:15.748Z",
       "active": true
+    },
+    {
+      "id": "pokemon-boosterpacks-kopen--11ee20",
+      "name": "Pokemon Boosterpacks Kopen?",
+      "url": "https://card-binder.com/nl/collections/pokemon-tcg-booster-packs",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-23T20:52:38.226Z",
+      "active": true
     }
   ]
 }
