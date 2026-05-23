@@ -2940,6 +2940,16 @@
       "selector": null,
       "added_at": "2026-05-23T20:44:12.787Z",
       "active": true
+    },
+    {
+      "id": "pre-order-827fac",
+      "name": "Pre-order",
+      "url": "https://bkcards.nl/collections/pre-order",
+      "type": "category",
+      "notify_on_new": true,
+      "selector": null,
+      "added_at": "2026-05-23T20:45:49.059Z",
+      "active": true
     }
   ]
 }
