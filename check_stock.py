@@ -130,25 +130,47 @@ def _get_with_retry(url: str, **kwargs) -> requests.Response:
     raise last_exc
 
 
+_CF_CHALLENGE_MARKERS = (
+    "Just a moment", "Checking your browser", "cf-browser-verification",
+    "DDoS protection by Cloudflare", "Please Wait... | Cloudflare",
+    "Enable JavaScript and cookies to continue",
+)
+
+
+def _is_cf_challenge(html: str) -> bool:
+    """Detecteer een Cloudflare challenge-pagina die als HTTP 200 binnenkomt."""
+    return any(marker in html for marker in _CF_CHALLENGE_MARKERS)
+
+
+def _fetch_with_cloudscraper(url: str) -> Optional[str]:
+    """Haal een pagina op met cloudscraper als fallback voor Cloudflare-bescherming."""
+    try:
+        import cloudscraper
+        scraper = cloudscraper.create_scraper(browser={"browser": "chrome", "platform": "windows"})
+        resp = scraper.get(url, timeout=20)
+        if resp.ok:
+            return resp.text
+        print(f"  [FOUT] Cloudscraper: HTTP {resp.status_code}", file=sys.stderr)
+    except Exception as ce:
+        print(f"  [FOUT] Cloudscraper mislukt: {ce}", file=sys.stderr)
+    return None
+
+
 def fetch_page(url: str) -> Optional[str]:
     try:
         resp = _get_with_retry(url, headers=get_headers(), timeout=(5, 10), allow_redirects=True)
-        return resp.text
+        html = resp.text
+        # Cloudflare kan een challenge-pagina sturen met HTTP 200 — detecteer en retry
+        if _is_cf_challenge(html):
+            print(f"  [CF] Cloudflare challenge (200) gedetecteerd, cloudscraper proberen voor {url}...")
+            return _fetch_with_cloudscraper(url)
+        return html
     except requests.HTTPError as e:
         if e.response is not None and e.response.status_code == 403:
             # Cloudflare of andere bot-bescherming — fallback naar cloudscraper
             print(f"  [CF] 403 ontvangen, cloudscraper proberen voor {url}...")
-            try:
-                import cloudscraper
-                scraper = cloudscraper.create_scraper(browser={"browser": "chrome", "platform": "windows"})
-                resp = scraper.get(url, timeout=15)
-                if resp.ok:
-                    return resp.text
-                print(f"  [FOUT] Cloudscraper: HTTP {resp.status_code}", file=sys.stderr)
-            except Exception as ce:
-                print(f"  [FOUT] Cloudscraper mislukt: {ce}", file=sys.stderr)
-        else:
-            print(f"  [FOUT] Kon {url} niet ophalen na {RETRY_ATTEMPTS} pogingen: {e}", file=sys.stderr)
+            return _fetch_with_cloudscraper(url)
+        print(f"  [FOUT] Kon {url} niet ophalen na {RETRY_ATTEMPTS} pogingen: {e}", file=sys.stderr)
         return None
     except requests.RequestException as e:
         print(f"  [FOUT] Kon {url} niet ophalen na {RETRY_ATTEMPTS} pogingen: {e}", file=sys.stderr)
@@ -767,6 +789,36 @@ def fetch_js_api_responses(url: str, json_keys: tuple = ("products", "items", "r
     return captured
 
 
+# ── Playwright + standaard WooCommerce (JS-rendered sites) ───────────────────
+
+def check_playwright_woocommerce_category(store: dict, state: dict) -> tuple[list[dict], bool]:
+    """Check een JS-rendered WooCommerce categoriepagina via Playwright."""
+    print(f"  [JS] Playwright WooCommerce rendering...")
+    base_url = store["url"].rstrip("/")
+
+    html = fetch_page_js(base_url, wait_selector="li.product")
+    if not html:
+        return [], False
+
+    soup = BeautifulSoup(html, "lxml")
+    max_page = get_woocommerce_max_page(soup)
+    all_products = parse_woocommerce_cards(soup)
+
+    for page in range(2, max_page + 1):
+        page_html = fetch_page_js(f"{base_url}/page/{page}/", wait_selector="li.product")
+        if not page_html:
+            break
+        all_products.extend(parse_woocommerce_cards(BeautifulSoup(page_html, "lxml")))
+
+    if not all_products:
+        print("  [!] Geen WooCommerce productkaarten gevonden na JS-rendering")
+        return [], False
+
+    pages_str = f" ({max_page} pagina's)" if max_page > 1 else ""
+    print(f"  → {len(all_products)} producten gevonden{pages_str}")
+    return _apply_category_state(store, state, all_products)
+
+
 # ── TCGCompany (Cloudflare-beschermd WooCommerce custom loop) ─────────────────
 
 def check_tcgcompany_category(store: dict, state: dict) -> tuple[list[dict], bool]:
@@ -949,6 +1001,8 @@ def check_category(store: dict, state: dict) -> tuple[list[dict], bool]:
     # JS-rendered sites — vaste domein-detectie, altijd via Playwright
     if "tcgcompany.nl" in domain:
         return check_tcgcompany_category(store, state)
+    if "tcgtriarch.com" in domain:
+        return check_playwright_woocommerce_category(store, state)
     if "dreamland.nl" in domain:
         return check_dreamland_category(store, state)
     if "lobbes.nl" in domain:
