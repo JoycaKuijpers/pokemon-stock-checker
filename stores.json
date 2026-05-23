@@ -3170,6 +3170,16 @@
       "selector": null,
       "added_at": "2026-05-23T20:57:34.216Z",
       "active": true
+    },
+    {
+      "id": "pokemon-tcg-1f6057",
+      "name": "Pokemon TCG",
+      "url": "https://playpeak.eu/collections/pokemon-tcg",
+      "type": "category",
+      "notify_on_new": true,
+      "selector": null,
+      "added_at": "2026-05-23T20:58:30.297Z",
+      "active": true
     }
   ]
 }
