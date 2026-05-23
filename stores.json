@@ -2790,6 +2790,16 @@
       "selector": null,
       "added_at": "2026-05-23T20:37:56.811Z",
       "active": true
+    },
+    {
+      "id": "special-releases-a51a1e",
+      "name": "Special Releases",
+      "url": "https://pocketgames.nl/collections/special-releases",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-23T20:38:02.448Z",
+      "active": true
     }
   ]
 }
