@@ -3080,6 +3080,16 @@
       "selector": null,
       "added_at": "2026-05-23T20:51:26.457Z",
       "active": true
+    },
+    {
+      "id": "pokemon-tcg-boosterbox-kopen--11fa0a",
+      "name": "Pokemon TCG Boosterbox kopen?",
+      "url": "https://card-binder.com/nl/collections/pokemon-tcg-booster-boxes",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-23T20:52:15.748Z",
+      "active": true
     }
   ]
 }
