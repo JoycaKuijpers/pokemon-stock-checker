@@ -2960,6 +2960,16 @@
       "selector": null,
       "added_at": "2026-05-23T20:46:10.680Z",
       "active": true
+    },
+    {
+      "id": "collectie-boxen-1272d5",
+      "name": "Collectie Boxen",
+      "url": "https://bkcards.nl/collections/collectie-boxen",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-23T20:47:08.951Z",
+      "active": true
     }
   ]
 }
