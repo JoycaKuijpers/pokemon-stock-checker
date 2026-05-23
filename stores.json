@@ -2920,6 +2920,16 @@
       "selector": null,
       "added_at": "2026-05-23T20:43:23.489Z",
       "active": true
+    },
+    {
+      "id": "booster-boxes-archieven-5bdb13",
+      "name": "Booster Boxes Archieven",
+      "url": "https://tcguniverse.nl/product-categorie/booster-boxes/",
+      "type": "category",
+      "notify_on_new": true,
+      "selector": null,
+      "added_at": "2026-05-23T20:43:34.099Z",
+      "active": true
     }
   ]
 }
