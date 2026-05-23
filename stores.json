@@ -3000,6 +3000,16 @@
       "selector": null,
       "added_at": "2026-05-23T20:48:41.837Z",
       "active": true
+    },
+    {
+      "id": "booster-packs-209861",
+      "name": "Booster Packs",
+      "url": "https://bkcards.nl/collections/booster-packs",
+      "type": "category",
+      "notify_on_new": false,
+      "selector": null,
+      "added_at": "2026-05-23T20:48:50.642Z",
+      "active": true
     }
   ]
 }
