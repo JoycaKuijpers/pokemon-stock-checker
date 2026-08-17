@@ -1342,6 +1342,11 @@ def check_single_store(store: dict, state: dict, shopify_cache: dict) -> None:
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 def main() -> int:
+    if os.environ.get("PING_TEST"):
+        send_telegram(build_notification("TEST — kanaaltest", "https://cardradar.nl"))
+        return 0
+        
+def main() -> int:
     stores_data = load_json(STORES_FILE)
     state = load_json(STATE_FILE)
     stores = stores_data.get("stores", [])
