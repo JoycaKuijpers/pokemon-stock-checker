@@ -1203,11 +1203,13 @@ def send_telegram_admin(message: str) -> bool:
 
 def build_notification(name: str, url: str, price: str = "") -> str:
     price_line = f"\n💰 <b>{price}</b>" if price else ""
+    origin = os.environ.get("GITHUB_RUN_ID", "LOKAAL/ONBEKEND")
     return (
         f"🟢 <b>OP VOORRAAD!</b>\n\n"
         f"🎮 <b>{name}</b>{price_line}\n"
         f"🛒 <a href=\"{url}\">{url}</a>\n\n"
-        f"⚡ Wees er snel bij!"
+        f"⚡ Wees er snel bij!\n\n"
+        f"<i>run {origin}</i>"
     )
 
 
